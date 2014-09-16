@@ -1,0 +1,48 @@
+public class FindProductsShoppingApi {
+
+	private static String apiVersion = "877";
+	private static String entryPoint = "http://open.api.ebay.com/shopping";
+	@Transient
+	private Gson gson;
+
+	public FindProductsShoppingApi(){
+		this.gson = new Gson();
+	}
+	public FindProductApiResponse findProducts(int siteId,FindProductsRequest findProductsRequest) throws IOException,Exception{
+		String url = entryPoint + "?callname=FindProducts&appid="+SimbaConfig.getEbayApiProfile().getApplicationId()+"&responseencoding=JSON&version="+apiVersion+"&siteid="+siteId+"&MaxEntries="+findProductsRequest.getMaxResults();
+		if(StringUtils.isNotBlank(findProductsRequest.getQueryKeywords())){
+			// need to encode the query
+			url += "&QueryKeywords="+URLEncoder.encode(findProductsRequest.getQueryKeywords(),"UTF-8");;
+		}
+		else if(findProductsRequest.getProductIDType().size()>0){
+			String values = "";
+			for(String value : findProductsRequest.getProductIDType()){
+				values += value +",";
+			}
+			StringUtils.removeEnd(values, ",");
+			url += "&ProductID.type="+findProductsRequest.getProductIDCodeType().getName()+"&ProductID.Value="+values;
+		}
+		else if(StringUtils.isNotBlank(findProductsRequest.getCategoryId())){
+
+		}
+		else{
+			// no relevant inputs
+			throw new Exception("No input for request");
+		}
+		HttpClient client = HttpClientBuilder.create().build();
+		HttpGet requestGet = new HttpGet(url);
+
+		HttpResponse response = client.execute(requestGet);		 
+		BufferedReader rd = new BufferedReader(
+			new InputStreamReader(response.getEntity().getContent()));
+
+		StringBuffer result = new StringBuffer();
+		String line = "";
+		while ((line = rd.readLine()) != null) {
+			result.append(line);
+		}
+		FindProductApiResponse findProductApiResponse = gson.fromJson(result.toString(), FindProductApiResponse.class);
+		return findProductApiResponse;
+	}
+
+}
