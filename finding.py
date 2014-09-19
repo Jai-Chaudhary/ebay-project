@@ -41,42 +41,25 @@ def run(opts):
         api = finding(debug=opts.debug, appid=opts.appid,
                       config_file=opts.yaml, warnings=True)
 
-        api_request = {
-            #'keywords': u'niño',
-            'keywords': u'GRAMMY Foundation®',
-            'itemFilter': [
-                {'name': 'Condition',
-                 'value': 'Used'},
-                {'name': 'LocatedIn',
-                 'value': 'GB'},
-            ],
-            'affiliate': {'trackingId': 1},
-            'sortOrder': 'CountryDescending',
-        }
+        f = open('WomensAccessoriesResponse.xml', 'r+')
 
-        response = api.execute('findItemsAdvanced', api_request)
+        for i in range(1,100): 
+          api_request = {
+              'categoryId': '4251',
+              'paginationInput.pageNumber': i,
+          }
 
-        dump(api)
-    except ConnectionError as e:
-        print(e)
-        print(e.response.dict())
+          response = api.execute('findItemsByCategory', api_request)
+          f.write(api.response.content)
 
-def run2(opts):
-    try:
-        api = finding(debug=opts.debug, appid=opts.appid, config_file=opts.yaml)
-        
-        response = api.execute('findItemsByProduct', 
-          '<productId type="ReferenceID">53039031</productId><paginationInput><entriesPerPage>1</entriesPerPage></paginationInput>')
-        
-        dump(api)
+        f.close()
 
     except ConnectionError as e:
         print(e)
         print(e.response.dict())
-
 
 if __name__ == "__main__":
     print("Finding samples for SDK version %s" % ebaysdk.get_version())
     (opts, args) = init_options()
     run(opts)
-    run2(opts)
+    # run2(opts)
