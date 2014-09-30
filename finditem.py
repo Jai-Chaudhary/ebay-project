@@ -7,6 +7,8 @@ Licensed under CDDL 1.0
 
 import os
 import sys
+import lxml
+
 from optparse import OptionParser
 
 sys.path.insert(0, '%s/../' % os.path.dirname(__file__))
@@ -17,6 +19,7 @@ import ebaysdk
 from ebaysdk.soa.finditem import Connection as FindItem
 from ebaysdk.shopping import Connection as Shopping
 from ebaysdk.utils import getNodeText
+from ebaysdk.finding import Connection as finding
 from ebaysdk.exception import ConnectionError
 
 def init_options():
@@ -42,32 +45,54 @@ def init_options():
 def run(opts):
 
     try:
+        api = finding(debug=opts.debug, appid=opts.appid,
+                      config_file=opts.yaml, warnings=True)
 
-        shopping = Shopping(debug=opts.debug, appid=opts.appid, 
-            config_file=opts.yaml, warnings=False)
 
-        response = shopping.execute('FindPopularItems',
-            {'QueryKeywords': 'Python'})
+        for i in range(1,100): 
+          api_request = {
+              'categoryId': '4251',
+              'paginationInput.pageNumber': i,
+          }
 
-        nodes = response.dom().xpath('//ItemID')
-        itemIds = [n.text for n in nodes]
 
-        api = FindItem(debug=opts.debug,
-            consumer_id=opts.consumer_id, config_file=opts.yaml)
-        
-        records = api.find_items_by_ids([itemIds[0]])
+          response = api.execute('findItemsByCategory', api_request)
 
-        for r in records:
-            print("ID(%s) TITLE(%s)" % (r['ITEM_ID'], r['TITLE'][:35]))
+          nodes = response.dom().xpath('//itemId')
+          itemIds = [n.text for n in nodes]
+          # print len(itemIds)
+          
 
-        dump(api)
+          shopping = Shopping(debug=opts.debug, appid=opts.appid, 
+                config_file=opts.yaml, warnings=False)
 
-        records = api.find_items_by_ids(itemIds)
+          primary_item_specific_response = shopping.execute('GetMultipleItems', {'IncludeSelector': 'ItemSpecifics' , 'ItemID': itemIds[0:20]})
 
-        for r in records:
-            print("ID(%s) TITLE(%s)" % (r['ITEM_ID'], r['TITLE'][:35]))
+          for j in range(20, 100, 20):
+            # print itemIds[j:j+20]
+            item_specific_response = shopping.execute('GetMultipleItems', {'IncludeSelector': 'ItemSpecifics' , 'ItemID': itemIds[j:j+20]})
+            primary_item_specific_response.dom().extend(item_specific_response.dom().xpath('//Item'))
+            # primary_item_specific_response.dom().xpath('//GetMultipleItemsResponse').append(item_specific_response.dom().xpath('//Item'))
+# 
+          # print lxml.etree.tostring(primary_item_specific_response.dom(), pretty_print=True)
+          f = open('WomensAccessoriesItemSpecificResponse' + str(i) + '.xml', 'w+')        
+          f.write(lxml.etree.tostring(primary_item_specific_response.dom(), pretty_print=True))
+          f.close()
 
-        dump(api)
+
+        # print shopping.response.content
+
+        # for r in records:
+        #     print("ID(%s) TITLE(%s)" % (r['ITEM_ID'], r['TITLE'][:35]))
+
+        # dump(api)
+
+        # records = api.find_items_by_ids(itemIds)
+
+        # for r in records:
+        #     print("ID(%s) TITLE(%s)" % (r['ITEM_ID'], r['TITLE'][:35]))
+
+        # dump(api)
         
     except ConnectionError as e:
         print(e)

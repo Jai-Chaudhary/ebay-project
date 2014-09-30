@@ -41,7 +41,6 @@ def run(opts):
         api = finding(debug=opts.debug, appid=opts.appid,
                       config_file=opts.yaml, warnings=True)
 
-        f = open('WomensAccessoriesResponse.xml', 'r+')
 
         for i in range(1,100): 
           api_request = {
@@ -49,10 +48,11 @@ def run(opts):
               'paginationInput.pageNumber': i,
           }
 
+          f = open('WomensAccessoriesResponse' + str(i) + '.xml', 'w+')
           response = api.execute('findItemsByCategory', api_request)
           f.write(api.response.content)
+          f.close()
 
-        f.close()
 
     except ConnectionError as e:
         print(e)
