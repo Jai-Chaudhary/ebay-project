@@ -14,7 +14,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>Country</th>
         <th>Primary Category</th>
         <th>Specifics</th>
-        <th>Condition></th>
+        <th>Condition</th>
         <th>Image</th>
       </tr>
       <xsl:for-each select="GetMultipleItemsResponse/Item">

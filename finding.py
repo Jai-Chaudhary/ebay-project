@@ -45,7 +45,7 @@ def run(opts):
         for i in range(1,100): 
           api_request = {
               'categoryId': '4251',
-              'paginationInput.pageNumber': i,
+              'paginationInput': { 'pageNumber': i, 'entriesPerPage': 100}
           }
 
           f = open('WomensAccessoriesResponse' + str(i) + '.xml', 'w+')
