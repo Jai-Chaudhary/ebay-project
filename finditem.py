@@ -13,8 +13,6 @@ from optparse import OptionParser
 
 sys.path.insert(0, '%s/../' % os.path.dirname(__file__))
 
-from common import dump
-
 import ebaysdk
 from ebaysdk.soa.finditem import Connection as FindItem
 from ebaysdk.shopping import Connection as Shopping
@@ -44,54 +42,79 @@ def init_options():
 
 def run(opts):
 
-    try:
 
-        # SubCategories of Women Accessories
-        category_ids = ['163573', '3003', '177651', '168998', '105559',
-                        '45220', '167906', '45230', '169285', '45237', '15735',
-                        '45238', '150955', '179247', '151486', '105569',
-                        '45258', '175634', '106129', '15738', '1063']
 
-        for category_id in category_ids:
-            for page in range(1, 100):
+    # SubCategories of Women Accessories
+    category_ids = {'163573':  'belt-buckles',
+                    '3003' :   'belts',
+                    '177651' : 'collar-tips',
+                    '168998' : 'fascinators-headpieces',
+                    '105559' : 'gloves-mittens',
+                    '45220' :  'hair-accessories',
+                    '167906' : 'handkerchiefs',
+                    '45230' :  'hats',
+                    '169285' : 'id-document-holders',
+                    '45237' :  'key-chains-rings-finders',
+                    '15735' :  'organizers-day-planners',
+                    '45238' :  'scarves-wraps',
+                    '150955' : 'shoe-charms-jibbitz',
+                    '179247' : 'sunglasses-fashion-eyewear',
+                    '151486' : 'ties',
+                    # '105569' : 'umbrellas',
+                    '45258' :  'wallets',
+                    '175634' : 'wigs-extensions-supplies',
+                    # '106129' : 'wristbands',
+                    '15738' :  'mixed-items-lots',
+                    '1063' :   'other',
+                   }
 
-                api = finding(debug=opts.debug, appid=opts.appid,
-                              config_file=opts.yaml, warnings=True)
+    for category_id, category_name in category_ids.items():
+        directory = '/var/www/html/ebay-data/womens-accessories/' + category_name
+        for page in range(1, 101):
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+            if not os.path.exists(os.path.join(directory, str(page))):
+                try:    
+                    api = finding(debug=opts.debug, appid=opts.appid,
+                                  config_file=opts.yaml, warnings=True)
 
-                api_request = {
-                    'categoryId': '4251',
-                    'paginationInput': {'pageNumber': page,
-                                        'entriesPerPage': 100}
-                }
+                    api_request = {
+                        'categoryId': category_id,
+                        'paginationInput': {'pageNumber': page,
+                                            'entriesPerPage': 100}
+                    }
 
-                response = api.execute('findItemsByCategory', api_request)
+                    response = api.execute('findItemsByCategory', api_request)
 
-                nodes = response.dom().xpath('//itemId')
-                item_ids = [n.text for n in nodes]
+                    nodes = response.dom().xpath('//itemId')
+                    item_ids = [n.text for n in nodes]
 
-                shop = Shopping(debug=opts.debug, appid=opts.appid,
-                                config_file=opts.yaml, warnings=False)
+                    if len(item_ids) > 0:
+                        shop = Shopping(debug=opts.debug, appid=opts.appid,
+                                        config_file=opts.yaml, warnings=False)
 
-                prim_resp = shop.execute('GetMultipleItems',
-                                         {'IncludeSelector': 'ItemSpecifics',
-                                          'ItemID': item_ids[0:20]})
+                        prim_resp = shop.execute('GetMultipleItems',
+                                                 {'IncludeSelector': 'ItemSpecifics',
+                                                  'ItemID': item_ids[0:20]})
 
-                for j in range(20, 100, 20):
-                    sub_resp = shop.execute('GetMultipleItems',
-                                            {'IncludeSelector': 'ItemSpecifics',
-                                             'ItemID': item_ids[j:j+20]})
-                    prim_resp.dom().extend(sub_resp.dom().xpath('//Item'))
+                        for j in range(20, len(item_ids), 20):
+                            sub_resp = shop.execute('GetMultipleItems',
+                                                    {'IncludeSelector': 'ItemSpecifics',
+                                                     'ItemID': item_ids[j:j+20]})
+                            prim_resp.dom().extend(sub_resp.dom().xpath('//Item'))
 
-                xml_file = open(category_id + '-' + str(page), 'w+')
-                stylesheet_tag = '<?xml-stylesheet type="text/xsl" href="xslItemSpecifics.xsl"?>\n'
-                xml_file.write(stylesheet_tag)
-                xml_file.write(lxml.etree.tostring(prim_resp.dom(),
-                                                   pretty_print=True))
-                xml_file.close()
 
-    except ConnectionError as e:
-            print(e)
-            print(e.response.dict())
+                        xml_file = open(os.path.join(directory, str(page)), 'w+')
+                        stylesheet_tag = '<?xml-stylesheet type="text/xsl" href="/ebay-data/xslItemSpecifics.xsl"?>\n'
+                        xml_file.write(stylesheet_tag)
+                        xml_file.write(lxml.etree.tostring(prim_resp.dom(),
+                                                           pretty_print=True))
+                        xml_file.close()
+
+
+                except ConnectionError as e:
+                        print(e)
+                        print(e.response.dict())
 
 
 if __name__ == "__main__":
