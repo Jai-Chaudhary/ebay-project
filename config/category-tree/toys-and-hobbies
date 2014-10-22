@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/ebay-data/category-tree/categoryTree.xsl"?>
+<GetCategoriesResponse>
+    <Timestamp>2014-10-20T05:47:49.311Z</Timestamp>
+    <Ack>Success</Ack>
+    <Version>877</Version>
+    <Build>E877_CORE_APICATALOG_16871148_R1</Build>
+    <CategoryArray>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>220</CategoryID>
+            <CategoryLevel>1</CategoryLevel>
+            <CategoryName>Toys &amp; Hobbies</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>246</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Action Figures</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>49019</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Beanbag Plush</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>18991</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Building Toys</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>19016</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Classic Toys</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>222</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Diecast &amp; Toy Vehicles</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>11731</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Educational</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>19071</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Electronic, Battery &amp; Wind-Up</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>19077</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Fast Food &amp; Cereal Premiums</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>233</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Games</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>771</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Marbles</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>479</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Model Railroads &amp; Trains</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>1188</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Models &amp; Kits</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>11743</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Outdoor Toys &amp; Structures</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>19169</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Preschool Toys &amp; Pretend Play</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>2613</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Puzzles</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>2562</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Radio Control &amp; Control Line</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>19192</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Robots, Monsters &amp; Space Toys</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>2616</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Slot Cars</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>436</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Stuffed Animals</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>2631</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Toy Soldiers</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>2536</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Trading Card Games</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>2624</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>TV, Movie &amp; Character Toys</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>717</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Vintage &amp; Antique Toys</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>40149</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Wholesale Lots</CategoryName>
+            <CategoryParentID>220</CategoryParentID>
+        </Category>
+    </CategoryArray>
+    <CategoryCount>25</CategoryCount>
+    <UpdateTime>2014-09-23T03:55:47.000Z</UpdateTime>
+    <CategoryVersion>110</CategoryVersion>
+    <ReservePriceAllowed>true</ReservePriceAllowed>
+    <MinimumReservePrice>0.0</MinimumReservePrice>
+</GetCategoriesResponse>

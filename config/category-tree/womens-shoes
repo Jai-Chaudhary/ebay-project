@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/ebay-data/category-tree/categoryTree.xsl"?>
+<GetCategoriesResponse>
+    <Timestamp>2014-10-11T18:32:05.776Z</Timestamp>
+    <Ack>Success</Ack>
+    <Version>877</Version>
+    <Build>E877_CORE_APICATALOG_16871148_R1</Build>
+    <CategoryArray>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>3034</CategoryID>
+            <CategoryLevel>2</CategoryLevel>
+            <CategoryName>Women&apos;s Shoes</CategoryName>
+            <CategoryParentID>11450</CategoryParentID>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>95672</CategoryID>
+            <CategoryLevel>3</CategoryLevel>
+            <CategoryName>Athletic</CategoryName>
+            <CategoryParentID>3034</CategoryParentID>
+            <LeafCategory>true</LeafCategory>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>53557</CategoryID>
+            <CategoryLevel>3</CategoryLevel>
+            <CategoryName>Boots</CategoryName>
+            <CategoryParentID>3034</CategoryParentID>
+            <LeafCategory>true</LeafCategory>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>45333</CategoryID>
+            <CategoryLevel>3</CategoryLevel>
+            <CategoryName>Flats &amp; Oxfords</CategoryName>
+            <CategoryParentID>3034</CategoryParentID>
+            <LeafCategory>true</LeafCategory>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>55793</CategoryID>
+            <CategoryLevel>3</CategoryLevel>
+            <CategoryName>Heels</CategoryName>
+            <CategoryParentID>3034</CategoryParentID>
+            <LeafCategory>true</LeafCategory>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>53548</CategoryID>
+            <CategoryLevel>3</CategoryLevel>
+            <CategoryName>Occupational</CategoryName>
+            <CategoryParentID>3034</CategoryParentID>
+            <LeafCategory>true</LeafCategory>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>62107</CategoryID>
+            <CategoryLevel>3</CategoryLevel>
+            <CategoryName>Sandals &amp; Flip Flops</CategoryName>
+            <CategoryParentID>3034</CategoryParentID>
+            <LeafCategory>true</LeafCategory>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>11632</CategoryID>
+            <CategoryLevel>3</CategoryLevel>
+            <CategoryName>Slippers</CategoryName>
+            <CategoryParentID>3034</CategoryParentID>
+            <LeafCategory>true</LeafCategory>
+        </Category>
+        <Category>
+            <BestOfferEnabled>true</BestOfferEnabled>
+            <AutoPayEnabled>true</AutoPayEnabled>
+            <CategoryID>63889</CategoryID>
+            <CategoryLevel>3</CategoryLevel>
+            <CategoryName>Mixed Items &amp; Lots</CategoryName>
+            <CategoryParentID>3034</CategoryParentID>
+            <LeafCategory>true</LeafCategory>
+        </Category>
+    </CategoryArray>
+    <CategoryCount>9</CategoryCount>
+    <UpdateTime>2014-09-23T03:55:47.000Z</UpdateTime>
+    <CategoryVersion>110</CategoryVersion>
+    <ReservePriceAllowed>true</ReservePriceAllowed>
+    <MinimumReservePrice>0.0</MinimumReservePrice>
+</GetCategoriesResponse>
