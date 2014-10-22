@@ -1,0 +1,12 @@
+[submodule "Mallet"]
+	path = Mallet
+	url = https://github.com/Jai-Chaudhary/Mallet.git
+[submodule "topic-modeling-visualization-engine"]
+	path = topic-modeling-visualization-engine
+	url = https://github.com/Jai-Chaudhary/topic-modeling-visualization-engine.git
+[submodule "ebaysdk-python"]
+	path = ebaysdk-python
+	url = https://github.com/Jai-Chaudhary/ebaysdk-python.git
+[submodule "termite-data-server"]
+	path = termite-data-server
+	url = https://github.com/Jai-Chaudhary/termite-data-server.git
