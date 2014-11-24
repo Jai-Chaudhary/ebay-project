@@ -152,33 +152,42 @@ def run(opts):
     #     '63889' :   'Mixed Items & Lots',
     # }
 
+    # category_ids = {
+    #                 '220'   : 'general',
+    #                 '246'   : 'Action Figures',
+    #                 '49019' :   'Beanbag Plush',
+    #                 '18991' :   'Building Toys',
+    #                 '19016' :   'Classic Toys',
+    #                 '222'   : 'Diecast & Toy Vehicles',
+    #                 '11731' :   'Educational',
+    #                 '19071' :   'Electronic, Battery & Wind-Up',
+    #                 '19077' :   'Fast Food & Cereal Premiums',
+    #                 '233'   : 'Games',
+    #                 '771'   : 'Marbles',
+    #                 '479'   : 'Model Railroads & Trains',
+    #                 '1188'  :    'Models & Kits',
+    #                 '11743' :   'Outdoor Toys & Structures',
+    #                 '19169' :   'Preschool Toys & Pretend Play',
+    #                 '2613'  :    'Puzzles',
+    #                 '2562'  :    'Radio Control & Control Line',
+    #                 '19192' :   'Robots, Monsters & Space Toys',
+    #                 '2616'  :    'Slot Cars',
+    #                 '436'   : 'Stuffed Animals',
+    #                 '2631'  :    'Toy Soldiers',
+    #                 '2536'  :    'Trading Card Games',
+    #                 '2624'  :    'TV, Movie & Character Toys',
+    #                 '717'   : 'Vintage & Antique Toys',
+    #                 '40149' :   'Wholesale Lots',
+    #                 }
+
+    # general categories for CSA - toys
     category_ids = {
-                    '220'   : 'general',
-                    '246'   : 'Action Figures',
-                    '49019' :   'Beanbag Plush',
-                    '18991' :   'Building Toys',
-                    '19016' :   'Classic Toys',
-                    '222'   : 'Diecast & Toy Vehicles',
-                    '11731' :   'Educational',
-                    '19071' :   'Electronic, Battery & Wind-Up',
-                    '19077' :   'Fast Food & Cereal Premiums',
-                    '233'   : 'Games',
-                    '771'   : 'Marbles',
-                    '479'   : 'Model Railroads & Trains',
-                    '1188'  :    'Models & Kits',
-                    '11743' :   'Outdoor Toys & Structures',
-                    '19169' :   'Preschool Toys & Pretend Play',
-                    '2613'  :    'Puzzles',
-                    '2562'  :    'Radio Control & Control Line',
-                    '19192' :   'Robots, Monsters & Space Toys',
-                    '2616'  :    'Slot Cars',
-                    '436'   : 'Stuffed Animals',
-                    '2631'  :    'Toy Soldiers',
-                    '2536'  :    'Trading Card Games',
-                    '2624'  :    'TV, Movie & Character Toys',
-                    '717'   : 'Vintage & Antique Toys',
-                    '40149' :   'Wholesale Lots',
-                    }
+                    '1063' :   'womens accessories',
+                    '220'  :   'toys',
+                    '3034'  :  'womens shoes',
+                    '314'   :  'womens clothing'
+                    '1'     :   'collectibles',
+    }
     for category_id, category_name in category_ids.items():
         directory = '/var/www/html/ebay-data/toys-and-hobbies/' + category_name
         for page in range(1, 101):

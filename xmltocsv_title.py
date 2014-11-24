@@ -3,15 +3,19 @@ from collections import Counter
 import csv
 import os
 import numpy
+import nltk
+from nltk.stem.snowball import SnowballStemmer
+from nltk.tokenize import sent_tokenize, word_tokenize
+import itertools
 
 def getTitle():
-
-    with open('./sample-data/toys-and-hobbies/toys-and-hobbies.dat', 'wb') as f:
-        with open('./sample-data/toys-and-hobbies/toys-and-hobbies-vocab.dat', 'wb') as v:
-            with open('./sample-data/toys-and-hobbies/toys-and-hobbies-docs.dat', 'wb') as d:
+    stemmer = SnowballStemmer("english")
+    with open('./sample-data/november-general/hdp_data.dat', 'wb') as f:
+        with open('./sample-data/november-general/hdp_vocab.dat', 'wb') as v:
+            with open('./sample-data/november-general/hdp-docs.dat', 'wb') as d:
                 # writer = csv.writer(f, delimiter=',')
                 vocab = []
-                for root, dirs, files in os.walk('./sample-data/toys-and-hobbies/'):
+                for root, dirs, files in os.walk('./sample-data/november-general'):
                     rows= []
                     for i in xrange(1,10):
                         file_path = root + '/' + str(i)
@@ -28,18 +32,19 @@ def getTitle():
                             finally:
                                 xml_file.close()
                             for i in xrange(len(item_ids)):
-                                # titleFreq = Counter(titles[i].split()).items()
+                                termFreq = Counter(list(itertools.chain(*[word_tokenize(t) for t in sent_tokenize(titles[i].encode('ascii', 'ignore').lower())])))
+                                termFreqStemmed = {stemmer.stem(term):freq for (term, freq) in termFreq.iteritems()}
+                                titleFormat = str(len(termFreqStemmed)) + ' '
 
-                                # titleFormat = str(len(titleFreq)) + ' '
-
-                                # for term, freq in titleFreq:
-                                #     if term not in vocab:
-                                #         index = len(vocab)
-                                #         vocab.append(term.encode("UTF-8"))
-                                #     else:
-                                #         index  = vocab.index(term)
-                                #     titleFormat += str(index) + ':' + str(freq) + ' '
-                                # f.write(titleFormat + '\n')
+                                for term, freq in termFreqStemmed.iteritems():
+                                    # if term not in vocab:
+                                    #     index = len(vocab)
+                                    #     vocab.append(term.encode("UTF-8"))
+                                    # else:
+                                    #     index  = vocab.index(term)
+                                    # titleFormat += str(index) + ':' + str(freq) + ' '
+                                    titleFormat += term + ':' + str(freq) + ' '
+                                f.write(titleFormat + '\n')
                                 d.write(titles[i].encode("UTF-8") + '\n')
             # for term in vocab:
             #     v.write("%s\n" % term)
