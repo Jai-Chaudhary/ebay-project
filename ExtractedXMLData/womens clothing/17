@@ -1,0 +1,3068 @@
+<?xml-stylesheet type="text/xsl" href="/ebay-data/xslItemSpecifics.xsl"?>
+<GetMultipleItemsResponse>
+   <Timestamp>2014-11-20T21:07:05.373Z</Timestamp>
+   <Ack>Success</Ack>
+   <Build>E897_CORE_APILW_17290128_R1</Build>
+   <Version>897</Version>
+   <Item>
+    <ItemID>331387288691</ItemID>
+    <EndTime>2014-12-19T03:49:17.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Harley-Davidson-Genuine-Leather-Drawstring-Biker-Brown-Bustier-40-12-/331387288691</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Los Angeles, California</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/3313872886918080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ApMAAOSwR0JUQi2t/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1x4AAOSw6EhUQi3A/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/E6oAAOSwR0JUQi51/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/cNwAAOSwDN1UQi6M/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/F9QAAOSwR0JUQi6l/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/EU4AAOSwEppUQi75/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">60.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P28DT6H42M12S</TimeLeft>
+    <Title>Harley Davidson Genuine Leather Drawstring Biker Brown Bustier 40/12</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Harley-Davidson</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Brown</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>161484078472</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">4.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T00:47:56.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/4-winter-scarves-/161484078472</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Pittsford, Vermont</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/1614840784728080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/-woAAOSwAHZUMb2S/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">0.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H40M51S</TimeLeft>
+    <Title>4 winter scarves </Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>231306404904</ItemID>
+    <EndTime>2014-12-10T21:41:08.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Seven7-Womens-Boot-Cut-Jeans-Archer-Blue-new-/231306404904?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Tucker, Georgia</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY4/z/ge4AAOSwEK9T6onI/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY4/z/Y54AAOSwQItT6onO/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY4/z/oAUAAOSwxH1T6onU/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY4/z/oG0AAOSwxH1T6onZ/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY4/z/ZRYAAOSwQItT6ong/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY4/z/hIgAAOSwEK9T6onm/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/od0AAOSwxH1T6ont/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">29.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P20DT34M3S</TimeLeft>
+    <Title>Seven7 Women's Boot-Cut Jeans Archer Blue - new</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Blue</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>301388736380</ItemID>
+    <EndTime>2014-11-21T00:48:38.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Used-Ladies-Womens-Teal-Pants-Top-Sz-1X-Liz-Claiborne-Carolyn-Taylor-/301388736380</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>New Milford, New Jersey</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/3013887363808080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTEzNFgxMzY2/z/vNMAAOxy0x1TREQp/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxMjQy/z/h8gAAOxy7nNTREPv/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0ZAAAOxylpNTREQY/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/n28AAMXQrhdTREPN/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/p4YAAOxyaTxTREPP/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/isoAAOxycD9TREPN/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ywYAAOxylpNTREPf/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wqUAAOxyeZNTREQE/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/sv8AAOxy0x1TREPN/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Ef8AAOxySoJTREQE/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">7.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H41M33S</TimeLeft>
+    <Title>Used Ladies' Women's Teal (?) Pants &amp; Top Sz 1X, Liz Claiborne &amp;  Carolyn Taylor</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>1X</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Teal</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+    <ConditionDescription>Excellent shape. no tears, no holes, no fraying. two small spots.</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>221602939676</ItemID>
+    <EndTime>2014-12-11T21:23:57.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/BTS-no-more-dream-Boy-Luv-Japan-Bangtan-photocard-postcard-official-/221602939676?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>kilcock, Kildare</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/J30AAOSwmUdUYn8y/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/KosAAOSwAF5UYn85/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/KXkAAOSwmUdUYn8~/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/F6UAAOSwGWNUYn9G/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/GG8AAOSwGWNUYn9M/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/wUIAAOSwabhUYn9O/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/LScAAOSwmUdUYn9W/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothes, Shoes &amp; Accessories:Women's Clothing:Other Women's Clothing</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">18.81</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P21DT16M52S</TimeLeft>
+    <Title>BTS no more dream Boy in Luv Japan Bangtan photocard postcard official</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>kpop</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>IE</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Used</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+    <ConditionDescription>All in perfect condition</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>231390445139</ItemID>
+    <EndTime>2014-11-21T00:50:04.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Multi-Color-Fox-Fur-Vest-Gilet-Jacket-Long-Vest-Coat-Jacket-037-/231390445139</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Hong Kong</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/2313904451398080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/Nzk2WDc5Ng==/z/UVoAAOSwY45URcnK/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">99.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H42M59S</TimeLeft>
+    <Title> Multi Color Fox Fur  Vest Gilet Jacket Long Vest Coat Jacket -037</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>M</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Multi-Color</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>HK</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>201222867337</ItemID>
+    <EndTime>2014-12-20T18:31:55.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Sag-Harbor-Womens-Red-Crop-Pants-Two-Piece-Set-Size-8-NWT-/201222867337</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Selbyville, Delaware</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/2012228673378080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2Z0AAOSwEK9Ttr-b/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/AdkAAOSwFL9Ttr-Z/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mEoAAOSw91NTtr-f/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/BSsAAOSwirZTtr-c/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pHcAAOSwGzlTtr-b/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/no0AAOSw7I5Ttr-e/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">11.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P29DT21H24M50S</TimeLeft>
+    <Title>Sag Harbor Women's Red Crop Pants Two Piece Set Size 8 NWT</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Sag Harbor</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>8</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Red</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>261661468908</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">26.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T00:53:03.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/W51-Womens-Top-Impressions-Size-L-/261661468908</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Lithia Springs, Georgia</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2616614689088080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/R9YAAOSw54xUUtyf/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/fTIAAOSwosFUUtyo/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">20.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H45M58S</TimeLeft>
+    <Title>W51 Womens Top by Impressions Size L</Title>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>381033968357</ItemID>
+    <EndTime>2014-11-26T02:42:36.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Hot-Womens-Loose-T-shirt-Sweater-Korea-Sexy-Gauze-Beige-Long-Sleeve-Tops-SH-/381033968357</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>ShenZhen</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/3810339683578080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDIwWDU4NQ==/z/~QcAAOSwQJ5UTbEY/$_12.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDUwWDU4NQ==/z/5FYAAOSwEppUTbEZ/$_12.JPG?set_id=8800005007</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">10.57</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P5DT5H35M31S</TimeLeft>
+    <Title>Hot Women's Loose T-shirt Sweater Korea Sexy Gauze Beige Long Sleeve Tops SH</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Unbrand</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>121492811512</ItemID>
+    <EndTime>2014-12-20T09:43:24.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Sexy-Cute-Retro-High-Waist-Vintage-Push-Up-Bandeau-Bikini-Swimsuit-Swimwear-US-/121492811512?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Plainfield, Illinois</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/uocAAOSwQJhUbbey/$_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/xGwAAOSw2XFUbbez/$_1.JPG?set_id=8800005007</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">4.73</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P29DT12H36M19S</TimeLeft>
+    <Title>Sexy Cute Retro High Waist Vintage Push Up Bandeau Bikini Swimsuit Swimwear US</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Unbranded</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Band Size</Name>
+      <Value>One Size</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>style</Name>
+      <Value>Bra Sets</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>261661470026</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">24.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T00:55:12.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/W52-Womens-Top-Chaus-Size-14-/261661470026</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Lithia Springs, Georgia</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/2616614700268080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/MDcAAOSwzOxUUtz1/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/XmsAAOSw1XdUUtz8/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/Xw0AAOSw1XdUUt0F/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">18.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H48M7S</TimeLeft>
+    <Title>W52 Womens Top by Chaus Size 14</Title>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>Stain on back &#8211; see photo</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>261661470219</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">26.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T00:55:35.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/W53-Womens-Top-Alfred-Dunner-Size-14-/261661470219</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Lithia Springs, Georgia</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/2616614702198080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/iVQAAOSwosFUUt1Q/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/NZcAAOSwabhUUt1X/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">20.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H48M30S</TimeLeft>
+    <Title>W53 Womens Top by Alfred Dunner Size 14</Title>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>261661470515</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">26.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T00:56:09.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/W54-Womens-Top-TanJay-Size-16-/261661470515</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Lithia Springs, Georgia</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/2616614705158080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/d9cAAOSwyTZUUt2i/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/QNkAAOSwLa9UUt2q/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">20.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H49M4S</TimeLeft>
+    <Title>W54 Womens Top by TanJay Size 16</Title>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>301187914084</ItemID>
+    <EndTime>2014-12-14T17:45:17.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Sexy-Women-Long-Sleeve-Splicing-Bodycon-Skirt-Evening-Party-Cocktail-Mini-Dress-/301187914084?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Shenzhen</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NzUwWDUwMA==/z/e7oAAOxyedRTeWb4/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzUwWDUwMA==/z/CH4AAOxyzqdTeWb6/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">9.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P23DT20H38M12S</TimeLeft>
+    <Title>Sexy Women Long Sleeve Splicing Bodycon Skirt Evening Party Cocktail Mini Dress </Title>
+    <Country>CN</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>151475766178</ItemID>
+    <EndTime>2014-11-21T00:56:14.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/HARLEY-DAVIDSON-EMBROIDERED-SEXY-GREEN-TANK-TOP-SHELF-BRA-2X-NWT-SWEET-/151475766178</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>East Rockaway, New York</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/1514757661788080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/RM4AAOSwGvhUJLFu/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">18.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H49M9S</TimeLeft>
+    <Title>HARLEY DAVIDSON EMBROIDERED SEXY GREEN TANK TOP WITH SHELF BRA 2X NWT SWEET!!</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Green</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>2X</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>HARLEY DAVIDSON</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>400772682953</ItemID>
+    <EndTime>2014-12-12T15:13:59.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Fashion-Long-Sleeve-Button-Slim-Casual-Women-Blazer-Suit-Jacket-Coat-S-M-L-XL-/400772682953?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>&#24191;&#19996;&#30465;&#28145;&#22323;&#24066;</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NTUwWDYxNA==/z/65gAAOSwF1dUMra3/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>63865</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothes, Shoes &amp; Accessories:Women's Clothing:Suits &amp; Tailoring</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">12.52</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P21DT18H6M54S</TimeLeft>
+    <Title> Fashion Long Sleeve Button Slim Casual Women Blazer Suit Jacket Coat /S M L XL</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Unbranded</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Suit Jacket</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Main Colour</Name>
+      <Value>Candy  6 color</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>cotton blends</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size Type</Name>
+      <Value>S/M/L/XL</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Occasion</Name>
+      <Value>All of the occasion</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Garment Care</Name>
+      <Value>Machine Washable</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>191412648498</ItemID>
+    <EndTime>2014-11-21T00:56:14.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/HARLEY-DAVIDSON-EMBROIDERED-SEXY-ORANGE-TANK-TOP-SHELF-BRA-2X-NWT-SWEET-/191412648498</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>East Rockaway, New York</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/1914126484988080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/dF4AAOxyTjNSfAwc/$(KGrHqR,!qYFJ0VdG!i2BSf!wcyS8w~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/deEAAOxyLN9SfAwd/$(KGrHqZ,!qQFJ4Rp+MilBSf!wdjnjw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/kWgAAOxyzi9SfAwe/$T2eC16R,!)QFIcivER8dBSf!wdt4b!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">18.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H49M9S</TimeLeft>
+    <Title>HARLEY DAVIDSON EMBROIDERED SEXY ORANGE TANK TOP WITH SHELF BRA 2X NWT SWEET!!</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>HARLEY DAVIDSON</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>2X</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Oranges</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+  <Item>
+    <ItemID>181585151612</ItemID>
+    <EndTime>2014-12-13T20:50:26.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Indian-Pakistani-Bollywood-Designer-Bridal-Red-Pink-Cream-Lengha-Saree-/181585151612</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location> Kent</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/1815851516128080_2.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMTU1/z/UDQAAOSwv1RUZk7H/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTYwWDU0MA==/z/XrUAAOSwAF5UZMMz/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTIzWDUzOQ==/z/CmAAAOSwn51Uak6r/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODY0WDQ4NQ==/z/-XIAAOSwv1RUak66/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTU5WDQ4Ng==/z/MPwAAOSwcldUak7L/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODY0WDQ4Ng==/z/ocYAAOSw2XFUak7i/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothes, Shoes &amp; Accessories:Women's Clothing:Other Women's Clothing</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">123.76</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P22DT23H43M21S</TimeLeft>
+    <Title>Indian Pakistani Bollywood, Designer Bridal Red, Pink &amp; Cream Lengha Saree </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>free size</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Bollywood</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Main Colour</Name>
+      <Value>Pink &amp; White</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Garment Care</Name>
+      <Value>Dry-clean Only</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>United Kingdom</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>GB</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>261661471544</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">26.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T00:57:40.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/W55-Womens-Top-Kathie-Lee-Size-14W-16W-/261661471544</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Lithia Springs, Georgia</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2616614715448080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/oA4AAOSwrx5UUt3m/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/oHwAAOSwrx5UUt3t/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">20.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H50M35S</TimeLeft>
+    <Title>W55 Womens Top by Kathie Lee Size 14W-16W</Title>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>331377873406</ItemID>
+    <EndTime>2014-12-12T22:14:06.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Womens-Marc-Jacobs-Oh-Lola-Tee-T-Shirt-Large-L-/331377873406</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Henderson, Nevada</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/3313778734068080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA1OVgxNTk5/z/lhoAAOSw2XFUY9kS/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA1OVgxNTk5/z/IGgAAOSwcldUY9kU/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">13.74</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P22DT1H7M1S</TimeLeft>
+    <Title>Women's Marc Jacobs Oh, Lola Tee T Shirt Large L </Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>In Happiness, Excellent Condition!</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>261661472796</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">26.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T00:59:33.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/W56-Womens-Top-August-Max-Woman-Size-18W-/261661472796</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Lithia Springs, Georgia</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2616614727968080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/SfQAAOSwLa9UUt4m/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/pIYAAOSwrx5UUt4u/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">20.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H52M28S</TimeLeft>
+    <Title>W56 Womens Top by August Max Woman Size 18W</Title>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>231197920131</ItemID>
+    <EndTime>2014-12-01T17:49:02.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/BNWT-GATSBY-Coral-Dress-Tunic-Top-Evening-1920s-Shift-Dress-Size-8-10-12-14-16-/231197920131?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>london , London</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wi4AAMXQyY1TQEAV/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/0RwAAOxy4YdTQEAx/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/IEEAAMXQ74JTQEA-/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/1SUAAOxyUylTQEA3/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ndgAAOxyeZNTQEBD/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/HeYAAMXQ74JTQEAh/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>63861</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothes, Shoes &amp; Accessories:Women's Clothing:Dresses</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">39.15</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P10DT20H41M57S</TimeLeft>
+    <Title>BNWT GATSBY Coral Dress Tunic Top Evening 1920's Shift Dress Size 8 10 12 14 16 </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>LIVE2LOVE</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Occasion</Name>
+      <Value>Casual</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Shift</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Main Colour</Name>
+      <Value>Coral</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>CHIFFON</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Sleeve Type</Name>
+      <Value>Sleeveless</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Exact Length</Name>
+      <Value>88cm from shoulder to bottom</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>GB</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>171540822805</ItemID>
+    <EndTime>2014-11-21T01:00:13.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/ladies-leather-chaps-/171540822805</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Pensacola, Florida</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1715408228058080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/q-YAAOSwyTZUWnsR/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/0-QAAOSwabhUWntU/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/lNsAAOSw54xUWocN/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/gfUAAOSwcF9UWoe5/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/xqkAAOSwosFUWofg/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/I6YAAOSwmUdUWogM/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">49.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H53M8S</TimeLeft>
+    <Title>ladies leather chaps</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>151483298835</ItemID>
+    <EndTime>2014-11-26T22:51:26.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Euc-Ensemble-Space-Gray-Women-Cardigan-Sweater-Size-M-Trendy-Worn-Once-/151483298835</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Oakville, Ontario</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/1514832988358080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-H4AAOSwg3FUbR5O/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/oBkAAOSwofxUbR5T/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">7.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P6DT1H44M21S</TimeLeft>
+    <Title>Euc Ensemble Space Gray Women Cardigan Sweater Size M Trendy Worn Once</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Gray</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Ensemble</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>M</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CA</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>331377410309</ItemID>
+    <EndTime>2014-12-12T13:10:13.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Spreader-Bar-Adult-Games-Sex-Toy-Couple-Costume-Surprise-Sexy-Gift-XM249-PVC-/331377410309</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>&#20013;&#23665;&#24066;, &#24291;&#26481;&#30465;</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/3313774103098080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAzWDUwMw==/z/KsgAAOxyYSdTA2Z~/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTMxWDEyMDA=/z/BroAAOxyLm9TA2aC/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTgzWDk3Ng==/z/GYAAAMXQC-tTA2aG/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">36.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P21DT16H3M8S</TimeLeft>
+    <Title>Spreader Bar Adult Games Sex Toy for Couple Costume Surprise Sexy Gift XM249-PVC</Title>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>121487137753</ItemID>
+    <EndTime>2014-11-21T01:03:25.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/MODA-Internatl-Pink-100-Cotton-Lightwgt-Ribbed-Scoopneck-Tank-Top-Size-Sm-/121487137753</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Thousand Oaks, California</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1214871377538080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/0bMAAOSwGvhT3C9I/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/AQ4AAOSwRLZT3C9b/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9-0AAOSwq7JT3C9x/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/yH4AAOSwbqpT3C-Y/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/CbQAAOSwPe1T3C-q/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RT0AAOSw7NNT3C~J/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/d4sAAOSwEK9T3C~d/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">8.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H56M20S</TimeLeft>
+    <Title>MODA Internatl Pink 100% Cotton Lightwgt Ribbed Scoopneck Tank Top Size Sm</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>MODA International</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>S</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Pink</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>Mexico</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>121432013518</ItemID>
+    <EndTime>2014-12-08T08:40:48.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/New-Women-Summer-Sexy-Chiffon-Sleeveless-Evening-Party-Cocktail-Short-Mini-Dress-/121432013518?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Shenzhen</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NjYwWDc1Mw==/z/mnkAAOxydB1Snt2N/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">7.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P17DT11H33M43S</TimeLeft>
+    <Title>New Women Summer Sexy Chiffon Sleeveless Evening Party Cocktail Short Mini Dress</Title>
+    <Country>CN</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>361117171953</ItemID>
+    <EndTime>2014-11-21T01:04:20.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Reef-Womens-Triangle-Bikini-Top-Swim-Suit-Brown-White-Large-L-NWT-/361117171953</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>PA</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/3611171719538080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/lCcAAOSwQM9UZ~gc/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>63867</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Swimwear</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">7.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H57M15S</TimeLeft>
+    <Title>Reef Womens Triangle Bikini Top Swim Suit Brown White Large L NWT</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Reef</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Swim Suit</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size Type</Name>
+      <Value>Regular</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size (Women's)</Name>
+      <Value>Large L</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Brown</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>82% Nylon 18% Spandex</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>331382390652</ItemID>
+    <EndTime>2014-11-22T21:45:55.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Auth-HYSTERIC-GLAMOUR-Tanktop-Acetate-Polyester-Free-Size-Ladies-UJ103326-/331382390652</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Minato-ku, Tokyo</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/3313823906528080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDUwWDYwMA==/z/lJ4AAOSw~FNUZ8mW/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">32.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P2DT38M50S</TimeLeft>
+    <Title>Auth HYSTERIC GLAMOUR Tanktop Acetate/Polyester Free Size Ladies(UJ103326)</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>HYSTERIC GLAMOUR</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size (Women's)</Name>
+      <Value>26cm 37.5cm 54.5cm (details below)</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size Type</Name>
+      <Value>Regular</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Ladies</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>JP</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>USED B / Traces of usage are present throughout but in good condition.. Additional Accessories:</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>371189043972</ItemID>
+    <EndTime>2014-11-21T01:04:52.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/ALFRED-DUNNER-MISSES-SIZE-XL-TOP-MATCHING-SIZE-18-PANTS-BRICK-AVONDALE-RD-NEW-/371189043972</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>South River, New Jersey</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/3711890439728080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjY2WDk5OQ==/z/ReMAAOSw54xUW676/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjY2WDk5OQ==/z/kHAAAOSwBP9UW678/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjY2WDk5OQ==/z/MqkAAOSwyTZUW67~/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjY2WDk5OQ==/z/kAkAAOSwBP9UW675/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">37.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H57M47S</TimeLeft>
+    <Title>ALFRED DUNNER MISSES SIZE XL TOP &amp; MATCHING SIZE 18 PANTS BRICK AVONDALE RD NEW</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>ALFRED DUNNER</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>XL TOP &amp; 18 PANTS</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>BRICK</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>231303735184</ItemID>
+    <EndTime>2014-12-07T12:56:49.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/BNWT-Gatsby-BLACK-Dress-Tunic-Top-Evening-1920s-Shift-Dress-Size-8-10-12-14-16-/231303735184?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>london , London</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/91YAAOSwEK9T5hmT/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/vxIAAOSwPe1T5hlz/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/9q4AAOSwEK9T5hmK/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/D6oAAOSwQItT5hlh/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/y8oAAOSwq7JUAQAQ/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/n28AAOSwQItUAP~~/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/bIkAAOSwfcVUCE-q/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/24AAAOSw7NNUCE-s/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Gw8AAOSw1x1UNJ8f/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/y64AAOSwq7JUAQAO/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/rZIAAOSwVFlT5hmB/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI4MFg5NjA=/z/JrUAAOSwq7JT5hmh/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>63861</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothes, Shoes &amp; Accessories:Women's Clothing:Dresses</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">51.68</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P16DT15H49M44S</TimeLeft>
+    <Title>BNWT Gatsby BLACK Dress Tunic Top Evening 1920's Shift Dress Size 8 10 12 14 16</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>LIVE2LOVE</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Occasion</Name>
+      <Value>Casual</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Shift</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Main Colour</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>CHIFFON</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Sleeve Type</Name>
+      <Value>Sleeveless</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Exact Length</Name>
+      <Value>88cm</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>GB</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>390979895483</ItemID>
+    <EndTime>2014-12-19T21:30:15.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Adorable-Forever-21-Green-Sweatshirt-Womens-Size-M-Ref-NN-1135-147812-/390979895483</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>San Francisco, California</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/3909798954838080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/vSUAAOSwofxUbQv0/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">4.79</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P29DT23M10S</TimeLeft>
+    <Title>Adorable Forever 21 Green Sweatshirt Women's Size M! (Ref: NN-1135:147812)</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Size Type</Name>
+      <Value>Regular</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size (Women's)</Name>
+      <Value>M</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Forever 21</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Green,Tan</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Cotton</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Sleeve Length</Name>
+      <Value>Long</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Pattern</Name>
+      <Value>Camouflage</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Season</Name>
+      <Value>Winter,Fall</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>style</Name>
+      <Value>Casual</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>look</Name>
+      <Value>Casual</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>Good Condition</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>261668843779</ItemID>
+    <EndTime>2014-11-21T01:08:24.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Limited-Size-6-Capris-Lot-/261668843779</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Oshkosh, Wisconsin</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/2616688437798080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/s3UAAOSwGWNUYA~P/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/D4AAAOSwzOxUYA~T/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/tBIAAOSwGWNUYA~W/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/zG0AAOSwyTZUYA~a/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/Bj0AAOSw54xUYA~f/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/yFIAAOSwdpxUYA~t/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">4.97</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H1M19S</TimeLeft>
+    <Title>The Limited Size 6 Capris Lot</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+    <ConditionDescription>Never wore khaki, other in great shape as well</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>331282078515</ItemID>
+    <EndTime>2014-12-04T09:31:39.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Classy-deep-v-neck-net-short-skater-dress-celebrity-2014-summer-sexy-dress-skirt-/331282078515?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>&#28145;&#22323;, &#24291;&#26481;&#30465;</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NTcxWDczNg==/z/nQMAAOSwEK9T4fTj/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/jNkAAOSwRLZT4fTr/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GoYAAOSwVFlT4fTy/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MjUyWDc1MA==/z/hwcAAMXQrhdTRi6y/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">19.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P13DT12H24M34S</TimeLeft>
+    <Title>Classy deep v neck net short skater dress celebrity 2014 summer sexy dress skirt</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Unbranded</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>black, navyblue</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>material</Name>
+      <Value>net gauze</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>161486160066</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">64.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:10:24.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Chicos-Jackpot-Blue-Yellow-Coral-Taupe-Brown-Palazzo-Pants-Sz-4-18-22-Rt-99-/161486160066</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Portland, Oregon</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/1614861600668080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/KYEAAOSwBP9UWp7M/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/ibkAAOSwGWNUWp7V/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/AVYAAOSwabhUWp7e/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">44.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H3M19S</TimeLeft>
+    <Title>Chicos Jackpot Blue Yellow Coral Taupe Brown Palazzo Pants Sz 4 = 18/22 Rt $99</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Chico's</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>3 = 16/18</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Multi-Color</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>301048255048</ItemID>
+    <EndTime>2014-12-15T05:59:01.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Snoop-Dogg-Mens-Microsuede-Slippers-/301048255048?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Salt Lake City, UT</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/pooAAMXQWzNSfGxl/$_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/pZEAAOxyXDhSfGxp/$_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/pcsAAOxyXDhSfGxt/$_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/ZpcAAOxyLN9SfGxx/$_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/iIAAAOxyzi9SfGx1/$_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/PVMAAOxy3zNSfGx6/$_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/EK0AAOxy3NBSfGx-/$_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/p64AAMXQWzNSfGyC/$_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/1WMAAMXQfvlSfGyG/$_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/1Y0AAMXQfvlSfGyK/$_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/qCUAAMXQWzNSfGyP/$_1.JPG?set_id=8800005007</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">38.44</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P24DT8H51M56S</TimeLeft>
+    <Title>Snoop Dogg Men's Microsuede Slippers</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Slippers</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>UPC</Name>
+      <Value>849310000207</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>271668684386</ItemID>
+    <EndTime>2014-11-21T01:12:27.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Pashmina-Red-and-Black-NWT-/271668684386</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Boston, Massachusetts</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/2716686843868080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/RyYAAOSw~FNUZVZM/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">0.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H5M22S</TimeLeft>
+    <Title>Pashmina - Red and Black - NWT</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Red</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+  <Item>
+    <ItemID>280540567084</ItemID>
+    <EndTime>2014-12-03T17:04:11.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/25-Color-Belly-Dance-Veil-Skirt-Scarf-Gypsy-Tribal-/280540567084?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location> Rajasthan</Location>
+    <PictureURL>http://i.ebayimg.com/08/!By68lvQBGk~$(KGrHqZ,!jIEw49O4KO+BMT)E4BtMg~~_1.JPG?set_id=8800005007</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">3.49</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P12DT19H57M5S</TimeLeft>
+    <Title>25 Color Belly Dance Veil Skirt Scarf Gypsy Tribal</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Size Type</Name>
+      <Value>Regular</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Bottoms Size (Women's)</Name>
+      <Value>M</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Veil</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Shade</Name>
+      <Value>Multi-Color</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>M</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Unbranded</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Multi-Color</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>India</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>IN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>171541773817</ItemID>
+    <EndTime>2014-11-21T01:16:28.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/MCCALLS-SWIM-WEAR-SARONG-PATTERN-M4848-SIZES-26W-32W-/171541773817</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Fall Branch, Tennessee</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1715417738178080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTI4WDUyMg==/z/opMAAOSwd4tUGNdY/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTIyWDkyOA==/z/iWUAAOSwRLZUGNdo/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTIyWDkyOA==/z/drkAAOSwDk5UGNdy/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">5.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H9M22S</TimeLeft>
+    <Title>MCCALL'S SWIM WEAR WITH SARONG PATTERN M4848 IN SIZES 26W TO 32W</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>361119683733</ItemID>
+    <EndTime>2014-12-18T03:59:51.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Sacred-Fish-Collection-Green-Frog-Sarong-great-Summer-wall-hanging-/361119683733</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Mannum, South Australia</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/3611196837338080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNTg3/z/Vx0AAOSw2XFUasKV/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTU4MVgxNjAw/z/K6gAAOSwuMFUasKh/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes, Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">17.21</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P27DT6H52M45S</TimeLeft>
+    <Title>Sacred Fish Collection - Green Frog Sarong - great for Summer or a wall hanging</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Colour</Name>
+      <Value>Multi-Coloured</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Zantika</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Polyester</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>AU</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>171014530945</ItemID>
+    <EndTime>2014-12-16T23:15:35.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Crossover-Female-Polyester-Tie-/171014530945?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location> Florida</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/zFcAAMXQVT9S6mFM/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/v24AAOxyVLNS6mFz/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>163528</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Uniforms &amp; Work Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">2.95</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P26DT2H8M29S</TimeLeft>
+    <Title>Crossover Female Polyester Tie</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Gender</Name>
+      <Value>Women</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Polyester</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>390974502331</ItemID>
+    <EndTime>2014-11-21T01:19:57.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Womens-Fashion-Batwing-Sleeve-Street-HollowPashmina-Tassel-Smock-Redi-Free-Size-/390974502331</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>HK</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/3909745023318080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/Nzg2WDYwMA==/z/biIAAOSw8cNUQH6Q/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzUwWDc1MA==/z/ZlQAAOSwcu5UQH6N/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">0.01</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H12M51S</TimeLeft>
+    <Title>Womens Fashion Batwing Sleeve Street HollowPashmina Tassel Smock Redi Free Size </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>New</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>Free Size</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Red</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>HK</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>131355425692</ItemID>
+    <EndTime>2014-12-20T17:25:10.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/NEW-Beige-Crochet-Arm-Warmers-Lace-Accent-One-Size-Fits-Most-/131355425692</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Sumter, South Carolina</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/1313554256928080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/0tAAAOSwQJhUbiOe/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/hRsAAOSwAL9UbiOl/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">12.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P29DT20H18M4S</TimeLeft>
+    <Title>NEW! Beige Crochet Arm Warmers With Lace Accent One Size Fits Most</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Unbranded</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Beige</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>281496814556</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">15.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:20:06.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Urban-Renewal-Chiffon-Multi-colored-Printed-kimono-Size-S-/281496814556</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Simi Valley, California</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2814968145568080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/goMAAOSwnDZUB9~d/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/bxwAAOSw-jhUB9~o/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">11.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H13M</TimeLeft>
+    <Title>Urban Renewal Chiffon Multi colored Printed kimono Size S</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>S</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Urban Renewal</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Multi-Color</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>320935665236</ItemID>
+    <EndTime>2014-12-16T13:45:41.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/NEW-Ladies-Bobbie-Brooks-Thermal-Uncerwear-Great-Keep-Warm-/320935665236?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Independence, Missouri</Location>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">1.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P25DT16H38M35S</TimeLeft>
+    <Title>NEW Ladie's Bobbie Brooks Thermal Uncerwear Great to Keep Warm!!!</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Bobbie Brooks</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>281496814988</ItemID>
+    <EndTime>2014-11-21T01:20:56.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/PRE-OWNED-SILK-BLEND-ELEGANT-EVENING-CHIC-BODYSUIT-MODE-INTL-MEDIUM-/281496814988</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Port Jefferson Station, New York</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2814968149888080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTE3WDg3MQ==/z/akYAAOSw2XFUZUIk/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTE4WDExOTA=/z/a6AAAOSw2XFUZUIz/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTE4WDg4Mg==/z/avMAAOSwIBBUZUJF/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTE4WDg2OQ==/z/VfoAAOSwv1RUZUJf/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTE4WDk4OA==/z/YBIAAOSw0vBUZUJ0/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTE4WDEyMzM=/z/YcIAAOSw0vBUZUKJ/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">24.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H13M50S</TimeLeft>
+    <Title>PRE OWNED SILK BLEND ELEGANT EVENING CHIC BODYSUIT by MODE INT'L. MEDIUM</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Mod a International</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>M</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Cream</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+    <ConditionDescription>Excellent</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>251257251557</ItemID>
+    <EndTime>2014-11-29T17:10:45.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Custom-Colors-Fleece-Leg-Warmers-/251257251557</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Omaha, Nebraska</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/2512572515578080_1.jpg</GalleryURL>
+    <PictureURL>http://i2.ebayimg.com/05/i/000/95/ba/227a_1.JPG?set_id=7</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">8.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P8DT20H3M39S</TimeLeft>
+    <Title>Custom Colors Fleece Leg Warmers</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>181359748609</ItemID>
+    <EndTime>2014-12-18T22:58:22.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Faja-Powernet-High-Compression-9035-Posture-Corrector-/181359748609?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>West Columbia, Texas</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTUzN1gxNjAw/z/jygAAOxy039TL2KJ/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDYzWDY5NQ==/z/6aoAAMXQHDlRcvm6/$T2eC16FHJH!FFlvq+VCMBRcvm5)RB!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">51.9</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P28DT1H51M16S</TimeLeft>
+    <Title>Faja Powernet High Compression  9035 with Posture Corrector </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>MariaE</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Beiges</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>Colombia</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>Colombia</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Shade</Name>
+      <Value> Beige</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>111515980606</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">12.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:21:57.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Womens-Faded-Glory-Cable-Knit-Trapper-Hat-/111515980606</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Boise, Idaho</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/1115159806068080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTYwWDU0MA==/z/rowAAOSw54xUXB4P/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTQwWDk2MA==/z/e3YAAOSwyTZUXB4W/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTQwWDk2MA==/z/sAQAAOSw54xUXB4f/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>1</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">5.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H14M51S</TimeLeft>
+    <Title>Women's Faded Glory Cable Knit Trapper Hat</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>361013865120</ItemID>
+    <EndTime>2014-12-03T13:29:12.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Cotton-Therapy-Regular-Full-Length-Leggings-Different-Size-new-INT11-/361013865120?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Tucker, Georgia</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY4/z/hRQAAOSwxH1T4NwM/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">8.95</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P12DT16H22M6S</TimeLeft>
+    <Title>Cotton Therapy Regular Full Length Leggings Different Size (new) (INT11)</Title>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>201217814179</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">54.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:28:19.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/DESIGUAL-tee-and-skirt-set-Black-Red-graffitti-design-tee-size-S-skirt-sizeM-/201217814179</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Seattle, Washington</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/2012178141798080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2FQAAOSwdpxUW-sN/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/XLUAAOSwBP9UW-sy/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/5yAAAOSwcF9UW-s5/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6g8AAOSwosFUW-tA/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/2NUAAOSwLa9UW-tG/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/G68AAOSw~1FUW-tM/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6c4AAOSwcF9UW-tT/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6nkAAOSwcF9UW-tY/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/7QkAAOSwosFUW-te/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gFYAAOSwmUdUW-tm/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/gTMAAOSwmUdUW-tt/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">35.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H21M13S</TimeLeft>
+    <Title>DESIGUAL tee and skirt set--Black &amp; Red graffitti design--tee size S/skirt sizeM</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Desigual</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>S/M</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>black/red/white</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>India</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>181590442717</ItemID>
+    <EndTime>2014-12-20T04:00:07.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Black-Leather-Blazer-XL-/181590442717</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Brooklyn, New York</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1815904427178080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/GN0AAOSw0vBUbSwS/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/lwEAAOSwiCRUbSwi/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/zhgAAOSwofxUbSw3/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">59.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P29DT6H53M1S</TimeLeft>
+    <Title>Black Leather Blazer XL</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Unbranded</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>XL</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>United States</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>390978116257</ItemID>
+    <EndTime>2014-11-21T01:30:44.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Darling-Xersion-Black-Sweatpants-Womens-Size-M-Ref-D-560-124296-No-Reserve-/390978116257</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>San Francisco, California</Location>
+    <PictureURL>http://www.schoola.com/savvyalpha/web/uploads/stitches/img1_124296.JPG</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">1.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H23M38S</TimeLeft>
+    <Title>Darling Xersion Black Sweatpants Women's Size M! (Ref: D-560:124296) No Reserve</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Size Type</Name>
+      <Value>Regular</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size (Women's)</Name>
+      <Value>M</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Xersion</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black,Grey</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Spandex,Cotton</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Season</Name>
+      <Value>Winter,Spring,Fall</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>style</Name>
+      <Value>Athletic,Casual</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>look</Name>
+      <Value>Athletic,Casual</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>Condition: Blemished, with a light fading in left front, right front, left rear seat and right rear seat</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>141452109412</ItemID>
+    <EndTime>2014-11-27T03:31:12.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/New-Fall-Cute-Cartoon-Fish-Cat-Long-Sleeve-Couple-Men-s-Women-s-Pajamas-Set-/141452109412?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>China</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/T8gAAOSwajVUTw3K/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/L1cAAOSwEppUTw3R/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/WQEAAOSw6EhUTw3X/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/2twAAOSwDN1UTw3e/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/eG0AAOSw8cNUTw3k/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/-BcAAOSwcu5UTw3t/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/BocAAOSwQJ5UTw30/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">21.43</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P6DT6H24M6S</TimeLeft>
+    <Title>New Fall Cute Cartoon Fish Cat Long Sleeve Couple Men&#8217;s Women&#8217;s Pajamas Set</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>casual</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>AS Gift For</Name>
+      <Value>Thanksgiving Day/Christmas</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>knitted cotton</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size Type</Name>
+      <Value>regular</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Unbranded</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>361114976801</ItemID>
+    <EndTime>2014-11-21T01:33:20.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/SPORT-SAVVY-NAVY-LINEN-BLEND-TANK-TOP-CAPRI-PANTS-SHIRT-3-PIECE-SET-NWT-M-/361114976801</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Brooklyn, New York</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/3611149768018080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDI4NA==/z/yaMAAMXQy7hRXjLE/$T2eC16N,!)kE9s4Z-vOHBR(jLECvHg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDQwNg==/z/W8AAAMXQ71xRXjLF/$T2eC16R,!)cE9s4PtIH6BR(jLFYC2g~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDM0NQ==/z/yawAAMXQy7hRXjLG/$T2eC16R,!ysE9sy0iIOUBR(jLGb3M!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDMyMA==/z/W9MAAMXQ71xRXjLH/$T2eC16F,!zoE9s5nc30bBR(jLHseMQ~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDM5Nw==/z/Cn8AAOxypstRXjLI/$T2eC16N,!)sE9swmYlFPBR(jLI3BrQ~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDMyMA==/z/B08AAOxy7q1RXjLK/$T2eC16Z,!y0E9s2S8jDCBR(jLJ4gd!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjI5WDMyMA==/z/QOEAAMXQiw5RXjLL/$T2eC16F,!y0E9s2S5WbIBR(jLK7Jq!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">19.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H26M14S</TimeLeft>
+    <Title>SPORT SAVVY NAVY LINEN BLEND  TANK TOP, CAPRI PANTS , SHIRT 3 PIECE SET NWT  M</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>SPORT SAVVY</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>M</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Blues</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>131300359114</ItemID>
+    <EndTime>2014-12-18T08:06:39.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Spring-Fall-Knitted-Cotton-Cute-Bow-Sleepwear-Women-s-Long-Sleeve-Pajamas-Set-/131300359114?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>China</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/YXAAAOSw-jhUG-PH/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/66EAAOSwq7JUG-PO/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/d~sAAOSwAF5UZapt/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/HCoAAOSwKrxUZap1/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/HJIAAOSwKrxUZap-/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">9.98</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P27DT10H59M33S</TimeLeft>
+    <Title>Spring Fall Knitted Cotton Cute Bow Sleepwear Women&#8217;s Long Sleeve Pajamas Set</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>casual</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Knitted Cotton</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Collar</Name>
+      <Value>crewneck</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Pattern</Name>
+      <Value>bow</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>as picture show</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size Type</Name>
+      <Value>regular</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Season</Name>
+      <Value>Spring, Fall</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>As Gift For</Name>
+      <Value>Thanksgiving/Christmas</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>111069109149</ItemID>
+    <EndTime>2014-11-28T19:42:28.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Lip-Service-Buck-Up-Babe-BLACK-PVC-CINCHER-S-/111069109149</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Norcross, Georgia</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1110691091498080_2.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTYwWDc1Ng==/z/EP0AAOxyuDpSEr6v/$T2eC16h,!zEE9s3!Z)4OBSEr6vDpiQ~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">39.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P7DT22H35M22S</TimeLeft>
+    <Title>Lip Service Buck Up Babe BLACK PVC CINCHER S</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Lip Service</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>S</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Blacks</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Shade</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Main Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>PVC</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+  <Item>
+    <ItemID>281498791953</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">60.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:34:25.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Portable-Bra-Protector-Travel-Case-Underwear-Lingerie-Organizer-Bathing-Suit-/281498791953</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Hope Mills, North Carolina</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/2814987919538080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTI5WDkxMw==/z/R9MAAOSwRLZUEdkl/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTY2WDk3MA==/z/-FMAAOSwxH1UEdkv/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTk3WDk1NQ==/z/SqYAAOSwRLZUEdk6/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQ0WDk0OQ==/z/fuIAAOSwDk5UEdlU/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODIyWDY5Nw==/z/TDgAAOSw7NNUEdlm/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzMzWDc3OA==/z/BEEAAOSwxH1UEdl6/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzQ2WDEwMDA=/z/iEMAAOSwxH1UEdaC/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">45.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H27M19S</TimeLeft>
+    <Title>Portable Bra Protector Travel Case Underwear Lingerie Organizer Bathing Suit </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Pink</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>first class</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>one size</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>321212079616</ItemID>
+    <EndTime>2014-12-14T00:52:10.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/COOLWADERS-PURPLE-ZEBRA-WOMENS-WADERS-/321212079616?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Bastrop, Texas</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/sWkAAOxy1JBSO5se/$T2eC16h,!)oFIelw)qlkBSO5sd4BP!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDY1MA==/z/Uh8AAOxy0QBSO1Ig/$(KGrHqJHJEMFIrONvZr,BSO1If)RbQ~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/Ug8AAOxy0QBSO1If/$T2eC16ZHJGYE9noojc(oBSO1Ie,O6Q~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">149.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P23DT3H45M4S</TimeLeft>
+    <Title>COOLWADERS -PURPLE ZEBRA WOMENS WADERS -</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>COOLWADERS</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>PURPLE ZEBRA</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>231390481915</ItemID>
+    <EndTime>2014-11-21T01:35:32.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/VERFUHRERISCHE-SPITZE-HOODY-KAPUZENJACKE-HOSE-GOGO-GOTHIC-CLUBWEAR-SIZE-M-L-/231390481915</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>shanghai</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/2313904819158080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjY3WDYxMw==/z/phkAAOSwLa9UW4rx/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">19.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H28M26S</TimeLeft>
+    <Title>VERF&#220;HRERISCHE SPITZE: HOODY KAPUZENJACKE + HOSE GOGO GOTHIC CLUBWEAR SIZE M-L</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>"Handmade"</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>M-L</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>291293270565</ItemID>
+    <EndTime>2014-12-11T19:00:52.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/NWT-FUSCHIA-BLK-WHT-ANIMAL-PRINT-52-CAFTAN-WINLAR-/291293270565</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>New Jersey</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/2912932705658080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMTMw/z/flkAAOSwdpxUYly5/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/c40AAOSw1XdUYlzE/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">9.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P20DT21H53M46S</TimeLeft>
+    <Title> ~NWT~FUSCHIA/BLK/WHT ANIMAL PRINT 52" CAFTAN BY "WINLAR" </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Winlar</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>O/S up to 4X</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Multi-Color</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>Pakistan</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>Pakistan</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Shade</Name>
+      <Value>Multi-Color</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>CAFTAN</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>381054570453</ItemID>
+    <EndTime>2014-11-21T01:37:20.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Womans-White-2-Piece-Capri-And-sleeveless-Shirt-Set-Sag-Harbor-Size-Small-/381054570453</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>West Islip, New York</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/3810545704538080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/4-wAAOxykMpTJgbD/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/SpgAAOxy~dNTJgbL/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6mYAAOxyUI1TJgbP/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/8psAAOxy3HJTJgbT/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">12.25</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H30M14S</TimeLeft>
+    <Title>Womans White 2 Piece Capri And sleeveless Shirt Set By Sag Harbor Size Small</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>sag harbor</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>S</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>White</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>320991130095</ItemID>
+    <EndTime>2014-12-16T13:03:29.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/BUTT-ENHANCER-PANTY-GIRDLE-BRAZILIAN-BUTT-LIFT-TOP-QUALITY-EVERYDAY-USE-/320991130095?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Miami, Florida</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NjU1WDEwNDg=/$T2eC16JHJHoE9n3Kd8kZBQZErSTbDg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODg1WDEwNDg=/$T2eC16dHJHQE9nzEzro8BQZErUC(Vg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">39.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P25DT15H56M23S</TimeLeft>
+    <Title> BUTT ENHANCER PANTY GIRDLE BRAZILIAN BUTT LIFT TOP QUALITY FOR EVERYDAY USE </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Beiges</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Shade</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>United States</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>UNDERWEAR</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>141470970427</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">5.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:38:40.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/California-Republic-Tank-Top-high-low-style-/141470970427</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>New London, New Hampshire</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/1414709704278080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/uIwAAOSwYshUZVx1/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/Nc4AAOSw1-RUZVxy/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/i7MAAOSwcldUZVx2/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/~sIAAOSwMKpUZVxz/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">3.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H31M34S</TimeLeft>
+    <Title>California Republic Tank Top (high-low style)</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>XS</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>351224626651</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">42.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:44:59.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/1980s-Bustier-Skirt-Gaile-Joseph-Size-Small-Great-Cruise-Tropics-/351224626651</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Valley Stream, New York</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/3512246266518080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg4MTA=/z/COsAAOxycmBS6G~~/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg3OTg=/z/JZMAAOxyhSBR~UHf/$(KGrHqNHJFQFHYzz2CjfBR+UHe8bog~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTU2Nlg5NzQ=/z/WE8AAOxyzfNRwQAj/$T2eC16h,!y8E9s2fl8JbBRwQ!jbm0w~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTUyM1gxNDA2/z/JD4AAOxy66pRs70B/$T2eC16d,!)kE9s4,BMHuBRs70!iv2!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNTEw/z/uAoAAOxyY3ZRs70D/$T2eC16FHJGIFFo(5Me!rBRs70DoM3w~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDE1/z/HL8AAOxyGStRwQAj/$(KGrHqV,!q8FG8khGoo+BRwQ!jVHOg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIyNVgxNTYw/z/Yo8AAOxy--NRs70H/$(KGrHqN,!nUFBpyCd4w9BRs70Gg3Bw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTM1MVgxNjAw/z/aUoAAOxy7MtRs70J/$(KGrHqZ,!mIFGr(ydTRIBRs70I8Vog~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">28.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H37M53S</TimeLeft>
+    <Title>1980s Bustier &amp; Skirt by Gaile Joseph -Size Small - Great for Cruise or Tropics</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>S</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Magenta, Black, Cream</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>Mint condition, worn only twice</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>251717943463</ItemID>
+    <EndTime>2014-11-21T01:45:22.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/YOUNG-VERSACE-BLACK-ZIP-VESTS-/251717943463</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location> </Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/2517179434638080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg4OTk=/$T2eC16JHJGwE9n)ySdvSBQzumP0,mg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg4OTk=/$T2eC16N,!ykE9s7tvVYDBQzumkZM,Q~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg4OTk=/$(KGrHqZHJEsFDMtWwZZ-BQzumu)wjg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Womens' Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">13.31</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H38M16S</TimeLeft>
+    <Title>YOUNG VERSACE - BLACK ZIP VESTS</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>PH</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Used</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>231390491210</ItemID>
+    <EndTime>2014-11-21T01:45:29.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/VERSACE-Gray-Blue-Yellow-Floral-Top-and-Skirt-Size-42-44-/231390491210</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Miami Beach, Florida</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/2313904912108080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTQzNFg5NTA=/z/D4QAAOSwosFUUuV8/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTQzNFg5NTA=/z/wO4AAOSwabhUUuV~/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTQzNFg5NTA=/z/D~QAAOSwosFUUuWC/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTQzNFg5NTA=/z/lrcAAOSwmUdUUuWE/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjI5WDk1MA==/z/y3AAAOSwLa9UUuWH/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjI5WDk1MA==/z/maYAAOSwGWNUUuWL/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjI5WDk1MA==/z/EKgAAOSwosFUUuWN/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">149.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H38M23S</TimeLeft>
+    <Title>*** VERSACE *** Gray, Blue Yellow Floral Top and Skirt Size 42/44 </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Versace</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>42/44</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Gray, Blue, Yellow</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>301370517108</ItemID>
+    <EndTime>2014-11-26T21:05:02.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Womens-Columbia-Maya-Blue-Vented-Polo-Shirt-Medium-M-/301370517108</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Henderson, Nevada</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/3013705171088080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA1OVgxNTk5/z/WOkAAOSwR0JUTq9d/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA1OVgxNTk5/z/TAMAAOSwy4hUTq9j/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">8.75</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P5DT23H57M56S</TimeLeft>
+    <Title>Women's Columbia Maya Blue Vented Polo Shirt Medium M </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Columbia</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>M</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Blue</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>In Excellent, Happiness Condition!</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>261663786538</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">32.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:46:59.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/FILA-ladies-womens-NWT-black-pleated-tennis-sport-performance-mini-kilt-skirt-4-/261663786538</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Wheeling, Illinois</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/2616637865388080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/7wMAAOSwPe1UINHf/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/7xkAAOSwPe1UINHg/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/fckAAOSwDk5UINHh/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/7ycAAOSwPe1UINHh/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/B7AAAOSw-jhUINHh/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/Y~4AAOSwQItUINHi/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/ZAYAAOSwQItUINHj/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/5TAAAOSwq7JUINHi/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/o6sAAOSw7NNUINHj/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/BtQAAOSwRLZUINHk/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/zIQAAOSwnDZUINHk/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/7DwAAOSwGvhUINHl/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">24.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H39M53S</TimeLeft>
+    <Title>FILA ladies women's NWT black pleated tennis sport performance mini kilt skirt 4</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>251253238950</ItemID>
+    <EndTime>2014-11-21T05:23:23.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Nouvelle-Laser-Cut-Leggings-Hole-/251253238950?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Walsall</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/vcUAAOSwVupTrYE1/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/lP4AAOSwcnpTrYE5/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/lWcAAOSwcnpTrYE9/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/y9cAAOSws65TrYFA/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/yKEAAOSw8lBTrYFF/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/EIcAAOSw~CRTrYFK/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>169001</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothes, Shoes &amp; Accessories:Women's Clothing:Leggings</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">14.08</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT8H16M17S</TimeLeft>
+    <Title>Nouvelle Laser Cut Leggings With Hole</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Trouser Size</Name>
+      <Value>8/10 12/14 16/18 20/22 24/26 28/30</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Nouvelle</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Viscose</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Exact Material</Name>
+      <Value>95% Viscose 5% Elastane</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Length</Name>
+      <Value>Full Length</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Pattern</Name>
+      <Value>No Pattern</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size Type</Name>
+      <Value>Plus Size</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Number in Pack</Name>
+      <Value>1</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Garment Care</Name>
+      <Value>Machine Washable</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>SKU</Name>
+      <Value>7001-M</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>GB</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>201219133960</ItemID>
+    <EndTime>2014-11-21T01:47:32.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Darling-Sonoma-Green-Sweatshirt-Womens-Size-M-Ref-T-461-155224-/201219133960</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>San Francisco, California</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2012191339608080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/p4kAAOSw1XdUYPVF/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">2.32</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H40M26S</TimeLeft>
+    <Title>Darling Sonoma Green Sweatshirt Women's Size M! (Ref: T-461:155224)</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Size Type</Name>
+      <Value>Regular</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size (Women's)</Name>
+      <Value>M</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Sonoma</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Green,White</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Cotton</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Sleeve Length</Name>
+      <Value>Long</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>style</Name>
+      <Value>Schoola</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>Condition: Blemished, with a moderate fading in front collar, chest, back collar and back</ConditionDescription>
+   </Item>
+  <Item>
+    <ItemID>351224627928</ItemID>
+    <EndTime>2014-11-21T01:47:43.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Sun-Dress-Swimsuit-Coverup-Meduim-Size-Cute-Summery-and-Cool-/351224627928</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Valley Stream, New York</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/3512246279288080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg3NDM=/z/vZcAAOxykVNRwQHl/$T2eC16R,!zcE9s4g3JJwBRwQHlVwYQ~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjY5/z/S3YAAMXQOT5RApgy/$(KGrHqN,!hMFCwfIm0RtBR!pgyfB(w~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDMw/z/I7QAAOxyGStRwQHm/$T2eC16F,!)QE9s3HCkEDBRwQHmVJ5Q~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">22.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H40M36S</TimeLeft>
+    <Title>Sun Dress or Swimsuit Coverup - Meduim Size  -  Cute, Summery and Cool!</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Visions</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>M</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Multi-Color</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>This dress is in very good condition, never altered. Colors are as vibrant as when it was purchased.</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>251253238950</ItemID>
+    <EndTime>2014-11-21T05:23:23.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Nouvelle-Laser-Cut-Leggings-Hole-/251253238950?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Walsall</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxMjAw/z/vcUAAOSwVupTrYE1/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/lP4AAOSwcnpTrYE5/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/lWcAAOSwcnpTrYE9/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/y9cAAOSws65TrYFA/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/yKEAAOSw8lBTrYFF/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDY2/z/EIcAAOSw~CRTrYFK/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>169001</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothes, Shoes &amp; Accessories:Women's Clothing:Leggings</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">14.08</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT8H16M16S</TimeLeft>
+    <Title>Nouvelle Laser Cut Leggings With Hole</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Trouser Size</Name>
+      <Value>8/10 12/14 16/18 20/22 24/26 28/30</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Nouvelle</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Viscose</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Exact Material</Name>
+      <Value>95% Viscose 5% Elastane</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Length</Name>
+      <Value>Full Length</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Pattern</Name>
+      <Value>No Pattern</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size Type</Name>
+      <Value>Plus Size</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Number in Pack</Name>
+      <Value>1</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Garment Care</Name>
+      <Value>Machine Washable</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>SKU</Name>
+      <Value>7001-M</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>GB</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>231390495773</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">35.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:51:19.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/victorias-secret-bralette-lace-pink-size-small-/231390495773</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Bozeman, Montana</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/2313904957738080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/E70AAOSwVFlUBT5L/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMTk1/z/FAgAAOSwVFlUBT5S/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">20.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H44M12S</TimeLeft>
+    <Title>victorias secret bralette with lace pink size small</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Pink</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Victoria's Secret</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>S</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>281498809774</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">13.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:59:51.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Womens-Black-Cardigan-22-24-/281498809774</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>La Salle, Colorado</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/2814988097748080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3psAAOSwU9xUTTqi/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">5.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H52M44S</TimeLeft>
+    <Title>Women's Black Cardigan 22/24</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>faded glory</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>161484038096</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">39.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:00:05.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/New-T-Tahari-Aurelia-Skirt-SAME-DAY-SHIPPING-/161484038096</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Los Angeles, California</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/1614840380968080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNDQw/z/Yg8AAOSw6EhUUYpU/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTU1OFgxNjAw/z/vEcAAOSwZkJUUYpf/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/xrwAAOSw8cNUUYpk/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9ocAAOSwDN1UUYpq/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/vd0AAOSwZkJUUYpx/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/yEMAAOSw8cNUUYp3/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/J6AAAOSwcu5UUYp7/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">30.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H52M58S</TimeLeft>
+    <Title>New T Tahari Aurelia Skirt.... ..SAME DAY SHIPPING</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Tahari</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>BRIAR</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>251717677580</ItemID>
+    <EndTime>2014-11-21T02:00:21.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/NEW-Fredericks-Hollywood-SMALL-BODY-STOCKING-Color-Bare-13-/251717677580</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>South Lyon, Michigan</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2517176775808080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/xeMAAOSwKrxUZRHX/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/H5oAAOSw1-RUZRHn/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">3.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H53M14S</TimeLeft>
+    <Title>NEW Frederick's Of Hollywood SMALL BODY STOCKING Color Bare #13</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Bare #13</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>S</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>United States</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Fredricks of Hollywood</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>111515999462</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">32.5</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:01:06.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/NWT-VINTAGE-RARE-GIORGIO-ARMANI-NEVE-ITALY-SKI-PANTS-SNOW-BLACK-FLEECE-XS-S-42-/111515999462</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Quogue, New York</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/1115159994628080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/fvwAAOSwq7JUJLOU/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/CykAAOSwRLZUJLOX/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/~SgAAOSwxH1UJLOb/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/~uwAAOSwfcVUJLOe/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/ySAAAOSwQItUJLOj/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/l8sAAOSwd4tUJLOo/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/c5oAAOSwGvhUJLOw/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">24.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H53M59S</TimeLeft>
+    <Title>NWT VINTAGE RARE GIORGIO ARMANI NEVE ITALY SKI PANTS SNOW BLACK FLEECE XS S 42</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Giorgio Armani</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>XS</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>Italy</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>331379636464</ItemID>
+    <EndTime>2014-11-21T02:01:10.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/VERSACE-Orange-Cropped-Halter-Top-and-Silk-Skirt-Set-Size-Small-/331379636464</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Miami Beach, Florida</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/3313796364648080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE4MVg4OTM=/z/n1EAAOSwdsFUQHXt/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE0MVg4NjY=/z/IU0AAOSw6EhUQHXv/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE0NVg3OTA=/z/rMUAAOSwDN1UQHXw/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE5MFg3NDY=/z/Ia0AAOSw6EhUQHXz/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjI5WDk1MA==/z/2-cAAOSwF1dUQHX1/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjI5WDk1MA==/z/3A8AAOSwF1dUQHX3/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">249.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H54M3S</TimeLeft>
+    <Title>*** VERSACE *** Orange Cropped Halter Top and Silk Skirt Set Size Small</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Versace</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>S</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Multi-Color</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>371189082520</ItemID>
+    <EndTime>2014-11-21T02:01:50.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/MORE-JAZZ-CHORUS-LINE-CO-80-TEAL-RAYON-TUNIC-TOP-SKIRT-SIZE-14-NEW-/371189082520</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>El Cajon, California</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/3711890825208080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/pg8AAOSw1-RUZWKT/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">19.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H54M43S</TimeLeft>
+    <Title>MORE JAZZ A CHORUS LINE CO. $80 TEAL RAYON TUNIC TOP &amp; SKIRT, SIZE 14, NEW</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>More Jazz a Chorus Line Co.</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>14</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>dark teal rayon tunic top &amp; skirt</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>231394813853</ItemID>
+    <EndTime>2014-11-21T02:02:53.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Max-Studio-Silk-Skirt-Size-Small-/231394813853</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Homestead, Florida</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/2313948138538080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/DIgAAOSwcF9UYZon/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/3iYAAOSwabhUYZoq/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wT8AAOSwBP9UYZot/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/9vAAAOSwrx5UYZom/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/WtAAAOSwmUdUYZo7/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/24oAAOSw~1FUYZo6/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/mM0AAOSw1XdUYZox/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/wmcAAOSwBP9UYZpB/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/-HMAAOSwrx5UYZo~/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>314</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Clothing:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">9.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H55M46S</TimeLeft>
+    <Title>Max Studio Silk Skirt, Size Small</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Max Studio</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>S</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black/Beige</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+  </GetMultipleItemsResponse>

@@ -1,0 +1,3345 @@
+<?xml-stylesheet type="text/xsl" href="/ebay-data/xslItemSpecifics.xsl"?>
+<GetMultipleItemsResponse>
+   <Timestamp>2014-11-20T20:56:37.018Z</Timestamp>
+   <Ack>Success</Ack>
+   <Build>E897_CORE_APILW_17290128_R1</Build>
+   <Version>897</Version>
+   <Item>
+    <ItemID>221602025149</ItemID>
+    <EndTime>2014-11-21T01:22:25.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Kate-Spade-Darcel-Hot-Dog-Earrings-/221602025149</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Chicago, Illinois</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/2216020251498080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTQ2OFgxMTAx/z/1qYAAOSwGWNUYWMn/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTQ2OFgxMTAx/z/hPAAAOSwBP9UYWD4/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTQ2OFgxMTAx/z/x3YAAOSwdpxUYWO9/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">25.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H25M49S</TimeLeft>
+    <Title>Kate Spade Darcel Hot Dog Earrings</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>kate spade</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+    <ConditionDescription>Great Condition</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>121487143106</ItemID>
+    <EndTime>2014-11-21T01:11:44.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Ladies-Boot-Jewelry-Cross-Bracelet-Accessory-/121487143106</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>San Antonio, Texas</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/1214871431068080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0UsAAMXQfvlSlVJe/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE4N1gxMTMw/z/AqcAAMXQWzNSlVJg/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE1OFgxNjAw/z/sloAAOxypNtSlVJl/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">9.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H15M8S</TimeLeft>
+    <Title>Ladies Boot Jewelry Cross Bracelet Accessory </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Unbranded</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Boot Charms</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>231018203087</ItemID>
+    <EndTime>2014-12-10T07:26:01.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Fashion-Ladies-Multilayer-Crystal-Resin-Rose-Charms-Bracelet-6-Colors-U-Picks-/231018203087?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>china</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/Mzk3WDU1Mg==/z/mCAAAOxyaFtR55ZN/$(KGrHqUOKpwFHdm(DtpzBR55ZNOmHw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>50637</PrimaryCategoryID>
+    <PrimaryCategoryName>Jewelry &amp; Watches:Fashion Jewelry:Bracelets</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">3.41</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P19DT10H29M25S</TimeLeft>
+    <Title>Fashion Ladies Multilayer Crystal Resin Rose Charms Bracelet 6 Colors U Picks</Title>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>111515978242</ItemID>
+    <EndTime>2014-11-21T01:16:12.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/University-Arkansas-Boar-Tee-Ladies-M-/111515978242</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Lake Worth, Florida</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/1115159782428080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTEzNlg4NTI=/z/LCQAAOSwRLZUGvMJ/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/Njk4WDExMzY=/z/WzgAAOSwVFlUGvMT/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">12.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H19M36S</TimeLeft>
+    <Title>University Of Arkansas Boar Tee Ladies M</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Press box</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>221246872064</ItemID>
+    <EndTime>2014-12-19T15:40:28.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/5-Black-24-x-54-VINYL-GARMENT-BAGS-GOOD-4-SUIT-DRESS-/221246872064</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Brooklyn, New York</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2212468720648080_2.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/$(KGrHqUOKicE36iDcUwzBOJvPzq+(Q~~0_1.JPG?set_id=8800005007</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">14.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P28DT18H43M52S</TimeLeft>
+    <Title>5 Black 24"x 54" VINYL GARMENT BAGS GOOD 4 SUIT &amp; DRESS</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>111515978279</ItemID>
+    <EndTime>2014-11-21T01:16:19.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Oklahoma-Sooners-Burnout-Tee-Ladies-Medium-/111515978279</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Lake Worth, Florida</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/1115159782798080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTEzNlg4NTI=/z/ehgAAOSwd4tUGvfY/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">12.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H19M43S</TimeLeft>
+    <Title>Oklahoma Sooners Burnout Tee Ladies Medium</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Press box</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Gray</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Cotton Blend</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>181590860067</ItemID>
+    <EndTime>2014-12-20T15:26:56.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/WHITE-HOUSE-BLACK-MARKET-Julep-Green-and-Faux-Pearl-Flower-Pin-Clip-NWT-/181590860067</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Bakersfield, California</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/1815908600678080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTYzWDQ1MA==/z/81oAAOSw7NNT7WpZ/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">24.5</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P29DT18H30M20S</TimeLeft>
+    <Title>WHITE HOUSE BLACK MARKET Julep Green and Faux Pearl Flower Pin / Clip  - NWT</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>White House Black Market</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Julep Green</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Polyester, Faux Pearls and Acrylic Beads</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Pin, Brooch, Hair Accessory</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>400644110414</ItemID>
+    <EndTime>2014-12-09T03:20:39.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/1x-Lady-Girl-Sweet-Warm-Plush-Fluffy-Ear-Cover-Earmuffs-Ear-Earlap-Earshield-New-/400644110414?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Hongkong</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/JvEAAOSw-jhUEcnE/$_1.JPG?set_id=8800005007</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">1.13</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P18DT6H24M3S</TimeLeft>
+    <Title>1x Lady Girl Sweet Warm Plush Fluffy Ear Cover Earmuffs Ear Earlap Earshield New</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>SKU</Name>
+      <Value>A1839-A1851</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>HK</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>201217809521</ItemID>
+    <EndTime>2014-11-21T01:18:02.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/New-purple-marabou-feather-fan-Red-Hat-Society-/201217809521</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Newport News, Virginia</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/2012178095218080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/0~AAAOSwmUdUW6BL/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>1</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">1.5</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H21M26S</TimeLeft>
+    <Title>New purple marabou feather fan from Red Hat Society</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>UNKNOWN</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Purple</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>collapsible hand fan</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>Unknown</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>390979573124</ItemID>
+    <EndTime>2014-11-26T14:40:28.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Auth-HERMES-Mini-Leather-Agenda-Brown-Calf-Skin-w-orig-Box-/390979573124</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Bethesda, Maryland</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/3909795731248080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/VQ0AAOSwo8hTqvyi/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/S58AAOSwBadTqvyY/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/QbMAAOSwrmdTqvyc/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/ytcAAOSwq5lTqvyf/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/Qb0AAOSwrmdTqvyc/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODMwWDE0NjM=/z/TLEAAOSwBadTqvyk/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/MVQAAOSwGiRTqvyg/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMDYy/z/THsAAOSwBadTqvyi/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/yvEAAOSwq5lTqvyg/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/md8AAOSwVupTqvyc/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">95.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P5DT17H43M52S</TimeLeft>
+    <Title>Auth HERMES Mini Leather Agenda Brown Calf Skin w/orig  Box</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Brown</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>France</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>HERM&#200;S</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Leather</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Agenda Notebook</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+    <ConditionDescription>Please see all pictures and read the entire description for details. Thanks.</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>201215454951</ItemID>
+    <EndTime>2014-11-21T01:19:21.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/G-Series-Gold-Flowers-Vintage-Look-Cellphone-Holder-w-Chain-/201215454951</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Spokane, Washington</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/2012154549518080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/MlIAAOSwAHZUMaWP/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9OcAAOSwr81UMaWb/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QHcAAOSw8cNUMaWq/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/eEgAAOSw6EhUMaWg/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/QEUAAOSw8cNUMaWo/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/9n4AAOSwr81UMaWu/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">10.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H22M45S</TimeLeft>
+    <Title>G Series Gold &amp; Flowers Vintage Look Cellphone Holder w/ Chain</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>G Series</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Gold &amp; Multi-Color</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Cellphone Holder w/ Chain</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>Good Used Condition</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>171533548866</ItemID>
+    <EndTime>2014-12-07T16:02:17.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Fad-Portable-Zipper-Eye-Glasses-Sunglasses-Clam-Shell-Hard-Case-Protector-Box-/171533548866?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Li shui</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/WWgAAOSwyTZUXOtt/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">1.21</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P16DT19H5M41S</TimeLeft>
+    <Title>Fad Portable Zipper Eye Glasses Sunglasses Clam Shell Hard Case Protector Box</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>New look</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>190692200775</ItemID>
+    <EndTime>2014-12-04T17:05:59.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Josephine-Beauharnais-Bonaparte-Pocket-Mirror-tartx-/190692200775</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Greeley, Colorado</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/1906922007758080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzUyWDc1Mg==/$(KGrHqEOKjkE6WWuFh-+BOqM2p5)og~~60_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/$(KGrHqN,!g0E6Z2NRIB4BOqM3YD7kg~~60_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFgxMDAw/$(KGrHqZ,!jYE6DsMJ+4TBOqM3,RuTQ~~60_1.JPG?set_id=8800005007</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">7.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P13DT20H9M23S</TimeLeft>
+    <Title>Josephine de Beauharnais Bonaparte Pocket Mirror tartx</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Tartx</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>United States</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>351226472285</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">26.97</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:23:15.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/MARC-Marc-Jacobs-NEW-Blue-Metallic-Foil-Iphone-5-5S-Hardcover-Case-38-/351226472285</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Beverly Hills, California</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/3512264722858080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTU0M1gxMjgw/z/T6EAAOSwcF9UWsjL/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTQyNlgxMjgw/z/VNMAAOSwyTZUWsjV/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTU0NlgxMjgw/z/thsAAOSwdpxUWsjE/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTExM1gxMjgw/z/TskAAOSwcF9UWsjC/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">19.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H26M39S</TimeLeft>
+    <Title>MARC by Marc Jacobs NEW Blue Metallic Foil Iphone 5/5S Hardcover Case $38</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>MARC by Marc Jacobs</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Blues</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1750</ConditionID>
+    <ConditionDisplayName>New with defects</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+    <ConditionDescription>100% Authentic - Good Condition! &#8211; Item has minimal imperfections. Best deal in town!</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>251699291806</ItemID>
+    <EndTime>2014-11-30T10:53:54.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Authentic-Louis-Vuitton-Leather-Shoulder-Strap-Beige-A074-/251699291806</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Saitama</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/2516992918068080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/2f0AAOSwyTZUU2no/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/VD4AAOSw54xUU2ns/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/m2QAAOSwBP9UU2nv/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/m6wAAOSwBP9UU2nz/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/m-wAAOSwBP9UU2n2/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/HggAAOSw1XdUU2n5/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/mv8AAOSwcF9UU2n9/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">150.1</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P9DT13H57M18S</TimeLeft>
+    <Title>Authentic Louis Vuitton Leather Shoulder Strap Beige A074</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Louis Vuitton</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Beige</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Leather</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Shoulder Strap</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>France</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>JP</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>141478040252</ItemID>
+    <EndTime>2014-11-21T01:27:13.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/NEW-Pair-Light-Up-Leg-Warmers-Retro-Unique-Fashion-Flashing-Party-Outfit-/141478040252</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Bradenton, Florida</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/1414780402528080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTI5NlgxMDAx/z/7uMAAOSw0vBUbUN0/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">26.98</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H30M37S</TimeLeft>
+    <Title>NEW Pair of Light Up Leg Warmers - Retro Unique Fashion Flashing Party Outfit</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>UPC</Name>
+      <Value>848296037399</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>111519133465</ItemID>
+    <EndTime>2014-12-17T00:34:03.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Lot-2-Pretty-Boot-Cuff-Topper-Socks-Stretch-Lace-By-poppslace-/111519133465</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Morongo Valley, California</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1115191334658080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/wlcAAOSwuMFUZT-k/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/zHsAAOSw2XFUZS8d/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE3OVgxNjAw/z/vFkAAOSwcldUZS84/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">12.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P26DT3H37M27S</TimeLeft>
+    <Title>Lot Of 2 Pretty Boot Cuff Topper Socks Stretch Lace ~By poppslace~</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Body Beige And Denim</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Lace</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>United States</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <ConditionDescription>Handmade Lace Boot Cuffs Made By Mrs. Popp ;)</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>151475791401</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">3.5</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:27:12.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Black-Radiance-Illusions-Prismatic-color-Lip-Gloss-3227-ELEGANT-BRONZE-/151475791401</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Sun Valley, California</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1514757914018080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTE5WDM1MQ==/z/JacAAOSwuMFUZVpf/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">0.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H30M36S</TimeLeft>
+    <Title>Black Radiance Illusions Prismatic color Lip Gloss #3227 ELEGANT BRONZE</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>BLACK RADIANCE</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>LIQUID</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>FULL SIZE</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>NEW</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+  <Item>
+    <ItemID>141470962145</ItemID>
+    <EndTime>2014-11-21T01:28:09.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/NWT-Hot-Topic-EMILY-STRANGE-black-pink-STRIPE-SKULL-ARM-WARMERS-/141470962145</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Not Specified</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1414709621458080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMzE0/z/wUoAAOSwQJ5UUHNH/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTUyNlgxMjU2/z/aHsAAOSwF1dUUHNQ/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">9.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H31M32S</TimeLeft>
+    <Title>NWT Hot Topic EMILY STRANGE black pink STRIPE SKULL ARM WARMERS</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>One Size</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Emily the Strange</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size Type</Name>
+      <Value>Juniors</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Armwarmers</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Main Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>371190322255</ItemID>
+    <EndTime>2014-12-15T17:56:46.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Dooney-Bourke-Black-And-Tan-Leather-20-Cd-Case-Holder-Very-Good-/371190322255</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Harwich, Massachusetts</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/3711903222558080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/YfgAAOSwDN1UOBG2/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/Hh8AAOSwAHZUOBG7/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/UwMAAOSwdsFUOBIy/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/mzoAAOSwr81UOBI4/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/8TAAAOSw1x1UOBJB/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/nLYAAOSwr81UOBJF/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/k2MAAOSw8cNUOBJI/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/1zwAAOSwcu5UOBJQ/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/nmUAAOSwr81UOBJT/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">19.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P24DT21H9S</TimeLeft>
+    <Title>Dooney &amp; Bourke Black And Tan Leather  20 Cd Case Holder  - Very Good</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black and tan</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Dooney &amp; Bourke</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Leather</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>CD or DVD Case / Holder</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>Very Good</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>381056757091</ItemID>
+    <EndTime>2014-11-21T01:29:02.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/1-Pc-New-Lovely-Metallic-Lady-Hollow-Rose-Flower-Elastic-Hair-Band-Headband-/381056757091</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>zhejiang</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/3810567570918080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDQ2WDU0Mg==/z/UbQAAOSwDk5T1tKf/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/LqMAAOSwQItT1tKl/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/Lw0AAOSwQItT1tKp/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/V6wAAOSwnDZT1tKu/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjUwWDY1MA==/z/JXQAAOSwGvhT1tKz/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTQ1WDUwMA==/z/AlwAAOSwbqpT1tK3/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>45220</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Hair Accessories</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">0.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H32M25S</TimeLeft>
+    <Title>1 Pc New Lovely Metallic Lady Hollow Rose Flower Elastic Hair Band Headband </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Unbranded</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>321585871428</ItemID>
+    <EndTime>2014-11-21T23:20:01.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Auth-Hermes-Double-Kelly-Choker-Leather-Natural-BF062358-/321585871428</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Minato-ku, Tokyo</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/3215858714288080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RzsAAOSw1-RUZo4n/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">106.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P1DT2H23M24S</TimeLeft>
+    <Title>Auth Hermes Double Kelly Choker Leather Natural(BF062358)</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>HERMES</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Chocker</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>JP</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>USED B / Traces of usage are present throughout but in good condition.</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>400644110414</ItemID>
+    <EndTime>2014-12-09T03:20:39.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/1x-Lady-Girl-Sweet-Warm-Plush-Fluffy-Ear-Cover-Earmuffs-Ear-Earlap-Earshield-New-/400644110414?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Hongkong</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/JvEAAOSw-jhUEcnE/$_1.JPG?set_id=8800005007</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">1.13</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P18DT6H24M2S</TimeLeft>
+    <Title>1x Lady Girl Sweet Warm Plush Fluffy Ear Cover Earmuffs Ear Earlap Earshield New</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>SKU</Name>
+      <Value>A1839-A1851</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>HK</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>111518083147</ItemID>
+    <EndTime>2014-11-21T01:33:58.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Coach-Logo-Cell-Phone-Case-/111518083147</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Sanford, Maine</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/1115180831478080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/9nIAAOSwQJ5UTQuQ/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/dHoAAOSwU9xUTQuX/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTYwWDcyMA==/z/dTkAAOSwU9xUTQuc/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">9.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H37M21S</TimeLeft>
+    <Title>Coach Logo Cell Phone Case</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Coach</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>151475797355</ItemID>
+    <EndTime>2014-11-21T01:34:48.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Guess-Brand-Black-Patent-Quilted-Jewelry-Makeup-Pouch-/151475797355</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Fredericksburg, Virginia</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/1514757973558080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/g7kAAMXQh8NTen0E/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/g90AAMXQh8NTen0H/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/kJQAAOxyaURTen0L/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/a7YAAOxycgVTen0O/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/08kAAOxy3cJTen0R/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/HsQAAOxyF0pTen0T/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NDY=/z/UAcAAOxyhS9Ten0X/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">4.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H38M11S</TimeLeft>
+    <Title>Guess Brand Black Patent Quilted Jewelry/Makeup Pouch</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>GUESS</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Jewelry Pouch</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>121487173421</ItemID>
+    <EndTime>2014-12-14T02:11:20.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/REAL-FUR-CUFFS-WRISTS-NEW-ZEALAND-ROZCRAFT-19-99-NWT-/121487173421</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Brooklyn, New York</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1214871734218080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/y4QAAOSwAF5UZWN4/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODk5WDE2MDA=/z/z4cAAOSwAF5UZWO0/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">19.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P23DT5H14M43S</TimeLeft>
+    <Title>REAL FUR CUFFS WRISTS NEW ZEALAND by ROZCRAFT   $19.99 NWT</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>350740605411</ItemID>
+    <EndTime>2014-12-05T01:23:43.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Glossy-DIAMOND-SILK-Lash-7-Mix-Size-B-C-8-14mm-15-20-25-Eyelash-Extension-/350740605411?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>West Covina, California</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MzU2WDcwNQ==/z/4JgAAOxy--NRqmxd/$(KGrHqYOKo8FGKH2k0!sBRqm)c0Y5w~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjY4WDMyOA==/z/CYkAAOxy66pRqmxb/$(KGrHqEOKpIFGLoI3c9BBRqm)bD2Tg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/12/!CFB9fvQBGk~$(KGrHqEOKoYE0f7R7wBbBNTyW3ce-w~~0_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/19/!CFB9gzgEGk~$(KGrHqMOKiEE0kvUruLbBNTyW6ZRIQ~~0_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">18.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P14DT4H27M6S</TimeLeft>
+    <Title>Glossy DIAMOND SILK Lash 7 Mix Size B/C 8-14mm .15/.20/.25 Eyelash Extension </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>The Beauty Call</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Glossy Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Hair Type</Name>
+      <Value>Synthetic</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Curl</Name>
+      <Value>B or C Curl</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Width</Name>
+      <Value>Various - Choose Above</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>8,9,10,11,12,13,14mm</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Quantity</Name>
+      <Value>Over 4,000 Lashes</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Product Type</Name>
+      <Value>Diamond Silk Lashes</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Lash Type</Name>
+      <Value>Individual Lashes</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>321587057385</ItemID>
+    <EndTime>2014-11-21T01:37:10.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/CLEARANCE-CLOSEOUT-LOT-3-WOMEN-OPTICAL-READING-GLASSES-ASST-LADIES-3-00-LR35193-/321587057385</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>East Coast,</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/3215870573858080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE5OFgxNjAw/z/15gAAOxypNtShnse/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/EcYAAMXQCgpRwK9g/$(KGrHqZ,!nwFG1PiWj9YBRwK9frjUw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RgkAAOxyLN9ShnsX/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE1N1gxNjAw/z/QUQAAOxyXDhShnsa/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/bgoAAOxygj5Shnsj/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE4MFgxNjAw/z/4QIAAOxy63FSulKH/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/P2gAAOxy4dNSulKK/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE4MlgxNjAw/z/XVUAAOxygPtSulKP/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE5OFgxNjAw/z/4dsAAOxy63FSulKS/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3e0AAOxyUrZSulKU/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE5NFgxNjAw/z/gjcAAOxycmBSulKZ/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE4MVgxNjAw/z/shkAAOxyj4hTIlak/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">9.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H40M33S</TimeLeft>
+    <Title>CLEARANCE CLOSEOUT LOT 3 WOMEN OPTICAL READING GLASSES ASST LADIES +3.00 LR35193</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Assorted colors</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Plastic</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Women's Reading Glasses +3.00</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>221588894329</ItemID>
+    <EndTime>2014-11-27T19:42:15.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Furla-Leather-Backpack-color-Brown-Croc-Embossed-/221588894329</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Milwaukee, Wisconsin</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/2215888943298080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/LY0AAOSw7I5TwDPa/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/VeMAAOSwDk5TwDPH/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/siMAAOSwDlBTwDPM/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/6K0AAOSwirZTwDPQ/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ZdwAAOSw-dBTwDPU/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">34.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P6DT22H45M38S</TimeLeft>
+    <Title>Furla Leather Backpack, color Brown Croc Embossed </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Furla</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Brown</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Leather</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Backpack</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>Italy</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+    <ConditionDescription>Excellent !</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>141475712789</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">22.5</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:41:42.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Vera-bradley-tech-case-Tutti-Frutti-pattern-New-tags-Free-Shipping-/141475712789</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Worthington, Kentucky</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1414757127898080_2.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDExMzY=/z/anIAAOSwuMFUaqwh/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">12.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H45M5S</TimeLeft>
+    <Title>Vera bradley tech case Tutti Frutti pattern New with tags Free Shipping</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>pink and green</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>tech or jewelry case</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Vera Bradley</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Cotton Blend</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>261666341576</ItemID>
+    <EndTime>2014-11-25T00:42:01.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Vera-Bradley-Boxed-Ball-Point-Pen-Neon-Rose-NWT-free-shipping-/261666341576</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>York, Pennsylvania</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2616663415768080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzU3WDI3NQ==/z/JSsAAOSwAHZURaf-/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">10.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P4DT3H45M24S</TimeLeft>
+    <Title>Vera Bradley Boxed Ball Point Pen  in La Neon Rose  - NWT &amp; free shipping</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Vera Bradley</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Multi-Color</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>151134622062</ItemID>
+    <EndTime>2014-11-25T05:12:26.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Sporto-Womens-Earmuff-Headphones-NWT-Assorted-Colors-phones-music-Great-Gift-/151134622062?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Mount Vernon, Washington</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTEyN1gxNjAw/z/mYAAAOxy3hJSSlIV/$T2eC16h,!zIFIekv,ISJBSSlITSj!w~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTMyN1gxNjAw/z/DZEAAOxy-j9SSlIZ/$T2eC16Z,!zIFIe(Vd5vzBSSlIYcihw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">10.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P4DT8H15M49S</TimeLeft>
+    <Title>Sporto Women's Earmuff Headphones NWT Assorted Colors phones music Great Gift!</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Sporto</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Manmade</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Earmuffs</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>271671072060</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">89.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:42:55.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Dr-YANY-Sachel-Handbag-White-Gold-Studs-Beautiful-Classy-Bag-Paid-250-/271671072060</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Wake Forest, North Carolina</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2716710720608080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTE4WDkyMQ==/z/VrMAAOSwMKpUZ~-h/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTE4WDkyMQ==/z/iqAAAOSwYshUZ~-2/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTE4WDkyMQ==/z/pC0AAOSw1-RUZ~~E/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTIxWDUxOA==/z/pdIAAOSwv1RUZ~~h/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTIxWDUxOA==/z/kGkAAOSwYshUaAAL/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">59.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H46M18S</TimeLeft>
+    <Title> Dr YANY Sachel Handbag White with Gold Studs Beautiful Classy Bag! Paid $250</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>White</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Dr YANY</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>sachel handbag purse tote bag</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+    <ConditionDescription>used 1 week</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>371190491499</ItemID>
+    <EndTime>2014-12-15T22:27:40.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Fossil-Wallet-Mimi-Multi-Taupe-New-tags-MSFRP-65-/371190491499</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Manlius, New York</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/3711904914998080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/I1EAAOSwuMFUZ9EU/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/8VcAAOSwcldUZ9Ep/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/~uQAAOSwn51UZ9EZ/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ip4AAOSwMKpUZ9Ee/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/ncoAAOSwQM9UZ9Ev/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nJIAAOSwQM9UZ9Ei/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">36.95</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P25DT1H31M3S</TimeLeft>
+    <Title>Fossil Wallet Mimi  Multi-Taupe!  New with tags!! MSFRP $65</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Fossil  (Relic)</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Multi-Color</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Leather</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Wallet-Mimi</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>Unknown</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>Unknown</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>371189072120</ItemID>
+    <EndTime>2014-11-21T01:43:18.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Vintage-Taffeta-Hand-made-Lingerie-Folding-Bag-18-Foldover-Dual-Pockets-/371189072120</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Norwalk, Connecticut</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/3711890721208080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTAyWDEwODg=/z/wO8AAOSw2XFUZVyU/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODM3WDEzNzA=/z/OD0AAOSw1-RUZVyN/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTk4WDE1MzU=/z/xdwAAOSw0vBUZVyR/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/Nzc5WDEyODU=/z/AIcAAOSwMKpUZVyK/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTQ4WDEwODg=/z/pwoAAOSwIBBUZVyW/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">3.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H46M41S</TimeLeft>
+    <Title>Vintage Taffeta Hand-made Lingerie Folding Bag 18" - Foldover Dual Pockets</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>hand made</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>White</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>taffeta</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Lingere Bag</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>201222165999</ItemID>
+    <EndTime>2014-12-19T17:27:36.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Vera-Bradley-Ball-Point-Pen-Fanfare-/201222165999</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Oxford, Connecticut</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/2012221659998080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTI0WDUyNA==/z/x98AAOSwAHZUPw3m/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">13.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P28DT20H30M59S</TimeLeft>
+    <Title>Vera Bradley Ball Point Pen in Fanfare</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Vera Bradley</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Ball Point Pen</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>171549604925</ItemID>
+    <EndTime>2014-12-20T04:14:39.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/FREE-PEOPLE-Vienna-Slipper-Sock-One-Size-NATURAL-COMBO-/171549604925</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>West Boylston, Massachusetts</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1715496049258080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/WvUAAOSwv1RUZOzl/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">16.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P29DT7H18M2S</TimeLeft>
+    <Title>FREE PEOPLE  Vienna Slipper Sock  - One Size NATURAL COMBO</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Free People</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Red</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+  <Item>
+    <ItemID>361116587962</ItemID>
+    <EndTime>2014-11-21T01:45:03.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Earmuff-Furry-Removable-Earphone-Headphones-Speaker-Faux-Fake-Fur-Ski-Pink-/361116587962</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Edgewater, New Jersey</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/3611165879628080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/$(KGrHqF,!h8FB2RuGMPIBQn(s9jlTQ~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/$(KGrHqJ,!kwFBVKMfvwGBQn(s76bfg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/$(KGrHqN,!jMFBlgDjRvQBQn(s4muiQ~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/$(KGrHqF,!rMFB6nUCrU6BQn(s6YDp!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">9.95</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H48M25S</TimeLeft>
+    <Title>Earmuff Furry Removable Earphone Headphones Speaker Faux Fake Fur Ski Pink</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>DY</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Pinks</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>100% Polyester</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Faux fur</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Shade</Name>
+      <Value>Light Pink</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>One size fits most</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>faux fur</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Pattern</Name>
+      <Value>Solid</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Main Color</Name>
+      <Value>Light Pink</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Gender</Name>
+      <Value>Unisex</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>151134622062</ItemID>
+    <EndTime>2014-11-25T05:12:26.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Sporto-Womens-Earmuff-Headphones-NWT-Assorted-Colors-phones-music-Great-Gift-/151134622062?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Mount Vernon, Washington</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTEyN1gxNjAw/z/mYAAAOxy3hJSSlIV/$T2eC16h,!zIFIekv,ISJBSSlITSj!w~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTMyN1gxNjAw/z/DZEAAOxy-j9SSlIZ/$T2eC16Z,!zIFIe(Vd5vzBSSlIYcihw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">10.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P4DT8H15M48S</TimeLeft>
+    <Title>Sporto Women's Earmuff Headphones NWT Assorted Colors phones music Great Gift!</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Sporto</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Manmade</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Earmuffs</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>321584916691</ItemID>
+    <EndTime>2014-11-21T01:47:53.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/All-Saints-/321584916691</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>New York, New York</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/3215849166918080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/WsMAAOSwGiRTqIEk/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/WwsAAOSwGiRTqIEo/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/7BoAAOSw7PBTqIEq/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/re8AAOSwFTRTqIEu/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/L60AAOSwVupTqIEx/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/Xn0AAOSwo8hTqIE0/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/x6gAAOSw-nZTqIE3/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">29.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H51M15S</TimeLeft>
+    <Title>All Saints</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>290993809964</ItemID>
+    <EndTime>2014-12-04T03:44:53.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Womens-Vintage-Retro-Silver-7-layer-Long-Tassel-Pendant-Necklace-Sweater-Chain-/290993809964</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>zhejiang</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2909938099648080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/JBUAAOxyIYhSViKi/$(KGrHqZ,!pwFEBZ3ul2wBSViKiF(r!~~60_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/W8IAAOxy2BBSViKp/$(KGrHqRHJDgFJRpTF5htBSViKpJwYw~~60_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/W-gAAOxy2BBSViKu/$T2eC16FHJHYFFkNipzgSBSViKuS8WQ~~60_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjIzWDQ3Mg==/z/EVwAAOxyfpJSViKz/$(KGrHqJ,!rgFI0u8hlOeBSViKy2U!w~~60_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>155101</PrimaryCategoryID>
+    <PrimaryCategoryName>Jewelry &amp; Watches:Fashion Jewelry:Necklaces &amp; Pendants</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">2.62</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P13DT6H48M15S</TimeLeft>
+    <Title>Womens Vintage Retro Silver 7 layer Long Tassel Pendant Necklace Sweater Chain</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Unbranded</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Chain</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Metal</Name>
+      <Value>Alloy</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Alloy</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>271671078471</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">49.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:53:42.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Dooney-and-bourke-satchel-handbag-Pink-Jacquard-Nice-Bag-/271671078471</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Wake Forest, North Carolina</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/2716710784718080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTE4WDkyMQ==/z/cnQAAOSw0vBUaAIT/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTE4WDkyMQ==/z/9nYAAOSwn51UaAIi/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTIxWDUxOA==/z/TEcAAOSwQM9UaAI5/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTE4WDkyMQ==/z/eGQAAOSw0vBUaAJb/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTE4WDkyMQ==/z/-1oAAOSwn51UaAJw/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAyNFg1MTg=/z/19wAAOSwv1RUaAKX/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTE4WDkyMQ==/z/XpsAAOSwAF5UaAKr/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTE4WDkyMQ==/z/yAcAAOSw0vBUaAbd/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTE4WDkyMQ==/z/B4MAAOSwKrxUaAbw/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">29.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H57M4S</TimeLeft>
+    <Title>Dooney and bourke satchel handbag Pink Jacquard Nice Bag!!</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Dooney And Bourke</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Pink</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Jacquard</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>handbag / purse/satchel</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+    <ConditionDescription>preowned</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>221586789850</ItemID>
+    <EndTime>2014-11-25T17:16:07.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Lace-Top-Womens-Boot-Socks-4-Color-Choices-Boutique-Goods-Free-Shipping-/221586789850?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Riverton, Utah</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDQwMA==/z/QNYAAOSwRLZUJZhT/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">8.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P4DT20H19M29S</TimeLeft>
+    <Title>Lace Top Women's Boot Socks 4 Color Choices Boutique Goods Free Shipping</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Boutique Goods</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Acrylic</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Boot Socks</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>201161220574</ItemID>
+    <EndTime>2014-11-30T07:22:30.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Alloy-Long-Snake-Golden-Rhinestone-Bib-Necklace-Magnet-Adjustable-Waist-Belt-/201161220574?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Hong Kong</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NTA0WDgwMA==/z/AkgAAOSw7NNUBBzU/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/IGMAAOSwGvhUA-xP/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/Njg3WDgwMA==/z/iugAAOSwnDZUBBzN/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">3.49</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P9DT10H25M52S</TimeLeft>
+    <Title>Alloy Long Snake Golden Rhinestone Bib Necklace Magnet Adjustable Waist Belt</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>unbranded</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Alloy &amp;Rhinestone</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Necklace</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>231390498696</ItemID>
+    <EndTime>2014-11-21T01:55:54.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Vera-Bradley-Lola-HC-Business-Credit-card-holder-free-ship-USA-/231390498696</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Kalamazoo, Michigan</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2313904986968080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/ax4AAOxyldpSCar9/$T2eC16RHJHcFFkdB+ngvBSC,r9C4Gg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDgwWDY0MA==/z/S4MAAOxy4RpRzIKu/$T2eC16NHJIIFHJoZFZ9jBRzIKuHzkw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>1</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">9.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT4H59M16S</TimeLeft>
+    <Title>Vera Bradley Lola HC Business Credit card holder free ship in USA</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>handcrafted</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>business card holder</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>291276652937</ItemID>
+    <EndTime>2014-11-24T01:47:45.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Popula-Sale-real-raccoon-fur-scarf-collar-neck-warmer-shawl-Scarves-HOT-NEW-/291276652937?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>shanghai</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NjExWDU3Mw==/z/xHsAAOSw1x1UNjEB/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjgyWDc0Nw==/z/yQcAAOSwr81UNjEl/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTIwWDUzMQ==/z/xJ0AAOSw1x1UNjED/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">26.45</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P3DT4H51M7S</TimeLeft>
+    <Title>Popula Sale real raccoon fur scarf collar neck warmer shawl Scarves HOT NEW</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>New</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>201217828161</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">6.5</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T01:56:45.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Cute-Pac-Sun-Long-Necklace-/201217828161</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Bethany, Oklahoma</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/2012178281618080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzIwWDk2MA==/z/FhMAAOSwZkJUUpeR/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDQ4MA==/z/DKYAAOSwQJ5UUpeE/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">1.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H7S</TimeLeft>
+    <Title>Cute Pac Sun Long Necklace</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>251488170743</ItemID>
+    <EndTime>2014-11-22T20:47:10.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Boxed-Red-Orange-Floral-3-pc-Ladies-Cotton-Handkerchiefs-WFH2601-/251488170743</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Paterson, New Jersey</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/2514881707438080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDQ5NQ==/z/tz8AAOxykmZTNI2b/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDQ5NQ==/z/-P4AAMXQydtTNI2e/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDQ5NQ==/z/yKoAAOxyCGNTNI2d/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>167906</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Handkerchiefs</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">9.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P1DT23H50M32S</TimeLeft>
+    <Title>Boxed Red &amp; Orange Floral 3 pc Ladies Cotton Handkerchiefs (WFH2601)</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Floral</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>100% Cotton</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Pattern</Name>
+      <Value>Floral</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Features</Name>
+      <Value>Embroidered</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Orange</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>390970421139</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">6.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:00:14.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/DISNEY-Winnie-Pooh-Cell-Phone-Case-/390970421139</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Moline, Illinois</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/3909704211398080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/AbcAAOxyNo9Sv09k/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/uo4AAOxyVaBSv09m/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/fs4AAMXQlgtSv09q/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/e7cAAMXQVT9Sv09s/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTYwWDEyODA=/z/uvsAAOxyVaBSv09v/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">4.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H3M36S</TimeLeft>
+    <Title>DISNEY Winnie The Pooh Cell Phone Case</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Disney</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Reds</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Cotton</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Cell Phone Case</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Cell Phone Case</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Bag Height</Name>
+      <Value>6"</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Bag Depth</Name>
+      <Value>2"</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Bag Length</Name>
+      <Value>3"</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Strap Drop</Name>
+      <Value>25"</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Size</Name>
+      <Value>Small</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Shade</Name>
+      <Value>Red</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+    <ConditionDescription>New but has no tags</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>141361276460</ItemID>
+    <EndTime>2014-11-26T03:43:44.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/KPOP-EXO-2NE1-BIGBANG-2PM-CNBLUE-BEAST-SUPER-JUNIOR-TVXQ-Face-Mouth-Mask-Muffle-/141361276460?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Zhejiang</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwNVgxMDA1/z/vnkAAOSwQItT1xl5/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">1.89</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P5DT6H47M6S</TimeLeft>
+    <Title>KPOP EXO 2NE1 BIGBANG 2PM CNBLUE BEAST SUPER JUNIOR TVXQ Face Mouth Mask Muffle</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>fan made</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Cotton</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Face Mouth Mask</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Main Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Main Stone</Name>
+      <Value>No Stone</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Metal</Name>
+      <Value>No Metal</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Metal Purity</Name>
+      <Value>Unknown</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+    <ConditionDescription>1piece / New/ Fasnion/Black</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>121490694166</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">39.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:02:00.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/TOMS-Target-Travel-Wallet-Blue-Striped-Beige-Go-Somewhere-New-Snap-Close-NWT-/121490694166</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Dallas, Texas</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/1214906941668080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTMzWDgwMA==/z/pfcAAOSwAF5UalVt/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">24.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H5M22S</TimeLeft>
+    <Title>TOMS for Target Travel Wallet Blue Striped Beige Go Somewhere New Snap Close NWT</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>TOMS</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Beige</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Faux Leather</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Wallet</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>171544125293</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">21.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:06:37.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Unique-Woven-Ethnic-Peruvian-Chinese-Geometric-Colorful-Kitchen-Apron-/171544125293</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Austin, Texas</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1715441252938080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/kC8AAOSwLa9UYBNv/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/B9EAAOSwrx5UYBN0/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/~LwAAOSwGWNUYBN5/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/Ez8AAOSwdpxUYBN-/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/SycAAOSw54xUYBOE/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/5FYAAOSwabhUYBOJ/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/FJ4AAOSwdpxUYBOO/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/5RoAAOSwabhUYBOT/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">5.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H9M59S</TimeLeft>
+    <Title>Unique Woven Ethnic Peruvian/Chinese Geometric Colorful Kitchen Apron</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Other</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Multi-Color</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Cotton Blend</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Apron</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>271639851416</ItemID>
+    <EndTime>2014-12-17T18:44:09.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Xmas-Gift-FreeShipping-925Sterling-Silver-Flat-Square-Round-Hoop-Earrings-E123-/271639851416</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>HongKong</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2716398514168080_2.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/EZQAAOSwQM9UappB/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/0UcAAOSwuMFUappI/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/6mgAAOSw~FNUappS/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/fj8AAOSw0vBUappP/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>50647</PrimaryCategoryID>
+    <PrimaryCategoryName>Jewelry &amp; Watches:Fashion Jewelry:Earrings</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">3.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P26DT21H47M31S</TimeLeft>
+    <Title>Xmas Gift FreeShipping 925Sterling Silver Flat Square Round  Hoop Earrings E123</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Metal</Name>
+      <Value>Sterling Silver</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Fastening</Name>
+      <Value>Hook</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>HK</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+    <ConditionDescription>brand new, never used!
+wholesale price, hot selling!</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>201212664355</ItemID>
+    <EndTime>2014-12-07T18:55:00.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/New-Funk-Plus-Industrial-Gothic-Goth-Punk-80s-Black-Velvet-Metal-O-Ring-Collar-/201212664355</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Sherman Oaks, California</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/2012126643558080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/8EIAAOxy6MBSN4G3/$T2eC16ZHJHMFH!ZBznZsBSN4G2T1yQ~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">15.96</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P16DT21H58M22S</TimeLeft>
+    <Title>New Funk Plus Industrial Gothic Goth Punk 80s Black Velvet Metal O Ring Collar</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Funk Plus</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Blacks</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Velvet</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Fashion</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>United States</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Shade</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>O ring</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>231392617732</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">9.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:06:31.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/VERA-BRADLEY-BAROQUE-PATTERN-CELL-PHONE-SWIVEL-CLASP-MONEY-CHANGE-PURSE-/231392617732</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Saint Augustine, Florida</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2313926177328080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/65UAAOSwyTZUYWTd/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg5MDA=/z/0OYAAOSwzOxUYWUp/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">6.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H9M53S</TimeLeft>
+    <Title>VERA BRADLEY BAROQUE PATTERN CELL PHONE, SWIVEL CLASP /MONEY/CHANGE PURSE</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Vera Bradley</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>COTTON</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <ConditionDescription>VERA IN NICE SHAPE COULD CLIP ONTO PURSE FOR CELL OR CHANGE HAS ZIPPER ON FRONT</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>390980159487</ItemID>
+    <EndTime>2014-12-20T04:38:17.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/New-Womens-Pointed-Vintage-PeterPan-Detachable-Collar-Necklace-Choker-Tie-White-/390980159487</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Hongkong</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/3909801594878080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/Nzc3WDY0Ng==/$T2eC16d,!)sE9swm,u-GBQivE0VCog~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjkwWDgwMA==/$T2eC16R,!w0E9szNYhlkBQivEynTqQ~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">7.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P29DT7H41M39S</TimeLeft>
+    <Title>New Women's Pointed Vintage PeterPan Detachable Collar Necklace Choker Tie White</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>White</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>HK</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+  <Item>
+    <ItemID>181585327070</ItemID>
+    <EndTime>2014-11-21T02:07:07.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/OSPREY-GRAEME-ELLISDON-BLACK-HANDBAG-/181585327070</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Pittsburgh, Pennsylvania</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/1815853270708080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/kkYAAOSwDN1UQqTJ/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/XToAAOSwdsFUQqTP/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">6.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H10M28S</TimeLeft>
+    <Title>OSPREY BY GRAEME ELLISDON BLACK HANDBAG</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>OSPREY</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+   </Item>
+   <Item>
+    <ItemID>161024572529</ItemID>
+    <EndTime>2014-12-02T05:43:55.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Womens-reading-glasses-readers-case-ladies-readers-Compact-Lightweight-/161024572529?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Aurora, Colorado</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/3JgAAOxyu1FRjdOs/$T2eC16RHJGkFFm5-i2EBBRjdOrLDt!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/pMUAAMXQkcZRjdOr/$T2eC16dHJHwE9n8ii+c-BRjdOqzb9!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/xs0AAMXQsMZRjdOr/$(KGrHqZHJFcFF2YHNkTEBRjdOrr-dw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/LxYAAOxydkZRjdOr/$T2eC16ZHJIIE9qTYLTEpBRjdOqzIR!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/LVoAAOxyo4lRjdOs/$T2eC16FHJG!FFm4FPPyzBRjdOswWdg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDgwMA==/z/Fx8AAOxy8hNRjdOw/$T2eC16dHJI!E9qSO9wj!BRjdOv0Bi!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">3.59</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P11DT8H47M16S</TimeLeft>
+    <Title>Womens reading glasses, readers with case, ladies readers, Compact, Lightweight</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Reading Glasses</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>231178623870</ItemID>
+    <EndTime>2014-12-07T01:40:23.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Blink-Mink-3D-Volume-D-Curl-0-07mm-Sizes-8-15mm-Lashes-Eyelash-Extension-/231178623870?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>West Covina, California</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAwWDM0NA==/z/o7MAAOxyXDhSdzV5/$T2eC16JHJF8FFpvehH-OBSdzV4ro5g~~60_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/EzkAAOxycSdRzm14/$T2eC16V,!ysE9sy0iPUsBRzm12,ugw~~60_1.JPG?set_id=8800005007</PictureURL>
+    <PictureURL>http://i.ebayimg.com/06/!BoTBGFgBGk~$(KGrHqMH-C8EuZKlzpQwBLm-EKTSZ!~~_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">14.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P16DT4H43M44S</TimeLeft>
+    <Title>Blink Mink 3D Volume D Curl 0.07mm Sizes From 8-15mm Lashes Eyelash Extension</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Blink/Voluminous</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Synthetic Material</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Individual Lashes</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Faux Mink</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Curls</Name>
+      <Value>D Curls</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Width</Name>
+      <Value>0.07mm </Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Quantity</Name>
+      <Value>4,200 Lashes</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Length</Name>
+      <Value>Various: Choose Above</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>271676277896</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">15.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:10:34.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Boot-Cuffs-Crochet-Light-Tan-Size-Small-/271676277896</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Carl Junction, Missouri</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2716762778968080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/V5sAAOSw8cNUMCFY/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/JmYAAOSwIBBUa6Ad/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">0.01</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H13M55S</TimeLeft>
+    <Title>Boot Cuffs Crochet Light Tan Size Small</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>yarn</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>handmade</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>271676278176</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">15.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:11:00.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Boot-Cuffs-Crochet-Brown-Size-Small-/271676278176</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Carl Junction, Missouri</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2716762781768080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/V5sAAOSw8cNUMCFY/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFg3NTA=/z/zosAAOSwuMFUa6B1/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">0.01</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H14M21S</TimeLeft>
+    <Title>Boot Cuffs Crochet Brown Size Small</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>handmade</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>yarn</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>361076875791</ItemID>
+    <EndTime>2014-12-09T02:27:41.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Shiny-Link-Celebrity-Style-Aluminium-Acrylic-Choker-Chunky-Curb-Chain-Necklace-/361076875791?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>China</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/V58AAOSwAHZUN0N8/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>155101</PrimaryCategoryID>
+    <PrimaryCategoryName>Jewelry &amp; Watches:Fashion Jewelry:Necklaces &amp; Pendants</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">0.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P18DT5H31M2S</TimeLeft>
+    <Title>Shiny Link Celebrity Style Aluminium Acrylic Choker Chunky Curb Chain Necklace</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Choker</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Acrylic</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>311161799709</ItemID>
+    <EndTime>2014-12-05T15:10:06.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/AUTHENTIC-LOUIS-VUITTON-LV-BRASS-EXTENDER-MOUSQUETON-CLASP-KEYRING-POCHETTE-USED-/311161799709</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Lexington, Kentucky</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/3111617997098080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/GhQAAOSw1XdUWj1Z/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SPAAAOSwrx5UWj1f/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Qk4AAOSwLa9UWj1l/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/G-wAAOSw1XdUWj1r/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/mmcAAOSwGWNUWj1w/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/REwAAOSwLa9UWj12/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/RLEAAOSwLa9UWj15/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/hhUAAOSw~1FUWj19/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Hs8AAOSw1XdUWj2F/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/TTMAAOSwrx5UWj2J/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/LsYAAOSwdpxUWj2O/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/nmIAAOSwGWNUWj2T/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">39.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P14DT18H13M27S</TimeLeft>
+    <Title>AUTHENTIC LOUIS VUITTON LV BRASS EXTENDER MOUSQUETON CLASP KEYRING POCHETTE USED</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Louis Vuitton</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Metallics</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Brass</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Mousqueton</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>Unknown</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>3000</ConditionID>
+    <ConditionDisplayName>Pre-owned</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+    <ConditionDescription>Used condition with darkening and plate loss to the brass, the spring inside makes a noise when the clasp is opened.Please see all pictures.</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>111516006787</ItemID>
+    <EndTime>2014-11-21T02:12:04.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/NEW-JUDITH-LEIBER-NEIMAN-MARCUS-SILVER-BUTTERFLY-CLIP-SCARF-HAIR-BAG-BROOCH-HAT-/111516006787</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Honolulu, Hawaii</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/1115160067878080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/Vr0AAOSwnDZUDVos/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAxMFg1NzM=/z/6jIAAMXQMmJRR7Yc/$T2eC16hHJH8E9qSEYOjoBRR7YcW8E!~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/TekAAMXQMmJRR3tt/$T2eC16ZHJHgE9n0yG+QUBRR3ttLv)Q~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTEzNVgxNTE2/z/kz4AAOxyY3ZRoAzw/$T2eC16h,!zQE9s3suE70BRo!zw,sRw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">14.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H15M25S</TimeLeft>
+    <Title>NEW JUDITH LEIBER NEIMAN MARCUS SILVER BUTTERFLY CLIP SCARF HAIR BAG BROOCH HAT</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Judith Leiber for Neiman Marcus</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Silver/white</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>Brooch</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>291275985473</ItemID>
+    <EndTime>2014-11-23T08:45:14.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Women-Vintage-Gorgeous-Pretty-Crystal-Flowers-Bib-Statement-Necklace-Hot-Sale-/291275985473</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>zhejiang</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/2912759854738080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/C1wAAOSwEppUShGQ/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDY2WDU0MQ==/z/bvIAAOSwr81UShGS/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NDM5WDY0MA==/z/G~wAAOSwajVUShGU/$_12.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODAwWDgwMA==/z/jLAAAOSwcu5UShGW/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>155101</PrimaryCategoryID>
+    <PrimaryCategoryName>Jewelry &amp; Watches:Fashion Jewelry:Necklaces &amp; Pendants</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">1.85</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P2DT11H48M35S</TimeLeft>
+    <Title>Women Vintage Gorgeous Pretty Crystal Flowers Bib Statement Necklace Hot Sale</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Metal</Name>
+      <Value>Alloy</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Unbranded</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Statement</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>zinc alloy+glass cystal</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Length (inches)</Name>
+      <Value>50cm</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>271676279824</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">15.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:13:48.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Boot-Cuffs-Crochet-Color-Dark-Grey-Color-Size-Small-/271676279824</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Carl Junction, Missouri</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2716762798248080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/V5sAAOSw8cNUMCFY/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/j~UAAOSwAHZUQ9ot/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">0.01</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H17M9S</TimeLeft>
+    <Title>Boot Cuffs Crochet Color Dark Grey In Color Size Small</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>handmade</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>yarn</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>261580436103</ItemID>
+    <EndTime>2014-11-29T19:22:09.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/NEW-HAND-MADE-BOOT-CUFFS-BLACKS-WHITES-TURQUOISES-ORANGES-PINKS-BLUES-/261580436103?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Beebe, Arkansas</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTQ2NVgxMTg4/z/gIUAAOSwGWNUVNAL/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE5NVgxNjAw/z/T0MAAOSwLa9UVNBQ/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTQ0MFgxMTg4/z/9eUAAOSwrx5UVNCX/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA1OFgxNTkw/z/zWYAAOSwBP9UVNCz/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">5.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P8DT22H25M30S</TimeLeft>
+    <Title>NEW! HAND MADE BOOT CUFFS BLACKS, WHITES, TURQUOISES, ORANGES, PINKS, BLUES + </Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>HAND MADE</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Stretch Victorian Style Lace</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>BOOT CUFFS</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>United States</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>SIZE</Name>
+      <Value> 6" long; app 6" wide when laying flat</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+    <ConditionDescription>HAND MADE some HAND DYED</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>151475824177</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">18.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:14:04.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Dark-Blue-Womens-Hobo-Shoulder-Bag-Canvas-Fashion-Purse-Handbag-w-Zipper-NEW-/151475824177</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Secaucus, New Jersey</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1514758241778080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/d8wAAOSwcF9UXp9e/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">13.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H17M24S</TimeLeft>
+    <Title>Dark Blue Women's Hobo Shoulder Bag Canvas Fashion Purse/Handbag w/ Zipper - NEW</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>151475824237</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">18.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:14:05.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Pink-Womens-Hobo-Shoulder-Bag-Canvas-Fashion-Purse-Handbag-w-Zipper-NEW-/151475824237</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Secaucus, New Jersey</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1514758242378080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/QP0AAOSwabhUXp1a/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">13.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H17M25S</TimeLeft>
+    <Title>Pink Women's Hobo Shoulder Bag Canvas Fashion Purse/Handbag w/ Zipper - NEW!</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>121491869272</ItemID>
+    <EndTime>2014-11-26T05:20:12.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/3-PR-BLACK-BROWN-IVORY-COUNTRY-PEEK-A-BOOTS-LACE-BOOT-CUFFS-BY-LEVIS-LACE-/121491869272</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Santa Clarita, California</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/1214918692728080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/qEcAAOSwF1dUT82P/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTQzOVgxNDM5/z/HTYAAOSwQItUJZm3/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/MngAAOSwZkJUT82W/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDY0MA==/z/6goAAOSwajVUT8UO/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/wP4AAOSwY45UT82S/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzQ3WDU4NA==/z/ocsAAOSwR0JUOUwt/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">21.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P5DT8H23M32S</TimeLeft>
+    <Title>~3 PR/BLACK,BROWN, IVORY~COUNTRY PEEK-A-BOOTS~LACE BOOT CUFFS~BY LEVIS &amp; LACE~</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black, Brown &amp; Ivory</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <ConditionDescription>"PEEK-A-BOOTS" BOOT CUFFS handmade by levisandlace  THE LOOK OF BOOT SOCKS WITHOUT THE BULK!</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>151475824291</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">23.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:14:07.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/British-All-Flowers-Messenger-Bag-Brown-Purse-Braided-Lacing-Handbag-PU-Leather-/151475824291</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Secaucus, New Jersey</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/1514758242918080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/gloAAOSwBP9UXp~f/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">17.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H17M27S</TimeLeft>
+    <Title>British All Flowers Messenger Bag Brown Purse Braided Lacing Handbag PU Leather</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>350590671070</ItemID>
+    <EndTime>2014-12-14T02:57:04.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/EXQUISITE-Mink-11-Mix-Size-D-Curl-8-18mm-12-15-18-20-25mm-Eyelash-Extension-/350590671070?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location> California</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg3OTM=/$T2eC16R,!y8E9s2fjKjWBQOYz4vfog~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjQwWDQyNA==/$(KGrHqR,!oUE63(fpyCzBQOYz7GPPg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MjQ0WDY0MA==/$(KGrHqN,!o8F!YC+!c5HBQOYz7h42w~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/$(KGrHqJ,!mIE+uc!Phl-BQOY0OfEpw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NTg1WDE2MDA=/$T2eC16V,!ykE9s7tw21zBQOY0bCrPw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/$T2eC16h,!wsE9suw0QCLBQOY00uqew~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">17.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P23DT6H24S</TimeLeft>
+    <Title>EXQUISITE Mink 11 Mix Size D Curl 8-18mm .12/.15/.18/.20/.25mm Eyelash Extension</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>The Beauty Call: Exquisite Mink</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Length</Name>
+      <Value>Complete Mix Size: 8-18mm</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Individual Lashes</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Hair Type</Name>
+      <Value>Synthetic</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Curls</Name>
+      <Value>D Curls</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Width</Name>
+      <Value>Various: Choose Above</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Quantity</Name>
+      <Value>5,000 Lashes Per Tay</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Listing Includes</Name>
+      <Value>x1 Tray of Lashes</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+  <Item>
+    <ItemID>151475824308</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">18.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:14:07.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Army-Green-Womens-Hobo-Shoulder-Bag-Canvas-Fashion-Purse-Handbag-w-Zipper-NEW-/151475824308</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Secaucus, New Jersey</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/1514758243088080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/w68AAOSw~1FUXqB2/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">13.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H17M27S</TimeLeft>
+    <Title>Army Green Women's Hobo Shoulder Bag Canvas Fashion Purse/Handbag w/ Zipper NEW!</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>331353918972</ItemID>
+    <EndTime>2014-11-22T03:05:34.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Sweet-Cute-Soft-Women-Girls-Warm-Cotton-Polka-Dot-Bowknot-Short-Low-Ankle-Socks-/331353918972?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Hangzhou,ZJ</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/4TYAAOSwy4hUSG8M/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">0.88</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P1DT6H8M54S</TimeLeft>
+    <Title>Sweet Cute Soft Women Girls Warm Cotton Polka Dot Bowknot Short Low Ankle Socks</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Polyester cotton </Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country/Region of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>151475824324</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">23.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:14:08.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/British-All-Flowers-Messenger-Bag-Red-Purse-Braided-Lacing-Handbag-PU-Leather-/151475824324</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Secaucus, New Jersey</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/1514758243248080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/WEEAAOSwdpxUXp~h/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">17.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H17M28S</TimeLeft>
+    <Title>British All Flowers Messenger Bag Red Purse Braided Lacing Handbag PU Leather</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>171541725117</ItemID>
+    <EndTime>2014-11-21T00:28:04.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Long-Green-Stretch-Satin-Bridal-Formal-Opera-Gloves-halloween-costume-/171541725117</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Milpitas, California</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1715417251178080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/cn0AAOxyYYlRnkzT/$T2eC16FHJIYE9qUcNT11BRnkzTEptQ~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">7.98</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT3H31M24S</TimeLeft>
+    <Title>Long Green Stretch Satin Bridal Formal Opera Gloves halloween costume</Title>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>251710671920</ItemID>
+    <EndTime>2014-12-08T22:08:02.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Promotion-Price-925Sterling-Silver-Love-Heart-Necklace-Bracelet-Set-GIFT-BOX-/251710671920</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Hongkong</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/2517106719208080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/dS0AAOSwGWNUXeJE/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>50692</PrimaryCategoryID>
+    <PrimaryCategoryName>Jewelry &amp; Watches:Fashion Jewelry:Jewelry Sets</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">6.0</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P18DT1H11M22S</TimeLeft>
+    <Title>Promotion Price 925Sterling Silver Love Heart Necklace+Bracelet Set +GIFT BOX</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Metal</Name>
+      <Value>Sterling Silver</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>HK</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <ConditionDescription>100% new, never used!
+Fashion style, hot selling!</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>151475824327</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">19.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:14:08.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Fashion-PU-Leather-Hasp-Golden-Cash-Coin-Bag-Woman-Girl-Purse-w-Wrist-Strap-NEW-/151475824327</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Secaucus, New Jersey</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/1514758243278080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/R2wAAOSwdpxUXp7-/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">14.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H17M28S</TimeLeft>
+    <Title>Fashion PU Leather Hasp Golden Cash Coin Bag Woman/Girl Purse w/ Wrist Strap NEW</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>400806151547</ItemID>
+    <EndTime>2014-12-13T03:43:02.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/CHIC-Crochet-Headband-Knit-hairband-Flower-Winter-Women-Ear-Warmer-Headwrap-NEW-/400806151547?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Yiwu,zhejiang</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/zYsAAOSwGvhUIT~H/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/FjkAAMXQfvlSk~15/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>45220</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Hair Accessories</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">2.13</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P22DT6H46M22S</TimeLeft>
+    <Title>CHIC Crochet Headband Knit hairband Flower Winter Women Ear Warmer Headwrap NEW</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Type</Name>
+      <Value>New</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Fashion</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Wool Blend</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>China</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+    <ConditionDescription>New and high Quality!    Thanks for your order,any questions ,pls message us first.</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>161484130607</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">18.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:14:05.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Brown-Womens-Hobo-Shoulder-Bag-Canvas-Fashion-Purse-Handbag-w-Zipper-NEW-/161484130607</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Secaucus, New Jersey</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/1614841306078080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/giEAAOSwBP9UXp~c/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">13.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H17M25S</TimeLeft>
+    <Title>Brown Women's Hobo Shoulder Bag Canvas Fashion Purse/Handbag w/ Zipper - NEW!</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>111246872223</ItemID>
+    <EndTime>2014-11-24T12:00:41.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/AMBER-HONEY-BUFFALO-HORN-CLASSIC-SCARF-RING-HANDMADE-DESIGNER-H-STYLE-JEWELRY-/111246872223?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>default, HN</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/sn4AAMXQVT9SwnvV/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzUwWDEwMDA=/z/IYoAAMXQVERSwA1q/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">14.8</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P3DT15H4M</TimeLeft>
+    <Title>AMBER HONEY BUFFALO HORN CLASSIC SCARF RING HANDMADE DESIGNER H STYLE JEWELRY</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>"Handmade"</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>100% Silk</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Scarf</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Pattern</Name>
+      <Value>Solid</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Country of Manufacture</Name>
+      <Value>Vietnam</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>VN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>201222610818</ItemID>
+    <EndTime>2014-11-30T09:43:53.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Lulu-Guinness-Lips-Pill-Box-/201222610818?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Warwickshire</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA5N1gxMTE4/z/1kMAAOSwr81USl~~/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTU0NlgxMjI0/z/rXEAAOSwDN1USl~-/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzM4WDcwMw==/z/D84AAOSwU9xUSmAu/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/ODc2WDg3Ng==/z/djgAAOSwR0JUSl~5/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTYwWDEwOTA=/z/40sAAOSw8cNUSmAC/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothes, Shoes &amp; Accessories:Women's Accessories:Other Women's Accessories</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">23.5</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P9DT12H47M12S</TimeLeft>
+    <Title>Lulu Guinness Lips Pill Box</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Lulu Guinness</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Accessory Type</Name>
+      <Value>Handbag Accessory</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Contempory</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Accessory</Name>
+      <Value>Pill Box</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>GB</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>161484130631</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">22.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:14:06.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Fashion-PU-Leather-Envelope-Green-Hand-Messenger-Tote-Handbag-Baguette-Square-/161484130631</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Secaucus, New Jersey</Location>
+    <GalleryURL>http://thumbs4.ebaystatic.com/pict/1614841306318080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/~~4AAOSw54xUXp77/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">16.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H17M26S</TimeLeft>
+    <Title>Fashion PU Leather Envelope Green Hand Messenger Tote Handbag Baguette Square</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>161484130657</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">18.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:14:07.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Sky-Blue-Womens-Hobo-Shoulder-Bag-Canvas-Fashion-Purse-Handbag-w-Zipper-NEW-/161484130657</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Secaucus, New Jersey</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/1614841306578080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/RhsAAOSwBP9UXpyX/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">13.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H17M27S</TimeLeft>
+    <Title>Sky Blue Women's Hobo Shoulder Bag Canvas Fashion Purse/Handbag w/ Zipper - NEW!</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>161484130684</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">18.99</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:14:08.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Hot-Pink-Womens-Hobo-Shoulder-Bag-Canvas-Fashion-Purse-Handbag-w-Zipper-NEW-/161484130684</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Secaucus, New Jersey</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/1614841306848080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NjAwWDYwMA==/z/zCIAAOSwLa9UXp5D/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">13.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H17M28S</TimeLeft>
+    <Title>Hot Pink Women's Hobo Shoulder Bag Canvas Fashion Purse/Handbag w/ Zipper - NEW!</Title>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>231090394144</ItemID>
+    <EndTime>2014-12-02T23:05:29.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Rampage-Womens-Buckley-Faux-Suede-Ankle-Boots-Defects-/231090394144?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Tucker, Georgia</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2OFgxNjAw/z/FscAAOxy4t1SfBxz/$_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">13.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P12DT2H8M48S</TimeLeft>
+    <Title>Rampage Women's Buckley Faux Suede Ankle Boots (Defects)</Title>
+    <Country>US</Country>
+    <AutoPay>true</AutoPay>
+    <ConditionID>1750</ConditionID>
+    <ConditionDisplayName>New with defects</ConditionDisplayName>
+    <GlobalShipping>true</GlobalShipping>
+    <ConditionDescription>Manufacturer defects. There is glue on the surface of the shoes and the gray pair has a small hole on the back heel of the shoe. See pictures for details. The brown pairs in 7.5 &amp; 9 have a 2 to 3 inches glue residue/scratch on the side of the shoe. Most shoes has glue spots</ConditionDescription>
+   </Item>
+   <Item>
+    <ItemID>350622182471</ItemID>
+    <EndTime>2014-12-05T06:19:46.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/EXQUISITE-Signature-Mink-B-Curl-12mm-Lashes-Eyelash-Extension-/350622182471?var=</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>West Covina, California</Location>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFg3NzI=/z/F3wAAOSw~1FUXqUZ/$_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTQ4MFgxNjAw/$(KGrHqF,!lMF!iFJh4nmBQO(jWp7ew~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTA2NlgxNjAw/$(KGrHqF,!q0E+nOLCcVqBQO(j)ngcw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE5NVgxNjAw/$(KGrHqN,!q0FBhHPcM7VBQeizom,Sg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE5NVgxNjAw/$(KGrHqZ,!nwFBYNPd8wTBQeiz9dvPw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTE5NVgxNjAw/$T2eC16V,!wsE9suw)qc5BQei0SUtEw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/OTEzWDE2MDA=/$(KGrHqJ,!joFBMENUqsbBQei0j6spw~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">15.99</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P14DT9H23M5S</TimeLeft>
+    <Title>EXQUISITE Signature Mink B Curl .12mm Lashes Eyelash Extension</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>The Beauty Call: Exquisite Mink</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Color</Name>
+      <Value>Black</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Length</Name>
+      <Value>Various: Choose Above</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Style</Name>
+      <Value>Individual Lashes</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Hair Type</Name>
+      <Value>Synthetic</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Curls</Name>
+      <Value>B Curls</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Width</Name>
+      <Value>.12mm</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Quantity</Name>
+      <Value>5,000 Lashes Per Tay</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Listing Includes</Name>
+      <Value>x1 Tray of Lashes</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>271676280202</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">15.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:14:22.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Boot-Cuffs-Crochet-Dark-Grey-Color-Size-Small-/271676280202</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Carl Junction, Missouri</Location>
+    <GalleryURL>http://thumbs3.ebaystatic.com/pict/2716762802028080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/V5sAAOSw8cNUMCFY/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/E08AAOSwZkJUTld2/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">0.01</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H17M41S</TimeLeft>
+    <Title>Boot Cuffs Crochet Dark Grey Color Size Small</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>handmade</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>yarn</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+   <Item>
+    <ItemID>301003559396</ItemID>
+    <EndTime>2014-11-23T06:27:32.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/KDQ32-Crochet-Hollow-Lace-Detachable-Collar-Lace-Fake-Collar-WF-5232-/301003559396</ViewItemURLForNaturalSearch>
+    <ListingType>FixedPriceItem</ListingType>
+    <Location>Shanghai</Location>
+    <GalleryURL>http://thumbs1.ebaystatic.com/pict/3010035593968080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/NzUwWDc1MA==/z/-dsAAOxyx-BSb1Vc/$(KGrHqF,!mEFJtZ5TEC9BSb1VbjuJg~~60_1.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">1.58</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>P2DT9H30M51S</TimeLeft>
+    <Title>KDQ32 Crochet Hollow Lace Detachable Collar Lace Fake Collar WF-5232</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>Fancyqube</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>Cotton,Polyester</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>CN</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1000</ConditionID>
+    <ConditionDisplayName>New with tags</ConditionDisplayName>
+    <QuantityAvailableHint>MoreThan</QuantityAvailableHint>
+    <QuantityThreshold>10</QuantityThreshold>
+   </Item>
+   <Item>
+    <ItemID>271676280469</ItemID>
+    <BuyItNowAvailable>true</BuyItNowAvailable>
+    <ConvertedBuyItNowPrice currencyID="USD">15.0</ConvertedBuyItNowPrice>
+    <EndTime>2014-11-21T02:14:51.000Z</EndTime>
+    <ViewItemURLForNaturalSearch>http://www.ebay.com/itm/Boot-Cuffs-Crochet-Dark-Grey-Size-Small-/271676280469</ViewItemURLForNaturalSearch>
+    <ListingType>Chinese</ListingType>
+    <Location>Carl Junction, Missouri</Location>
+    <GalleryURL>http://thumbs2.ebaystatic.com/pict/2716762804698080_1.jpg</GalleryURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/V5sAAOSw8cNUMCFY/$_1.JPG?set_id=8800005007F</PictureURL>
+    <PictureURL>http://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/E08AAOSwZkJUTld2/$_12.JPG?set_id=880000500F</PictureURL>
+    <PrimaryCategoryID>1063</PrimaryCategoryID>
+    <PrimaryCategoryName>Clothing, Shoes &amp; Accessories:Women's Accessories:Other</PrimaryCategoryName>
+    <BidCount>0</BidCount>
+    <ConvertedCurrentPrice currencyID="USD">0.01</ConvertedCurrentPrice>
+    <ListingStatus>Active</ListingStatus>
+    <TimeLeft>PT5H18M10S</TimeLeft>
+    <Title>Boot Cuffs Crochet Dark Grey  Size Small</Title>
+    <ItemSpecifics>
+     <NameValueList>
+      <Name>Brand</Name>
+      <Value>handmade</Value>
+     </NameValueList>
+     <NameValueList>
+      <Name>Material</Name>
+      <Value>yarn</Value>
+     </NameValueList>
+    </ItemSpecifics>
+    <Country>US</Country>
+    <AutoPay>false</AutoPay>
+    <ConditionID>1500</ConditionID>
+    <ConditionDisplayName>New without tags</ConditionDisplayName>
+   </Item>
+  </GetMultipleItemsResponse>
