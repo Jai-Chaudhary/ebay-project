@@ -31,6 +31,9 @@ XML file extracted through eBay API
 #####-mallet-2.0.7/Scripts
 Include scripts to calculate perplexity.
 
+#####-DemoForComparison
+Include visualization to demo the comparison between our's and ebay's recommender
+
 #####-inputForMallet
 Include input file for Mallet (Clothing, Shoes, Accessory, CrossCSA, CrossColl)
 
