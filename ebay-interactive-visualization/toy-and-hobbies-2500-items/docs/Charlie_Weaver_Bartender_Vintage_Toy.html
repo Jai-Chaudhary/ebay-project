@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[3.8118301785, "../topics/{Toy,_and,_Set}.html", "{Toy,_and,_Set}"], [1.2508215078, "../topics/{Marble,_!,_Vintage}.html", "{Marble,_!,_Vintage}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Charlie Weaver Bartender Vintage Toy</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Charlie Weaver Bartender Vintage Toy</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Toy,_and,_Set}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Toy,_and,_Set}.html'">{Toy, and, Set}</td></tr>
+<tr class="list"><td id="{Marble,_!,_Vintage}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Marble,_!,_Vintage}.html'">{Marble, !, Vintage}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/59_Toy_Cars_and_Case.html'">59 Toy Cars and Case</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/GI_Joe_Stars_and_Stripes_Forever.html'">GI Joe Stars and Stripes Forever</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Tin_Toy_Refrigerator_with_The_motor_on_the_Top.html'">Vintage Tin Toy Refrigerator with The motor on the Top</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/PlaSmart_GENUINE_PlasmaCar_Kids_Ride-on_Wiggle_Plasma_Car_Pink_-_Purple_NEW_2014.html'">PlaSmart GENUINE PlasmaCar Kids Ride-on Wiggle Plasma Car Pink / Purple NEW 2014</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Skylanders_HOOT_LOOP_figure_only_Swap_Force.html'">Skylanders HOOT LOOP figure only Swap Force</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wood_Rubber_Band_Toy_Gun_New_In_The_Package.html'">Wood Rubber Band Toy Gun New In The Package</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MOTU_Classics_MOTUC_POP_He-Man_LOT_MISB_New_ELDOR.html'">MOTU Classics MOTUC POP He-Man LOT MISB New ELDOR</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MAGIC.RETURN.TO.RAVNICA[7]LAND.BLOOD.CRYPT.TEMPLE.GARDEN.OVERGROWN.TOMB.GROVE.html'">MAGIC.RETURN.TO.RAVNICA[7]LAND.BLOOD.CRYPT.TEMPLE.GARDEN.OVERGROWN.TOMB.GROVE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tunisia.html'">Tunisia</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Underground_Sea.html'">Underground Sea</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pacific_War.html'">Pacific War</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Perfect_Polly.html'">Perfect Polly</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Volcanic_Island.html'">Volcanic Island</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Interactive_dog_Bentley.html'">Interactive dog Bentley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Musical_Clown_15".html'">Vintage Musical Clown 15"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/McDONALDS_McNUGGET_BUDDIES.html'">McDONALDS McNUGGET BUDDIES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marx_miniature.html'">Marx miniature</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ybike_pewi.html'">ybike pewi</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Leappad_Ultra+Cover+Game.html'">Leappad Ultra+Cover+Game</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapPad_Ultra.html'">LeapPad Ultra</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mobigo_games.html'">mobigo games</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2000_Purr.html'">2000 Purr</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels.html'">Hot Wheels</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Temple_garden.html'">Temple garden</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

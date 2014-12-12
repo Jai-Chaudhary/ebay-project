@@ -1,0 +1,160 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[1.0313258432, "../topics/{with,_by,_mint}.html", "{with,_by,_mint}"], [1.0313258432, "../topics/{War,_Avalon,_Battle}.html", "{War,_Avalon,_Battle}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Pacific War</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Pacific War</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{with,_by,_mint}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{with,_by,_mint}.html'">{with, by, mint}</td></tr>
+<tr class="list"><td id="{War,_Avalon,_Battle}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{War,_Avalon,_Battle}.html'">{War, Avalon, Battle}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    
+<p>The <b>Pacific War</b>, sometimes called the <b>Asia-Pacific War</b>,<sup id="cite_ref-20" class="reference"><a href="http://en.wikipedia.org/wiki/Pacific_War#cite_note-20"><span>[</span>14<span>]</span></a></sup> was the theatre of <a href="http://www.wikipedia.org/wiki/World_War_II" title="World War II">World War II</a> which was fought in the <a href="http://www.wikipedia.org/wiki/Pacific_Ocean" title="Pacific Ocean">Pacific</a> and <a href="http://www.wikipedia.org/wiki/East_Asia" title="East Asia">East Asia</a>. It was fought over a vast area which included the <a href="http://www.wikipedia.org/wiki/Pacific_Ocean_theatre_of_World_War_II" title="Pacific Ocean theatre of World War II" class="mw-redirect">Pacific Ocean and islands</a>, the <a href="http://www.wikipedia.org/wiki/South_West_Pacific_theatre_of_World_War_II" title="South West Pacific theatre of World War II">South West Pacific</a>, <a href="http://www.wikipedia.org/wiki/South-East_Asian_theatre_of_World_War_II" title="South-East Asian theatre of World War II">South-East Asia</a>, and <a href="http://www.wikipedia.org/wiki/Second_Sino-Japanese_War" title="Second Sino-Japanese War">in China</a> (including the <a href="http://www.wikipedia.org/wiki/Soviet%E2%80%93Japanese_War_(1945)" title="Soviet–Japanese War (1945)">1945 Soviet-Japanese conflict</a>).</p>
+<p>It is generally considered that the Pacific War began on 7/8 December 1941, on which date <a href="http://www.wikipedia.org/wiki/Empire_of_Japan" title="Empire of Japan">Japan</a> <a href="http://www.wikipedia.org/wiki/Japanese_invasion_of_Thailand" title="Japanese invasion of Thailand">invaded Thailand</a> and attacked the British possessions of <a href="http://www.wikipedia.org/wiki/Malayan_Campaign" title="Malayan Campaign">Malaya</a>, <a href="http://www.wikipedia.org/wiki/Battle_of_Singapore" title="Battle of Singapore">Singapore</a>, and <a href="http://www.wikipedia.org/wiki/Battle_of_Hong_Kong" title="Battle of Hong Kong">Hong Kong</a> as well as the United States military bases in <a href="http://www.wikipedia.org/wiki/Attack_on_Pearl_Harbor" title="Attack on Pearl Harbor">Hawaii</a> and the <a href="http://www.wikipedia.org/wiki/Philippines_Campaign_(1941%E2%80%9342)" title="Philippines Campaign (1941–42)">Philippines</a>.<sup id="cite_ref-21" class="reference"><a href="http://en.wikipedia.org/wiki/Pacific_War#cite_note-21"><span>[</span>15<span>]</span></a></sup><sup id="cite_ref-22" class="reference"><a href="http://en.wikipedia.org/wiki/Pacific_War#cite_note-22"><span>[</span>16<span>]</span></a></sup><sup id="cite_ref-23" class="reference"><a href="http://en.wikipedia.org/wiki/Pacific_War#cite_note-23"><span>[</span>17<span>]</span></a></sup><sup id="cite_ref-24" class="reference"><a href="http://en.wikipedia.org/wiki/Pacific_War#cite_note-24"><span>[</span>18<span>]</span></a></sup> Some historians contend that the conflict in Asia can be dated back to 7 July 1937 with the beginning of the <a href="http://www.wikipedia.org/wiki/Second_Sino-Japanese_War" title="Second Sino-Japanese War">Second Sino-Japanese War</a> between the <a href="http://www.wikipedia.org/wiki/Empire_of_Japan" title="Empire of Japan">Empire of Japan</a> and the <a href="http://www.wikipedia.org/wiki/Republic_of_China_(1912%E2%80%9349)" title="Republic of China (1912–49)">Republic of China</a>, or possibly 19 September 1931, beginning with the <a href="http://www.wikipedia.org/wiki/Japanese_invasion_of_Manchuria" title="Japanese invasion of Manchuria">Japanese invasion of Manchuria</a>.<sup id="cite_ref-25" class="reference"><a href="http://en.wikipedia.org/wiki/Pacific_War#cite_note-25"><span>[</span>19<span>]</span></a></sup> However, it is more widely accepted that the Pacific War itself started in early December 1941, with the Sino-Japanese War then becoming part of it as a theater of the greater World War II.<sup id="cite_ref-26" class="reference"><a href="http://en.wikipedia.org/wiki/Pacific_War#cite_note-26"><span>[</span>20<span>]</span></a></sup><sup id="cite_ref-27" class="reference"><a href="http://en.wikipedia.org/wiki/Pacific_War#cite_note-27"><span>[</span>21<span>]</span></a></sup></p>
+<p>The Pacific War saw the <a href="http://www.wikipedia.org/wiki/Allies_of_World_War_II" title="Allies of World War II">Allied powers</a> pitted against the <a href="http://www.wikipedia.org/wiki/Empire_of_Japan" title="Empire of Japan">Empire of Japan</a>, the latter briefly aided by <a href="http://www.wikipedia.org/wiki/Thailand" title="Thailand">Thailand</a> and to a much lesser extent by its <a href="http://www.wikipedia.org/wiki/Axis_powers" title="Axis powers">Axis</a> allies, <a href="http://www.wikipedia.org/wiki/Nazi_Germany" title="Nazi Germany">Germany</a> and <a href="http://www.wikipedia.org/wiki/Kingdom_of_Italy_(1861%E2%80%931946)" title="Kingdom of Italy (1861–1946)" class="mw-redirect">Italy</a>. The war culminated in the <a href="http://www.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki" title="Atomic bombings of Hiroshima and Nagasaki">atomic bombings</a> of <a href="http://www.wikipedia.org/wiki/Hiroshima" title="Hiroshima">Hiroshima</a> and <a href="http://www.wikipedia.org/wiki/Nagasaki" title="Nagasaki">Nagasaki</a>, and other large <a href="http://www.wikipedia.org/wiki/Air_Raids_on_Japan" title="Air Raids on Japan" class="mw-redirect">aerial bomb attacks</a> by the <a href="http://www.wikipedia.org/wiki/United_States_Army_Air_Forces" title="United States Army Air Forces">United States Army Air Forces</a>, accompanied by the <a href="http://www.wikipedia.org/wiki/Soviet_invasion_of_Manchuria" title="Soviet invasion of Manchuria">Soviet invasion of Manchuria</a> on 8 August 1945, resulting in the <a href="http://www.wikipedia.org/wiki/Gyokuon-h%C5%8Ds%C5%8D" title="Gyokuon-hōsō">Japanese announcement of intent to surrender</a> on 15 August 1945. The formal and official <a href="http://www.wikipedia.org/wiki/Surrender_of_Japan" title="Surrender of Japan">surrender of Japan</a> took place aboard the battleship <a href="http://www.wikipedia.org/wiki/USS_Missouri_(BB-63)" title="USS Missouri (BB-63)">USS&#160;<i>Missouri</i></a> in <a href="http://www.wikipedia.org/wiki/Tokyo_Bay" title="Tokyo Bay">Tokyo Bay</a> on 2 September 1945. Following the defeat of Japan, Japan's <a href="http://www.wikipedia.org/wiki/Shintoism" title="Shintoism" class="mw-redirect">Shintoism</a>-led Emperor <sup id="cite_ref-28" class="reference"><a href="http://en.wikipedia.org/wiki/Pacific_War#cite_note-28"><span>[</span>22<span>]</span></a></sup> stepped down as the divine leader <sup id="cite_ref-29" class="reference"><a href="http://en.wikipedia.org/wiki/Pacific_War#cite_note-29"><span>[</span>23<span>]</span></a></sup> of <a href="http://www.wikipedia.org/wiki/Shinto_Directive" title="Shinto Directive">Shinto Directive</a> because the Allied Powers believed this was the major political cause of Japan's military aggression and deconstruction process soon took place to install a new liberal-democratic constitution to the Japanese public as the current <a href="http://www.wikipedia.org/wiki/Constitution_of_Japan" title="Constitution of Japan">Constitution of Japan</a>.</p>
+<p><a href="http://en.wikipedia.org/wiki/Pacific_War">Full article&nbsp;&#x25B8;</a></p>
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Whoopie_Cushion_8".html'">Whoopie Cushion 8"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Beyblades_Lot.html'">Beyblades Lot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_Hulk_Keychain.html'">Lego Hulk Keychain</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mechanical_Donkey_-_Horse.html'">Mechanical Donkey / Horse</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Buddies_Collection.html'">Ty Beanie Buddies Collection</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Beanie_Babies_Lot_Bears.html'">Beanie Babies Lot Bears</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Stretchkins_Unicorn_-_Pink.html'">Stretchkins Unicorn - Pink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Crystal_Radio_Set_-_Assembled.html'">Crystal Radio Set - Assembled</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EUC_Wild_Planet_Radio_DJ.html'">EUC Wild Planet Radio DJ</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Jada_Chevrolet_Silverado_2014_Blue_1-24.html'">Jada Chevrolet Silverado 2014 Blue 1/24</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AURORA_G_PLUS_LOT.html'">AURORA G PLUS LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Chassis_Mint_New.html'">Aurora Thunderjet Chassis Mint New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/The_Beanie_Babies_Collection_Lot.html'">The Beanie Babies Collection Lot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/V_Tech_Little_Apps_Tablet_by_VTech.html'">V Tech Little Apps Tablet by VTech</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO_Misc_Train_Cars.html'">HO Misc Train Cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/The_Wizard_Of_Oz_Jigsaw_Puzzle.html'">The Wizard Of Oz Jigsaw Puzzle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Space_Men_Action_Figures_Brand_New.html'">Vintage Space Men Action Figures Brand New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wood_Rubber_Band_Toy_Gun_New_In_The_Package.html'">Wood Rubber Band Toy Gun New In The Package</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_handmade_marbles.html'">vintage handmade marbles</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[8.0313258432, "../topics/{Toy,_and,_Set}.html", "{Toy,_and,_Set}"], [1.0313258432, "../topics/{Vintage,_Car,_Slot}.html", "{Vintage,_Car,_Slot}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Vintage 1981 MOTU He-Man Beast Man armor and whip</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Vintage 1981 MOTU He-Man Beast Man armor and whip</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Toy,_and,_Set}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Toy,_and,_Set}.html'">{Toy, and, Set}</td></tr>
+<tr class="list"><td id="{Vintage,_Car,_Slot}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Vintage,_Car,_Slot}.html'">{Vintage, Car, Slot}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Melissa_and_Doug_Wooden_10pc_Spice_Set_Food.html'">Melissa and Doug Wooden 10pc Spice Set Food</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_DDay_American_Paratroopers_UNBOXED.html'">King&Country Toy Soldiers, WWII DDay American Paratroopers UNBOXED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Wood_and_Metal_Toy_Submarine__16_inches_long.html'">Vintage Wood and Metal Toy Submarine  16 inches long</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_Set_#DD056_NEVER_OUT_OF_BOX.html'">King&Country Toy Soldiers, WWII Set #DD056 NEVER OUT OF BOX</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Paw_Patrol_Zuma_Hovercraft_Vehicle_and_Figure_NEW_hard_to_find.html'">Paw Patrol Zuma Hovercraft Vehicle and Figure NEW hard to find</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Antique_Victorian_Wood_Toy_Spinning_Top_W-Metal_Tip_&_Original_Paint.html'">Antique Victorian Wood Toy Spinning Top W/Metal Tip & Original Paint</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_Set_#DD25_UNBOXED.html'">King&Country Toy Soldiers, WWII Set #DD25 UNBOXED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_2_Sets_#BBA036_&_DD209.html'">King&Country Toy Soldiers, WWII 2 Sets #BBA036 & DD209</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Transformers_Age_of_Extinction_Chomp_and_Stomp_Grimlock_Figure.html'">Transformers Age of Extinction Chomp and Stomp Grimlock Figure</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/W-O-R-K-I-N-G_Lionel_Grain_Elevator_with_8_Bright_Lights_and_Controller.html'">W-O-R-K-I-N-G Lionel Grain Elevator with 8 Bright Lights and Controller</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rastar_1:24_Land_Rover_Range_Rover_Evoquen_Toy_RC_Radio_Control_Car_Model_Red.html'">Rastar 1:24 Land Rover Range Rover Evoquen Toy RC Radio Control Car Model Red</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_mercury_mark_78_A_boat_motor_battery_power.html'">Toy mercury mark 78 A boat motor battery power</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Paw_Patrol_Real_Talking_Skye_Speaks_and_Lights_Up!.html'">Paw Patrol Real Talking Skye Speaks and Lights Up!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Movie_-_Toy_Trains_and_Christmas_A_Tom_McComas_Productions.html'">Movie - Toy Trains and Christmas A Tom McComas Productions</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Jigsaw_Puzzle_Manhattan_and_Brooklyn_Bridge_(1000Pcs)_by_Matthias_haker.html'">Jigsaw Puzzle Manhattan and Brooklyn Bridge (1000Pcs) by Matthias haker</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/12"_Genuine_Moshi_Squishy_Therapy_Microbead_White_Striped_Neck_Roll_Pillow_Toy.html'">12" Genuine Moshi Squishy Therapy Microbead White Striped Neck Roll Pillow Toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Emsco_Infant_Boggan_0-2,Boys_and_Girls,ESP.html'">Emsco Infant Boggan 0-2,Boys and Girls,ESP</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Nickelodeon_Paw_Patrol_Racers_Skye_RACER.html'">Nickelodeon Paw Patrol Racers Skye RACER</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_Set_#BBA036.html'">King&Country Toy Soldiers, WWII Set #BBA036</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_Set_#DD14C.html'">King&Country Toy Soldiers, WWII Set #DD14C</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_Set_#BBA016.html'">King&Country Toy Soldiers, WWII Set #BBA016</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_Set_#DD39.html'">King&Country Toy Soldiers, WWII Set #DD39</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_Set_#DD23-KC018.html'">King&Country Toy Soldiers, WWII Set #DD23/KC018</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_Set_#DD40.html'">King&Country Toy Soldiers, WWII Set #DD40</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_Set_#BBA08.html'">King&Country Toy Soldiers, WWII Set #BBA08</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Melissa_&_Doug_Eraser_and_Chalk_Bundle_New.html'">Melissa & Doug Eraser and Chalk Bundle New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/My_Vehicle_Sound_Blocks_#1272_By_Melissa_And_Doug.html'">My Vehicle Sound Blocks #1272 By Melissa And Doug</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Story_Reader_&_Book_Collection_with_Accessories_and_Case_-_Great_gift!.html'">Story Reader & Book Collection with Accessories and Case - Great gift!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Movie_-_Toy_Trains_and_Christmas_Video_-_Part_#2.html'">Movie - Toy Trains and Christmas Video - Part #2</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/16_sets_Spongebob_and_Toy_Story_Minifigures_building_Toy_in_the_plastic_bags.html'">16 sets Spongebob and Toy Story Minifigures building Toy in the plastic bags</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

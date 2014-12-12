@@ -1,0 +1,160 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-4.5407839809, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-87.6758555644, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-131.312978995, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-139.210872109, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-146.024860574, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-150.908735487, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-154.089884243, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-156.968114604, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-157.451224299, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-160.884242007, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-162.463980441, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-169.568740882, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-171.877864733, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-174.293755029, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-181.093706327, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-183.655864405, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-186.57559483, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-206.861512, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-213.411922003, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-216.643440592, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-217.207244144, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-218.978183856, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-219.833700193, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-222.946726996, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-228.712977709, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-230.81316545, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-231.350935655, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-231.481771611, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-235.315027265, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-237.471886524, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-237.708569737, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-238.945704467, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-239.234467408, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-239.689866417, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-240.02171901, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-240.022586283, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-243.029362414, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-243.289834796, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-243.648042883, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-244.617481201, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-245.105497485, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-247.907326143, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-250.40178656, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-252.673637608, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-254.821874635, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-258.133154733, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-268.252748207, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-268.39412237, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-293.7371915, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"], [-294.798277997, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>playing</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">playing</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/sehun.html'">sehun</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/planet.html'">planet</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/taeyang.html'">taeyang</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/gf.html'">gf</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/muffle.html'">muffle</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/bap.html'">bap</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/mouth.html'">mouth</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/snsd.html'">snsd</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/luhan.html'">luhan</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/tvxq.html'">tvxq</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/xiumin.html'">xiumin</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/gd.html'">gd</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/suho.html'">suho</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lay.html'">lay</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/sw.html'">sw</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/kind.html'">kind</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/p.html'">p</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/pillow.html'">pillow</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/rucksack.html'">rucksack</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/panda.html'">panda</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_BIGBANG_EXO_SHINEE_SJ__BAP_INFINITE_TVXQ_SNSD_PLAYING_CARDS__NEW.html'">KPOP BIGBANG EXO SHINEE SJ  BAP INFINITE TVXQ SNSD PLAYING CARDS  NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_BIGBANG_EXO_SHINEE_SJ__BAP_INFINITE_TVXQ_SNSD_PLAYING_CARDS__NEW.html'">KPOP BIGBANG EXO SHINEE SJ  BAP INFINITE TVXQ SNSD PLAYING CARDS  NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_BIGBANG_EXO_SHINEE_SJ__BAP_INFINITE_TVXQ_SNSD_PLAYING_CARDS__NEW.html'">KPOP BIGBANG EXO SHINEE SJ  BAP INFINITE TVXQ SNSD PLAYING CARDS  NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_BIGBANG_EXO_SHINEE_SJ__BAP_INFINITE_TVXQ_SNSD_PLAYING_CARDS__NEW.html'">KPOP BIGBANG EXO SHINEE SJ  BAP INFINITE TVXQ SNSD PLAYING CARDS  NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_BIGBANG_EXO_SHINEE_SJ__BAP_INFINITE_TVXQ_SNSD_PLAYING_CARDS__NEW.html'">KPOP BIGBANG EXO SHINEE SJ  BAP INFINITE TVXQ SNSD PLAYING CARDS  NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/VINTAGE_STERLING_SILVER_HEARTS_PLAYING_CARDS_DANGLE_EARRINGS_MINT_NR_AUCTION_!!.html'">VINTAGE STERLING SILVER HEARTS PLAYING CARDS DANGLE EARRINGS MINT NR AUCTION !!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_BIGBANG_EXO_SHINEE_SJ__BAP_INFINITE_TVXQ_SNSD_PLAYING_CARDS__NEW.html'">KPOP BIGBANG EXO SHINEE SJ  BAP INFINITE TVXQ SNSD PLAYING CARDS  NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_BIGBANG_EXO_SHINEE_SJ__BAP_INFINITE_TVXQ_SNSD_PLAYING_CARDS__NEW.html'">KPOP BIGBANG EXO SHINEE SJ  BAP INFINITE TVXQ SNSD PLAYING CARDS  NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NWT_Coach_Signature_Stripe_Ocelot_Print_Playing_Cards_w-_Matching_Case_-_F66946.html'">NWT Coach Signature Stripe Ocelot Print Playing Cards w/ Matching Case - F66946</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_BIGBANG_EXO_SHINEE_SJ__BAP_INFINITE_TVXQ_SNSD_PLAYING_CARDS__NEW.html'">KPOP BIGBANG EXO SHINEE SJ  BAP INFINITE TVXQ SNSD PLAYING CARDS  NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_BIGBANG_EXO_SHINEE_SJ__BAP_INFINITE_TVXQ_SNSD_PLAYING_CARDS__NEW.html'">KPOP BIGBANG EXO SHINEE SJ  BAP INFINITE TVXQ SNSD PLAYING CARDS  NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_BIGBANG_EXO_SHINEE_SJ__BAP_INFINITE_TVXQ_SNSD_PLAYING_CARDS__NEW.html'">KPOP BIGBANG EXO SHINEE SJ  BAP INFINITE TVXQ SNSD PLAYING CARDS  NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LILLY_PULITZER_Tropical_Fish_Playing_Cards_&_Pink_Leather_Logo_Case--NEW.html'">LILLY PULITZER Tropical Fish Playing Cards & Pink Leather Logo Case--NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NWT_Coach_Signature_Stripe_Ocelot_Print_Playing_Cards_w-_Matching_Case_-_F66946.html'">NWT Coach Signature Stripe Ocelot Print Playing Cards w/ Matching Case - F66946</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_BIGBANG_EXO_SHINEE_SJ__BAP_INFINITE_TVXQ_SNSD_PLAYING_CARDS__NEW.html'">KPOP BIGBANG EXO SHINEE SJ  BAP INFINITE TVXQ SNSD PLAYING CARDS  NEW</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{m,_k,_exo}.html'">{m, k, exo}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{nwt,_color,_coach}.html'">{nwt, color, coach}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silver,_earrings,_accessories}.html'">{silver, earrings, accessories}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{case,_iphone,_hard}.html'">{case, iphone, hard}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{red,_w,_ring}.html'">{red, w, ring}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{x,_top,_print}.html'">{x, top, print}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{colors,_brand,_nib}.html'">{colors, brand, nib}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{blue,_brown,_green}.html'">{blue, brown, green}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vintage,_authentic,_chanel}.html'">{vintage, authentic, chanel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{glass,_antique,_punk}.html'">{glass, antique, punk}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{new,_design,_classic}.html'">{new, design, classic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pink,_small,_medium}.html'">{pink, small, medium}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{shoe,_hat,_bow}.html'">{shoe, hat, bow}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{free,_button,_shipping}.html'">{free, button, shipping}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{leather,_purse,_handbag}.html'">{leather, purse, handbag}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{scarf,_fur,_wrap}.html'">{scarf, fur, wrap}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{bag,_makeup,_belt}.html'">{bag, makeup, belt}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{cute,_beautiful,_sunglasses}.html'">{cute, beautiful, sunglasses}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silk,_soft,_lash}.html'">{silk, soft, lash}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

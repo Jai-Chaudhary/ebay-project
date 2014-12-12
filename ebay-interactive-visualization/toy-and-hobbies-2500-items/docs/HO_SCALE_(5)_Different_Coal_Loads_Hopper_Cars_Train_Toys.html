@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[9.0313258432, "../topics/{HO,_Scale,_Car}.html", "{HO,_Scale,_Car}"], [1.0313258432, "../topics/{Toys,_Antique,_Cast}.html", "{Toys,_Antique,_Cast}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>HO SCALE (5) Different Coal Loads Hopper Cars Train Toys</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">HO SCALE (5) Different Coal Loads Hopper Cars Train Toys</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{HO,_Scale,_Car}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{HO,_Scale,_Car}.html'">{HO, Scale, Car}</td></tr>
+<tr class="list"><td id="{Toys,_Antique,_Cast}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Toys,_Antique,_Cast}.html'">{Toys, Antique, Cast}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/HO_Bachmann_Spectrum_2-10-0_Russian_Decapod_Unlettered_DCC_Ready.html'">HO Bachmann Spectrum 2-10-0 Russian Decapod Unlettered DCC Ready</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTH_Trains_Tropical_Fish_Operating_Action_Freight_Car__HO_scale.html'">MTH Trains Tropical Fish Operating Action Freight Car  HO scale</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Virginian_Stock_(cattle)_car_#70835,_w-Kadees_Train_Miniatures_#2552_HO.html'">Virginian Stock (cattle) car #70835, w/Kadees Train Miniatures #2552 HO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO_5_Athearn_heavyweight_passenger_cars_&_PA_Baltimore_&_Ohio.html'">HO 5 Athearn heavyweight passenger cars & PA Baltimore & Ohio</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2_Vintage_Hag_(Switzerland)_HO_Scale_Freight_Car_Empty_Boxes_-_exc!.html'">2 Vintage Hag (Switzerland) HO Scale Freight Car Empty Boxes - exc!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_AFX_Giant_Raceway_62.5__HO_Slot_Car_Track_Set_Tri-Power_Digital_Lap_Counter!.html'">NEW AFX Giant Raceway 62.5' HO Slot Car Track Set Tri-Power Digital Lap Counter!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ulrich_HO_Southern_Pacific_Triple_Hopper_Car_Kit.html'">Ulrich HO Southern Pacific Triple Hopper Car Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO_Scale_"Santa_Fe"_F-Unit_Diesel_Locomotive,_by_Bachmann.html'">HO Scale "Santa Fe" F-Unit Diesel Locomotive, by Bachmann</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1966_Marx_International_Secret_Agent_PO_8_Luger_Toy_Cap_Gun_Vintage-Excellent!.html'">1966 Marx International Secret Agent PO 8 Luger Toy Cap Gun Vintage-Excellent!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO_SCALE_(3)_TEXACO_TANK_CARS_Train_Toys_-_Tyco_Crown.html'">HO SCALE (3) TEXACO TANK CARS Train Toys - Tyco Crown</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Alco_Models_P70_Coach_Kit_in_Baltimore_&_Ohio_(B&O)_._New_condition_HO.html'">Alco Models P70 Coach Kit in Baltimore & Ohio (B&O) . New condition HO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Spectrum_PRR_#9920_HO_Combine_Post_War_Pennsylvania_Passenger_Car;Bachmann_89241.html'">Spectrum PRR #9920 HO Combine Post War Pennsylvania Passenger Car;Bachmann 89241</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2_HO_SCALE_Bag_ICE_Chest_Box_Machine_Single_and_Double_Door.html'">2 HO SCALE Bag ICE Chest Box Machine Single and Double Door</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO_Walthers_TTX_Spine_cars_(4_pack).html'">HO Walthers TTX Spine cars (4 pack)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Bachmann_Cannonball_Express_HO_E-Z_Track_Train_System.html'">Bachmann Cannonball Express HO E-Z Track Train System</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AFX_15"_Straight_HO_Scale_Track_4pcs_#70600.html'">AFX 15" Straight HO Scale Track 4pcs #70600</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO_Scale_Model_Train_Scenery_Highway_Miniatures_Depot_Baggage_Wagon_Westen_Cart.html'">HO Scale Model Train Scenery Highway Miniatures Depot Baggage Wagon Westen Cart</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Bachmann_HO_Scale_Kit_-GP-40_Diesel_&_5_Cars_&_Power_Pack_-_Penn_Central.html'">Vintage Bachmann HO Scale Kit -GP-40 Diesel & 5 Cars & Power Pack - Penn Central</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/3_Vintage_HO_Scale_Freight_Car_Empty_Boxes_-_exc!.html'">3 Vintage HO Scale Freight Car Empty Boxes - exc!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/nib_Frank_s_winter_thyme_express_train_ho_scale_train_and_track_set_electric.html'">nib Frank's winter thyme express train ho scale train and track set electric</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO_Parts_Miniature_Hardware_2-56_Freight_Car_Truck_Screw_Assortment_600_Screws.html'">HO Parts Miniature Hardware 2-56 Freight Car Truck Screw Assortment 600 Screws</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Spectrum_PRR_#3816_HO_Coach_Post_War_Pennsylvania_Passenger_Car;_Bachmann_89245.html'">Spectrum PRR #3816 HO Coach Post War Pennsylvania Passenger Car; Bachmann 89245</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO_Parts_Screw_Assortment__72_Screws.html'">HO Parts Screw Assortment  72 Screws</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/US1_Trucking_Shell_Gas_Tanker_Trailer_HO_Scale_Slot_Car_Tyco_--_Near_Mint!.html'">US1 Trucking Shell Gas Tanker Trailer HO Scale Slot Car Tyco // Near Mint!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/THE_ORIGINAL_"POST_SAVERS"_Aurora_TJet_JL_AW_5-32__HO_Slot_Car_Screw_Post_Repair.html'">THE ORIGINAL "POST SAVERS" Aurora TJet JL AW 5/32  HO Slot Car Screw Post Repair</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/4641_D&H_Comp._Gondola_Resin_Kit_made_by_Funaro_&_Camerlengo_Ho_Scale.html'">4641 D&H Comp. Gondola Resin Kit made by Funaro & Camerlengo Ho Scale</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO_scale_McKean_Montana_Rail_Link_(MRL)_50’_Plug_Door_Boxcar_kit_train.html'">HO scale McKean Montana Rail Link (MRL) 50’ Plug Door Boxcar kit train</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Autoworld_Buddy_Baker_1972_Dodge_Charger_HO_Vintage_Stock_Car_AW_Xtraction_R15.html'">Autoworld Buddy Baker 1972 Dodge Charger HO Vintage Stock Car AW Xtraction R15</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Autoworld_Paul_Goldsmith_69_Dodge_Charger_HO_Vintage_Stock_Car_AW_Xtraction_R15.html'">Autoworld Paul Goldsmith 69 Dodge Charger HO Vintage Stock Car AW Xtraction R15</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Great_Northern_Wood_Truss_Rod_Boxcar_Kit_made_by_Funaro_&_Camerlengo_Ho_Scale.html'">Great Northern Wood Truss Rod Boxcar Kit made by Funaro & Camerlengo Ho Scale</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

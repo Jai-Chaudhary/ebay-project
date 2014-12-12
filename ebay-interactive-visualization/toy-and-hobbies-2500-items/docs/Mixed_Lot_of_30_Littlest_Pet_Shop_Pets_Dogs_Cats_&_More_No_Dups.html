@@ -1,0 +1,160 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[7.6380288594, "../topics/{Pet,_Littlest,_Shop}.html", "{Pet,_Littlest,_Shop}"], [2.03132587, "../topics/{2014,_Meal,_Happy}.html", "{2014,_Meal,_Happy}"], [1.3053782565, "../topics/{Box,_Radio,_Wagon}.html", "{Box,_Radio,_Wagon}"], [1.1505703868, "../topics/{of,_MTG,_Khans}.html", "{of,_MTG,_Khans}"], [1.0313258432, "../topics/{Toys,_Antique,_Cast}.html", "{Toys,_Antique,_Cast}"], [1.0313258432, "../topics/{&,_NIB,_NEW}.html", "{&,_NIB,_NEW}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Mixed Lot of 30 Littlest Pet Shop Pets Dogs Cats & More No Dups</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Mixed Lot of 30 Littlest Pet Shop Pets Dogs Cats & More No Dups</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Pet,_Littlest,_Shop}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Pet,_Littlest,_Shop}.html'">{Pet, Littlest, Shop}</td></tr>
+<tr class="list"><td id="{2014,_Meal,_Happy}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{2014,_Meal,_Happy}.html'">{2014, Meal, Happy}</td></tr>
+<tr class="list"><td id="{Box,_Radio,_Wagon}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Box,_Radio,_Wagon}.html'">{Box, Radio, Wagon}</td></tr>
+<tr class="list"><td id="{of,_MTG,_Khans}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{of,_MTG,_Khans}.html'">{of, MTG, Khans}</td></tr>
+<tr class="list"><td id="{&,_NIB,_NEW}" onmouseover="highlight(4)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{&,_NIB,_NEW}.html'">{&, NIB, NEW}</td></tr>
+<tr class="list"><td id="{Toys,_Antique,_Cast}" onmouseover="highlight(5)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Toys,_Antique,_Cast}.html'">{Toys, Antique, Cast}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_Lot:_3587,_1027,_2421:_Dog:cat:collie.html'">Littlest Pet Shop Lot: 3587, 1027, 2421: Dog:cat:collie</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop:_Race_About_Ranch_Cat_#339.html'">Littlest Pet Shop: Race About Ranch Cat #339</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_Collie_#2452_Cutest_Pets_Collection.html'">Littlest Pet Shop Collie #2452 Cutest Pets Collection</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_Lot_#1010_Dachshund_+_Christmas_Accessories.html'">Littlest Pet Shop Lot #1010 Dachshund + Christmas Accessories</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_Blind_-Mystery_Bag_(paint_splashing_collection).html'">Littlest Pet Shop Blind /Mystery Bag (paint splashing collection)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_AROUND_THE_WORLD_2007_mib_HTF.html'">Littlest Pet Shop AROUND THE WORLD 2007 mib HTF</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_#143_Tan_and_Brown_Boxer_Puppy_Dog.html'">Littlest Pet Shop #143 Tan and Brown Boxer Puppy Dog</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Westminster_Sparky_the_Fabulous_Flip_Over_Pet_Dog_New.html'">Westminster Sparky the Fabulous Flip Over Pet Dog New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_Polly_Pocket_type_play_set_w-_3_animals!.html'">Littlest Pet Shop Polly Pocket type play set w/ 3 animals!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_#1669_Orange_&_Brown_Crouching_Kitty_Cat.html'">Littlest Pet Shop #1669 Orange & Brown Crouching Kitty Cat</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_shop_LPS_Huge_Lot_20_Pets_&_Accessories.html'">Littlest Pet shop LPS Huge Lot 20 Pets & Accessories</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop-lps_1170-lps_brown-lps_ranch-lps_cat-lps_swirl-lps_authentic.html'">Littlest Pet Shop/lps 1170/lps brown/lps ranch/lps cat/lps swirl/lps authentic</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_LITTLE_LOVIN_PET_PLAYHOUSE_Playset.html'">Littlest Pet Shop LITTLE LOVIN PET PLAYHOUSE Playset</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_WHITE_HORSE_GREEN_EYES.html'">Littlest Pet Shop WHITE HORSE GREEN EYES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Lots_of_20pcs_Hasbro_Littlest_Pet_Shop_Different_Animals_New_Child_Girl_Toys.html'">Hot Lots of 20pcs Hasbro Littlest Pet Shop Different Animals New Child Girl Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_RARE_Chihuahua_Dog_Puppy_FIRST_EVER_#1_LPS!.html'">Littlest Pet Shop RARE Chihuahua Dog Puppy FIRST EVER #1 LPS!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_Furry_Fluffy_Basket_Lot_of_2_Toy_Pieces_LPS_Accessories.html'">Littlest Pet Shop Furry Fluffy Basket Lot of 2 Toy Pieces LPS Accessories</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_Toy_Randomly_Doll_Cute_Animals_Figure_Playtime_Park_LPS_1pcs.html'">Littlest Pet Shop Toy Randomly Doll Cute Animals Figure Playtime Park LPS 1pcs</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_White_MIP_Robot.html'">WooWee White MIP Robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AURORA_G_PLUS_LOT.html'">AURORA G PLUS LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Chassis_Mint_New.html'">Aurora Thunderjet Chassis Mint New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Space_Men_Action_Figures_Brand_New.html'">Vintage Space Men Action Figures Brand New</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

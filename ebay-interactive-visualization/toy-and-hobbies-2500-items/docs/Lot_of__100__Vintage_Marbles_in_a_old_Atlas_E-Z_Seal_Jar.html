@@ -1,0 +1,158 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[9.0004673173, "../topics/{Of,_Lot,_Marbles}.html", "{Of,_Lot,_Marbles}"], [1.062184369, "../topics/{of,_MTG,_Khans}.html", "{of,_MTG,_Khans}"], [1.0313258432, "../topics/{in,_2,_Lionel}.html", "{in,_2,_Lionel}"], [1.0313258432, "../topics/{Vintage,_Car,_Slot}.html", "{Vintage,_Car,_Slot}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Lot of  100  Vintage Marbles in a old Atlas E-Z Seal Jar</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Lot of  100  Vintage Marbles in a old Atlas E-Z Seal Jar</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Of,_Lot,_Marbles}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Of,_Lot,_Marbles}.html'">{Of, Lot, Marbles}</td></tr>
+<tr class="list"><td id="{of,_MTG,_Khans}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{of,_MTG,_Khans}.html'">{of, MTG, Khans}</td></tr>
+<tr class="list"><td id="{in,_2,_Lionel}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{in,_2,_Lionel}.html'">{in, 2, Lionel}</td></tr>
+<tr class="list"><td id="{Vintage,_Car,_Slot}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Vintage,_Car,_Slot}.html'">{Vintage, Car, Slot}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Lionel_RARE_GREEN_POSTWAR_#3459_Operating_COAL_Dumping_Car_Only.html'">Lionel RARE GREEN POSTWAR #3459 Operating COAL Dumping Car Only</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tsuro_Of_The_Seas_Promotional_Cards_Veterans_Of_The_Seas.html'">Tsuro Of The Seas Promotional Cards Veterans Of The Seas</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_Minecraft_Micro_World_Minifigures._Microfigures_-_Steve,_Zombie,_Creeper.html'">Lego Minecraft Micro World Minifigures. Microfigures - Steve, Zombie, Creeper</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tonkin_TON_1-87_Dark_Blue_Western_Dist._3-Axle_RGN_Lowboy_Trailer.html'">Tonkin TON 1/87 Dark Blue Western Dist. 3-Axle RGN Lowboy Trailer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Victory_in_Vietnam_II_Schutze_Games_Bruce_Costello.html'">Victory in Vietnam II Schutze Games Bruce Costello</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Smencils_Pop_Set_Of_40_Sorta_Soda_1167,New.html'">Smencils Pop Set Of 40 Sorta Soda 1167,New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_Of_7_Antique_Glass_Swirl_Marbles_._German_?.html'">Lot Of 7 Antique Glass Swirl Marbles . German ?</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_9_Antique_Clay_and_6_Large_Swirled_and_Glass_Marbles.html'">Lot of 9 Antique Clay and 6 Large Swirled and Glass Marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_Lot_Of_3_Rainbow_&_Swirl_Marbles.html'">Peltier Lot Of 3 Rainbow & Swirl Marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Squinkies_Lot_Of_8_Dogs_Puppies.html'">Squinkies Lot Of 8 Dogs Puppies</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/VINTAGE_New_NOS_Peltier_Glass_Shooter_Marbles_in_package.html'">VINTAGE New NOS Peltier Glass Shooter Marbles in package</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_Peltier_Multi-Color_Rainbow_Marbles.html'">Lot of Peltier Multi-Color Rainbow Marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_5_1"_Retired_Purple_Swirls_Mega_Marbles_Games_Collect_Transparent__1Only.html'">Lot of 5 1" Retired Purple Swirls Mega Marbles Games Collect Transparent  1Only</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Beyblades_Lot.html'">Beyblades Lot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Antique_Clay_Marbles_,Lot_of_over_50._Great_Colours.html'">Antique Clay Marbles ,Lot of over 50. Great Colours</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Johnny_lightning_slot_cars.html'">Johnny lightning slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_1-24_slot_car.html'">vintage 1/24 slot car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Large_Glass_Marble.html'">Large Glass Marble</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/lifelike_daytona_charger.html'">lifelike daytona charger</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_handmade_marbles.html'">vintage handmade marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/BEN_10_FIGURE_LOT_OMNIVERSE.html'">BEN 10 FIGURE LOT OMNIVERSE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Thunderbird_convertible,_nice!.html'">Aurora Thunderjet Thunderbird convertible, nice!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KIDS_COLORED_MARBLES_AND_SIZES,DESIGNS.html'">KIDS COLORED MARBLES AND SIZES,DESIGNS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/aurora_t_jet_thunderbird.html'">aurora t jet thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora-AFX_slot_car_layout.html'">Aurora/AFX slot car layout</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vitro_Cherry_Custard_Marble.html'">Vitro Cherry Custard Marble</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/tyco_hd_semi_truck.html'">tyco hd semi truck</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

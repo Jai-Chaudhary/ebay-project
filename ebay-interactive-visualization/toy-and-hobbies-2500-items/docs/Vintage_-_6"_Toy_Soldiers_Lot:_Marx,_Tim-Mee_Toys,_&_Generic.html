@@ -1,0 +1,158 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[6.9360583374, "../topics/{Playset,_10mm,_Collectible}.html", "{Playset,_10mm,_Collectible}"], [2.0312221536, "../topics/{Robot,_Toy,_Tin}.html", "{Robot,_Toy,_Tin}"], [1.1266970385, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"], [1.0313258432, "../topics/{&,_NIB,_NEW}.html", "{&,_NIB,_NEW}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Vintage - 6" Toy Soldiers Lot: Marx, Tim-Mee Toys, & Generic</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Vintage - 6" Toy Soldiers Lot: Marx, Tim-Mee Toys, & Generic</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Playset,_10mm,_Collectible}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Playset,_10mm,_Collectible}.html'">{Playset, 10mm, Collectible}</td></tr>
+<tr class="list"><td id="{Robot,_Toy,_Tin}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Robot,_Toy,_Tin}.html'">{Robot, Toy, Tin}</td></tr>
+<tr class="list"><td id="{-,_7",_NECA}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{-,_7",_NECA}.html'">{-, 7", NECA}</td></tr>
+<tr class="list"><td id="{&,_NIB,_NEW}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{&,_NIB,_NEW}.html'">{&, NIB, NEW}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Friction_Powered_Mighty_Mo_Jeep_1980_Collectible_Rare_Toy.html'">Friction Powered Mighty Mo Jeep 1980 Collectible Rare Toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10mm_Painted_late_medieval_halberdier_infantry.html'">10mm Painted late medieval halberdier infantry</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10mm_painted_late_medieval_knights_#3.html'">10mm painted late medieval knights #3</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10mm_painted_Late_Medieval_Bombard_Artillery.html'">10mm painted Late Medieval Bombard Artillery</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Frog_1:72_#F204_Hunter_F.G.A.9_Ground_Attack_Fighter.html'">Frog 1:72 #F204 Hunter F.G.A.9 Ground Attack Fighter</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2014_HOT_WHEELS_CITY__THE_FLINTSTONES_"THE_FLINTMOBILE"__car_83-250.html'">2014 HOT WHEELS CITY  THE FLINTSTONES "THE FLINTMOBILE"  car 83/250</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marx_Vintage_Playset_Armed_Forces_Training_Center_Near_Complete_with_Box.html'">Marx Vintage Playset Armed Forces Training Center Near Complete with Box</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ILIAD_(International_Team,_1979)_(Unplayed).html'">ILIAD (International Team, 1979) (Unplayed)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/DJI_Phantom_FC40_Quadcopter_Bundle!!.html'">DJI Phantom FC40 Quadcopter Bundle!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10mm_painted_late_medieval_knights.html'">10mm painted late medieval knights</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10mm_Painted_Late_Medieval_Archers.html'">10mm Painted Late Medieval Archers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Maywa_Denki_Otamatone_(Black)_4902314094217.html'">Maywa Denki Otamatone (Black) 4902314094217</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Play-Doh_Diggin__Rigs_Buzzsaw_Playset.html'">Play-Doh Diggin' Rigs Buzzsaw Playset</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MISS_MUFFET_PREPAINTED_STATUE:DARK_CARNIVAL.html'">MISS MUFFET PREPAINTED STATUE:DARK CARNIVAL</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10mm_painted_late_medieval_knights_#1.html'">10mm painted late medieval knights #1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SOLAR_DANCING_HULA_GIRL_-_PINK.html'">SOLAR DANCING HULA GIRL - PINK</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/lego_mad_eye_moody.html'">lego mad eye moody</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Star_Trek_USS_ENTERPRISE_Vintage_Mego_Playset_with_6_Figures_in_Mint_☆RARE☆.html'">Star Trek USS ENTERPRISE Vintage Mego Playset with 6 Figures in Mint ☆RARE☆</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HOT_2.4G_RC_airplane_LCD_Screen_Transmitter,Controller,Radio_with_7CH_Receivers.html'">HOT 2.4G RC airplane LCD Screen Transmitter,Controller,Radio with 7CH Receivers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LEGO_Collectible_Minifigures_Series_12_PIGGY_GUY_71007_New_Never_Assembled.html'">LEGO Collectible Minifigures Series 12 PIGGY GUY 71007 New Never Assembled</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/lifelike_daytona_charger.html'">lifelike daytona charger</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Plastic_Toy_Soldiers_Marx_Medieval_Castle_Playset_54mm_Blue_Knights_21_Figures.html'">Plastic Toy Soldiers Marx Medieval Castle Playset 54mm Blue Knights 21 Figures</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LITTLEST_PET_SHOP_#528_YELLOW_GOLD_CHIHUAHUA_DOG.html'">LITTLEST PET SHOP #528 YELLOW GOLD CHIHUAHUA DOG</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_Atlantis_City_of_Atlantis.html'">Lego Atlantis City of Atlantis</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rare_Red_Robosapien_V2.html'">Rare Red Robosapien V2</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

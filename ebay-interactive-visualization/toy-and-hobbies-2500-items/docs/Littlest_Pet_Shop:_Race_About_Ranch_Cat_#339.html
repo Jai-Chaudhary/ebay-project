@@ -1,0 +1,155 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[8.0313258432, "../topics/{Pet,_Littlest,_Shop}.html", "{Pet,_Littlest,_Shop}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Littlest Pet Shop: Race About Ranch Cat #339</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Littlest Pet Shop: Race About Ranch Cat #339</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Pet,_Littlest,_Shop}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Pet,_Littlest,_Shop}.html'">{Pet, Littlest, Shop}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_Lot_#1010_Dachshund_+_Christmas_Accessories.html'">Littlest Pet Shop Lot #1010 Dachshund + Christmas Accessories</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mixed_Lot_of_30_Littlest_Pet_Shop_Pets_Dogs_Cats_&_More_No_Dups.html'">Mixed Lot of 30 Littlest Pet Shop Pets Dogs Cats & More No Dups</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_#143_Tan_and_Brown_Boxer_Puppy_Dog.html'">Littlest Pet Shop #143 Tan and Brown Boxer Puppy Dog</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop-lps_1170-lps_brown-lps_ranch-lps_cat-lps_swirl-lps_authentic.html'">Littlest Pet Shop/lps 1170/lps brown/lps ranch/lps cat/lps swirl/lps authentic</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_shop_LPS_Huge_Lot_20_Pets_&_Accessories.html'">Littlest Pet shop LPS Huge Lot 20 Pets & Accessories</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_Polly_Pocket_type_play_set_w-_3_animals!.html'">Littlest Pet Shop Polly Pocket type play set w/ 3 animals!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Lots_of_20pcs_Hasbro_Littlest_Pet_Shop_Different_Animals_New_Child_Girl_Toys.html'">Hot Lots of 20pcs Hasbro Littlest Pet Shop Different Animals New Child Girl Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_Furry_Fluffy_Basket_Lot_of_2_Toy_Pieces_LPS_Accessories.html'">Littlest Pet Shop Furry Fluffy Basket Lot of 2 Toy Pieces LPS Accessories</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_LITTLE_LOVIN_PET_PLAYHOUSE_Playset.html'">Littlest Pet Shop LITTLE LOVIN PET PLAYHOUSE Playset</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_WHITE_HORSE_GREEN_EYES.html'">Littlest Pet Shop WHITE HORSE GREEN EYES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_Toy_Randomly_Doll_Cute_Animals_Figure_Playtime_Park_LPS_1pcs.html'">Littlest Pet Shop Toy Randomly Doll Cute Animals Figure Playtime Park LPS 1pcs</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_#852.html'">Littlest Pet Shop #852</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_#575_Cocker_Spaniel_Chocolate_Dipped_+_Accessories_XMAS.html'">Littlest Pet Shop #575 Cocker Spaniel Chocolate Dipped + Accessories XMAS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_LPS_Cat_Gray_Short_Hair_with_blue_eyes_#126.html'">Littlest Pet Shop LPS Cat Gray Short Hair with blue eyes #126</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_Great_Dane_577_Brown_Blue_Eye_White_Dog_LPS.html'">Littlest Pet Shop Great Dane 577 Brown Blue Eye White Dog LPS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_#2386_-_Standing_Purple,_Cream_and_Blue_Sparkle_Glitter_Cat.html'">Littlest Pet Shop #2386 - Standing Purple, Cream and Blue Sparkle Glitter Cat</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Littlest_Pet_Shop_LPS_#82_Grey_Persian_Kitty_Cat_Pink_Paws_Green_Eyes.html'">Littlest Pet Shop LPS #82 Grey Persian Kitty Cat Pink Paws Green Eyes</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AURORA_G_PLUS_LOT.html'">AURORA G PLUS LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Chassis_Mint_New.html'">Aurora Thunderjet Chassis Mint New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Space_Men_Action_Figures_Brand_New.html'">Vintage Space Men Action Figures Brand New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_handmade_marbles.html'">vintage handmade marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ninco_AC_Cobra_Classic.html'">Ninco AC Cobra Classic</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

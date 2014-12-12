@@ -1,0 +1,161 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-3.3762891916, "../topics/{2,_Fisher,_Learning}.html", "{2,_Fisher,_Learning}"], [-16.2064977117, "../topics/{Box,_Radio,_Wagon}.html", "{Box,_Radio,_Wagon}"], [-34.3040944039, "../topics/{2014,_Meal,_Happy}.html", "{2014,_Meal,_Happy}"], [-62.3071902907, "../topics/{VINTAGE,_LOT,_6}.html", "{VINTAGE,_LOT,_6}"], [-66.1681658907, "../topics/{New,_Free,_50}.html", "{New,_Free,_50}"], [-133.122027718, "../topics/{the,_BEANIE,_TY}.html", "{the,_BEANIE,_TY}"], [-135.982291211, "../topics/{Deluxe,_NEW!,_Kendama}.html", "{Deluxe,_NEW!,_Kendama}"], [-144.834343117, "../topics/{Toy,_and,_Set}.html", "{Toy,_and,_Set}"], [-145.815680207, "../topics/{for,_For,_Helicopter}.html", "{for,_For,_Helicopter}"], [-147.40242567, "../topics/{&,_NIB,_NEW}.html", "{&,_NIB,_NEW}"], [-164.415535114, "../topics/{Playset,_10mm,_Collectible}.html", "{Playset,_10mm,_Collectible}"], [-172.647803472, "../topics/{and,_Game,_w/}.html", "{and,_Game,_w/}"], [-173.89835385, "../topics/{Disney,_Frozen,_Elsa}.html", "{Disney,_Frozen,_Elsa}"], [-196.176179896, "../topics/{LIONEL,_KIT,_SCALE}.html", "{LIONEL,_KIT,_SCALE}"], [-196.239097414, "../topics/{Toys,_Antique,_Cast}.html", "{Toys,_Antique,_Cast}"], [-196.399643725, "../topics/{War,_Avalon,_Battle}.html", "{War,_Avalon,_Battle}"], [-196.620366786, "../topics/{Shogun,_Great,_Warriors}.html", "{Shogun,_Great,_Warriors}"], [-196.849625391, "../topics/{3,_set,_to}.html", "{3,_set,_to}"], [-197.202629931, "../topics/{Play,_Kids,_House}.html", "{Play,_Kids,_House}"], [-200.984686407, "../topics/{Super,_Minifigures,_Heroes}.html", "{Super,_Minifigures,_Heroes}"], [-206.301870644, "../topics/{Power,_New,_Brand}.html", "{Power,_New,_Brand}"], [-220.726833905, "../topics/{with,_by,_mint}.html", "{with,_by,_mint}"], [-227.6449036, "../topics/{1,_Large,_figures}.html", "{1,_Large,_figures}"], [-227.647650586, "../topics/{Of,_Lot,_Marbles}.html", "{Of,_Lot,_Marbles}"], [-227.801808098, "../topics/{NEW,_Traxxas,_COMPLETE}.html", "{NEW,_Traxxas,_COMPLETE}"], [-227.841715447, "../topics/{THE,_TOY,_GAME}.html", "{THE,_TOY,_GAME}"], [-227.886294569, "../topics/{1:72,_scale,_1/48}.html", "{1:72,_scale,_1/48}"], [-228.474621238, "../topics/{Hot,_Wheels,_Ride}.html", "{Hot,_Wheels,_Ride}"], [-228.636310876, "../topics/{HO,_Scale,_Car}.html", "{HO,_Scale,_Car}"], [-228.661354725, "../topics/{Little,_My,_NEW}.html", "{Little,_My,_NEW}"], [-228.661605989, "../topics/{Vintage,_Car,_Slot}.html", "{Vintage,_Car,_Slot}"], [-228.748247333, "../topics/{WHEELS,_CAR,_HOT}.html", "{WHEELS,_CAR,_HOT}"], [-228.892789453, "../topics/{Figure,_Action,_Ninja}.html", "{Figure,_Action,_Ninja}"], [-229.00379349, "../topics/{toy,_#,_2002}.html", "{toy,_#,_2002}"], [-229.020039639, "../topics/{Marble,_!,_Vintage}.html", "{Marble,_!,_Vintage}"], [-229.227330673, "../topics/{Robot,_Toy,_Tin}.html", "{Robot,_Toy,_Tin}"], [-229.377723412, "../topics/{of,_MTG,_Khans}.html", "{of,_MTG,_Khans}"], [-235.270121376, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"], [-260.564235002, "../topics/{8,_12,_BLACK}.html", "{8,_12,_BLACK}"], [-260.803692944, "../topics/{1000,_Puzzle,_Jigsaw}.html", "{1000,_Puzzle,_Jigsaw}"], [-260.922724279, "../topics/{Toy,_Plush,_Stuffed}.html", "{Toy,_Plush,_Stuffed}"], [-277.386175315, "../topics/{in,_2,_Lionel}.html", "{in,_2,_Lionel}"], [-285.965675022, "../topics/{car,_Edition,_slot}.html", "{car,_Edition,_slot}"], [-294.513494695, "../topics/{Pet,_Littlest,_Shop}.html", "{Pet,_Littlest,_Shop}"], [-297.477778159, "../topics/{Set,_Complete,_of}.html", "{Set,_Complete,_of}"], [-307.639881008, "../topics/{The,_Series,_Star}.html", "{The,_Series,_Star}"], [-409.632293283, "../topics/{Blue,_10,_Toys}.html", "{Blue,_10,_Toys}"], [-425.59976, "../topics/{1971,_King,_Britains}.html", "{1971,_King,_Britains}"], [-514.71770088, "../topics/{WITH,_WARS,_FIGURE}.html", "{WITH,_WARS,_FIGURE}"], [-727.01335564, "../topics/{Beanie,_Ty,_~}.html", "{Beanie,_Ty,_~}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>LeapFrog</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">LeapFrog</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/Learning.html'">Learning</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Price.html'">Price</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Fisher.html'">Fisher</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Leap.html'">Leap</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Pad.html'">Pad</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/LeapPad.html'">LeapPad</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Tablet.html'">Tablet</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Leapster.html'">Leapster</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Explorer.html'">Explorer</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/System.html'">System</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Leapfrog.html'">Leapfrog</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Green.html'">Green</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/USB.html'">USB</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Pen.html'">Pen</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/People-.html'">People-</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Reading.html'">Reading</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Frog.html'">Frog</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Books.html'">Books</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Ultra.html'">Ultra</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Pink.html'">Pink</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_LeapPad_Ultra_-_The_Ultimate_Kids__Learning_Tablet_-_Pink.html'">LeapFrog LeapPad Ultra - The Ultimate Kids' Learning Tablet - Pink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_-_LeapPad_2_Custom_Edition_Pink_Learning_Tablet_+_4_Games_-_Brand_New.html'">LeapFrog - LeapPad 2 Custom Edition Pink Learning Tablet + 4 Games - Brand New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_Letter_Factory_Phonics_(ALL_LETTERS).html'">LeapFrog Letter Factory Phonics (ALL LETTERS)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_Leapster_Explorer_Green.html'">LeapFrog Leapster Explorer Green</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_LeapPad_2_Power_Pack_Learning_Tablet_33250_Green_Leap_Frog_Pad.html'">LeapFrog LeapPad 2 Power Pack Learning Tablet 33250 Green Leap Frog Pad</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_LeapPad2_Explorer_Disney_Princess_Bundle,_Purple__***NEW***.html'">LeapFrog LeapPad2 Explorer Disney Princess Bundle, Purple  ***NEW***</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_Scribble_and_Write,_Free_Shipping,_New.html'">LeapFrog Scribble and Write, Free Shipping, New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_LeapPad2_Power_Learning_Tablet,_Green.html'">LeapFrog LeapPad2 Power Learning Tablet, Green</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_Pink_LeapPad_System_20_BOOKS_Madagascar_Toy_Story_2_Cat_in_the_Hat_LOT.html'">LeapFrog Pink LeapPad System 20 BOOKS Madagascar Toy Story 2 Cat in the Hat LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_Ni_Hao,_Kai-lan:_Super_Happy_Day!_(Learning_Game)-BRAND_NEW!!!.html'">LeapFrog Ni Hao, Kai-lan: Super Happy Day! (Learning Game)-BRAND NEW!!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_LeapPad_Explorer_32200_Green_with_case,_battery_charger,_and_5_Games!.html'">LeapFrog LeapPad Explorer 32200 Green with case, battery charger, and 5 Games!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_TAG_Reading_System_with_8_Books_&_Pen_-_Brave_Tangled_Princess_Frog_LOT.html'">LeapFrog TAG Reading System with 8 Books & Pen - Brave Tangled Princess Frog LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_Leap_Pad_Ultra_Empty_Box__Ultimate_Kids_Learning_Tablet_Wifi_Apps_Games.html'">LeapFrog Leap Pad Ultra Empty Box  Ultimate Kids Learning Tablet Wifi Apps Games</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_Fridge_PHONICS_Alphabet_Magnetic_FARM_Animals_Wash_&_Go_Vehicle_RADIO.html'">LeapFrog Fridge PHONICS Alphabet Magnetic FARM Animals Wash & Go Vehicle RADIO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_Leappad_Rechargeable_Battery_Packs_&_Charger_WORKS_GREAT.html'">LeapFrog Leappad Rechargeable Battery Packs & Charger WORKS GREAT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_,_LeapReader_,_Reading_And_Writing_System_Green_+_Deluxe_Activity_Set.html'">LeapFrog , LeapReader , Reading And Writing System Green + Deluxe Activity Set</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{2,_Fisher,_Learning}.html'">{2, Fisher, Learning}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Box,_Radio,_Wagon}.html'">{Box, Radio, Wagon}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{2014,_Meal,_Happy}.html'">{2014, Meal, Happy}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{VINTAGE,_LOT,_6}.html'">{VINTAGE, LOT, 6}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{New,_Free,_50}.html'">{New, Free, 50}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{the,_BEANIE,_TY}.html'">{the, BEANIE, TY}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Deluxe,_NEW!,_Kendama}.html'">{Deluxe, NEW!, Kendama}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Toy,_and,_Set}.html'">{Toy, and, Set}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{for,_For,_Helicopter}.html'">{for, For, Helicopter}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{&,_NIB,_NEW}.html'">{&, NIB, NEW}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Playset,_10mm,_Collectible}.html'">{Playset, 10mm, Collectible}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{and,_Game,_w/}.html'">{and, Game, w/}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Disney,_Frozen,_Elsa}.html'">{Disney, Frozen, Elsa}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{LIONEL,_KIT,_SCALE}.html'">{LIONEL, KIT, SCALE}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Toys,_Antique,_Cast}.html'">{Toys, Antique, Cast}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{War,_Avalon,_Battle}.html'">{War, Avalon, Battle}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Shogun,_Great,_Warriors}.html'">{Shogun, Great, Warriors}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{3,_set,_to}.html'">{3, set, to}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Play,_Kids,_House}.html'">{Play, Kids, House}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Super,_Minifigures,_Heroes}.html'">{Super, Minifigures, Heroes}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

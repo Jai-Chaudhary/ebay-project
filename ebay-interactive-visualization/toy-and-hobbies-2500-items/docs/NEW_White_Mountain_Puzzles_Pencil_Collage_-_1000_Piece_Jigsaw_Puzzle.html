@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[10.0313258432, "../topics/{1000,_Puzzle,_Jigsaw}.html", "{1000,_Puzzle,_Jigsaw}"], [1.0313258432, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>NEW White Mountain Puzzles Pencil Collage - 1000 Piece Jigsaw Puzzle</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">NEW White Mountain Puzzles Pencil Collage - 1000 Piece Jigsaw Puzzle</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{1000,_Puzzle,_Jigsaw}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{1000,_Puzzle,_Jigsaw}.html'">{1000, Puzzle, Jigsaw}</td></tr>
+<tr class="list"><td id="{-,_7",_NECA}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{-,_7",_NECA}.html'">{-, 7", NECA}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/NEW_White_Mountain_Puzzles_Friends_in_Winter_-_1000_Piece_Jigsaw_Puzzle.html'">NEW White Mountain Puzzles Friends in Winter - 1000 Piece Jigsaw Puzzle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_White_Mountain_Puzzles_Lose_Your_Marbles_-_1000_Piece_Jigsaw_Puzzle.html'">NEW White Mountain Puzzles Lose Your Marbles - 1000 Piece Jigsaw Puzzle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/BITS_AND_PIECES_JIGSAW_PUZZLE_HALLOWEEN_MAYHEM_BONNIE_WHITE_1000_PCS.html'">BITS AND PIECES JIGSAW PUZZLE HALLOWEEN MAYHEM BONNIE WHITE 1000 PCS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Games_We_Played_Jigsaw_Puzzle_1000_Pieces_by_White_Mountain_Puzzles.html'">Games We Played Jigsaw Puzzle 1000 Pieces by White Mountain Puzzles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MEN_ON_THE_MOON_1000_PIECE_POSTAL_JIGSAW_PUZZLE__NEW_VINTAGE*.html'">MEN ON THE MOON 1000 PIECE POSTAL JIGSAW PUZZLE  NEW VINTAGE*</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2_White_Mountain_1000_Pc._Jigsaw_Puzzles_TV_History_&_American_Maritime.html'">2 White Mountain 1000 Pc. Jigsaw Puzzles TV History & American Maritime</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/White_Mountain_USA_Jigsaw_Puzzle_1000_Pieces_Stamp_Collectors_Collage_-_NEW.html'">White Mountain USA Jigsaw Puzzle 1000 Pieces Stamp Collectors Collage - NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_White_Mountain_Puzzles_Couples_-_1000_Piece_Jigsaw_Puzzle.html'">NEW White Mountain Puzzles Couples - 1000 Piece Jigsaw Puzzle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HOMETOWN_COLLECTION_1000_PC_PUZZLE_"PUMPKIN_PICKING"_HERONIM_COMPLETE!.html'">HOMETOWN COLLECTION 1000 PC PUZZLE "PUMPKIN PICKING" HERONIM COMPLETE!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SUPPER_CALL_a_1000_PIECE_CHARLES_WYSOCKI_JIGSAW_PUZZLE_PRE-OWNED.html'">SUPPER CALL a 1000 PIECE CHARLES WYSOCKI JIGSAW PUZZLE PRE-OWNED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/White_Mountain_Puzzles_Best_of_Texas_-_1000_Piece_Jigsaw_Puzzle_New.html'">White Mountain Puzzles Best of Texas - 1000 Piece Jigsaw Puzzle New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Jigsaw_Puzzles_1000_Pieces_"Frozen_Fairy"_-_Nene_Thomas_-__Schmidt.html'">Jigsaw Puzzles 1000 Pieces "Frozen Fairy" / Nene Thomas /  Schmidt</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Thomas_Kinkade_Gone_with_the_Wind_Jigsaw_Puzzle_Ceaco_Movie_Classic_1000_Pieces.html'">Thomas Kinkade Gone with the Wind Jigsaw Puzzle Ceaco Movie Classic 1000 Pieces</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Gallery_Series_WOOD_Puzzle__1000_pc._Sealed_Dragon_Charmer_by_Josephine_Wall.html'">Gallery Series WOOD Puzzle  1000 pc. Sealed Dragon Charmer by Josephine Wall</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/(BRAND_NEW)_ORIGINAL_SILLY_PUTTY_DONT_BE_FOOLED_BY_GENERIC_ONES.html'">(BRAND NEW) ORIGINAL SILLY PUTTY DONT BE FOOLED BY GENERIC ONES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_1000_pieces_Jigsaw_Puzzle_Sealed_in_Box-_Hometown_bridge_by_Thomas_Kinkade.html'">New 1000 pieces Jigsaw Puzzle Sealed in Box- Hometown bridge by Thomas Kinkade</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_DISNEY_FROZEN_ELSA_SNOW_QUEEN_9"X10"_48_PIECE_PUZZLE_IN_RESEALABLE_BAG.html'">NEW DISNEY FROZEN ELSA SNOW QUEEN 9"X10" 48 PIECE PUZZLE IN RESEALABLE BAG</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/CHARLES_WYSOCKI_JIGSAW_PUZZLE_-_THE_AMERICANS_1000_PCS.html'">CHARLES WYSOCKI JIGSAW PUZZLE - THE AMERICANS 1000 PCS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1000_pc__Springbok_Hallmark_Puzzle NEW_FACTORY_SEALED.html'">1000 pc  Springbok Hallmark Puzzle NEW FACTORY SEALED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/John_Deere_Collection_1000_Piece_Jigsaw_Puzzle_"Field_Commander".html'">John Deere Collection 1000 Piece Jigsaw Puzzle "Field Commander"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Jigsaw_Puzzles_1000_Pieces_"Encontro"_-_Nene_Thomas_-__Schmidt.html'">Jigsaw Puzzles 1000 Pieces "Encontro" / Nene Thomas /  Schmidt</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/CHANUKAH_FESTIVAL_OF_LIGHTS_1000_PC_RAVENSBURGER_Jigsaw_PUZZLE__Size_20"_X_27".html'">CHANUKAH FESTIVAL OF LIGHTS 1000 PC RAVENSBURGER Jigsaw PUZZLE  Size 20" X 27"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SUNSOUT_INC._1000_PIECE_JIGSAW_PUZZLE_ALICE_IN_WONDERLAND_DOWN_THE_RABBIT_HOLE.html'">SUNSOUT INC. 1000 PIECE JIGSAW PUZZLE ALICE IN WONDERLAND DOWN THE RABBIT HOLE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MECHAMO_THE_MECHANICAL_ANIMAL_SERIES_"INCHWORM"_BY_GAKKEN_STILL_SEALED.html'">MECHAMO THE MECHANICAL ANIMAL SERIES "INCHWORM" BY GAKKEN STILL SEALED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/THOMAS_KINKADE_"MOUNTAIN_PARADISE"_1000-Piece_Collectible_Jigsaw_Puzzle.html'">THOMAS KINKADE "MOUNTAIN PARADISE" 1000-Piece Collectible Jigsaw Puzzle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Jigsaw_Puzzles_1000_Pieces_[Glow]_"Rapunzel_s_dream"_-_Disney.html'">Jigsaw Puzzles 1000 Pieces [Glow] "Rapunzel's dream" / Disney</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hidden_Expedition-Everest_1000_Piece_Jigsaw_Puzzle.html'">Hidden Expedition-Everest 1000 Piece Jigsaw Puzzle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LOT_of_7_1000_PC._bits_and_pieces___JIGSAW_PUZZLES.html'">LOT of 7 1000 PC. bits and pieces   JIGSAW PUZZLES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ravensburger_Puzzle_YOUNG_GIRLS_AT_THE_PIANO_2007_1000_Pc_Renoir_FACTORY_SEALED.html'">Ravensburger Puzzle YOUNG GIRLS AT THE PIANO 2007 1000 Pc Renoir FACTORY SEALED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Christmas_Cupcakes_Jigsaw_Puzzle_1000_Piece.html'">Christmas Cupcakes Jigsaw Puzzle 1000 Piece</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[8.0313258432, "../topics/{Little,_My,_NEW}.html", "{Little,_My,_NEW}"], [1.0313258432, "../topics/{with,_by,_mint}.html", "{with,_by,_mint}"], [1.0313258432, "../topics/{Play,_Kids,_House}.html", "{Play,_Kids,_House}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>My First Lincoln Logs House by K Nex/ Hasbro/Lincoln Logs</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">My First Lincoln Logs House by K Nex/ Hasbro/Lincoln Logs</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Little,_My,_NEW}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Little,_My,_NEW}.html'">{Little, My, NEW}</td></tr>
+<tr class="list"><td id="{with,_by,_mint}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{with,_by,_mint}.html'">{with, by, mint}</td></tr>
+<tr class="list"><td id="{Play,_Kids,_House}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Play,_Kids,_House}.html'">{Play, Kids, House}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Skylander_swap_force_6_figures._must_see._free_shipping.html'">Skylander swap force 6 figures. must see. free shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Dutch_200_Executive_Wooden_Desk_Bowling_Gift_Novelty_Game_Set.html'">Dutch 200 Executive Wooden Desk Bowling Gift Novelty Game Set</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MIP_My_Little_Pony_Mail_Order_Baby_Up_Up_And_Away_Vintage_80s.html'">MIP My Little Pony Mail Order Baby Up Up And Away Vintage 80s</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Little_Live_Pets_Talking_Bird_FRIENDLY_FRANKY_And_Cage.html'">Little Live Pets Talking Bird FRIENDLY FRANKY And Cage</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/D01l_New__Friendship_is_Magic_Princess_Luna_Nightmare_Moon_5_inch.html'">D01l New  Friendship is Magic Princess Luna Nightmare Moon 5 inch</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2011_McDonalds_My_Little_Pony_Friendship_is_Magic_Figures_Lot_Complete_Set.html'">2011 McDonalds My Little Pony Friendship is Magic Figures Lot Complete Set</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/*New_in_Box*_Little_Vintage_INDIAN_Motorcycle_Ride-On_-_RED.html'">*New in Box* Little Vintage INDIAN Motorcycle Ride-On - RED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_36_My_Little_Ponys_baby_by_Hasbro.html'">Lot of 36 My Little Ponys baby by Hasbro</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/My_Little_Pony_Mystery_Mini_Trixie_Lulamoon_Series_2.html'">My Little Pony Mystery Mini Trixie Lulamoon Series 2</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/16_Britains_Deetail_soldiers-One_with_7.5_MM_gun_and_one_with_Motorcycle.html'">16 Britains Deetail soldiers-One with 7.5 MM gun and one with Motorcycle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Britains_Deetail_Two_sets_of_soldiers_One_with_Mortar_and_one_with_7.5_MM_Gun.html'">Britains Deetail Two sets of soldiers One with Mortar and one with 7.5 MM Gun</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Modern_War_Issue_#14:_US_CARRIER_BATTLEGROUPS_-_(Game-Mag)_NEW_FREE_SHIPPING.html'">Modern War Issue #14: US CARRIER BATTLEGROUPS - (Game/Mag) NEW FREE SHIPPING</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ajani_Steadfast_x_2_NM-M_MTG_CORE_2015_-_free_shipping.html'">Ajani Steadfast x 2 NM/M MTG CORE 2015 - free shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_2014_LITTLE_LIVE_PETS_DELICATE_DEE_TWEET_TALKING_BIRD.html'">NEW 2014 LITTLE LIVE PETS DELICATE DEE TWEET TALKING BIRD</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/*NEW_Hasbro_My_Little_Pony_MLP_Fashems_Squishy_Pinkie_Pie.html'">*NEW Hasbro My Little Pony MLP Fashems Squishy Pinkie Pie</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/14"_Princess_Luna_My_Little_Pony_Plush_Stuffed_Animal_Toy_-_New.html'">14" Princess Luna My Little Pony Plush Stuffed Animal Toy - New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_9_Hasbro_My_Little_Pony_Mini_Ponies.html'">Lot of 9 Hasbro My Little Pony Mini Ponies</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HASBRO_MY_LITTLE_PET_SHOP_LPS_*hippopotamus*_S120!!.html'">HASBRO MY LITTLE PET SHOP LPS *hippopotamus* S120!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Little_People_-__Christmas_Set_Santa,_Elve,_Reindeer,_Sleigh_+_LOT.html'">Fisher Price Little People /  Christmas Set Santa, Elve, Reindeer, Sleigh + LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Little_People_Play_Family_AIRPORT_Playset_Vintage_#996_+_Extras.html'">Fisher Price Little People Play Family AIRPORT Playset Vintage #996 + Extras</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW,_SET_OF_2_MY_LITTLE_PONY_FASHEMS_(MASHEMS)_BLIND_CAPSULES.html'">NEW, SET OF 2 MY LITTLE PONY FASHEMS (MASHEMS) BLIND CAPSULES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_2014_My_Little_Pony_Friendship_is_Twilight__Figure_1PCS_Black___TOY_MM11.html'">NEW 2014 My Little Pony Friendship is Twilight  Figure 1PCS Black   TOY MM11</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Action_figures_200_Pieces_Army_Men_Toy_Soldiers_(World_War_2)_New.html'">Action figures 200 Pieces Army Men Toy Soldiers (World War 2) New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mtg_Elspeth,_Sun_s_Champion_x2_mint,_from_pack_to_sleeves_free_shipping.html'">Mtg Elspeth, Sun's Champion x2 mint, from pack to sleeves free shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/My_Little_Pony_two-sided_keychains_key_rings_chains_pendants_1pcs__PA26.html'">My Little Pony two-sided keychains key rings chains pendants 1pcs  PA26</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Kohls_Cares_Little_Critter_Sister_plush.html'">Kohls Cares Little Critter Sister plush</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_8_Ball.html'">Magic 8 Ball</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

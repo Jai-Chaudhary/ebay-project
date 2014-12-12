@@ -1,0 +1,183 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[1.0313258432, "../topics/{8,_12,_BLACK}.html", "{8,_12,_BLACK}"], [1.0313258432, "../topics/{the,_BEANIE,_TY}.html", "{the,_BEANIE,_TY}"], [1.0313258432, "../topics/{Play,_Kids,_House}.html", "{Play,_Kids,_House}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Magic 8 Ball</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Magic 8 Ball</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{8,_12,_BLACK}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{8,_12,_BLACK}.html'">{8, 12, BLACK}</td></tr>
+<tr class="list"><td id="{the,_BEANIE,_TY}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{the,_BEANIE,_TY}.html'">{the, BEANIE, TY}</td></tr>
+<tr class="list"><td id="{Play,_Kids,_House}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Play,_Kids,_House}.html'">{Play, Kids, House}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    
+<p>The <b>Magic 8 Ball</b> is a <a href="http://www.wikipedia.org/wiki/Toy" title="Toy">toy</a> used for <a href="http://www.wikipedia.org/wiki/Fortune-telling" title="Fortune-telling">fortune-telling</a> or seeking advice, manufactured by <a href="http://www.wikipedia.org/wiki/Mattel" title="Mattel">Mattel</a> and developed in the 1950s. It is often used in fiction, often for humor related to it giving very accurate, very inaccurate, or otherwise statistically improbable answers.</p>
+<p></p>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="http://en.wikipedia.org/wiki/Magic_8_Ball#Origin"><span class="tocnumber">1</span> <span class="toctext">Origin</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="http://en.wikipedia.org/wiki/Magic_8_Ball#Design"><span class="tocnumber">2</span> <span class="toctext">Design</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="http://en.wikipedia.org/wiki/Magic_8_Ball#Possible_answers"><span class="tocnumber">3</span> <span class="toctext">Possible answers</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="http://en.wikipedia.org/wiki/Magic_8_Ball#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="http://en.wikipedia.org/wiki/Magic_8_Ball#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="http://en.wikipedia.org/wiki/Magic_8_Ball#Patents"><span class="tocnumber">5.1</span> <span class="toctext">Patents</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="http://en.wikipedia.org/wiki/Magic_8_Ball#External_links"><span class="tocnumber">6</span> <span class="toctext">External links</span></a></li>
+</ul>
+<p></p>
+<h3><span class="mw-headline" id="Origin">Origin</span></h3>
+<p>An <a href="http://www.wikipedia.org/wiki/Billiard_ball" title="Billiard ball">8-ball</a> was used as a fortune telling device in the 1940 <a href="http://www.wikipedia.org/wiki/Three_Stooges" title="Three Stooges" class="mw-redirect">Three Stooges</a> short, <i><a href="http://www.wikipedia.org/wiki/You_Nazty_Spy" title="You Nazty Spy" class="mw-redirect">You Nazty Spy</a></i>, in which it was referred to as a "magic ball". While Magic 8 Ball didn't exist in its current form until 1950, the functional component was invented by Albert C. Carter, who was inspired by a <a href="http://www.wikipedia.org/wiki/Spirit_writing" title="Spirit writing" class="mw-redirect">spirit writing</a> device that was used by his mother, Mary, a Cincinnati <a href="http://www.wikipedia.org/wiki/Clairvoyant" title="Clairvoyant" class="mw-redirect">clairvoyant</a>. When store owner Max Levinson was approached by Carter about stocking the device, he called in his brother-in-law Abe Bookman, a graduate of <a href="http://www.wikipedia.org/wiki/University_of_Cincinnati_College_of_Applied_Science" title="University of Cincinnati College of Applied Science">Ohio Mechanics Institute</a>. In 1944, Carter filed for a patent for his device, assigning it to Bookman, Levinson, and another partner in what came to be Alabe Crafts, Inc. (<b>Al</b>bert and <b>Abe</b>) in 1946. Under the Alabe name, they marketed and sold the device as The <i>Syco-Seer</i>. Carter died sometime before the patent was granted in 1948. Bookman soon made improvements to the Syco-Seer and in 1948, it was encased in an iridescent <a href="http://www.wikipedia.org/wiki/Crystal_ball" title="Crystal ball">crystal ball</a>. Though unsuccessful, the revamped product caught the attention of Chicago's <a href="http://www.wikipedia.org/wiki/Brunswick_Bowling_%26_Billiards" title="Brunswick Bowling &amp; Billiards">Brunswick Billiards</a>. In 1950 they commissioned Alabe Crafts to make a version in the form of a traditional black and white 8-ball.<sup id="cite_ref-1" class="reference"><a href="http://en.wikipedia.org/wiki/Magic_8_Ball#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<h3><span class="mw-headline" id="Design">Design</span></h3>
+<p>The Magic 8 Ball is a hollow plastic sphere resembling an oversized, black and white <a href="http://www.wikipedia.org/wiki/8-ball" title="8-ball" class="mw-redirect">8-ball</a>. Inside is a cylindrical reservoir containing a white, plastic, <a href="http://www.wikipedia.org/wiki/Icosahedron" title="Icosahedron">icosahedral</a> die floating in alcohol with dissolved dark blue <a href="http://www.wikipedia.org/wiki/Dye" title="Dye">dye</a>. Each of the 20 faces of the die has an affirmative, negative, or non-committal statement printed on it in raised letters. There is a transparent window on the bottom of the Magic 8 Ball through which these messages can be read.</p>
+<p>To use the ball, it must be held with the window initially facing down. After "asking the ball" a <a href="http://www.wikipedia.org/wiki/Yes-no_question" title="Yes-no question" class="mw-redirect">yes-no question</a>, the user then turns the ball so that the window faces him, setting in motion the liquid and die inside. When the die floats to the top and one of its faces is pressed against the window, the raised letters displace the blue liquid to reveal the message as white letters on a blue background. Although many users shake the ball before turning it upright, the instructions warn against doing so because it can lead to bubbles. Unfortunately, over time the fluid tends to leak into the die such that eventually, it will no longer float to the top to display an answer.</p>
+<h3><span class="mw-headline" id="Possible_answers">Possible answers</span></h3>
+<p>The 20 answers inside a Magic 8 Ball are:</p>
+<p><a href="http://en.wikipedia.org/wiki/Magic_8_Ball">Full article&nbsp;&#x25B8;</a></p>
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Underground_Sea.html'">Underground Sea</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/McDONALDS_McNUGGET_BUDDIES.html'">McDONALDS McNUGGET BUDDIES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Temple_garden.html'">Temple garden</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Sinkhole.html'">MTG Sinkhole</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mobigo_games.html'">mobigo games</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ybike_pewi.html'">ybike pewi</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lionel_Sub.html'">Lionel Sub</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lionel_2046.html'">Lionel 2046</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lionel_Transformer.html'">Lionel Transformer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MaKey_MaKey.html'">MaKey MaKey</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marx_miniature.html'">Marx miniature</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/beanie_babies_Bears.html'">beanie babies Bears</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Whoopie_Cushion_8".html'">Whoopie Cushion 8"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Antique_metal_trucks.html'">Antique metal trucks</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_Hulk_Keychain.html'">Lego Hulk Keychain</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mechanical_Donkey_-_Horse.html'">Mechanical Donkey / Horse</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Buddies_Collection.html'">Ty Beanie Buddies Collection</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Stretchkins_Unicorn_-_Pink.html'">Stretchkins Unicorn - Pink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Crystal_Radio_Set_-_Assembled.html'">Crystal Radio Set - Assembled</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EUC_Wild_Planet_Radio_DJ.html'">EUC Wild Planet Radio DJ</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Jada_Chevrolet_Silverado_2014_Blue_1-24.html'">Jada Chevrolet Silverado 2014 Blue 1/24</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

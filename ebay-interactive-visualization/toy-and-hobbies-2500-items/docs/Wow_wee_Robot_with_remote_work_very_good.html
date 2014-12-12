@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[7.0313258432, "../topics/{Robot,_Toy,_Tin}.html", "{Robot,_Toy,_Tin}"], [1.0313258432, "../topics/{with,_by,_mint}.html", "{with,_by,_mint}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Wow wee Robot with remote work very good</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Wow wee Robot with remote work very good</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Robot,_Toy,_Tin}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Robot,_Toy,_Tin}.html'">{Robot, Toy, Tin}</td></tr>
+<tr class="list"><td id="{with,_by,_mint}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{with,_by,_mint}.html'">{with, by, mint}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Wow_Wee_Mr._Personality_Multi_Personality_Robot.html'">Wow Wee Mr. Personality Multi Personality Robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Robot_Fighter_friction_china_80_s_MIB_transformable.html'">Vintage Robot Fighter friction china 80's MIB transformable</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Plush_Over_Tin_Mechanical_Dancing_Monkey...._Very_Tall!!.html'">Vintage Plush Over Tin Mechanical Dancing Monkey.... Very Tall!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1961_Marx_Bengali_Battery_Operated_Tiger_in_Original_Box_Vintage.html'">1961 Marx Bengali Battery Operated Tiger in Original Box Vintage</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/OWI_EM4_Educational_Motorized_Robot_Kit.html'">OWI EM4 Educational Motorized Robot Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Japan_Tin_Car,_Occupied_Japan,_3_inches.html'">Japan Tin Car, Occupied Japan, 3 inches</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Creative_DIY_6_IN_1_Educational_Learning_Power_Solar_Robot_Kit_Children_Kids_Toy.html'">Creative DIY 6 IN 1 Educational Learning Power Solar Robot Kit Children Kids Toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1950_s-1960_s_Vintage_Marx_Mystery_Space_Ship_Toy_Parts_Lot.html'">1950's-1960's Vintage Marx Mystery Space Ship Toy Parts Lot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Radio_Flyer_Retro_Rocket_Model_#60~Lights_&_Sounds.html'">Vintage Radio Flyer Retro Rocket Model #60~Lights & Sounds</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Metal_House_Tin_Toy_Astronaut_Robot_Windup.html'">Metal House Tin Toy Astronaut Robot Windup</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/R-35_Robot_Masudaya_Japan_Battery_Operated_Model_Kit.html'">R-35 Robot Masudaya Japan Battery Operated Model Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rare_Space_Patrol_Siren_Ring_Premium_With_Cardback.html'">Rare Space Patrol Siren Ring Premium With Cardback</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rare_Yonezawa_Motorcycle_Battery_Operated_Three_Wheeler_Scarce.html'">Rare Yonezawa Motorcycle Battery Operated Three Wheeler Scarce</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Planet_Robot_Tin_Toy_Robby_the_Robot_Windup_Black.html'">Planet Robot Tin Toy Robby the Robot Windup Black</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Erector_Spykee_Vox_-_Interactive_Voice_Recognition_Ipod_Robot .html'">Erector Spykee Vox - Interactive Voice Recognition Ipod Robot </td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_1950s_Marusan_Japan_Blue_Bird_Tin_Toy_Car.html'">Vintage 1950s Marusan Japan Blue Bird Tin Toy Car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mecha_phantom_beast_dracossack_Mega_Tin_1st_Edition_Mint_Condition!!!!!!!!!.html'">mecha phantom beast dracossack Mega Tin 1st Edition Mint Condition!!!!!!!!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTH_Mr._Atomic_Robot_(10-1014).html'">MTH Mr. Atomic Robot (10-1014)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WowWee_Robosapien_X_Robot_Kit.html'">WowWee Robosapien X Robot Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_WowWee_Robosapien_X_Robot_Kit.html'">NEW WowWee Robosapien X Robot Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tin_toy_LOT_China_MF_ME_MS.html'">Tin toy LOT China MF ME MS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTH_-_BOX_for_Mr._Atomic_Robot_(10-1014).html'">MTH - BOX for Mr. Atomic Robot (10-1014)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Tin_Rotate_O_Matic_Super_Astronaut_In_Box.html'">Vintage Tin Rotate O Matic Super Astronaut In Box</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Marx_Toy_Tin_Litho_Wind_Up_Train.html'">Vintage Marx Toy Tin Litho Wind Up Train</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1Set__,_Creative_14-in-1_Solar_DIY_Robot_Kit_Toy_Child_Gift.html'">1Set  , Creative 14-in-1 Solar DIY Robot Kit Toy Child Gift</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1950_s_Japan_Hot_Rod_Toy_Car_"Rock-N-Roll,_Dream_Boat"__Works.html'">1950's Japan Hot Rod Toy Car "Rock-N-Roll, Dream Boat"  Works</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1960s_Bandai_Red_Tin_Volkwagon_Battery_Operated_Bump-N-Go_Toy_Car_JAPAN.html'">1960s Bandai Red Tin Volkwagon Battery Operated Bump-N-Go Toy Car JAPAN</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Creative_DIY_6_IN_1_Educational_Power_Solar_Energy_Robot_Kits_Children_Kids_Toy.html'">Creative DIY 6 IN 1 Educational Power Solar Energy Robot Kits Children Kids Toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/3_In_1_Solar_Toy_Robot_Tank_DIY_Educational_Assembly_Kit.html'">3 In 1 Solar Toy Robot Tank DIY Educational Assembly Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/3_In_1_Educational_DIY_Solar_Robot_Scorpion_Tank_Kit_Toy.html'">3 In 1 Educational DIY Solar Robot Scorpion Tank Kit Toy</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

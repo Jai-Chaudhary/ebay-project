@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-3.0848785003, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-4.2659421288, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-4.4002140914, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-43.455499058, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-47.2597687487, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-48.2056643613, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-52.0128366518, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-54.4309543213, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-56.7569154143, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-56.8360693422, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-56.9595653545, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-66.2490334542, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-67.0355364026, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-70.3032187616, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-71.0248799076, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-73.2188188098, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-74.0729190955, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-74.3149793889, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-74.9225006235, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-75.5369225498, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-75.6448587684, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-75.7996052216, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-76.2421173212, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-76.3805610577, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-76.5519674556, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-76.5604798948, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-77.9581021193, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-84.0087038904, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-88.3485247038, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-88.3743099202, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-89.0163193666, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-90.0598906273, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-94.0862405241, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-98.9827520583, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-102.238427667, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-102.255666465, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-102.396530146, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-102.547379459, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-105.165552035, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-107.751525459, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-107.941876495, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-108.551036594, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-114.747632794, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-114.770986535, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-116.056506563, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-117.648340306, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-121.697707939, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-137.356482266, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-153.424855444, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"], [-187.933006541, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>mini</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">mini</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/victoria.html'">victoria</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/zipper.html'">zipper</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/dog.html'">dog</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/secret.html'">secret</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/pull.html'">pull</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/bronze.html'">bronze</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/cell.html'">cell</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/phone.html'">phone</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/limited.html'">limited</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/edition.html'">edition</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/charm.html'">charm</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/strap.html'">strap</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/circle.html'">circle</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/snow.html'">snow</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/football.html'">football</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/star.html'">star</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ornament.html'">ornament</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/switchflop.html'">switchflop</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/tumbler.html'">tumbler</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/collectors.html'">collectors</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/Victorias_Secret_Pink_Mini_Dog_Set_Of_3_Regular_Size_Mini_Dog_Aztec_Leopard_Logo.html'">Victorias Secret Pink Mini Dog Set Of 3 Regular Size Mini Dog Aztec Leopard Logo</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Victoria_s_Secret_Pink_Mini_Mini_Ornament_Dogs_2014_Lot_of_4_ALL_NEW.html'">Victoria's Secret Pink Mini Mini Ornament Dogs 2014 Lot of 4 ALL NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Thirtyone_Thirty-One_Gifts_Mini_Zipper_Pouch_BRAND_NEW_-_Black_Chevron.html'">Thirtyone Thirty-One Gifts Mini Zipper Pouch BRAND NEW - Black Chevron</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Eyelash_Extension:_Speed_Up_Slow_Drying_Glue_-_Mini_Fan.html'">Eyelash Extension: Speed Up Slow Drying Glue - Mini Fan</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Thirty_one_gift_all_in_one_Organizer_mini_tote_bag_black_pick_me_plaid_31_new_rq.html'">Thirty one gift all in one Organizer mini tote bag black pick me plaid 31 new rq</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/BLACK_STYLISH_WRAP_MINI_SKORT_SKIRT_SIZE_S.html'">BLACK STYLISH WRAP MINI SKORT SKIRT SIZE S</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Travel_thirty_one_gift_all_in_one_Organizer_mini_tote_bag_Lil__blossom_31_new_oq.html'">Travel thirty one gift all in one Organizer mini tote bag Lil' blossom 31 new oq</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Travel_All_In_One_Organizer_pouch_cosmetic_pocket_mini_carry_hand_Bag_tidy_ee.html'">Travel All In One Organizer pouch cosmetic pocket mini carry hand Bag tidy ee</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pocket_Pads_or_Mini_Notebook_in_Folkloric_retired_color_by_Vera_Bradley.html'">Pocket Pads or Mini Notebook in Folkloric retired color by Vera Bradley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/♥MINI_MATCHBOOK_EMERY_BOARD_NAIL_FILE_VINTAGE_FLORAL_ROSE_POCKET_HANDBAG_GIFT.html'">♥MINI MATCHBOOK EMERY BOARD NAIL FILE VINTAGE FLORAL ROSE POCKET HANDBAG GIFT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Thirty_one_gift_all_in_one_Organizer_mini_tote_bag_black_textured_twill_31_new_e.html'">Thirty one gift all in one Organizer mini tote bag black textured twill 31 new e</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Thirty_one_Paparazzi_Dot_Mini_Organizer_Tote_Storage_Makeup_Beauty_Case_Bag.html'">Thirty one Paparazzi Dot Mini Organizer Tote Storage Makeup Beauty Case Bag</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Victoria_s_Secret_Pink_Collection_Mini_Dog(Pink,_Plum,_Blue)_Great_Gift_Cute_NWT.html'">Victoria's Secret Pink Collection Mini Dog(Pink, Plum, Blue) Great Gift Cute NWT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/VINTAGE_HANDPAINTED_CLOISONNE_BRASS_HINGED_MINI_PILL_BOX_TRINKET_BOX.html'">VINTAGE HANDPAINTED CLOISONNE BRASS HINGED MINI PILL BOX TRINKET BOX</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Thirty_one_gift_all_in_one_Organizer_mini_tote_bag_black_pick_me_plaid_31_new_p.html'">Thirty one gift all in one Organizer mini tote bag black pick me plaid 31 new p</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Travel_thirty_one_gift_all_in_one_Organizer_mini_tote_bag_Lil__blossom_31_new_xc.html'">Travel thirty one gift all in one Organizer mini tote bag Lil' blossom 31 new xc</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Travel_All_In_One_Organizer_pouch_cosmetic_pocket_mini_carry_hand_Bag_tidy_jcu.html'">Travel All In One Organizer pouch cosmetic pocket mini carry hand Bag tidy jcu</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vera_Bradley_Mini_Zip_Wallet_Puccini_-_NWT.html'">Vera Bradley Mini Zip Wallet Puccini - NWT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/40-50_Prs_HYDRA_COOLING_Mini_Paper_Gel_Lint_Free_Eyepad_Eye_Eyelash_Extension.html'">40-50 Prs HYDRA COOLING Mini Paper Gel Lint Free Eyepad Eye Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vera_Bradley_Mini_Cooler_Purple_Punch_-_EUC.html'">Vera Bradley Mini Cooler Purple Punch - EUC</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{strap,_charm,_phone}.html'">{strap, charm, phone}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{one,_tote,_thirty}.html'">{one, tote, thirty}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{colors,_brand,_nib}.html'">{colors, brand, nib}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pouch,_travel,_cosmetic}.html'">{pouch, travel, cosmetic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pocket,_mirror,_double}.html'">{pocket, mirror, double}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vintage,_authentic,_chanel}.html'">{vintage, authentic, chanel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{style,_accessory,_fabric}.html'">{style, accessory, fabric}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{blue,_brown,_green}.html'">{blue, brown, green}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{mm,_eyelash,_extension}.html'">{mm, eyelash, extension}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{red,_w,_ring}.html'">{red, w, ring}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{new,_design,_classic}.html'">{new, design, classic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{large,_purple,_fan}.html'">{large, purple, fan}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{x,_top,_print}.html'">{x, top, print}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{shoulder,_handbag,_tags}.html'">{shoulder, handbag, tags}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{size,_gray,_great}.html'">{size, gray, great}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{nwt,_color,_coach}.html'">{nwt, color, coach}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{cute,_beautiful,_sunglasses}.html'">{cute, beautiful, sunglasses}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{leather,_purse,_handbag}.html'">{leather, purse, handbag}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vera,_bradley,_pattern}.html'">{vera, bradley, pattern}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

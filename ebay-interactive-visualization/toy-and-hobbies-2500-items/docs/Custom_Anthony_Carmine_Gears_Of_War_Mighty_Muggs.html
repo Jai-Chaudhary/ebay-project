@@ -1,0 +1,157 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[6.0313260564, "../topics/{Of,_Lot,_Marbles}.html", "{Of,_Lot,_Marbles}"], [1.0313258327, "../topics/{War,_Avalon,_Battle}.html", "{War,_Avalon,_Battle}"], [1.0313256405, "../topics/{1971,_King,_Britains}.html", "{1971,_King,_Britains}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Custom Anthony Carmine Gears Of War Mighty Muggs</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Custom Anthony Carmine Gears Of War Mighty Muggs</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Of,_Lot,_Marbles}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Of,_Lot,_Marbles}.html'">{Of, Lot, Marbles}</td></tr>
+<tr class="list"><td id="{War,_Avalon,_Battle}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{War,_Avalon,_Battle}.html'">{War, Avalon, Battle}</td></tr>
+<tr class="list"><td id="{1971,_King,_Britains}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{1971,_King,_Britains}.html'">{1971, King, Britains}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Lot_Of_35+_Vintage_Gray_Army_Men.html'">Lot Of 35+ Vintage Gray Army Men</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_Lot_Of_3_Rainbow_&_Swirl_Marbles.html'">Peltier Lot Of 3 Rainbow & Swirl Marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Dropzone_Commander_-_UCM:_Starter_Army_[Plastic]_NEW.html'">Dropzone Commander - UCM: Starter Army [Plastic] NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_Mystery_Of_The_Island_The_Hatch_Jigsaw_Puzzle_#1_Of_4.html'">Lost Mystery Of The Island The Hatch Jigsaw Puzzle #1 Of 4</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/96pc_-_Army_Men_Toy_Soldiers_Military_Brown_Green_Plastic_Figurine_Action_Figure.html'">96pc - Army Men Toy Soldiers Military Brown Green Plastic Figurine Action Figure</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Biplane_Metal_Airplane_Model_Handcrafted_Wright_Flyer_Folk_Art_Decor_Vintage.html'">Biplane Metal Airplane Model Handcrafted Wright Flyer Folk Art Decor Vintage</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/BMC_41_World_War_II_Russian_Infantry_Bagged_Plastic_Toy_Soldiers_Set.html'">BMC 41 World War II Russian Infantry Bagged Plastic Toy Soldiers Set</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_9_Antique_Clay_and_6_Large_Swirled_and_Glass_Marbles.html'">Lot of 9 Antique Clay and 6 Large Swirled and Glass Marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Squinkies_Lot_Of_8_Dogs_Puppies.html'">Squinkies Lot Of 8 Dogs Puppies</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/G.I._Joe_Motorcycle_Rider_from_World_War_II__~___Wounded.html'">G.I. Joe Motorcycle Rider from World War II  ~   Wounded</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_Of_7_Antique_Glass_Swirl_Marbles_._German_?.html'">Lot Of 7 Antique Glass Swirl Marbles . German ?</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_Peltier_Multi-Color_Rainbow_Marbles.html'">Lot of Peltier Multi-Color Rainbow Marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_Of_20_Rubber_Ducks__--_Halloween.html'">Lot Of 20 Rubber Ducks  -- Halloween</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/VINTAGE_New_NOS_Peltier_Glass_Shooter_Marbles_in_package.html'">VINTAGE New NOS Peltier Glass Shooter Marbles in package</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Victory_in_Vietnam_II_Schutze_Games_Bruce_Costello.html'">Victory in Vietnam II Schutze Games Bruce Costello</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Smencils_Pop_Set_Of_40_Sorta_Soda_1167,New.html'">Smencils Pop Set Of 40 Sorta Soda 1167,New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ty_beanie_babies_Lot_Of_26_Lot_I.html'">ty beanie babies Lot Of 26 Lot I</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Lot_Of_20_Random_Minifigures_Figures_Men_People_Minifigs_Grab_Bag.html'">New Lot Of 20 Random Minifigures Figures Men People Minifigs Grab Bag</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Lot_Of_50_Random_Minifigures_Figures_Men_People_Minifigs_Grab_Bag.html'">New Lot Of 50 Random Minifigures Figures Men People Minifigs Grab Bag</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_Minecraft_Micro_World_Minifigures._Microfigures_-_Steve,_Zombie,_Creeper.html'">Lego Minecraft Micro World Minifigures. Microfigures - Steve, Zombie, Creeper</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Lot_Of_10_Random_Minifigures_Figures_Men_People_Minifigs_Grab_Bag.html'">New Lot Of 10 Random Minifigures Figures Men People Minifigs Grab Bag</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tsuro_Of_The_Seas_Promotional_Cards_Veterans_Of_The_Seas.html'">Tsuro Of The Seas Promotional Cards Veterans Of The Seas</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Beyblades_Lot.html'">Beyblades Lot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Grab_Bag_Lot_of_10_LEGO_Minifigures_Figures_Men_People_Minifigs.html'">Grab Bag Lot of 10 LEGO Minifigures Figures Men People Minifigs</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Action_figures_200_Pieces_Army_Men_Toy_Soldiers_(World_War_2)_New.html'">Action figures 200 Pieces Army Men Toy Soldiers (World War 2) New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Beanie_Babies_Lot_Bears.html'">Beanie Babies Lot Bears</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Huge_Lot_Of_50_Beanie_Babies_Rare_Retired-__With_Tags.html'">Huge Lot Of 50 Beanie Babies Rare Retired-  With Tags</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/The_Wizard_Of_Oz_Jigsaw_Puzzle.html'">The Wizard Of Oz Jigsaw Puzzle</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

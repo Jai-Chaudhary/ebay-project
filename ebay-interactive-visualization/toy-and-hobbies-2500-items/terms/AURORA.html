@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-2.9199503358, "../topics/{Vintage,_Car,_Slot}.html", "{Vintage,_Car,_Slot}"], [-34.0782715421, "../topics/{in,_2,_Lionel}.html", "{in,_2,_Lionel}"], [-52.7326545789, "../topics/{Box,_Radio,_Wagon}.html", "{Box,_Radio,_Wagon}"], [-69.1405664648, "../topics/{car,_Edition,_slot}.html", "{car,_Edition,_slot}"], [-113.826746736, "../topics/{HO,_Scale,_Car}.html", "{HO,_Scale,_Car}"], [-115.702775813, "../topics/{Disney,_Frozen,_Elsa}.html", "{Disney,_Frozen,_Elsa}"], [-133.020702649, "../topics/{Power,_New,_Brand}.html", "{Power,_New,_Brand}"], [-133.084894765, "../topics/{War,_Avalon,_Battle}.html", "{War,_Avalon,_Battle}"], [-144.300254618, "../topics/{2,_Fisher,_Learning}.html", "{2,_Fisher,_Learning}"], [-175.744889972, "../topics/{1971,_King,_Britains}.html", "{1971,_King,_Britains}"], [-179.066837591, "../topics/{New,_Free,_50}.html", "{New,_Free,_50}"], [-193.036715115, "../topics/{Blue,_10,_Toys}.html", "{Blue,_10,_Toys}"], [-196.310312856, "../topics/{Playset,_10mm,_Collectible}.html", "{Playset,_10mm,_Collectible}"], [-196.488979688, "../topics/{8,_12,_BLACK}.html", "{8,_12,_BLACK}"], [-196.911231729, "../topics/{LIONEL,_KIT,_SCALE}.html", "{LIONEL,_KIT,_SCALE}"], [-199.328215891, "../topics/{1000,_Puzzle,_Jigsaw}.html", "{1000,_Puzzle,_Jigsaw}"], [-206.691401438, "../topics/{&,_NIB,_NEW}.html", "{&,_NIB,_NEW}"], [-207.604756684, "../topics/{with,_by,_mint}.html", "{with,_by,_mint}"], [-213.583614556, "../topics/{Little,_My,_NEW}.html", "{Little,_My,_NEW}"], [-216.005267305, "../topics/{2014,_Meal,_Happy}.html", "{2014,_Meal,_Happy}"], [-227.893696863, "../topics/{Toys,_Antique,_Cast}.html", "{Toys,_Antique,_Cast}"], [-228.405532432, "../topics/{Shogun,_Great,_Warriors}.html", "{Shogun,_Great,_Warriors}"], [-228.602640778, "../topics/{and,_Game,_w/}.html", "{and,_Game,_w/}"], [-228.630467233, "../topics/{1,_Large,_figures}.html", "{1,_Large,_figures}"], [-228.787371731, "../topics/{NEW,_Traxxas,_COMPLETE}.html", "{NEW,_Traxxas,_COMPLETE}"], [-228.84989815, "../topics/{Toy,_and,_Set}.html", "{Toy,_and,_Set}"], [-228.871858201, "../topics/{1:72,_scale,_1/48}.html", "{1:72,_scale,_1/48}"], [-228.890754257, "../topics/{VINTAGE,_LOT,_6}.html", "{VINTAGE,_LOT,_6}"], [-229.181972102, "../topics/{Play,_Kids,_House}.html", "{Play,_Kids,_House}"], [-229.281376453, "../topics/{the,_BEANIE,_TY}.html", "{the,_BEANIE,_TY}"], [-229.342609594, "../topics/{WITH,_WARS,_FIGURE}.html", "{WITH,_WARS,_FIGURE}"], [-229.642736143, "../topics/{The,_Series,_Star}.html", "{The,_Series,_Star}"], [-229.733810966, "../topics/{WHEELS,_CAR,_HOT}.html", "{WHEELS,_CAR,_HOT}"], [-229.878353085, "../topics/{Figure,_Action,_Ninja}.html", "{Figure,_Action,_Ninja}"], [-229.998509419, "../topics/{Set,_Complete,_of}.html", "{Set,_Complete,_of}"], [-232.968223636, "../topics/{Hot,_Wheels,_Ride}.html", "{Hot,_Wheels,_Ride}"], [-257.173765263, "../topics/{THE,_TOY,_GAME}.html", "{THE,_TOY,_GAME}"], [-260.725472071, "../topics/{toy,_#,_2002}.html", "{toy,_#,_2002}"], [-261.114877719, "../topics/{Beanie,_Ty,_~}.html", "{Beanie,_Ty,_~}"], [-261.174942525, "../topics/{of,_MTG,_Khans}.html", "{of,_MTG,_Khans}"], [-261.526523547, "../topics/{Pet,_Littlest,_Shop}.html", "{Pet,_Littlest,_Shop}"], [-262.159592327, "../topics/{Toy,_Plush,_Stuffed}.html", "{Toy,_Plush,_Stuffed}"], [-265.734311482, "../topics/{Marble,_!,_Vintage}.html", "{Marble,_!,_Vintage}"], [-284.954397439, "../topics/{3,_set,_to}.html", "{3,_set,_to}"], [-299.132779092, "../topics/{Deluxe,_NEW!,_Kendama}.html", "{Deluxe,_NEW!,_Kendama}"], [-306.292407018, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"], [-313.877480386, "../topics/{for,_For,_Helicopter}.html", "{for,_For,_Helicopter}"], [-336.892763816, "../topics/{Super,_Minifigures,_Heroes}.html", "{Super,_Minifigures,_Heroes}"], [-429.253016921, "../topics/{Robot,_Toy,_Tin}.html", "{Robot,_Toy,_Tin}"], [-712.077679665, "../topics/{Of,_Lot,_Marbles}.html", "{Of,_Lot,_Marbles}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>Aurora</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">Aurora</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/Slot.html'">Slot</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Tyco.html'">Tyco</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Bodies.html'">Bodies</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/AFX.html'">AFX</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Thunderjet.html'">Thunderjet</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Porsche.html'">Porsche</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Tomy.html'">Tomy</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Good!.html'">Good!</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms//.html'">/</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Ferrari.html'">Ferrari</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/CJ-7.html'">CJ-7</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Red~Runs.html'">Red~Runs</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Indy.html'">Indy</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Cream.html'">Cream</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/STEVE.html'">STEVE</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Fly.html'">Fly</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Racers.html'">Racers</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/SLOT.html'">SLOT</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/#1359.html'">#1359</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Indianapolis.html'">Indianapolis</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Aurora_Thunderjet_Candy_Green_Corvette_Stingray_in_good_condition.html'">Vintage Aurora Thunderjet Candy Green Corvette Stingray in good condition</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Aurora_T-Jet_Brabham_Indy_F1_Racer_Ho_Slot_Car_In_Green.html'">Vintage Aurora T-Jet Brabham Indy F1 Racer Ho Slot Car In Green</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Aurora_T-Jet_Sand_Van_Dune_Buggy_Dark_Pink_Ho_Slot_Car.html'">Vintage Aurora T-Jet Sand Van Dune Buggy Dark Pink Ho Slot Car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/4_Vintage_Aurora_T-Jet_Hot_Rod_Slot_Cars_Yellow,_Cream_&_Tan.html'">4 Vintage Aurora T-Jet Hot Rod Slot Cars Yellow, Cream & Tan</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Aurora_Vibrator_Ford_Thunderbird_Hardtop_slot_car,_Rare_Red_w-Red_Roof.html'">Vintage Aurora Vibrator Ford Thunderbird Hardtop slot car, Rare Red w/Red Roof</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_BATMOBILE_ho_Slot_Car.html'">Aurora BATMOBILE ho Slot Car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2_Tomy_Aurora_AFX_Bodies_-_Lighted_Castrol_Jaguar_-_Porsche_962_HO_Scale_-_Tyco.html'">2 Tomy Aurora AFX Bodies - Lighted Castrol Jaguar / Porsche 962 HO Scale - Tyco</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_AFX_Aurora_Chevy_Blazer_Flamethrower_in_White_HO_Slot_Car~Runs_Good!.html'">Vintage AFX Aurora Chevy Blazer Flamethrower in White HO Slot Car~Runs Good!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Aurora_T-Jet_Alfa_Romeo_Green_HO_Slot_Car_Nice!.html'">Vintage Aurora T-Jet Alfa Romeo Green HO Slot Car Nice!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/3_Aurora_AFX_Ferrari_512PB_-_Matador_-_Porsche_HO_Scale_Slot_Car_Bodies_-_Tyco.html'">3 Aurora AFX Ferrari 512PB / Matador / Porsche HO Scale Slot Car Bodies - Tyco</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Falcon_slot_car.html'">Aurora Thunderjet Falcon slot car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Lincoln_Continental_Tan_Vintage_HO_Slot_Car_near_mint_to_mint.html'">Aurora Thunderjet Lincoln Continental Tan Vintage HO Slot Car near mint to mint</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Aurora_-_Indianapolis_Racer_#7_Mint_Condition_#1359.html'">Vintage Aurora / Indianapolis Racer #7 Mint Condition #1359</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/4_Aurora_AFX_HO_Scale_Slot_Car_Bodies_Camaro_Nissan_300ZX_-_Tyco.html'">4 Aurora AFX HO Scale Slot Car Bodies Camaro Nissan 300ZX - Tyco</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Aurora_AFX_Lighted_#2_Porsche_917_White_Slot_Car.html'">Vintage Aurora AFX Lighted #2 Porsche 917 White Slot Car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1971_Aurora_afx__t-jet_Speed_Shifter_Power_Control_1544_RARE.html'">1971 Aurora afx  t-jet Speed Shifter Power Control 1544 RARE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Chassis_Mint_New.html'">Aurora Thunderjet Chassis Mint New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/4_Tyco_Porsche_908_Bodies_for_HO_Scale_Slot_Car__-_Aurora_AFX_Tomy.html'">4 Tyco Porsche 908 Bodies for HO Scale Slot Car  / Aurora AFX Tomy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/3_Aurora_AFX_Porsche_917-10_-_510K_-_Lola_T260_HO_Scale_Slot_Car_Bodies-_Tyco.html'">3 Aurora AFX Porsche 917-10 / 510K / Lola T260 HO Scale Slot Car Bodies- Tyco</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Huge_Lot_!_Aurora_Slot_Car_Track_And_Misc_-_Model_Motoring.html'">Huge Lot ! Aurora Slot Car Track And Misc / Model Motoring</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Vintage,_Car,_Slot}.html'">{Vintage, Car, Slot}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{in,_2,_Lionel}.html'">{in, 2, Lionel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Box,_Radio,_Wagon}.html'">{Box, Radio, Wagon}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{car,_Edition,_slot}.html'">{car, Edition, slot}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{HO,_Scale,_Car}.html'">{HO, Scale, Car}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Disney,_Frozen,_Elsa}.html'">{Disney, Frozen, Elsa}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Power,_New,_Brand}.html'">{Power, New, Brand}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{War,_Avalon,_Battle}.html'">{War, Avalon, Battle}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{2,_Fisher,_Learning}.html'">{2, Fisher, Learning}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{1971,_King,_Britains}.html'">{1971, King, Britains}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{New,_Free,_50}.html'">{New, Free, 50}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Blue,_10,_Toys}.html'">{Blue, 10, Toys}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Playset,_10mm,_Collectible}.html'">{Playset, 10mm, Collectible}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{8,_12,_BLACK}.html'">{8, 12, BLACK}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{LIONEL,_KIT,_SCALE}.html'">{LIONEL, KIT, SCALE}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{1000,_Puzzle,_Jigsaw}.html'">{1000, Puzzle, Jigsaw}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{&,_NIB,_NEW}.html'">{&, NIB, NEW}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{with,_by,_mint}.html'">{with, by, mint}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Little,_My,_NEW}.html'">{Little, My, NEW}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{2014,_Meal,_Happy}.html'">{2014, Meal, Happy}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

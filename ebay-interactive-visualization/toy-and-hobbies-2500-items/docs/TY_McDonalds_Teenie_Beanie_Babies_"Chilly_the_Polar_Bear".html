@@ -1,0 +1,157 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[4.0313258441, "../topics/{Beanie,_Ty,_~}.html", "{Beanie,_Ty,_~}"], [4.0313258423, "../topics/{of,_MTG,_Khans}.html", "{of,_MTG,_Khans}"], [1.0313258432, "../topics/{Set,_Complete,_of}.html", "{Set,_Complete,_of}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>TY McDonalds Teenie Beanie Babies "Chilly the Polar Bear"</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">TY McDonalds Teenie Beanie Babies "Chilly the Polar Bear"</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Beanie,_Ty,_~}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Beanie,_Ty,_~}.html'">{Beanie, Ty, ~}</td></tr>
+<tr class="list"><td id="{of,_MTG,_Khans}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{of,_MTG,_Khans}.html'">{of, MTG, Khans}</td></tr>
+<tr class="list"><td id="{Set,_Complete,_of}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Set,_Complete,_of}.html'">{Set, Complete, of}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/TY_Beanie_Babies_Lot_of_11_CHRISTMAS.html'">TY Beanie Babies Lot of 11 CHRISTMAS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Acrylic_Cube_Display_Cases_Toys-Hobbies-Collectibles_Beanie_Babies_Used.html'">Acrylic Cube Display Cases Toys/Hobbies/Collectibles Beanie Babies Used</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Baby_Hissy.html'">Ty Beanie Baby Hissy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Animal_Babies_Baby_Siberian_Husky.html'">Animal Babies Baby Siberian Husky</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Retired_Beanie_Babies.html'">Retired Beanie Babies</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NM_Wooded_Foothills.html'">NM Wooded Foothills</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Bloodstained_Mire.html'">MTG Bloodstained Mire</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Animal_Babies_9in_Baby.html'">Animal Babies 9in Baby</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Baby_Dog_Collection.html'">Ty Beanie Baby Dog Collection</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_for_4_Ty_Beanie_Babies_2000.html'">Lot for 4 Ty Beanie Babies 2000</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Boo_Phantom_ghost.html'">Ty Beanie Boo Phantom ghost</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/The_world_of_annie_miniature_annie.html'">The world of annie miniature annie</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Babies_Bongo_the_Monkey.html'">Ty Beanie Babies Bongo the Monkey</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Babies_Retired_Lot_Of_15_#4.html'">Ty Beanie Babies Retired Lot Of 15 #4</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TY_Beanie_Babies_Bride_and_Groom_Set.html'">TY Beanie Babies Bride and Groom Set</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Huge_Lot_Of_50_Beanie_Babies_Rare_Retired-__With_Tags.html'">Huge Lot Of 50 Beanie Babies Rare Retired-  With Tags</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Buddies_Collection.html'">Ty Beanie Buddies Collection</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Beanie_Babies_Lot_Bears.html'">Beanie Babies Lot Bears</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Beanie_Babies_original_TY_with_tags_and_in_mint_condition.html'">Beanie Babies original TY with tags and in mint condition</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/The_Beanie_Babies_Collection_Lot.html'">The Beanie Babies Collection Lot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Magic_NM_Cavern_of_Souls_x_4.html'">MTG Magic NM Cavern of Souls x 4</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels,_Mixed_lot_of_30!!.html'">Hot Wheels, Mixed lot of 30!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_Animal_Babies_Deluxe_Baby_Tiger_Plush.html'">NEW Animal Babies Deluxe Baby Tiger Plush</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_2_Sets_1-72_Viet_Nam_War_American_Special_Forces_Figures_No_Reserve.html'">Lot of 2 Sets 1/72 Viet Nam War American Special Forces Figures No Reserve</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

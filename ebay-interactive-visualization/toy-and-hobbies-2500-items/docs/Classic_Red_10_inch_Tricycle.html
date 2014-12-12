@@ -1,0 +1,158 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[2.031325843, "../topics/{Power,_New,_Brand}.html", "{Power,_New,_Brand}"], [1.0313258434, "../topics/{Blue,_10,_Toys}.html", "{Blue,_10,_Toys}"], [1.0313258432, "../topics/{Marble,_!,_Vintage}.html", "{Marble,_!,_Vintage}"], [1.0313258432, "../topics/{Figure,_Action,_Ninja}.html", "{Figure,_Action,_Ninja}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Classic Red 10 inch Tricycle</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Classic Red 10 inch Tricycle</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Power,_New,_Brand}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Power,_New,_Brand}.html'">{Power, New, Brand}</td></tr>
+<tr class="list"><td id="{Blue,_10,_Toys}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Blue,_10,_Toys}.html'">{Blue, 10, Toys}</td></tr>
+<tr class="list"><td id="{Marble,_!,_Vintage}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Marble,_!,_Vintage}.html'">{Marble, !, Vintage}</td></tr>
+<tr class="list"><td id="{Figure,_Action,_Ninja}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Figure,_Action,_Ninja}.html'">{Figure, Action, Ninja}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Perfect_Polly.html'">Perfect Polly</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MAGIC.RETURN.TO.RAVNICA[7]LAND.BLOOD.CRYPT.TEMPLE.GARDEN.OVERGROWN.TOMB.GROVE.html'">MAGIC.RETURN.TO.RAVNICA[7]LAND.BLOOD.CRYPT.TEMPLE.GARDEN.OVERGROWN.TOMB.GROVE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Underground_Sea.html'">Underground Sea</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Volcanic_Island.html'">Volcanic Island</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Musical_Clown_15".html'">Vintage Musical Clown 15"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Space_Men_Action_Figures_Brand_New.html'">Vintage Space Men Action Figures Brand New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/McDONALDS_McNUGGET_BUDDIES.html'">McDONALDS McNUGGET BUDDIES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Sinkhole.html'">MTG Sinkhole</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Scaletric_917.html'">Scaletric 917</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Leapster_Explorer.html'">Leapster Explorer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marx_miniature.html'">Marx miniature</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Leappad_Ultra+Cover+Game.html'">Leappad Ultra+Cover+Game</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Temple_garden.html'">Temple garden</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapPad_Ultra.html'">LeapPad Ultra</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mobigo_games.html'">mobigo games</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Antique_metal_trucks.html'">Antique metal trucks</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_Hulk_Keychain.html'">Lego Hulk Keychain</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Jada_Chevrolet_Silverado_2014_Blue_1-24.html'">Jada Chevrolet Silverado 2014 Blue 1/24</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Beanie_Babies_Lot_Bears.html'">Beanie Babies Lot Bears</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mechanical_Donkey_-_Horse.html'">Mechanical Donkey / Horse</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Stretchkins_Unicorn_-_Pink.html'">Stretchkins Unicorn - Pink</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

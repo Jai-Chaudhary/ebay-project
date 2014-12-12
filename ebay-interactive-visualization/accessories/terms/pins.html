@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-3.373872708, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-101.987900478, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-104.877611926, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-110.172000002, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-112.26504279, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-116.202885355, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-121.499381751, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-123.222522014, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-126.283866611, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-128.635514881, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-131.048494072, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-131.192362331, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-132.719088094, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-136.91863856, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-137.092888829, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-139.545382515, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-140.857788044, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-141.025429037, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-141.193087987, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-142.755395528, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-143.765448937, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-145.266734817, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-147.937069152, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-148.713879777, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-149.44472664, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-149.621299041, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-152.010850558, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-154.863881513, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-155.94898971, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-157.068607485, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-159.068083598, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-160.309856785, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-167.189070792, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-169.066509797, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-169.358267477, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-171.925325328, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-174.90796513, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-176.843599526, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-177.581565365, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-183.280668088, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-184.819359625, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-189.288107332, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-191.324390599, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-195.949926103, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-196.195012411, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-206.047909758, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-210.463217001, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-212.810461492, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"], [-218.778927664, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-244.30122497, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>pins</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">pins</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/sparkle.html'">sparkle</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/wool.html'">wool</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/chic.html'">chic</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/rose.html'">rose</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/felt.html'">felt</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/corsage.html'">corsage</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/felted.html'">felted</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lia.html'">lia</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ooak.html'">ooak</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lagenlook.html'">lagenlook</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/multi.html'">multi</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/crafted.html'">crafted</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/brooch.html'">brooch</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/holiday.html'">holiday</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/boho.html'">boho</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/yarn.html'">yarn</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/poly.html'">poly</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/laliberi.html'">laliberi</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/bouquet.html'">bouquet</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/crafting.html'">crafting</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Lovely_Sparkle_Flower_Brooch_Party_Wedding_Crystal_Pins_Holiday_Gift.html'">Multi Style Lovely Sparkle Flower Brooch Party Wedding Crystal Pins Holiday Gift</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NWT_Beard_Humor_Novelty_pins_buttons_small_size_lot_of_4_Love_Hairy_Men_cute.html'">NWT Beard Humor Novelty pins buttons small size lot of 4 Love Hairy Men cute</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/3_Women_Gap_Flower_Pins_(2_Pin_Stripe_&_1_Floral).html'">3 Women Gap Flower Pins (2 Pin Stripe & 1 Floral)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Lovely_Sparkle_Flower_Brooch_Party_Wedding_Crystal_Pins_Holiday_Gift.html'">Multi Style Lovely Sparkle Flower Brooch Party Wedding Crystal Pins Holiday Gift</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pins_Vintage_For_Your_Jacket.html'">Pins Vintage For Your Jacket</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Womens_&_Girls_Collar_Brooch_in_Rose_Gold_with_Spike_Stud_Pins.html'">Womens & Girls Collar Brooch in Rose Gold with Spike Stud Pins</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Multi_Style_Chic_Flower_Sparkle_Crystal_Brooch_Party_Wedding_Crystal_Pins_Gifts.html'">Multi Style Chic Flower Sparkle Crystal Brooch Party Wedding Crystal Pins Gifts</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{flower,_brooch,_pin}.html'">{flower, brooch, pin}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{large,_purple,_fan}.html'">{large, purple, fan}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{shoe,_hat,_bow}.html'">{shoe, hat, bow}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{ladies,_glasses,_lot}.html'">{ladies, glasses, lot}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{cute,_beautiful,_sunglasses}.html'">{cute, beautiful, sunglasses}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{rhinestone,_christmas,_bling}.html'">{rhinestone, christmas, bling}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{colors,_brand,_nib}.html'">{colors, brand, nib}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pink,_small,_medium}.html'">{pink, small, medium}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{glass,_antique,_punk}.html'">{glass, antique, punk}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{blue,_brown,_green}.html'">{blue, brown, green}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{new,_design,_classic}.html'">{new, design, classic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silk,_soft,_lash}.html'">{silk, soft, lash}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vintage,_authentic,_chanel}.html'">{vintage, authentic, chanel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{warmers,_leg,_hand}.html'">{warmers, leg, hand}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{white,_lace,_cuff}.html'">{white, lace, cuff}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{size,_gray,_great}.html'">{size, gray, great}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{bra,_sexy,_lingerie}.html'">{bra, sexy, lingerie}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{x,_top,_print}.html'">{x, top, print}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{womens,_auth,_bf}.html'">{womens, auth, bf}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

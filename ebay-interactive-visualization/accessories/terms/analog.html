@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-4.402614719, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-123.333956602, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-132.002959495, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-134.348975166, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-161.438708922, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-165.663748285, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-172.48332404, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-172.519560438, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-173.985147429, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-178.230729777, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-181.095928949, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-182.995836108, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-183.732285896, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-190.841249347, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-197.763965742, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-198.990524456, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-199.341600972, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-201.16502914, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-205.40778263, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-205.747964777, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-207.363437777, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-211.269110266, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-211.402700635, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-213.652305836, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-214.205966217, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-214.686897202, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-214.964414526, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-219.450438212, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-219.660234206, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-222.051916535, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-223.34261138, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-223.565433527, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-227.113866685, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-227.789539945, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-228.590907106, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-228.830384454, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-231.678013606, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-233.131813309, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-233.324623526, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-233.709225494, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-233.80913533, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-235.612594962, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-236.622340543, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-239.690821637, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-241.553776798, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-255.569621342, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-264.297450806, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-266.455430625, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-290.433238018, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"], [-292.021060162, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>analog</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">analog</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/paris.html'">paris</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/alloy.html'">alloy</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/around.html'">around</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/stainless.html'">stainless</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/dial.html'">dial</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/transparent.html'">transparent</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/bohemian.html'">bohemian</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/golden.html'">golden</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/watches.html'">watches</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/tower.html'">tower</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/wire.html'">wire</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/weave.html'">weave</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/healing.html'">healing</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/jewel.html'">jewel</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/eiffel.html'">eiffel</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/steel.html'">steel</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/galaxy.html'">galaxy</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/oversize.html'">oversize</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/alice.html'">alice</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/synthetic.html'">synthetic</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/Transparent_Jelly_Band_Women_Men_Wrist_Watch_White_crystal_Jewel_hour_Analog_W1.html'">Transparent Jelly Band Women Men Wrist Watch White crystal Jewel hour Analog W1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_Fashion_Charming__Genuine_PU_Band_Casual_Analog_Quartz_Wrist_Watch_For_Women.html'">NEW Fashion Charming  Genuine PU Band Casual Analog Quartz Wrist Watch For Women</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/World_Globe_Map_Fashion_Slim_Leather_Alloy_Womens_Vintage_Analog_Quartz_watches.html'">World Globe Map Fashion Slim Leather Alloy Womens Vintage Analog Quartz watches</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mens_3_Hand_Analog_Chronograph_Watch.html'">Mens 3 Hand Analog Chronograph Watch</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fashion_Women‘s_Bracelet_Butterfly_Analog_Watch_Quartz_Girl_s_Retro_Wrist_Watch.html'">Fashion Women‘s Bracelet Butterfly Analog Watch Quartz Girl's Retro Wrist Watch</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ladies_Women_Sexy_Eiffel_Tower_Leather_Luxury_Crystal_Analog_Quartz_Wrist_Watch.html'">Ladies Women Sexy Eiffel Tower Leather Luxury Crystal Analog Quartz Wrist Watch</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/World_Globe_Map_Fashion_Slim_Leather_Alloy_Womens_Vintage_Analog_Quartz_watches.html'">World Globe Map Fashion Slim Leather Alloy Womens Vintage Analog Quartz watches</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ladies_Women_Sexy_Eiffel_Tower_Leather_Luxury_Crystal_Analog_Quartz_Wrist_Watch.html'">Ladies Women Sexy Eiffel Tower Leather Luxury Crystal Analog Quartz Wrist Watch</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rhinestone_Crystal_Leather_Wrist_Watch_Women_Quartz_Analog_Fashion_Bangle_EP98.html'">Rhinestone Crystal Leather Wrist Watch Women Quartz Analog Fashion Bangle EP98</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_Oversize_Curve_Dial_Women_Girl_Fashion_Analog_Quartz_Wrist_Watch_PU_Leather.html'">NEW Oversize Curve Dial Women Girl Fashion Analog Quartz Wrist Watch PU Leather</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_Oversize_Curve_Dial_Women_Girl_Fashion_Analog_Quartz_Wrist_Watch_PU_Leather.html'">NEW Oversize Curve Dial Women Girl Fashion Analog Quartz Wrist Watch PU Leather</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rhinestone_Crystal_Leather_Wrist_Watch_Women_Quartz_Analog_Fashion_Bangle_EP98.html'">Rhinestone Crystal Leather Wrist Watch Women Quartz Analog Fashion Bangle EP98</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fashion_GENEVA_Women_Girl_Lady_Wrist_Watch_Colorful_Crystal_Rubber_Quartz_Analog.html'">Fashion GENEVA Women Girl Lady Wrist Watch Colorful Crystal Rubber Quartz Analog</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ladies_Women_Sexy_Eiffel_Tower_Leather_Luxury_Crystal_Analog_Quartz_Wrist_Watch.html'">Ladies Women Sexy Eiffel Tower Leather Luxury Crystal Analog Quartz Wrist Watch</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TOP_10_Popular_Skeleton_Automatic_Mechanical_Women_Wrist_Watch_Analog_Hour_Alloy.html'">TOP 10 Popular Skeleton Automatic Mechanical Women Wrist Watch Analog Hour Alloy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_World_Map_Globe_Fashion_Leather_Alloy_Womens_Vintage_Analog_Quartz_watches.html'">New World Map Globe Fashion Leather Alloy Womens Vintage Analog Quartz watches</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ladies_Women_Sexy_Eiffel_Tower_Leather_Luxury_Crystal_Analog_Quartz_Wrist_Watch.html'">Ladies Women Sexy Eiffel Tower Leather Luxury Crystal Analog Quartz Wrist Watch</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_Leather_Drawable_Bracelet_Women_Wrist_Watch_Quartz_Analog_Retro_Bronze_Case.html'">NEW Leather Drawable Bracelet Women Wrist Watch Quartz Analog Retro Bronze Case</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TOP!_Fashion_Crystal_Women_s_Wrist_Watch_Brown_Serpentine_PU_Band_Quartz_Analog.html'">TOP! Fashion Crystal Women's Wrist Watch Brown Serpentine PU Band Quartz Analog</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fashion_Leather_Women_Lady_Sport_Quartz_Wrist_Watch_Analog_Gift_Black_New.html'">Fashion Leather Women Lady Sport Quartz Wrist Watch Analog Gift Black New</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{bracelet,_watch,_quartz}.html'">{bracelet, watch, quartz}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{fashion,_crystal,_lady}.html'">{fashion, crystal, lady}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{leather,_purse,_handbag}.html'">{leather, purse, handbag}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{women,_round,_compact}.html'">{women, round, compact}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{x,_top,_print}.html'">{x, top, print}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{red,_w,_ring}.html'">{red, w, ring}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{womens,_auth,_bf}.html'">{womens, auth, bf}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{new,_design,_classic}.html'">{new, design, classic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{ladies,_glasses,_lot}.html'">{ladies, glasses, lot}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pocket,_mirror,_double}.html'">{pocket, mirror, double}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{glass,_antique,_punk}.html'">{glass, antique, punk}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{blue,_brown,_green}.html'">{blue, brown, green}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{case,_iphone,_hard}.html'">{case, iphone, hard}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{cute,_beautiful,_sunglasses}.html'">{cute, beautiful, sunglasses}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{bra,_sexy,_lingerie}.html'">{bra, sexy, lingerie}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{ear,_cover,_trade}.html'">{ear, cover, trade}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{set,_gift,_box}.html'">{set, gift, box}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{warmers,_leg,_hand}.html'">{warmers, leg, hand}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{rhinestone,_christmas,_bling}.html'">{rhinestone, christmas, bling}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

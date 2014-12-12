@@ -1,0 +1,146 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-6.2416204231, "../topics/{Hot,_Wheels,_Ride}.html", "{Hot,_Wheels,_Ride}"], [-294.029387951, "../topics/{Playset,_10mm,_Collectible}.html", "{Playset,_10mm,_Collectible}"], [-294.407960759, "../topics/{8,_12,_BLACK}.html", "{8,_12,_BLACK}"], [-294.755440943, "../topics/{1971,_King,_Britains}.html", "{1971,_King,_Britains}"], [-295.011080784, "../topics/{in,_2,_Lionel}.html", "{in,_2,_Lionel}"], [-295.119955562, "../topics/{with,_by,_mint}.html", "{with,_by,_mint}"], [-295.218177419, "../topics/{LIONEL,_KIT,_SCALE}.html", "{LIONEL,_KIT,_SCALE}"], [-295.301191878, "../topics/{Power,_New,_Brand}.html", "{Power,_New,_Brand}"], [-295.340694965, "../topics/{Toys,_Antique,_Cast}.html", "{Toys,_Antique,_Cast}"], [-295.640568652, "../topics/{War,_Avalon,_Battle}.html", "{War,_Avalon,_Battle}"], [-295.8743942, "../topics/{Box,_Radio,_Wagon}.html", "{Box,_Radio,_Wagon}"], [-296.062092858, "../topics/{Deluxe,_NEW!,_Kendama}.html", "{Deluxe,_NEW!,_Kendama}"], [-296.062613846, "../topics/{car,_Edition,_slot}.html", "{car,_Edition,_slot}"], [-296.112330411, "../topics/{Shogun,_Great,_Warriors}.html", "{Shogun,_Great,_Warriors}"], [-296.433532316, "../topics/{and,_Game,_w/}.html", "{and,_Game,_w/}"], [-296.585355339, "../topics/{3,_set,_to}.html", "{3,_set,_to}"], [-296.592752687, "../topics/{Blue,_10,_Toys}.html", "{Blue,_10,_Toys}"], [-296.818460973, "../topics/{1:72,_scale,_1/48}.html", "{1:72,_scale,_1/48}"], [-296.842670421, "../topics/{VINTAGE,_LOT,_6}.html", "{VINTAGE,_LOT,_6}"], [-326.734031115, "../topics/{1,_Large,_figures}.html", "{1,_Large,_figures}"], [-326.747421601, "../topics/{Of,_Lot,_Marbles}.html", "{Of,_Lot,_Marbles}"], [-327.031385869, "../topics/{NEW,_Traxxas,_COMPLETE}.html", "{NEW,_Traxxas,_COMPLETE}"], [-327.052338832, "../topics/{THE,_TOY,_GAME}.html", "{THE,_TOY,_GAME}"], [-327.136426427, "../topics/{New,_Free,_50}.html", "{New,_Free,_50}"], [-327.1397118, "../topics/{Toy,_and,_Set}.html", "{Toy,_and,_Set}"], [-327.380997554, "../topics/{Disney,_Frozen,_Elsa}.html", "{Disney,_Frozen,_Elsa}"], [-327.553621455, "../topics/{2,_Fisher,_Learning}.html", "{2,_Fisher,_Learning}"], [-327.674072886, "../topics/{2014,_Meal,_Happy}.html", "{2014,_Meal,_Happy}"], [-327.690595447, "../topics/{Play,_Kids,_House}.html", "{Play,_Kids,_House}"], [-327.721876093, "../topics/{for,_For,_Helicopter}.html", "{for,_For,_Helicopter}"], [-327.865482314, "../topics/{the,_BEANIE,_TY}.html", "{the,_BEANIE,_TY}"], [-327.944374355, "../topics/{WITH,_WARS,_FIGURE}.html", "{WITH,_WARS,_FIGURE}"], [-328.463074061, "../topics/{HO,_Scale,_Car}.html", "{HO,_Scale,_Car}"], [-328.498442555, "../topics/{The,_Series,_Star}.html", "{The,_Series,_Star}"], [-328.50073889, "../topics/{Little,_My,_NEW}.html", "{Little,_My,_NEW}"], [-328.502563349, "../topics/{Vintage,_Car,_Slot}.html", "{Vintage,_Car,_Slot}"], [-328.546908265, "../topics/{&,_NIB,_NEW}.html", "{&,_NIB,_NEW}"], [-328.680373661, "../topics/{WHEELS,_CAR,_HOT}.html", "{WHEELS,_CAR,_HOT}"], [-328.927584345, "../topics/{Figure,_Action,_Ninja}.html", "{Figure,_Action,_Ninja}"], [-329.08918177, "../topics/{toy,_#,_2002}.html", "{toy,_#,_2002}"], [-329.114896007, "../topics/{Super,_Minifigures,_Heroes}.html", "{Super,_Minifigures,_Heroes}"], [-329.143223655, "../topics/{Marble,_!,_Vintage}.html", "{Marble,_!,_Vintage}"], [-329.271539472, "../topics/{Set,_Complete,_of}.html", "{Set,_Complete,_of}"], [-329.523312011, "../topics/{Robot,_Toy,_Tin}.html", "{Robot,_Toy,_Tin}"], [-329.589234698, "../topics/{of,_MTG,_Khans}.html", "{of,_MTG,_Khans}"], [-359.628300443, "../topics/{Beanie,_Ty,_~}.html", "{Beanie,_Ty,_~}"], [-360.239638468, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"], [-360.290346744, "../topics/{Pet,_Littlest,_Shop}.html", "{Pet,_Littlest,_Shop}"], [-361.122700992, "../topics/{1000,_Puzzle,_Jigsaw}.html", "{1000,_Puzzle,_Jigsaw}"], [-361.233435012, "../topics/{Toy,_Plush,_Stuffed}.html", "{Toy,_Plush,_Stuffed}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>Bejot</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">Bejot</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/magilla.html'">magilla</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/SUPRA.html'">SUPRA</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/2000GTX.html'">2000GTX</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/'97.html'">'97</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Bugatti.html'">Bugatti</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Carry.html'">Carry</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Flashsider.html'">Flashsider</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Cutter.html'">Cutter</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/GT2.html'">GT2</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/993.html'">993</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Die-Cast.html'">Die-Cast</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/2014!.html'">2014!</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Bond.html'">Bond</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/S1".html'">S1"</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/"Lotus.html'">"Lotus</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Esprit.html'">Esprit</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/James.html'">James</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Loved.html'">Loved</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/'04.html'">'04</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/HOLLOWBACK.html'">HOLLOWBACK</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/◆◆_Zastava_1400_BJ_1-43_"BEJOTA"_Yugoslavia__Bejot_rare_◆◆.html'">◆◆ Zastava 1400 BJ 1/43 "BEJOTA" Yugoslavia  Bejot rare ◆◆</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Hot,_Wheels,_Ride}.html'">{Hot, Wheels, Ride}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Playset,_10mm,_Collectible}.html'">{Playset, 10mm, Collectible}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{8,_12,_BLACK}.html'">{8, 12, BLACK}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{1971,_King,_Britains}.html'">{1971, King, Britains}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{in,_2,_Lionel}.html'">{in, 2, Lionel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{with,_by,_mint}.html'">{with, by, mint}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{LIONEL,_KIT,_SCALE}.html'">{LIONEL, KIT, SCALE}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Power,_New,_Brand}.html'">{Power, New, Brand}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Toys,_Antique,_Cast}.html'">{Toys, Antique, Cast}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{War,_Avalon,_Battle}.html'">{War, Avalon, Battle}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Box,_Radio,_Wagon}.html'">{Box, Radio, Wagon}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Deluxe,_NEW!,_Kendama}.html'">{Deluxe, NEW!, Kendama}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{car,_Edition,_slot}.html'">{car, Edition, slot}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Shogun,_Great,_Warriors}.html'">{Shogun, Great, Warriors}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{and,_Game,_w/}.html'">{and, Game, w/}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{3,_set,_to}.html'">{3, set, to}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Blue,_10,_Toys}.html'">{Blue, 10, Toys}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{1:72,_scale,_1/48}.html'">{1:72, scale, 1/48}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{VINTAGE,_LOT,_6}.html'">{VINTAGE, LOT, 6}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{1,_Large,_figures}.html'">{1, Large, figures}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

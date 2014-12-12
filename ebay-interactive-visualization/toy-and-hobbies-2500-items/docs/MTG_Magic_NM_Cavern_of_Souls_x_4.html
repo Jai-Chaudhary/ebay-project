@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[4.1965128124, "../topics/{of,_MTG,_Khans}.html", "{of,_MTG,_Khans}"], [3.8661388739, "../topics/{Box,_Radio,_Wagon}.html", "{Box,_Radio,_Wagon}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>MTG Magic NM Cavern of Souls x 4</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">MTG Magic NM Cavern of Souls x 4</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{of,_MTG,_Khans}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{of,_MTG,_Khans}.html'">{of, MTG, Khans}</td></tr>
+<tr class="list"><td id="{Box,_Radio,_Wagon}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Box,_Radio,_Wagon}.html'">{Box, Radio, Wagon}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/The_world_of_annie_miniature_annie.html'">The world of annie miniature annie</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NM_Wooded_Foothills.html'">NM Wooded Foothills</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Bloodstained_Mire.html'">MTG Bloodstained Mire</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Acrylic_Cube_Display_Cases_Toys-Hobbies-Collectibles_Beanie_Babies_Used.html'">Acrylic Cube Display Cases Toys/Hobbies/Collectibles Beanie Babies Used</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Radio_flyer_miniature_trike.html'">Radio flyer miniature trike</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Howes_Crystal_Radio_Set_Roller-Inductor.html'">Howes Crystal Radio Set Roller-Inductor</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Radio_Flyer_Little_Red_Wagon_New.html'">Radio Flyer Little Red Wagon New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ravensburger_Bizarre_Bookshop_2_Jigsaw_Puzzle_(1000-Piece)_New.html'">Ravensburger Bizarre Bookshop 2 Jigsaw Puzzle (1000-Piece) New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mini_Radio_Flyer_wagon.html'">Mini Radio Flyer wagon</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Thunderbird_convertible,_nice!.html'">Aurora Thunderjet Thunderbird convertible, nice!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_4_x_Glittering_Wish_-_HOT_CARD!!!!.html'">MTG 4 x Glittering Wish - HOT CARD!!!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Magic_Morningtide_NM_Mutavault_X_1.html'">MTG Magic Morningtide NM Mutavault X 1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Sinkhole.html'">MTG Sinkhole</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Lil_Wagon_Red_Kids_Toy_Wagon.html'">New Lil Wagon Red Kids Toy Wagon</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Radio_Flyer_#5WS_Trav-Ler_Wagon.html'">Radio Flyer #5WS Trav-Ler Wagon</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Iron_Legion_Fantasy_Nurgle_Plague_Toad.html'">Iron Legion Fantasy Nurgle Plague Toad</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_the_Gathering:_Wooded_Foothills.html'">Magic the Gathering: Wooded Foothills</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Crystal_Radio_Set_-_Assembled.html'">Crystal Radio Set - Assembled</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_2_Sets_1-72_Viet_Nam_War_American_Special_Forces_Figures_No_Reserve.html'">Lot of 2 Sets 1/72 Viet Nam War American Special Forces Figures No Reserve</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TY_McDonalds_Teenie_Beanie_Babies_"Chilly_the_Polar_Bear".html'">TY McDonalds Teenie Beanie Babies "Chilly the Polar Bear"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels,_Mixed_lot_of_30!!.html'">Hot Wheels, Mixed lot of 30!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/beanie_babies_Dogs.html'">beanie babies Dogs</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EUC_Wild_Planet_Radio_DJ.html'">EUC Wild Planet Radio DJ</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Underground_Sea.html'">Underground Sea</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

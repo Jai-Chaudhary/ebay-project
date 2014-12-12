@@ -1,0 +1,155 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[6.0313258432, "../topics/{WHEELS,_CAR,_HOT}.html", "{WHEELS,_CAR,_HOT}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>REVELL 1967 CHEVELLE PRO STREET PARTS</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">REVELL 1967 CHEVELLE PRO STREET PARTS</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{WHEELS,_CAR,_HOT}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{WHEELS,_CAR,_HOT}.html'">{WHEELS, CAR, HOT}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/VINTAGE_AURORA_TJET_CHASSIS_HO_SLOT_CAR_RECONDITIONED.html'">VINTAGE AURORA TJET CHASSIS HO SLOT CAR RECONDITIONED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_RAY_KENWORTH_TRUCK_&_LOWBOY_TRAILER.html'">NEW RAY KENWORTH TRUCK & LOWBOY TRAILER</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AMT_1966_FORD_FAIRLANE_427.html'">AMT 1966 FORD FAIRLANE 427</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AMT_1964_FORD_GALAXIE_HARDTOP.html'">AMT 1964 FORD GALAXIE HARDTOP</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/PRO_STREET_66_NOVA_WAGON_RESIN_PROJECT.html'">PRO STREET 66 NOVA WAGON RESIN PROJECT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1-64_BY_HOT_WHEELS__72_FORD_RANCHARO.html'">1/64 BY HOT WHEELS '72 FORD RANCHARO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SPEED_WHEELS_SERIES_V_WHITE_FIREBIRD_VAN_UNPUNCHED.html'">SPEED WHEELS SERIES V WHITE FIREBIRD VAN UNPUNCHED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fly_CORVETTE_C5_Convertible_In_Clear_DISPLAY_1-32_slot_car.html'">Fly CORVETTE C5 Convertible In Clear DISPLAY 1/32 slot car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HOT_WHEELS_SUPER_TREASURE_HUNT_GOLD_1980_CHEVY_EL_CAMINO.html'">HOT WHEELS SUPER TREASURE HUNT GOLD 1980 CHEVY EL CAMINO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/A_DASH_TJET_POWERED_BLACK_66_FORD_FAIRLANE!_W-CUSTOM_WHEELS!.html'">A DASH TJET POWERED BLACK 66 FORD FAIRLANE! W/CUSTOM WHEELS!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1950s_VINTAGE_FRICTION_JAPAN_Black_&_White_1929_FORD_MODEL_T_TIN_TOY_CAR_Rare.html'">1950s VINTAGE FRICTION JAPAN Black & White 1929 FORD MODEL T TIN TOY CAR Rare</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1967_CHEVROLET_IMPALA_SS.html'">1967 CHEVROLET IMPALA SS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/BUILT__1971__PLYMOUTH_DUSTER_340__PLASTIC_MODEL_CAR_1-25_SCALE.html'">BUILT  1971  PLYMOUTH DUSTER 340  PLASTIC MODEL CAR 1/25 SCALE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/POWER_WHEELS_12_VOLT_BATTERY_&_CHARGER.html'">POWER WHEELS 12 VOLT BATTERY & CHARGER</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1962_FORD_GALAXIE_RESIN_CHASSIS_WITH_NASCAR_DASH.html'">1962 FORD GALAXIE RESIN CHASSIS WITH NASCAR DASH</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HOT_WHEELS_SUPER_TREASURE_HUNT_BLUE_HONDA_S2000.html'">HOT WHEELS SUPER TREASURE HUNT BLUE HONDA S2000</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer_Robot_Dog_battery_power_WALL_CHARGER_for_sale_sell_replace_replacement.html'">Zoomer Robot Dog battery power WALL CHARGER for sale sell replace replacement</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AURORA_G_PLUS_LOT.html'">AURORA G PLUS LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/N__SCALE_TRAIN_ENGINES.html'">N  SCALE TRAIN ENGINES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Interactive_dog_Bentley.html'">Interactive dog Bentley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mechanical_Donkey_-_Horse.html'">Mechanical Donkey / Horse</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RIVET_WARS_BABY_GIRL.html'">RIVET WARS BABY GIRL</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

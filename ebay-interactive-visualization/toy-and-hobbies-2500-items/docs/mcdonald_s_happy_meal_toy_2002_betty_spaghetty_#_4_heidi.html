@@ -1,0 +1,155 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[10.0313258432, "../topics/{toy,_#,_2002}.html", "{toy,_#,_2002}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>mcdonald's happy meal toy 2002 betty spaghetty # 4 heidi</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">mcdonald's happy meal toy 2002 betty spaghetty # 4 heidi</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{toy,_#,_2002}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{toy,_#,_2002}.html'">{toy, #, 2002}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Vintage_1968_Topper_Suzy_Homemaker__battery_operated_washer_wash_machine_toy.html'">Vintage 1968 Topper Suzy Homemaker  battery operated washer wash machine toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mcdonald_s_happy_meal_toy_2002_BARBIE_#_6_barbie_toy_messenger.html'">mcdonald's happy meal toy 2002 BARBIE # 6 barbie toy messenger</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mcdonald_s_happy_meal_toy_2002__jungle_book_2__#_4_shanti.html'">mcdonald's happy meal toy 2002  jungle book 2  # 4 shanti</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mcdonald_s_happy_meal_toy_2002_beauty_and_the_beast_#_4_cogsworth.html'">mcdonald's happy meal toy 2002 beauty and the beast # 4 cogsworth</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mcdonald_s_happy_meal_toy_2002__jungle_book_2__#_3_shere_khan.html'">mcdonald's happy meal toy 2002  jungle book 2  # 3 shere khan</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Dancing_singing_hamster_j._Tee_toy_football_kid_christmas_Halloween_boy_girl.html'">Dancing singing hamster j. Tee toy football kid christmas Halloween boy girl</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cute_Dolphins_Key_Pendant_Figures_Mobile_Phone_Strap_Charms_Key_Chain_lovely.html'">Cute Dolphins Key Pendant Figures Mobile Phone Strap Charms Key Chain lovely</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wendy_s_The_World_of_Eric_Carle_Can_You_Guess?_Vehicles_Mini_baby_book_Opened.html'">Wendy's The World of Eric Carle Can You Guess? Vehicles Mini baby book Opened</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/REAMSA,_PECH,_BUM_1_32_plastic_vintage_toy_soldiers.html'">REAMSA, PECH, BUM 1 32 plastic vintage toy soldiers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mcdonald_s_happy_meal_toy_2002_BARBIE_#_2_BARBIE_FRAME.html'">mcdonald's happy meal toy 2002 BARBIE # 2 BARBIE FRAME</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mcdonald_s_happy_meal_toy_2002_#_6_jungle_book_2_kaa.html'">mcdonald's happy meal toy 2002 # 6 jungle book 2 kaa</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mcdonald_s_happy_meal_toy_2002__jungle_book_2__#_5_lucky.html'">mcdonald's happy meal toy 2002  jungle book 2  # 5 lucky</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mcdonald_s_happy_meal_toy_2002__jungle_book_2__#_2_baloo.html'">mcdonald's happy meal toy 2002  jungle book 2  # 2 baloo</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mcdonald_s_happy_meal_toy_2002_BARBIE_#_1__fashion_photo_barbie.html'">mcdonald's happy meal toy 2002 BARBIE # 1  fashion photo barbie</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mcdonald_s_happy_meal_toy_2002_betty_spaghetty_#_1_betty_spaghetty.html'">mcdonald's happy meal toy 2002 betty spaghetty # 1 betty spaghetty</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LIFELIKE_LARGE_PLUSH_GOLDEN_RETRIEVER_REALISTIC!_E_&_J_Classic_stuffed_toy_EUC.html'">LIFELIKE LARGE PLUSH GOLDEN RETRIEVER REALISTIC! E & J Classic stuffed toy EUC</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Creepers_Retired_ty_Halloween_Skeleton_Beanie_baby_plush_toy_MWMT_Add_ship_$1.html'">Creepers Retired ty Halloween Skeleton Beanie baby plush toy MWMT Add ship $1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LITTLEST_PET_SHOP_CAT_#106_SIAMESE_CALICO_KITTEN.html'">LITTLEST PET SHOP CAT #106 SIAMESE CALICO KITTEN</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_Italian_toy_circus_wagon_wood_and_paper_mache.html'">vintage Italian toy circus wagon wood and paper mache</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Antique_Marbles_Box_akro_agate_christensen_peltier_masters_vintage_glass_toy.html'">Antique Marbles Box akro agate christensen peltier masters vintage glass toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/14_pcs_of_my_little_pet_shop_HASBRO__Animal_Models_LPS_LPS14.html'">14 pcs of my little pet shop HASBRO  Animal Models LPS LPS14</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1:14_rechargeable_large_car_models_Lamborghini_Reventon_RC_car_gift_set(gray).html'">1:14 rechargeable large car models Lamborghini Reventon RC car gift set(gray)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TOMY_Spotbot_robotic_dog_toy_needs_a_good_home_-_Please,_read_description..html'">TOMY Spotbot robotic dog toy needs a good home - Please, read description.</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/***_BIG_LOT_OF_75_LITTLEST_PET_SHOP_PETS_+_ACCESSORY_PCS._&_CARRYING_CASE_***.html'">*** BIG LOT OF 75 LITTLEST PET SHOP PETS + ACCESSORY PCS. & CARRYING CASE ***</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/CHARBENS_1_32_plastic_vintage_toy_soldiers.html'">CHARBENS 1 32 plastic vintage toy soldiers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/THREE-TOED_SLOTH_15"_stuffed_animal_plush_WILD_REPUBLIC_CUDDLEKINS_TOY.html'">THREE-TOED SLOTH 15" stuffed animal plush WILD REPUBLIC CUDDLEKINS TOY</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SQUISHABLE_Plush_Mini_PYGMY_ELEPHANT_7"_round_stuff_animal_NEW_LIMITED.html'">SQUISHABLE Plush Mini PYGMY ELEPHANT 7" round stuff animal NEW LIMITED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_TY_beanie_babies_50+_1_large_+_some_retired.html'">Lot of TY beanie babies 50+ 1 large + some retired</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ty_beanie_babies_lot_sea_animals_set_of_4.html'">ty beanie babies lot sea animals set of 4</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/F00156-10,_10pcs_4S_14.8v_26AWG_26#_Balance_Charger_Extension_Cable_&_Plug.html'">F00156-10, 10pcs 4S 14.8v 26AWG 26# Balance Charger Extension Cable & Plug</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-4.0664921044, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-123.347153024, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-168.23701829, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-184.563321184, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-186.252591839, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-192.570806502, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-192.572886244, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-196.434386656, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-197.977967702, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-198.197873677, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-198.616529515, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-199.509482068, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-199.654538235, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-200.988264175, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-201.587035943, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-203.64766354, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-203.780012017, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-205.030830992, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-206.287908726, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-206.969850032, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-208.636585469, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-209.433298985, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-209.63022701, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-210.008365005, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-210.207765167, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-211.357523346, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-213.42726151, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-215.792944685, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-215.940087658, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-215.992454369, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-216.94506682, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-217.302039213, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-217.799452222, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-217.839390301, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-218.164102045, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-219.550281785, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-219.62011077, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-220.956640042, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-221.332248377, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-222.903936056, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-223.067293146, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-223.685495119, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-226.240367097, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-229.043237249, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-230.899605098, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-233.068599123, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-237.197821168, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-246.147074118, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"], [-246.801752841, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-267.26680582, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>blink</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">blink</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/loose.html'">loose</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/extensions.html'">extensions</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/volume.html'">volume</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/j.html'">j</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/tbc.html'">tbc</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ultra.html'">ultra</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/flexible.html'">flexible</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/width.html'">width</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/deco.html'">deco</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/b.html'">b</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/hologram.html'">hologram</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/mix.html'">mix</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/tray.html'">tray</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/glossy.html'">glossy</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/curls.html'">curls</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/sparkly.html'">sparkly</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/exquisite.html'">exquisite</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/deal.html'">deal</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/sig.html'">sig</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/angled.html'">angled</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_C_Curl_.25mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink C Curl .25mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_C_Curl_.25mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink C Curl .25mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_C_Curl_.25mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink C Curl .25mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_D_Curl_.15mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink D Curl .15mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_C_Curl_.25mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink C Curl .25mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_3D_Volume_D_Curl_0.07mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink 3D Volume D Curl 0.07mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_3D_Volume_D_Curl_0.07mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink 3D Volume D Curl 0.07mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_D_Curl_.15mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink D Curl .15mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_D_Curl_.15mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink D Curl .15mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_D_Curl_.15mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink D Curl .15mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_3D_Volume_D_Curl_0.07mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink 3D Volume D Curl 0.07mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_3D_Volume_D_Curl_0.07mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink 3D Volume D Curl 0.07mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_3D_Volume_D_Curl_0.07mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink 3D Volume D Curl 0.07mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_B_Curl_.20mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink B Curl .20mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_C_Curl_.20mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink C Curl .20mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_B_Curl_.15mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink B Curl .15mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_C_Curl_.20mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink C Curl .20mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_3D_Volume_C_Curl_0.07mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink 3D Volume C Curl 0.07mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_C_Curl_.20mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink C Curl .20mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blink_Mink_3D_Volume_C_Curl_0.07mm_Sizes_From_8-15mm_Lashes_Eyelash_Extension.html'">Blink Mink 3D Volume C Curl 0.07mm Sizes From 8-15mm Lashes Eyelash Extension</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{mm,_eyelash,_extension}.html'">{mm, eyelash, extension}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silk,_soft,_lash}.html'">{silk, soft, lash}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{nwt,_color,_coach}.html'">{nwt, color, coach}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{size,_gray,_great}.html'">{size, gray, great}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{cute,_beautiful,_sunglasses}.html'">{cute, beautiful, sunglasses}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{glass,_antique,_punk}.html'">{glass, antique, punk}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{style,_accessory,_fabric}.html'">{style, accessory, fabric}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{red,_w,_ring}.html'">{red, w, ring}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silver,_earrings,_accessories}.html'">{silver, earrings, accessories}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pocket,_mirror,_double}.html'">{pocket, mirror, double}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{blue,_brown,_green}.html'">{blue, brown, green}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{shoulder,_handbag,_tags}.html'">{shoulder, handbag, tags}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pink,_small,_medium}.html'">{pink, small, medium}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{x,_top,_print}.html'">{x, top, print}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{case,_iphone,_hard}.html'">{case, iphone, hard}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{shoe,_hat,_bow}.html'">{shoe, hat, bow}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{free,_button,_shipping}.html'">{free, button, shipping}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vintage,_authentic,_chanel}.html'">{vintage, authentic, chanel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{rhinestone,_christmas,_bling}.html'">{rhinestone, christmas, bling}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

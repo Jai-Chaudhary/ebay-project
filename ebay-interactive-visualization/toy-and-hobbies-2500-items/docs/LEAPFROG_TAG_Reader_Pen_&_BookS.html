@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[5.0313258432, "../topics/{WITH,_WARS,_FIGURE}.html", "{WITH,_WARS,_FIGURE}"], [1.0313258432, "../topics/{&,_NIB,_NEW}.html", "{&,_NIB,_NEW}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>LEAPFROG TAG Reader Pen & BookS</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">LEAPFROG TAG Reader Pen & BookS</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{WITH,_WARS,_FIGURE}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{WITH,_WARS,_FIGURE}.html'">{WITH, WARS, FIGURE}</td></tr>
+<tr class="list"><td id="{&,_NIB,_NEW}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{&,_NIB,_NEW}.html'">{&, NIB, NEW}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/EARTHWORM_JIM_ACTION_FIGURES.html'">EARTHWORM JIM ACTION FIGURES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RIVET_WARS_THE_CRUEL_MINIE.html'">RIVET WARS THE CRUEL MINIE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RIVET_WARS_THE_MAN_IN_CHARGE.html'">RIVET WARS THE MAN IN CHARGE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_2004_Hasbro_Toy_SKIP_IT.html'">Vintage 2004 Hasbro Toy SKIP IT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/S.W.A.T._Special_Police_Weapons_CUSTOM_MINI_FIGURE_Building_Block_Toys.html'">S.W.A.T. Special Police Weapons CUSTOM MINI FIGURE Building Block Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RIVET_WARS_SPEARHEAD.html'">RIVET WARS SPEARHEAD</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RIVET_WARS_THE_R-100.html'">RIVET WARS THE R-100</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/BEN_10_FIGURE_LOT_OMNIVERSE.html'">BEN 10 FIGURE LOT OMNIVERSE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1960,S_MARX_TOM_CORBETT_SET_of__FIGURES_SPACE_ACADEMY_PLAYSET.html'">1960,S MARX TOM CORBETT SET of  FIGURES SPACE ACADEMY PLAYSET</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Magic_Morningtide_NM_Mutavault_X_1.html'">MTG Magic Morningtide NM Mutavault X 1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_AFX_GIANT_RACETRACK_HO_SLOT_CAR_RACING_SET_WITH_EXTRA_NEW_CAR!!.html'">NEW AFX GIANT RACETRACK HO SLOT CAR RACING SET WITH EXTRA NEW CAR!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RIVET_WARS_BABY_GIRL.html'">RIVET WARS BABY GIRL</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HUBLEY_STUDEBAKER_TOP_UP_ROADSTER.html'">HUBLEY STUDEBAKER TOP UP ROADSTER</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/250_BLANK_FLASHCARDS_-_MANILLA_TAG_3X9_-_NEW.html'">250 BLANK FLASHCARDS - MANILLA TAG 3X9 - NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MASTERCRAFTERSVGIL_SWINGING_ON_A_TREE.html'">MASTERCRAFTERSVGIL SWINGING ON A TREE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO,HON3,HON30_SCALE_TORTOISE_SWITCH_MACHINES_CONNECTOR_USED.html'">HO,HON3,HON30 SCALE TORTOISE SWITCH MACHINES CONNECTOR USED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MCFARLANE_SLEEPY_HOLLOW_THE_HEADLESS_HORSEMAN_ACTION_FIGURE.html'">MCFARLANE SLEEPY HOLLOW THE HEADLESS HORSEMAN ACTION FIGURE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MARVEL_LEGENDS_TARGET_3-PACK_EXCLUSIVE_MS._MARVEL_LOOSE.html'">MARVEL LEGENDS TARGET 3-PACK EXCLUSIVE MS. MARVEL LOOSE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/STAR_WARS_VINTAGE_COLLECTION_Rebel_Trooper_A_New_Hope__MIP.html'">STAR WARS VINTAGE COLLECTION Rebel Trooper A New Hope  MIP</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/FUNKO_POP_VINYL_-_STAR_TREK_-_SPOCK!!_BNIB!!.html'">FUNKO POP VINYL - STAR TREK - SPOCK!! BNIB!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KIDS_COLORED_MARBLES_AND_SIZES,DESIGNS.html'">KIDS COLORED MARBLES AND SIZES,DESIGNS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/POWER_WHEELS_BARBIE_RADIO.html'">POWER WHEELS BARBIE RADIO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cast_Iron_CRESCENT_STAR_salesman_s_sample_or_Toy_Wood_Burning_Stove.html'">Cast Iron CRESCENT STAR salesman's sample or Toy Wood Burning Stove</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Interactive_dog_Bentley.html'">Interactive dog Bentley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Underground_Sea.html'">Underground Sea</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[3.0313258432, "../topics/{Hot,_Wheels,_Ride}.html", "{Hot,_Wheels,_Ride}"], [2.0313258432, "../topics/{2,_Fisher,_Learning}.html", "{2,_Fisher,_Learning}"], [1.0313258432, "../topics/{New,_Free,_50}.html", "{New,_Free,_50}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Educational Insights Hot Dots Pen New</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Educational Insights Hot Dots Pen New</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Hot,_Wheels,_Ride}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Hot,_Wheels,_Ride}.html'">{Hot, Wheels, Ride}</td></tr>
+<tr class="list"><td id="{2,_Fisher,_Learning}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{2,_Fisher,_Learning}.html'">{2, Fisher, Learning}</td></tr>
+<tr class="list"><td id="{New,_Free,_50}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{New,_Free,_50}.html'">{New, Free, 50}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/DC_Signature_Collection_Aquamanl_Mattel_New.html'">DC Signature Collection Aquamanl Mattel New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels,_Mixed_lot_of_30!!.html'">Hot Wheels, Mixed lot of 30!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Classic_Magic_8-Ball_Toy_by_Mattel_-_New_in_Box!.html'">Classic Magic 8-Ball Toy by Mattel - New in Box!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels.html'">Hot Wheels</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Moat_MTG,_Lightly_Played.html'">Moat MTG, Lightly Played</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Leapster_Explorer.html'">Leapster Explorer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapPad_Ultra.html'">LeapPad Ultra</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels_KarKeepers_box_of_10_plus_car.html'">Hot Wheels KarKeepers box of 10 plus car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Stretchkins_Unicorn_-_Pink.html'">Stretchkins Unicorn - Pink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/V_Tech_Little_Apps_Tablet_by_VTech.html'">V Tech Little Apps Tablet by VTech</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Underground_Sea.html'">Underground Sea</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cuddle_Pet.html'">Cuddle Pet</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Ballapalooza.html'">Fisher Price Ballapalooza</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapPad_Ultra_33300.html'">LeapPad Ultra 33300</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pink_Leappad_2.html'">Pink Leappad 2</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Leapfrog_Leapster_2.html'">Leapfrog Leapster 2</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Leap_Pad_Explorer_1.html'">Leap Pad Explorer 1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Leapster_Cases_And_Games.html'">Leapster Cases And Games</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Calico_Critters_Fisher_Cat_Family.html'">Calico Critters Fisher Cat Family</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/McDONALDS_McNUGGET_BUDDIES.html'">McDONALDS McNUGGET BUDDIES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mobigo_games.html'">mobigo games</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Kids_Scoot_Along_Ace_Airplane_Ride_on_Toy_all_Steel_Construction.html'">Kids Scoot Along Ace Airplane Ride on Toy all Steel Construction</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-3.2694449437, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-18.5875867163, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-31.6466253345, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-62.7562475688, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-63.005507582, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"], [-63.0844702543, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-67.5043293861, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-68.0986456466, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-68.5476358644, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-70.9039471431, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-73.2306953059, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-79.5016559223, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-84.5145594741, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-86.1501360976, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-89.8218502539, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-91.6414490134, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-93.3953870745, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-93.4032525937, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-94.8178792566, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-96.1678960745, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-98.6755266969, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-107.226345648, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-107.669133378, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-108.976794974, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-109.440451388, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-112.904005535, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-113.067776669, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-113.259053671, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-115.611365536, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-121.637412829, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-122.153659792, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-123.000841905, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-125.086954533, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-126.306416512, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-128.581154196, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-129.224596369, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-130.850024478, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-132.526528929, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-132.592192621, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-136.194708255, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-139.648383215, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-140.081804888, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-148.778978014, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-150.465830025, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-151.666232449, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-154.067420696, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-162.694592517, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"], [-165.706645348, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-173.585009345, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-184.882863092, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>trim</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">trim</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/crocheted.html'">crocheted</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/two.html'">two</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/covers.html'">covers</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/mint.html'">mint</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/us.html'">us</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/baroque.html'">baroque</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/back.html'">back</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lead.html'">lead</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/fast.html'">fast</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/factory.html'">factory</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/quacker.html'">quacker</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/boutique.html'">boutique</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/goods.html'">goods</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/seller.html'">seller</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ship.html'">ship</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/skate.html'">skate</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/shipping.html'">shipping</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lever.html'">lever</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/snowman.html'">snowman</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lavender.html'">lavender</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/5_colors_Ladys_Girls_Leg_Warmers_Socks_Knitting_Lace_Trim_Boot_Cuffs_Toppers.html'">5 colors Ladys Girls Leg Warmers Socks Knitting Lace Trim Boot Cuffs Toppers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/5_colors_Ladys_Girls_Leg_Warmers_Socks_Knitting_Lace_Trim_Boot_Cuffs_Toppers.html'">5 colors Ladys Girls Leg Warmers Socks Knitting Lace Trim Boot Cuffs Toppers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ladies_Knit_Boot_Cuff-Topper_With_Lace_Trim_-_Black_-_Large_Calf_Size_-_New.html'">Ladies Knit Boot Cuff/Topper With Lace Trim - Black - Large Calf Size - New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Bath_and_Body_Works_Red_Suede_Tote_Bag_with_Fleece_trim.html'">Bath and Body Works Red Suede Tote Bag with Fleece trim</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Portolano_leather_buckle_trim_scarf_-__Charcoal_Gray_MSRP_$108.html'">Portolano leather buckle trim scarf -  Charcoal Gray MSRP $108</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_s_Crochet_Knitted_Boot_Socks_Lace_Trim_Cuffs_Socks_Dark_Grey.html'">Women's Crochet Knitted Boot Socks Lace Trim Cuffs Socks Dark Grey</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/5_colors_Ladys_Girls_Leg_Warmers_Socks_Knitting_Lace_Trim_Boot_Cuffs_Toppers.html'">5 colors Ladys Girls Leg Warmers Socks Knitting Lace Trim Boot Cuffs Toppers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ladies_Knit_Boot_Cuff-Topper_With_Lace_&_Button_Trim_-_Burgundy_Red-_New.html'">Ladies Knit Boot Cuff/Topper With Lace & Button Trim - Burgundy Red- New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_Leg_Warmers_Crochet_Lace_Trim_Cotton_Knit_Button_Down_Boot_Socks_Knee_High.html'">Women Leg Warmers Crochet Lace Trim Cotton Knit Button Down Boot Socks Knee High</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SCALA_BLACK_FELT_WINTER__HAT_WITH_BLACK__VELVET_BOW__&_TRIM.html'">SCALA BLACK FELT WINTER  HAT WITH BLACK  VELVET BOW  & TRIM</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ladies_Knit_Boot_Cuff-Topper_With_Lace_Trim_-_Mocha_-_Large_Calf_Size_-_New.html'">Ladies Knit Boot Cuff/Topper With Lace Trim - Mocha - Large Calf Size - New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SCALA_PURPLE_FELT_WINTER__HAT_WITH_BLACK__VELVET_BOW__&_TRIM.html'">SCALA PURPLE FELT WINTER  HAT WITH BLACK  VELVET BOW  & TRIM</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_Leg_Warmers_Crochet_Lace_Trim_Cotton_Knit_Button_Down_Boot_Socks_Knee_High.html'">Women Leg Warmers Crochet Lace Trim Cotton Knit Button Down Boot Socks Knee High</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Millers_Sportflics_Women_s_Leather_Trim_EQUESTRIAN_Crossbody_HANDBAG_w-Tags__NEW.html'">Millers Sportflics Women's Leather Trim EQUESTRIAN Crossbody HANDBAG w/Tags  NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_Leg_Warmers_Crochet_Lace_Trim_Cotton_Knit_Button_Down_Boot_Socks_Knee_High.html'">Women Leg Warmers Crochet Lace Trim Cotton Knit Button Down Boot Socks Knee High</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NWT_BRIGHTON_CITY_GIRL_PHONE_POUCH_Black_Microfiber_Black_Patent_Leather_Trim.html'">NWT BRIGHTON CITY GIRL PHONE POUCH Black Microfiber Black Patent Leather Trim</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Genuine_Huge_Silver_Crystal_Fox_Fur_Collar_Wrap_Hood_Trim_Fuchs_Stola_Kragen_311.html'">Genuine Huge Silver Crystal Fox Fur Collar Wrap Hood Trim Fuchs Stola Kragen 311</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_Leg_Warmers_Crochet_Lace_Trim_Cotton_Knit_Button_Down_Boot_Socks_LightGray.html'">Women Leg Warmers Crochet Lace Trim Cotton Knit Button Down Boot Socks LightGray</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/JENDI_BURGUNDY_COLOURED_WOOL_FELT_WINTER_CLOCHE_HAT_WITH_BOW_TRIM.html'">JENDI BURGUNDY COLOURED WOOL FELT WINTER CLOCHE HAT WITH BOW TRIM</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/JENDI_TAUPE__WOOL_FELT_WINTER_CLOCHE_HAT_WITH_FELT_BOW_TRIM.html'">JENDI TAUPE  WOOL FELT WINTER CLOCHE HAT WITH FELT BOW TRIM</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{free,_button,_shipping}.html'">{free, button, shipping}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{warmers,_leg,_hand}.html'">{warmers, leg, hand}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{white,_lace,_cuff}.html'">{white, lace, cuff}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{scarf,_fur,_wrap}.html'">{scarf, fur, wrap}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{boot,_cuffs,_crochet}.html'">{boot, cuffs, crochet}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vintage,_authentic,_chanel}.html'">{vintage, authentic, chanel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{shoe,_hat,_bow}.html'">{shoe, hat, bow}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{red,_w,_ring}.html'">{red, w, ring}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{shoulder,_handbag,_tags}.html'">{shoulder, handbag, tags}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{long,_cotton,_socks}.html'">{long, cotton, socks}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{leather,_purse,_handbag}.html'">{leather, purse, handbag}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{women,_round,_compact}.html'">{women, round, compact}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{size,_gray,_great}.html'">{size, gray, great}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{colors,_brand,_nib}.html'">{colors, brand, nib}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{blue,_brown,_green}.html'">{blue, brown, green}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{nwt,_color,_coach}.html'">{nwt, color, coach}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{style,_accessory,_fabric}.html'">{style, accessory, fabric}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{large,_purple,_fan}.html'">{large, purple, fan}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{ear,_cover,_trade}.html'">{ear, cover, trade}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

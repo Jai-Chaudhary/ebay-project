@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[6.0313258432, "../topics/{Figure,_Action,_Ninja}.html", "{Figure,_Action,_Ninja}"], [1.0313258432, "../topics/{Power,_New,_Brand}.html", "{Power,_New,_Brand}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Bandai Figuarts Zero Shishio Makoto Action Figure</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Bandai Figuarts Zero Shishio Makoto Action Figure</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Figure,_Action,_Ninja}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Figure,_Action,_Ninja}.html'">{Figure, Action, Ninja}</td></tr>
+<tr class="list"><td id="{Power,_New,_Brand}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Power,_New,_Brand}.html'">{Power, New, Brand}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Lego_Teenage_Mutant_Ninja_Turtles_Donatello_w-staff.html'">Lego Teenage Mutant Ninja Turtles Donatello w/staff</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/6_PCS_Minifigures_Teenage_Mutant_Ninja_Turtles_Series_Figures_Building_toy_2.html'">6 PCS Minifigures Teenage Mutant Ninja Turtles Series Figures Building toy 2</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/CONTE_Confederate_Marching_set_6_figure_ACW57110_1-32_scale_Boxed_painted_pewter.html'">CONTE Confederate Marching set 6 figure ACW57110 1/32 scale Boxed painted pewter</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Playmates_Toys_Psycrow_Action_Figure.html'">Playmates Toys Psycrow Action Figure</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Battlestar_Galactica_Athena_Action_Figure.html'">Battlestar Galactica Athena Action Figure</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hasbro_Clone_Commander_Jet_Action_Figure.html'">Hasbro Clone Commander Jet Action Figure</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ORIGINAL_AVENGERS_Marvel_Collector_Editions_Toy_Biz_Action_Figure_set.html'">ORIGINAL AVENGERS Marvel Collector Editions Toy Biz Action Figure set</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Teenage_Mutant_Ninja_Turtles_Retro_Collection_-_Foot_Soldier.html'">Teenage Mutant Ninja Turtles Retro Collection - Foot Soldier</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Figuarts_Zero_Bleach_Matsumoto_Rangiku_Action_Figure.html'">Figuarts Zero Bleach Matsumoto Rangiku Action Figure</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1986_RAMBO_Colonel_Trautman_Action_Figure_Coleco.html'">1986 RAMBO Colonel Trautman Action Figure Coleco</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Conte_Toy_Soldiers_WWII_4_Sets:_#001,_#003,_#063,_#47099.html'">Conte Toy Soldiers WWII 4 Sets: #001, #003, #063, #47099</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Ninja_Turtles_Leonardo_Action_Minifigures_Mini_Figures_Men_People_Minifigs.html'">New Ninja Turtles Leonardo Action Minifigures Mini Figures Men People Minifigs</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/all_new_in_plastic_6_PCS_Minifigures_Teenage_Mutant_Ninja_Turtles_Series_toy_2.html'">all new in plastic 6 PCS Minifigures Teenage Mutant Ninja Turtles Series toy 2</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Funko_Pop_Plants_Vs_Zombies,_Swashbuckler.html'">Funko Pop Plants Vs Zombies, Swashbuckler</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TMNT_April_O_Neil_Figure.html'">TMNT April O'Neil Figure</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tomica_Tokoyo_Disney_Resort_Black-wh_mickey_s_Car_Vehicle_metal__Baby_Toys_Boxed.html'">Tomica Tokoyo Disney Resort Black-wh mickey's Car Vehicle metal  Baby Toys Boxed</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla:_Hedorah_Action_figure_in_box_2007.html'">Godzilla: Hedorah Action figure in box 2007</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Conte_Pirate_Women_Caribbean_PIR0021_SEXY_Buccaneer_Mint_Boxed_set.html'">Conte Pirate Women Caribbean PIR0021 SEXY Buccaneer Mint Boxed set</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wow_Wee_Alive-_Fin_Fin_Friends_-_Caribbean_Castle-_New.html'">Wow Wee Alive- Fin Fin Friends - Caribbean Castle- New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LJN_Telepix_THUNDERCATS_Panthro_NUNCHUCKS_COMPLETE_Vintage_Action_Figure_WEAPON.html'">LJN Telepix THUNDERCATS Panthro NUNCHUCKS COMPLETE Vintage Action Figure WEAPON</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KUBRICK_Medicom_MONSTERS_SERIES_2_Action_Figure_METALUNA_MUTANT_MIB-NEW.html'">KUBRICK Medicom MONSTERS SERIES 2 Action Figure METALUNA MUTANT MIB/NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/★_THE_EXORCIST_-_7"_Regan_Deluxe_Boxed_Action_Figure_(NECA)_#NEW.html'">★ THE EXORCIST - 7" Regan Deluxe Boxed Action Figure (NECA) #NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_Skylanders_Trap_Team_Exclusive_Villain_Outlaw_Brawl_&_Chain_-_IN_HAND.html'">NEW Skylanders Trap Team Exclusive Villain Outlaw Brawl & Chain - IN HAND</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Space_Men_Action_Figures_Brand_New.html'">Vintage Space Men Action Figures Brand New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ninco_AC_Cobra_Classic.html'">Ninco AC Cobra Classic</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

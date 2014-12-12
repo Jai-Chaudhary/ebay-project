@@ -1,0 +1,175 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[4.0313258432, "../topics/{the,_BEANIE,_TY}.html", "{the,_BEANIE,_TY}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Enemy at the Gates</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Enemy at the Gates</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{the,_BEANIE,_TY}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{the,_BEANIE,_TY}.html'">{the, BEANIE, TY}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    
+<p><i><b>Enemy at the Gates</b></i> is a 2001 <a href="http://www.wikipedia.org/wiki/War_film" title="War film">war film</a> directed by <a href="http://www.wikipedia.org/wiki/Jean-Jacques_Annaud" title="Jean-Jacques Annaud">Jean-Jacques Annaud</a>, starring <a href="http://www.wikipedia.org/wiki/Joseph_Fiennes" title="Joseph Fiennes">Joseph Fiennes</a>, <a href="http://www.wikipedia.org/wiki/Jude_Law" title="Jude Law">Jude Law</a>, <a href="http://www.wikipedia.org/wiki/Rachel_Weisz" title="Rachel Weisz">Rachel Weisz</a>, <a href="http://www.wikipedia.org/wiki/Bob_Hoskins" title="Bob Hoskins">Bob Hoskins</a> and <a href="http://www.wikipedia.org/wiki/Ed_Harris" title="Ed Harris">Ed Harris</a> set during the <a href="http://www.wikipedia.org/wiki/Battle_of_Stalingrad" title="Battle of Stalingrad">Battle of Stalingrad</a> in <a href="http://www.wikipedia.org/wiki/World_War_II" title="World War II">World War II</a>.</p>
+<p>The film's title is taken from <a href="http://www.wikipedia.org/wiki/William_Craig_(author)" title="William Craig (author)">William Craig</a>'s 1973 nonfiction book <i><a href="http://www.wikipedia.org/wiki/Enemy_at_the_Gates:_The_Battle_for_Stalingrad" title="Enemy at the Gates: The Battle for Stalingrad">Enemy at the Gates: The Battle for Stalingrad</a></i>, which describes the events surrounding the <a href="http://www.wikipedia.org/wiki/Battle_of_Stalingrad" title="Battle of Stalingrad">Battle of Stalingrad</a> in the winter of 1942/43.<sup id="cite_ref-3" class="reference"><a href="http://en.wikipedia.org/wiki/Enemy_at_the_Gates#cite_note-3"><span>[</span>3<span>]</span></a></sup> While fictional, the film is loosely based on war stories told by Soviet <a href="http://www.wikipedia.org/wiki/Sniper" title="Sniper">sniper</a> <a href="http://www.wikipedia.org/wiki/Vasily_Zaitsev" title="Vasily Zaitsev" class="mw-redirect">Vasily Zaitsev</a>.</p>
+<p></p>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="http://en.wikipedia.org/wiki/Enemy_at_the_Gates#Plot"><span class="tocnumber">1</span> <span class="toctext">Plot</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="http://en.wikipedia.org/wiki/Enemy_at_the_Gates#Main_cast"><span class="tocnumber">2</span> <span class="toctext">Main cast</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="http://en.wikipedia.org/wiki/Enemy_at_the_Gates#Historical_accuracy"><span class="tocnumber">3</span> <span class="toctext">Historical accuracy</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="http://en.wikipedia.org/wiki/Enemy_at_the_Gates#Reception"><span class="tocnumber">4</span> <span class="toctext">Reception</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="http://en.wikipedia.org/wiki/Enemy_at_the_Gates#Soundtrack"><span class="tocnumber">5</span> <span class="toctext">Soundtrack</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="http://en.wikipedia.org/wiki/Enemy_at_the_Gates#Notes"><span class="tocnumber">6</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="http://en.wikipedia.org/wiki/Enemy_at_the_Gates#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+<p></p>
+<h3><span class="mw-headline" id="Plot">Plot</span></h3>
+<p>In 1942, <a href="http://www.wikipedia.org/wiki/Vassili_Zaitsev" title="Vassili Zaitsev" class="mw-redirect">Vassili Zaitsev</a> (<a href="http://www.wikipedia.org/wiki/Jude_Law" title="Jude Law">Jude Law</a>), a shepherd from the <a href="http://www.wikipedia.org/wiki/Ural_Mountains" title="Ural Mountains">Ural Mountains</a> who is now a soldier in the <a href="http://www.wikipedia.org/wiki/Red_Army" title="Red Army">Red Army</a>, finds himself on the front lines of the <a href="http://www.wikipedia.org/wiki/Battle_of_Stalingrad" title="Battle of Stalingrad">Battle of Stalingrad</a>. Sent on a suicidal charge against the invading Germans, he uses impressive marksmanship skills—taught to him by his grandfather from a young age—to save himself and <a href="http://www.wikipedia.org/wiki/Political_commissar" title="Political commissar">commissar</a> Danilov (<a href="http://www.wikipedia.org/wiki/Joseph_Fiennes" title="Joseph Fiennes">Joseph Fiennes</a>). <a href="http://www.wikipedia.org/wiki/Nikita_Khrushchev" title="Nikita Khrushchev">Nikita Khrushchev</a> (<a href="http://www.wikipedia.org/wiki/Bob_Hoskins" title="Bob Hoskins">Bob Hoskins</a>) arrives in Stalingrad to coordinate the city's defences and demands ideas to improve morale. Danilov, now a Senior Lieutenant, suggests that the people need figures to idolize, and publishes tales of Vasili's exploits in the army's newspaper that paint him as a national hero and propaganda icon. Vasili is transferred to the <a href="http://www.wikipedia.org/wiki/Sniper" title="Sniper">sniper</a> division, and he and Danilov become friends. They also both become romantically interested in Tania (<a href="http://www.wikipedia.org/wiki/Rachel_Weisz" title="Rachel Weisz">Rachel Weisz</a>), a citizen of Stalingrad who has become a Private in the local militia. Danilov has her transferred to an intelligence unit away from the battlefield.</p>
+<p>With the Soviet snipers taking an increasing toll on the German forces, German Major <a href="http://www.wikipedia.org/wiki/Erwin_K%C3%B6nig" title="Erwin König">Erwin König</a> (<a href="http://www.wikipedia.org/wiki/Ed_Harris" title="Ed Harris">Ed Harris</a>) is deployed to Stalingrad to take out Vasili and thus crush Soviet morale. A renowned marksman and head of the German Army sniper school at <a href="http://www.wikipedia.org/wiki/Zossen" title="Zossen">Zossen</a>, he lures Vasili into a trap and takes out two of his fellow snipers, but Vasili manages to escape. When the Red Army command learns of König's mission, they dispatch his former student Koulikov (<a href="http://www.wikipedia.org/wiki/Ron_Perlman" title="Ron Perlman">Ron Perlman</a>) to help Vasili kill him. König, however, outmaneuvers Koulikov and kills him with a very skillful shot, shaking Vasili's spirits considerably. Khrushchev pressures Danilov to bring the sniper standoff to a conclusion.</p>
+<p><a href="http://en.wikipedia.org/wiki/Enemy_at_the_Gates">Full article&nbsp;&#x25B8;</a></p>
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/MTG_Grove_of_the_Burnwillows_-_foil.html'">MTG Grove of the Burnwillows - foil</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/dig_through_time.html'">dig through time</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/A_LOT_OF_25_TY_BEANIE_BABIES.html'">A LOT OF 25 TY BEANIE BABIES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_ERIN_the_bear_born_3-17-1997.html'">Ty ERIN the bear born 3/17/1997</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Chessex_Accesory_Counter_Tray_MINT.html'">Chessex Accesory Counter Tray MINT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_the_Gathering:_Watery_Grave.html'">Magic the Gathering: Watery Grave</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_the_Gathering:_Watery_Grave.html'">Magic the Gathering: Watery Grave</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_the_Gathering:_Watery_Grave.html'">Magic the Gathering: Watery Grave</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_the_gathering:_Flooded_Strand.html'">Magic the gathering: Flooded Strand</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_the_Gathering:_Wooded_Foothills.html'">Magic the Gathering: Wooded Foothills</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Temple_garden.html'">Temple garden</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/McDONALDS_McNUGGET_BUDDIES.html'">McDONALDS McNUGGET BUDDIES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_8_Ball.html'">Magic 8 Ball</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MAGIC_the_Gathering_Temple_of_Silence_x4_Theros_MTG.html'">MAGIC the Gathering Temple of Silence x4 Theros MTG</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW,_SET_OF_2_MY_LITTLE_PONY_FASHEMS_(MASHEMS)_BLIND_CAPSULES.html'">NEW, SET OF 2 MY LITTLE PONY FASHEMS (MASHEMS) BLIND CAPSULES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mechanical_Donkey_-_Horse.html'">Mechanical Donkey / Horse</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Stretchkins_Unicorn_-_Pink.html'">Stretchkins Unicorn - Pink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Crystal_Radio_Set_-_Assembled.html'">Crystal Radio Set - Assembled</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EUC_Wild_Planet_Radio_DJ.html'">EUC Wild Planet Radio DJ</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Jada_Chevrolet_Silverado_2014_Blue_1-24.html'">Jada Chevrolet Silverado 2014 Blue 1/24</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

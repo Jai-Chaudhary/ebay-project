@@ -1,0 +1,159 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[4.5859937774, "../topics/{New,_Free,_50}.html", "{New,_Free,_50}"], [3.0562269608, "../topics/{the,_BEANIE,_TY}.html", "{the,_BEANIE,_TY}"], [2.4517567913, "../topics/{of,_MTG,_Khans}.html", "{of,_MTG,_Khans}"], [1.0313258432, "../topics/{The,_Series,_Star}.html", "{The,_Series,_Star}"], [1.0313258432, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Caves of Koilos - M15  MtG Magic The Gathering Rare Land x4</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Caves of Koilos - M15  MtG Magic The Gathering Rare Land x4</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{New,_Free,_50}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{New,_Free,_50}.html'">{New, Free, 50}</td></tr>
+<tr class="list"><td id="{the,_BEANIE,_TY}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{the,_BEANIE,_TY}.html'">{the, BEANIE, TY}</td></tr>
+<tr class="list"><td id="{of,_MTG,_Khans}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{of,_MTG,_Khans}.html'">{of, MTG, Khans}</td></tr>
+<tr class="list"><td id="{The,_Series,_Star}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{The,_Series,_Star}.html'">{The, Series, Star}</td></tr>
+<tr class="list"><td id="{-,_7",_NECA}" onmouseover="highlight(4)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{-,_7",_NECA}.html'">{-, 7", NECA}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Magic_8_Ball,_Free_Shipping,_New.html'">Magic 8 Ball, Free Shipping, New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_8_Ball_by_Mattel,_New,_Free_Shipping.html'">Magic 8 Ball by Mattel, New, Free Shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_Scribble_and_Write,_Free_Shipping,_New.html'">LeapFrog Scribble and Write, Free Shipping, New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Skylanders_Giants_Sidekick_Barkley.html'">Skylanders Giants Sidekick Barkley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/My_Pillow_Pets_Giraffe_Hat.html'">My Pillow Pets Giraffe Hat</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/GI_Joe_Heavy_Machine_Gunner_Roadblock.html'">GI Joe Heavy Machine Gunner Roadblock</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Puppy_Surprise_"Popcorn"_White-_Pink_3,4,_Or_5_Puppies.html'">New Puppy Surprise "Popcorn" White/ Pink 3,4, Or 5 Puppies</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Childrens_PuzzleBug_100pc_Jigsaw_Puzzle_Gift_Toy_Kids_Helicopter.html'">New Childrens PuzzleBug 100pc Jigsaw Puzzle Gift Toy Kids Helicopter</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Caves_of_Koilos__EX-NM__M15__2015_Core_Set____MTG_Magic__Land__Rare.html'">Caves of Koilos  EX/NM  M15  2015 Core Set    MTG Magic  Land  Rare</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Girls_&_Boys_Kids_Children_Drum_Musical_Instruments_Band_Kit_Toy_Gift_Set_Black.html'">Girls & Boys Kids Children Drum Musical Instruments Band Kit Toy Gift Set Black</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Plateau_Revised_Dual_land_light_play.html'">MTG Plateau Revised Dual land light play</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fijit_Friends_Yippits_Scooch_Figure_(Blue)_New.html'">Fijit Friends Yippits Scooch Figure (Blue) New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Seat_Pets_Seatbelt_Belt_Buddies,_New.html'">Seat Pets Seatbelt Belt Buddies, New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Chassis_Mint_New.html'">Aurora Thunderjet Chassis Mint New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Childrens_PuzzleBug_100pc_Jigsaw_Puzzle_Gift_Toy_Kids_Big_Rig.html'">New Childrens PuzzleBug 100pc Jigsaw Puzzle Gift Toy Kids Big Rig</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wood_Rubber_Band_Toy_Gun_New_In_The_Package.html'">Wood Rubber Band Toy Gun New In The Package</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_the_Gathering:_Wooded_Foothills.html'">Magic the Gathering: Wooded Foothills</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/dig_through_time.html'">dig through time</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Temple_garden.html'">Temple garden</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/A_LOT_OF_25_TY_BEANIE_BABIES.html'">A LOT OF 25 TY BEANIE BABIES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Enemy_at_the_Gates.html'">Enemy at the Gates</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Sinkhole.html'">MTG Sinkhole</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Bloodstained_Mire.html'">MTG Bloodstained Mire</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Skylanders_Giants_Halloween_Pumpkin_Eye_Brawl_RARE_Figure+Card+Code.html'">Skylanders Giants Halloween Pumpkin Eye Brawl RARE Figure+Card+Code</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_8_Ball.html'">Magic 8 Ball</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Large_Collection_of_MTG_cards.html'">Large Collection of MTG cards</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RIVET_WARS_BABY_GIRL.html'">RIVET WARS BABY GIRL</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Underground_Sea.html'">Underground Sea</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

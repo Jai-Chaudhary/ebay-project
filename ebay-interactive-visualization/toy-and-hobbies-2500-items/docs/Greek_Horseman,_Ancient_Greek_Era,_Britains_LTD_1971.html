@@ -1,0 +1,155 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[8.0313258432, "../topics/{1971,_King,_Britains}.html", "{1971,_King,_Britains}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Greek Horseman, Ancient Greek Era, Britains LTD 1971</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Greek Horseman, Ancient Greek Era, Britains LTD 1971</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{1971,_King,_Britains}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{1971,_King,_Britains}.html'">{1971, King, Britains}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Matchbox_British_8th_Army_WWII_1-32_54MM_Toy_Soldier_D-Day_Playset.html'">Matchbox British 8th Army WWII 1/32 54MM Toy Soldier D-Day Playset</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/GI_JOE_LOOSE_CUSTOM_RIPCORD_AWESOME_AIRBORNE.html'">GI JOE LOOSE CUSTOM RIPCORD AWESOME AIRBORNE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_1986_Thundercats_Miniatures_Cat_s_Lair_Play_Set_with_6_figures_rare.html'">Vintage 1986 Thundercats Miniatures Cat's Lair Play Set with 6 figures rare</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MAC_Matchbox_action_figures_Mobile_Action_Command_Vintage_1970.html'">MAC Matchbox action figures Mobile Action Command Vintage 1970</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_Custom_LEGO_DEATHSTROKE_from_Arkham_Origins_-__Batman_Dark_Knight_Robin.html'">Lego Custom LEGO DEATHSTROKE from Arkham Origins -  Batman Dark Knight Robin</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marble_King_St_Mary_s_Cat_s_Eyes_Lot_of_14.html'">Marble King St Mary's Cat's Eyes Lot of 14</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Little_People_Lil_Kingdom_Castle_Robin_Hood,_24_pc,_SOUND_&_LIGHTS.html'">Fisher Price Little People Lil Kingdom Castle Robin Hood, 24 pc, SOUND & LIGHTS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/GI_Joe_Infantry_Trooper_Grunt.html'">GI Joe Infantry Trooper Grunt</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/GI_Joe_Action_Sailor_12".html'">GI Joe Action Sailor 12"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HaT_1:72_#8288_Colonial_British_Dragoons.html'">HaT 1:72 #8288 Colonial British Dragoons</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/GI_Joe_Stars_and_Stripes_Forever.html'">GI Joe Stars and Stripes Forever</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/GI_Joe_Heavy_Machine_Gunner_Roadblock.html'">GI Joe Heavy Machine Gunner Roadblock</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/VINTAGE_FISHER_PRICE_LITTLE_PEOPLE_Castle_woodsman_King_Queen.html'">VINTAGE FISHER PRICE LITTLE PEOPLE Castle woodsman King Queen</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Custom_Lego_Minifigure_Display_Case.html'">Custom Lego Minifigure Display Case</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Stretchkins_Unicorn_-_Pink.html'">Stretchkins Unicorn - Pink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AURORA_G_PLUS_LOT.html'">AURORA G PLUS LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Chassis_Mint_New.html'">Aurora Thunderjet Chassis Mint New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Space_Men_Action_Figures_Brand_New.html'">Vintage Space Men Action Figures Brand New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_handmade_marbles.html'">vintage handmade marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Animal_Babies_9in_Baby.html'">Animal Babies 9in Baby</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[4.8885939721, "../topics/{car,_Edition,_slot}.html", "{car,_Edition,_slot}"], [2.0785020375, "../topics/{Hot,_Wheels,_Ride}.html", "{Hot,_Wheels,_Ride}"], [1.12688152, "../topics/{in,_2,_Lionel}.html", "{in,_2,_Lionel}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>2013 Hot Wheels Chevy Camaro Special Edition                   b</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">2013 Hot Wheels Chevy Camaro Special Edition                   b</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{car,_Edition,_slot}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{car,_Edition,_slot}.html'">{car, Edition, slot}</td></tr>
+<tr class="list"><td id="{Hot,_Wheels,_Ride}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Hot,_Wheels,_Ride}.html'">{Hot, Wheels, Ride}</td></tr>
+<tr class="list"><td id="{in,_2,_Lionel}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{in,_2,_Lionel}.html'">{in, 2, Lionel}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/MtG_Mana_Confluence_x1_(4_available).html'">MtG Mana Confluence x1 (4 available)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rare_NFL_Team_Set_AFC_West__With_Box.html'">Rare NFL Team Set AFC West  With Box</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora-AFX_slot_car_layout.html'">Aurora/AFX slot car layout</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RAZOR_RIP_RIDER_360.html'">RAZOR RIP RIDER 360</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Tyco_HP7_1982_Camaro_Z-28.html'">Vintage Tyco HP7 1982 Camaro Z-28</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pro_Scale_Models_1:72_T-33_Trio_No._1.html'">Pro Scale Models 1:72 T-33 Trio No. 1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tamiya_1:72_#FA103_Raiden_(Jack)_Mitsubishi_M2M3.html'">Tamiya 1:72 #FA103 Raiden (Jack) Mitsubishi M2M3</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cardfight_Vanguard_Neo_Nectar_Musketeer_Deck.html'">Cardfight Vanguard Neo Nectar Musketeer Deck</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Milton_Bradley_1000_piece_puzzle_"Charles_Wysocki_S_Americana"_1989.html'">Milton Bradley 1000 piece puzzle "Charles Wysocki'S Americana" 1989</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1969_MERCURY_COUGAR_HARDTOP_BUILT_KIT_1-25TH_SCALE.html'">1969 MERCURY COUGAR HARDTOP BUILT KIT 1/25TH SCALE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_1-24_slot_car.html'">vintage 1/24 slot car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Stingray_slot_car_complete_nice.html'">Aurora Thunderjet Stingray slot car complete nice</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Falcon_slot_car.html'">Aurora Thunderjet Falcon slot car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/A_LOT_OF_25_TY_BEANIE_BABIES.html'">A LOT OF 25 TY BEANIE BABIES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels.html'">Hot Wheels</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Chassis_Mint_New.html'">Aurora Thunderjet Chassis Mint New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cuddle_Pet.html'">Cuddle Pet</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Perfect_Polly.html'">Perfect Polly</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lionel_Sub.html'">Lionel Sub</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Johnny_lightning_slot_cars.html'">Johnny lightning slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/F86-D_Dog_Sabre_Monogram_Pro_Modeler_1-48_Sealed_Box!.html'">F86-D Dog Sabre Monogram Pro Modeler 1/48 Sealed Box!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/beanie_babies_Bears.html'">beanie babies Bears</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Beanie_Babies_Lot_Bears.html'">Beanie Babies Lot Bears</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

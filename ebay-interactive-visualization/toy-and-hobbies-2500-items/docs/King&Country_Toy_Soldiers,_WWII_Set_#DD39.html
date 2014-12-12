@@ -1,0 +1,155 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[6.0313258432, "../topics/{Toy,_and,_Set}.html", "{Toy,_and,_Set}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>King&Country Toy Soldiers, WWII Set #DD39</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">King&Country Toy Soldiers, WWII Set #DD39</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Toy,_and,_Set}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Toy,_and,_Set}.html'">{Toy, and, Set}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/My_Vehicle_Sound_Blocks_#1272_By_Melissa_And_Doug.html'">My Vehicle Sound Blocks #1272 By Melissa And Doug</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MOTU_Classics_MOTUC_POP_He-Man_LOT_MISB_New_ELDOR.html'">MOTU Classics MOTUC POP He-Man LOT MISB New ELDOR</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/16_sets_Spongebob_and_Toy_Story_Minifigures_building_Toy_in_the_plastic_bags.html'">16 sets Spongebob and Toy Story Minifigures building Toy in the plastic bags</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_Set_#DD25_UNBOXED.html'">King&Country Toy Soldiers, WWII Set #DD25 UNBOXED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Transformers_Age_of_Extinction_Chomp_and_Stomp_Grimlock_Figure.html'">Transformers Age of Extinction Chomp and Stomp Grimlock Figure</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Loving_Family_Ballerina_Dance_Barre_and_Mirror_Pretend_Play.html'">Fisher Price Loving Family Ballerina Dance Barre and Mirror Pretend Play</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/GI_Joe_Stars_and_Stripes_Forever.html'">GI Joe Stars and Stripes Forever</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Paw_Patrol_Zuma_Hovercraft_Vehicle_and_Figure_NEW_hard_to_find.html'">Paw Patrol Zuma Hovercraft Vehicle and Figure NEW hard to find</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Melissa_and_Doug_Wooden_10pc_Spice_Set_Food.html'">Melissa and Doug Wooden 10pc Spice Set Food</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_1981_MOTU_He-Man_Beast_Man_armor_and_whip.html'">Vintage 1981 MOTU He-Man Beast Man armor and whip</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/King&Country_Toy_Soldiers,_WWII_Set_#DD056_NEVER_OUT_OF_BOX.html'">King&Country Toy Soldiers, WWII Set #DD056 NEVER OUT OF BOX</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Skylanders_HOOT_LOOP_figure_only_Swap_Force.html'">Skylanders HOOT LOOP figure only Swap Force</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SPY_RISE_*_Skylanders_Swap_Force_*rare*.html'">SPY RISE * Skylanders Swap Force *rare*</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Stretchkins_Unicorn_-_Pink.html'">Stretchkins Unicorn - Pink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AURORA_G_PLUS_LOT.html'">AURORA G PLUS LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_White_MIP_Robot.html'">WooWee White MIP Robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Chassis_Mint_New.html'">Aurora Thunderjet Chassis Mint New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Space_Men_Action_Figures_Brand_New.html'">Vintage Space Men Action Figures Brand New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_handmade_marbles.html'">vintage handmade marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Animal_Babies_9in_Baby.html'">Animal Babies 9in Baby</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

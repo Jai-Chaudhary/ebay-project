@@ -1,0 +1,159 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-3.4363154557, "../topics/{Marble,_!,_Vintage}.html", "{Marble,_!,_Vintage}"], [-5.4156149963, "../topics/{WITH,_WARS,_FIGURE}.html", "{WITH,_WARS,_FIGURE}"], [-36.5642771225, "../topics/{Shogun,_Great,_Warriors}.html", "{Shogun,_Great,_Warriors}"], [-45.9823768458, "../topics/{and,_Game,_w/}.html", "{and,_Game,_w/}"], [-100.194542528, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"], [-129.775419419, "../topics/{HO,_Scale,_Car}.html", "{HO,_Scale,_Car}"], [-164.348911838, "../topics/{The,_Series,_Star}.html", "{The,_Series,_Star}"], [-166.025673668, "../topics/{1000,_Puzzle,_Jigsaw}.html", "{1000,_Puzzle,_Jigsaw}"], [-178.368893584, "../topics/{War,_Avalon,_Battle}.html", "{War,_Avalon,_Battle}"], [-194.96989205, "../topics/{Playset,_10mm,_Collectible}.html", "{Playset,_10mm,_Collectible}"], [-195.148558882, "../topics/{8,_12,_BLACK}.html", "{8,_12,_BLACK}"], [-195.330502051, "../topics/{1971,_King,_Britains}.html", "{1971,_King,_Britains}"], [-195.481896307, "../topics/{in,_2,_Lionel}.html", "{in,_2,_Lionel}"], [-195.517552177, "../topics/{with,_by,_mint}.html", "{with,_by,_mint}"], [-195.570810923, "../topics/{LIONEL,_KIT,_SCALE}.html", "{LIONEL,_KIT,_SCALE}"], [-195.612484256, "../topics/{Power,_New,_Brand}.html", "{Power,_New,_Brand}"], [-195.633728483, "../topics/{Toys,_Antique,_Cast}.html", "{Toys,_Antique,_Cast}"], [-195.905838953, "../topics/{Box,_Radio,_Wagon}.html", "{Box,_Radio,_Wagon}"], [-195.982086512, "../topics/{Deluxe,_NEW!,_Kendama}.html", "{Deluxe,_NEW!,_Kendama}"], [-195.996558414, "../topics/{car,_Edition,_slot}.html", "{car,_Edition,_slot}"], [-196.182639513, "../topics/{1,_Large,_figures}.html", "{1,_Large,_figures}"], [-196.244256418, "../topics/{3,_set,_to}.html", "{3,_set,_to}"], [-196.375849014, "../topics/{VINTAGE,_LOT,_6}.html", "{VINTAGE,_LOT,_6}"], [-197.364222195, "../topics/{Robot,_Toy,_Tin}.html", "{Robot,_Toy,_Tin}"], [-198.598497347, "../topics/{the,_BEANIE,_TY}.html", "{the,_BEANIE,_TY}"], [-226.842589093, "../topics/{Of,_Lot,_Marbles}.html", "{Of,_Lot,_Marbles}"], [-226.996746605, "../topics/{NEW,_Traxxas,_COMPLETE}.html", "{NEW,_Traxxas,_COMPLETE}"], [-227.036653954, "../topics/{THE,_TOY,_GAME}.html", "{THE,_TOY,_GAME}"], [-227.059273024, "../topics/{Toy,_and,_Set}.html", "{Toy,_and,_Set}"], [-227.081233076, "../topics/{1:72,_scale,_1/48}.html", "{1:72,_scale,_1/48}"], [-227.213567326, "../topics/{Disney,_Frozen,_Elsa}.html", "{Disney,_Frozen,_Elsa}"], [-227.2999523, "../topics/{2,_Fisher,_Learning}.html", "{2,_Fisher,_Learning}"], [-227.374737256, "../topics/{2014,_Meal,_Happy}.html", "{2014,_Meal,_Happy}"], [-227.391346977, "../topics/{Play,_Kids,_House}.html", "{Play,_Kids,_House}"], [-227.417847716, "../topics/{for,_For,_Helicopter}.html", "{for,_For,_Helicopter}"], [-227.669559745, "../topics/{Hot,_Wheels,_Ride}.html", "{Hot,_Wheels,_Ride}"], [-227.856293232, "../topics/{Little,_My,_NEW}.html", "{Little,_My,_NEW}"], [-227.856544496, "../topics/{Vintage,_Car,_Slot}.html", "{Vintage,_Car,_Slot}"], [-227.94318584, "../topics/{WHEELS,_CAR,_HOT}.html", "{WHEELS,_CAR,_HOT}"], [-228.08772796, "../topics/{Figure,_Action,_Ninja}.html", "{Figure,_Action,_Ninja}"], [-228.198731997, "../topics/{toy,_#,_2002}.html", "{toy,_#,_2002}"], [-228.205009326, "../topics/{Super,_Minifigures,_Heroes}.html", "{Super,_Minifigures,_Heroes}"], [-228.57266192, "../topics/{of,_MTG,_Khans}.html", "{of,_MTG,_Khans}"], [-258.52478534, "../topics/{Set,_Complete,_of}.html", "{Set,_Complete,_of}"], [-258.877796249, "../topics/{Beanie,_Ty,_~}.html", "{Beanie,_Ty,_~}"], [-259.922510857, "../topics/{Toy,_Plush,_Stuffed}.html", "{Toy,_Plush,_Stuffed}"], [-295.648074959, "../topics/{&,_NIB,_NEW}.html", "{&,_NIB,_NEW}"], [-303.642616175, "../topics/{Blue,_10,_Toys}.html", "{Blue,_10,_Toys}"], [-371.006100574, "../topics/{Pet,_Littlest,_Shop}.html", "{Pet,_Littlest,_Shop}"], [-521.848840617, "../topics/{New,_Free,_50}.html", "{New,_Free,_50}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>Gold</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">Gold</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/Lutz.html'">Lutz</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Akro.html'">Akro</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Huge.html'">Huge</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Old.html'">Old</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Vitro.html'">Vitro</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Handmade.html'">Handmade</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/COOL.html'">COOL</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/PIPER.html'">PIPER</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Collectable.html'">Collectable</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Logo.html'">Logo</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Display.html'">Display</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ONE.html'">ONE</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/1/8.html'">1/8</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/19/32".html'">19/32"</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/!.html'">!</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/23/32".html'">23/32"</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/5/8".html'">5/8"</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/SWIRL.html'">SWIRL</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Snake.html'">Snake</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/1:64.html'">1:64</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/Gold_Lutz_Marble_!_Handmade_Gold_Lutz_Swirls_-_1_1-8_Inch_!_New_Huge_Marble_!_G1.html'">Gold Lutz Marble ! Handmade Gold Lutz Swirls - 1 1/8 Inch ! New Huge Marble ! G1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Gold_Lutz_Marble_!_Handmade_Gold_Lutz_Swirls_-_1_1-8_Inch_!_New_Huge_Marble_!_T6.html'">Gold Lutz Marble ! Handmade Gold Lutz Swirls - 1 1/8 Inch ! New Huge Marble ! T6</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Gold_Lutz_Marble_!_Handmade_Gold_Lutz_Swirls_-_1_1-8_Inch_!_New_Huge_Marble_!_G3.html'">Gold Lutz Marble ! Handmade Gold Lutz Swirls - 1 1/8 Inch ! New Huge Marble ! G3</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Gold_Lutz_Marble_!_Handmade_Gold_Lutz_Swirls_-_1_1-8_Inch_!_New_Huge_Marble_!_G5.html'">Gold Lutz Marble ! Handmade Gold Lutz Swirls - 1 1/8 Inch ! New Huge Marble ! G5</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Gold_Lutz_Marble_!_Handmade_Gold_Lutz_Swirls_-_1_1-8_Inch_!_New_Huge_Marble_!_G6.html'">Gold Lutz Marble ! Handmade Gold Lutz Swirls - 1 1/8 Inch ! New Huge Marble ! G6</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Gold_Lutz_Marble_!_Handmade_Gold_Lutz_Swirls_-_1_1-8_Inch_!_New_Huge_Marble_!_G4.html'">Gold Lutz Marble ! Handmade Gold Lutz Swirls - 1 1/8 Inch ! New Huge Marble ! G4</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Gold_Lutz_Marble_!_Handmade_Gold_Lutz_Swirls_-_1_1-8_Inch_!_New_Huge_Marble_!_G2.html'">Gold Lutz Marble ! Handmade Gold Lutz Swirls - 1 1/8 Inch ! New Huge Marble ! G2</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Avalance_Press_Great_War_At_Sea_U.S._Navy_Plan_Gold_Incomplete.html'">Avalance Press Great War At Sea U.S. Navy Plan Gold Incomplete</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Translucent_Blue_&_White_Gold_Fleck_Swirl_Glass_Marble_Pontel.html'">Vintage Translucent Blue & White Gold Fleck Swirl Glass Marble Pontel</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Minichamps_-_Renault_Fuego_1983_(_Gold_Metallic_)_-_1:43.html'">Minichamps - Renault Fuego 1983 ( Gold Metallic ) - 1:43</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rare,_authentic_LEGO_Mr._Gold.html'">Rare, authentic LEGO Mr. Gold</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Minecraft_Sword-Pick_Axe-Pickaxe_EVA_FOAM-Iron-Diamond_Gold_Tool-Hand_Held_Game.html'">Minecraft Sword/Pick Axe/Pickaxe EVA FOAM/Iron/Diamond Gold Tool/Hand Held Game</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Digi_Bird_Single_Pack_-_Metallic_Gold.html'">Digi Bird Single Pack - Metallic Gold</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Minichamps_-_Citroen_SM_1970_(_Gold_Metallic_)_-_1:43.html'">Minichamps - Citroen SM 1970 ( Gold Metallic ) - 1:43</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Marble,_!,_Vintage}.html'">{Marble, !, Vintage}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{WITH,_WARS,_FIGURE}.html'">{WITH, WARS, FIGURE}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Shogun,_Great,_Warriors}.html'">{Shogun, Great, Warriors}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{and,_Game,_w/}.html'">{and, Game, w/}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{-,_7",_NECA}.html'">{-, 7", NECA}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{HO,_Scale,_Car}.html'">{HO, Scale, Car}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{The,_Series,_Star}.html'">{The, Series, Star}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{1000,_Puzzle,_Jigsaw}.html'">{1000, Puzzle, Jigsaw}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{War,_Avalon,_Battle}.html'">{War, Avalon, Battle}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Playset,_10mm,_Collectible}.html'">{Playset, 10mm, Collectible}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{8,_12,_BLACK}.html'">{8, 12, BLACK}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{1971,_King,_Britains}.html'">{1971, King, Britains}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{in,_2,_Lionel}.html'">{in, 2, Lionel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{with,_by,_mint}.html'">{with, by, mint}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{LIONEL,_KIT,_SCALE}.html'">{LIONEL, KIT, SCALE}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Power,_New,_Brand}.html'">{Power, New, Brand}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Toys,_Antique,_Cast}.html'">{Toys, Antique, Cast}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Box,_Radio,_Wagon}.html'">{Box, Radio, Wagon}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Deluxe,_NEW!,_Kendama}.html'">{Deluxe, NEW!, Kendama}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{car,_Edition,_slot}.html'">{car, Edition, slot}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

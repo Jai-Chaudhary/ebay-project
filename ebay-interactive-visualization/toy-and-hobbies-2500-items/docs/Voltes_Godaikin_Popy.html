@@ -1,0 +1,155 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[3.0313258432, "../topics/{Shogun,_Great,_Warriors}.html", "{Shogun,_Great,_Warriors}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Voltes Godaikin Popy</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Voltes Godaikin Popy</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Shogun,_Great,_Warriors}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Shogun,_Great,_Warriors}.html'">{Shogun, Great, Warriors}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Sword_72005:_1-72_Bf109D.html'">Sword 72005: 1/72 Bf109D</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/VINTAGE_HALLOWEEN_WHIRL-O_FORTUNE_&_STUNT_GAME.html'">VINTAGE HALLOWEEN WHIRL-O FORTUNE & STUNT GAME</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/The_Warriors_Action_Figure_"FURIES".html'">The Warriors Action Figure "FURIES"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Underground_Sea.html'">Underground Sea</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Red_Box_1:72_#72057_Landsknechts_Sword_-_Arquebus.html'">Red Box 1:72 #72057 Landsknechts Sword / Arquebus</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EUC_Wild_Planet_Radio_DJ.html'">EUC Wild Planet Radio DJ</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/V_Tech_Little_Apps_Tablet_by_VTech.html'">V Tech Little Apps Tablet by VTech</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_White_MIP_Robot.html'">WooWee White MIP Robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AURORA_G_PLUS_LOT.html'">AURORA G PLUS LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Chassis_Mint_New.html'">Aurora Thunderjet Chassis Mint New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Space_Men_Action_Figures_Brand_New.html'">Vintage Space Men Action Figures Brand New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/POWER_WHEELS_12_VOLT_BATTERY_&_CHARGER.html'">POWER WHEELS 12 VOLT BATTERY & CHARGER</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_handmade_marbles.html'">vintage handmade marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ninco_AC_Cobra_Classic.html'">Ninco AC Cobra Classic</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Johnny_lightning_slot_cars.html'">Johnny lightning slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_1-24_slot_car.html'">vintage 1/24 slot car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/BEN_10_FIGURE_LOT_OMNIVERSE.html'">BEN 10 FIGURE LOT OMNIVERSE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ninco_-_Protruck_Ford_Mobil_1.html'">Ninco - Protruck Ford Mobil 1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Large_Two_Stroke_Gasoline_R-C_Model_Aircraft_Engine.html'">Large Two Stroke Gasoline R/C Model Aircraft Engine</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Thunderbird_convertible,_nice!.html'">Aurora Thunderjet Thunderbird convertible, nice!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Falcon_slot_car.html'">Aurora Thunderjet Falcon slot car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Stingray_slot_car_complete_nice.html'">Aurora Thunderjet Stingray slot car complete nice</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KIDS_COLORED_MARBLES_AND_SIZES,DESIGNS.html'">KIDS COLORED MARBLES AND SIZES,DESIGNS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/50_Frosty_and_1_shooter_+_2_bonus_bags_of_Machine_Made_Marbles.html'">50 Frosty and 1 shooter + 2 bonus bags of Machine Made Marbles</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

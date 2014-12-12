@@ -1,0 +1,158 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[8.0313258443, "../topics/{Marble,_!,_Vintage}.html", "{Marble,_!,_Vintage}"], [1.0313258432, "../topics/{Blue,_10,_Toys}.html", "{Blue,_10,_Toys}"], [1.0313258432, "../topics/{Super,_Minifigures,_Heroes}.html", "{Super,_Minifigures,_Heroes}"], [1.0313258421, "../topics/{&,_NIB,_NEW}.html", "{&,_NIB,_NEW}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Vintage Glass Marble Lot #1 Blues 10 Marbles & 1 Shooter</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Vintage Glass Marble Lot #1 Blues 10 Marbles & 1 Shooter</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Marble,_!,_Vintage}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Marble,_!,_Vintage}.html'">{Marble, !, Vintage}</td></tr>
+<tr class="list"><td id="{Blue,_10,_Toys}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Blue,_10,_Toys}.html'">{Blue, 10, Toys}</td></tr>
+<tr class="list"><td id="{Super,_Minifigures,_Heroes}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Super,_Minifigures,_Heroes}.html'">{Super, Minifigures, Heroes}</td></tr>
+<tr class="list"><td id="{&,_NIB,_NEW}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{&,_NIB,_NEW}.html'">{&, NIB, NEW}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/PEACHES_&_CREAM_Swirl_Shooter_Marble_plus_Bonus_#250.html'">PEACHES & CREAM Swirl Shooter Marble plus Bonus #250</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Champion,_Ravenswood_or_Alley_Blue-Black_(?)_"Flame"_Marble.html'">Champion, Ravenswood or Alley Blue/Black (?) "Flame" Marble</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marble:_7-8_inch_Lobed_Paneled_Onionskin_(Faceted_Pontil).html'">Marble: 7/8 inch Lobed Paneled Onionskin (Faceted Pontil)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Antique_Vintage_Marble_5-8_IN._CHAMPION_FURNACE_SCRAPINGS_SWIRL.html'">Antique Vintage Marble 5/8 IN. CHAMPION FURNACE SCRAPINGS SWIRL</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mad_Max_2_THE_ROAD_WARRIOR_Interceptor__Customed_1:64_Display.html'">Mad Max 2 THE ROAD WARRIOR Interceptor  Customed 1:64 Display</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_Akro,_Peltier,_Christensen_Slag_Marbles_with_Shooter_Marble.html'">Lot of Akro, Peltier, Christensen Slag Marbles with Shooter Marble</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Akro_Agate_Blue_and_Yellow_Popeye_Marble,_Larger_3-4_inch.html'">Akro Agate Blue and Yellow Popeye Marble, Larger 3/4 inch</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Translucent_Blue_&_White_Gold_Fleck_Swirl_Glass_Marble_Pontel.html'">Vintage Translucent Blue & White Gold Fleck Swirl Glass Marble Pontel</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/100_Player_Marbles_5-8"_Swirls_Cat_Eyes_Mega_Marble_King_Jabo_Vitro_Agate_PPM.html'">100 Player Marbles 5/8" Swirls Cat Eyes Mega Marble King Jabo Vitro Agate PPM</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Akro_"Wannabe"_Corkscrew_But_Now_a_Patch_Marble.html'">Akro "Wannabe" Corkscrew But Now a Patch Marble</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Antique_Peltier_Vintage_PEERLESS_PATCH_?_Rare_Marble_.7"_Akro_Agate.html'">Antique Peltier Vintage PEERLESS PATCH ? Rare Marble .7" Akro Agate</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marbles_1"_Shooter_Collectable_Logo_Charlie_Brown_Marble__W-Stand.html'">Marbles 1" Shooter Collectable Logo Charlie Brown Marble  W/Stand</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Akro,_Peltier,_Vitro_(?)_Golden_Bubbly_Champagne_Marble_with_Oxblood.html'">Akro, Peltier, Vitro (?) Golden Bubbly Champagne Marble with Oxblood</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_Peltier,_Marble_King,_Vitro_Plus_Other_Marbles.html'">Lot of Peltier, Marble King, Vitro Plus Other Marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Huge_Lot_of_80+_Miniature_Vintage_Toys_&_Fast_Food_&_Cereal_Premiums-‘80s_&_‘90s.html'">Huge Lot of 80+ Miniature Vintage Toys & Fast Food & Cereal Premiums-‘80s & ‘90s</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marbles_1"_Shooter_Collectable_Logo_Coca_Cola_Black_&_White_Marble__W-Stand.html'">Marbles 1" Shooter Collectable Logo Coca Cola Black & White Marble  W/Stand</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Akro_Agate_Dark_Purple_and_Yellow_Popeye_Marble,.html'">Akro Agate Dark Purple and Yellow Popeye Marble,</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wholesale_Lot_of_Name_Brand_Toys_•_Great_Assortment_$500_Retail_Value•_*All_NEW*.html'">Wholesale Lot of Name Brand Toys • Great Assortment $500 Retail Value• *All NEW*</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Glass_Marble_Lot_#6_14_Marbles_Swirls_of_Greens-Light_Blues.html'">Vintage Glass Marble Lot #6 14 Marbles Swirls of Greens/Light Blues</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marbles_1"_Shooter_Collectable_Logo_Coca_Cola_&_Clown_Marble__W-Stand.html'">Marbles 1" Shooter Collectable Logo Coca Cola & Clown Marble  W/Stand</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ONE_"__COOL_”__Vintage_19-32"__Marble_LOT_K170_PIPER.html'">ONE "  COOL ”  Vintage 19/32"  Marble LOT K170 PIPER</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Akro_Agate_Red_and_Yellow_HTF_4-Corkscrew_Popeye_Marble,_Larger_0.73_inch.html'">Akro Agate Red and Yellow HTF 4-Corkscrew Popeye Marble, Larger 0.73 inch</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mad_Max_2_THE_ROAD_WARRIOR_Old_Black_Wrecker_Customed_1:64_Display.html'">Mad Max 2 THE ROAD WARRIOR Old Black Wrecker Customed 1:64 Display</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mad_Max_2_THE_ROAD_WARRIOR_Old_Black_Wrecker_Customed_1:64_Display.html'">Mad Max 2 THE ROAD WARRIOR Old Black Wrecker Customed 1:64 Display</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/50_Rare_Cat_Eye_5-8"_Peltier_Berry_Pink_Marble_King_Vitro_Mega_Marbles_50_CATS.html'">50 Rare Cat Eye 5/8" Peltier Berry Pink Marble King Vitro Mega Marbles 50 CATS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Akro_Agate_+_Marble_Lot_of_24.html'">Vintage Akro Agate + Marble Lot of 24</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vitro_Cherry_Custard_Marble.html'">Vitro Cherry Custard Marble</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Glass_Marble_Lot_#2_Whites_12_Marbles_Swirls_of_Red,_Blue,_Green,_Solid.html'">Vintage Glass Marble Lot #2 Whites 12 Marbles Swirls of Red, Blue, Green, Solid</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Coca_Cola_Marble.html'">Coca Cola Marble</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ONE_"_VERY_COOL_”__Vintage_19-32"__Marble_LOT_K171_PIPER.html'">ONE " VERY COOL ”  Vintage 19/32"  Marble LOT K171 PIPER</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-3.7830982792, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-126.716675762, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-158.312437718, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-163.734722988, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-179.539367787, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-182.997899975, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-188.885547247, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-191.853936779, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-192.42781011, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-196.219376182, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-198.041854935, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-202.453998954, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-202.50403398, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-204.866975503, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-207.140153228, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-212.217831042, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-223.995265158, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-226.255192676, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-228.393365736, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-231.048674621, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-231.955359503, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-233.597958486, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-234.689485963, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-234.785241895, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-237.024917326, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-237.071766048, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-237.932676626, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-238.208119374, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-238.73612921, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-239.419386734, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-240.862144158, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-242.149555953, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-245.751837322, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-247.535551075, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-249.062937751, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-249.584976797, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-250.688402453, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-251.248539647, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-251.662358524, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-251.788279336, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-253.124056063, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-253.143248567, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"], [-254.015984543, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-256.961633912, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-258.926469723, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-259.117233454, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-264.118760889, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-264.482448788, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-279.675515965, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-307.37003721, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>mask</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">mask</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/p.html'">p</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/super.html'">super</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/face.html'">face</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/bigbang.html'">bigbang</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/o.html'">o</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/backpack.html'">backpack</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/gd.html'">gd</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/dragon.html'">dragon</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/tvxq.html'">tvxq</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/luhan.html'">luhan</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/pm.html'">pm</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/mouth.html'">mouth</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/bear.html'">bear</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/muffle.html'">muffle</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/sehun.html'">sehun</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/taeyang.html'">taeyang</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/gf.html'">gf</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/dust.html'">dust</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/bap.html'">bap</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/kpop.html'">kpop</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/5PC_Christmas_Princess_Venetian_mask_Halloween_mask_WHITE_half-face_mask_SW0011.html'">5PC Christmas Princess Venetian mask Halloween mask WHITE half-face mask SW0011</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_BAP_Mouth_Mask_Mouth_Muffle_k-pop_B.A.P_Face_Mask.html'">KPOP BAP Mouth Mask Mouth Muffle k-pop B.A.P Face Mask</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/5PC_Women_s_half-face_mask__Halloween_beautiful_white_eye_mask__SW0011_ca.html'">5PC Women's half-face mask  Halloween beautiful white eye mask  SW0011 ca</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/K-POP_EXO_K_M_luhan_lay_KPOP_TAO_CHEN_XIUMIN_KAI_Face_Mouth_Mask_Muffle_KRIS_D.O.html'">K-POP EXO K M luhan lay KPOP TAO CHEN XIUMIN KAI Face Mouth Mask Muffle KRIS D.O</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/BATH_AND_BODY_WORKS_CAT_EYE_MASK.html'">BATH AND BODY WORKS CAT EYE MASK</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/K-POP_EXO_K_M_luhan_lay_KPOP_TAO_CHEN_XIUMIN_KAI_Face_Mouth_Mask_Muffle_KRIS_D.O.html'">K-POP EXO K M luhan lay KPOP TAO CHEN XIUMIN KAI Face Mouth Mask Muffle KRIS D.O</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/K-POP_EXO_K_M_luhan_lay_KPOP_TAO_CHEN_XIUMIN_KAI_Face_Mouth_Mask_Muffle_KRIS_D.O.html'">K-POP EXO K M luhan lay KPOP TAO CHEN XIUMIN KAI Face Mouth Mask Muffle KRIS D.O</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/K-POP_EXO_K_M_luhan_lay_KPOP_TAO_CHEN_XIUMIN_KAI_Face_Mouth_Mask_Muffle_KRIS_D.O.html'">K-POP EXO K M luhan lay KPOP TAO CHEN XIUMIN KAI Face Mouth Mask Muffle KRIS D.O</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/K-POP_EXO_K_M_luhan_lay_KPOP_TAO_CHEN_XIUMIN_KAI_Face_Mouth_Mask_Muffle_KRIS_D.O.html'">K-POP EXO K M luhan lay KPOP TAO CHEN XIUMIN KAI Face Mouth Mask Muffle KRIS D.O</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_Macks_Dreamgirl_Contoured_Sleep_Mask.html'">NEW Macks Dreamgirl Contoured Sleep Mask</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Anti_Dust_White_Stretchy_Ear_Loop_Half_Face_Mouth_Mask_Muffle.html'">Anti Dust White Stretchy Ear Loop Half Face Mouth Mask Muffle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cute_Panda_Anti-Dust_Fluffy_Warm_plush_Respirator_Mouth_Face_Mask.html'">Cute Panda Anti-Dust Fluffy Warm plush Respirator Mouth Face Mask</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Eye_Cover_Eyemask_Rest_Nap_Travel_Sleep_Sleeping_Bitch_Mask_Party_Favor_12_Pack.html'">Eye Cover Eyemask Rest Nap Travel Sleep Sleeping Bitch Mask Party Favor 12 Pack</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Victoria_s_Secret_GOODNIGHT_Eye_Mask_100%_Satin_New.html'">Victoria's Secret GOODNIGHT Eye Mask 100% Satin New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Eye_Cover_Eyemask_Rest_Nap_Travel_Sleep_Sleeping_Bitch_Mask_Party_Favor_3_Pack.html'">Eye Cover Eyemask Rest Nap Travel Sleep Sleeping Bitch Mask Party Favor 3 Pack</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SEXY_ELEGANT_EYE_FACE_MASK_VENETIAN_MASQUERADE_BALL_PROM_HALLOWEEN_BLACK.html'">SEXY ELEGANT EYE FACE MASK VENETIAN MASQUERADE BALL PROM HALLOWEEN BLACK</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_EXO_2NE1_BIGBANG_2PM_CNBLUE_BEAST_SUPER_JUNIOR_TVXQ_Face_Mouth_Mask_Muffle.html'">KPOP EXO 2NE1 BIGBANG 2PM CNBLUE BEAST SUPER JUNIOR TVXQ Face Mouth Mask Muffle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_EXO_2NE1_BIGBANG_2PM_CNBLUE_BEAST_SUPER_JUNIOR_TVXQ_Face_Mouth_Mask_Muffle.html'">KPOP EXO 2NE1 BIGBANG 2PM CNBLUE BEAST SUPER JUNIOR TVXQ Face Mouth Mask Muffle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_EXO_2NE1_BIGBANG_2PM_CNBLUE_BEAST_SUPER_JUNIOR_TVXQ_Face_Mouth_Mask_Muffle.html'">KPOP EXO 2NE1 BIGBANG 2PM CNBLUE BEAST SUPER JUNIOR TVXQ Face Mouth Mask Muffle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KPOP_EXO_2NE1_BIGBANG_2PM_CNBLUE_BEAST_SUPER_JUNIOR_TVXQ_Face_Mouth_Mask_Muffle.html'">KPOP EXO 2NE1 BIGBANG 2PM CNBLUE BEAST SUPER JUNIOR TVXQ Face Mouth Mask Muffle</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{m,_k,_exo}.html'">{m, k, exo}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{large,_purple,_fan}.html'">{large, purple, fan}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{colors,_brand,_nib}.html'">{colors, brand, nib}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{ladies,_glasses,_lot}.html'">{ladies, glasses, lot}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{white,_lace,_cuff}.html'">{white, lace, cuff}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{cute,_beautiful,_sunglasses}.html'">{cute, beautiful, sunglasses}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{new,_design,_classic}.html'">{new, design, classic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{strap,_charm,_phone}.html'">{strap, charm, phone}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{bra,_sexy,_lingerie}.html'">{bra, sexy, lingerie}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vera,_bradley,_pattern}.html'">{vera, bradley, pattern}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{rhinestone,_christmas,_bling}.html'">{rhinestone, christmas, bling}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silk,_soft,_lash}.html'">{silk, soft, lash}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vintage,_authentic,_chanel}.html'">{vintage, authentic, chanel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{ear,_cover,_trade}.html'">{ear, cover, trade}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{women,_round,_compact}.html'">{women, round, compact}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{fashion,_crystal,_lady}.html'">{fashion, crystal, lady}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{long,_cotton,_socks}.html'">{long, cotton, socks}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{glass,_antique,_punk}.html'">{glass, antique, punk}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pouch,_travel,_cosmetic}.html'">{pouch, travel, cosmetic}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

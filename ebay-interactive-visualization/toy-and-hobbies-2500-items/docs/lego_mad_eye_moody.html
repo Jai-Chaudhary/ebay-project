@@ -1,0 +1,155 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[4.0313258432, "../topics/{Playset,_10mm,_Collectible}.html", "{Playset,_10mm,_Collectible}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>lego mad eye moody</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">lego mad eye moody</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Playset,_10mm,_Collectible}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Playset,_10mm,_Collectible}.html'">{Playset, 10mm, Collectible}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/True-Name_Nemesis_*LP*_-_Commander.html'">True-Name Nemesis *LP* - Commander</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lineol_portuguese_toy_soldier_shooting.html'">Lineol portuguese toy soldier shooting</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Onyx_230_Charger.html'">Onyx 230 Charger</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LRP_Touch_Charger.html'">LRP Touch Charger</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/jig_saw_puzzles.html'">jig saw puzzles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pluck_Cap_gun.html'">Pluck Cap gun</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/lifelike_daytona_charger.html'">lifelike daytona charger</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/lineol_portuguese_toy_soldier.html'">lineol portuguese toy soldier</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/lineol_toy_soldier_with_gun.html'">lineol toy soldier with gun</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SOLAR_DANCING_HULA_GIRL_-_PINK.html'">SOLAR DANCING HULA GIRL - PINK</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10mm_painted_late_medieval_knights.html'">10mm painted late medieval knights</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/DJI_Phantom_FC40_Quadcopter_Bundle!!.html'">DJI Phantom FC40 Quadcopter Bundle!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MISS_MUFFET_PREPAINTED_STATUE:DARK_CARNIVAL.html'">MISS MUFFET PREPAINTED STATUE:DARK CARNIVAL</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Play-Doh_Diggin__Rigs_Buzzsaw_Playset.html'">Play-Doh Diggin' Rigs Buzzsaw Playset</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Maywa_Denki_Otamatone_(Black)_4902314094217.html'">Maywa Denki Otamatone (Black) 4902314094217</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ILIAD_(International_Team,_1979)_(Unplayed).html'">ILIAD (International Team, 1979) (Unplayed)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10mm_Painted_Late_Medieval_Archers.html'">10mm Painted Late Medieval Archers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10mm_painted_late_medieval_knights_#1.html'">10mm painted late medieval knights #1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marx_miniature.html'">Marx miniature</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RIVET_WARS_BABY_GIRL.html'">RIVET WARS BABY GIRL</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Crystal_Radio_Set_-_Assembled.html'">Crystal Radio Set - Assembled</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AURORA_G_PLUS_LOT.html'">AURORA G PLUS LOT</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-3.3156623858, "../topics/{2,_Fisher,_Learning}.html", "{2,_Fisher,_Learning}"], [-46.0956000222, "../topics/{Toy,_and,_Set}.html", "{Toy,_and,_Set}"], [-58.7317824243, "../topics/{1971,_King,_Britains}.html", "{1971,_King,_Britains}"], [-71.8161740051, "../topics/{Little,_My,_NEW}.html", "{Little,_My,_NEW}"], [-78.8910941836, "../topics/{of,_MTG,_Khans}.html", "{of,_MTG,_Khans}"], [-91.1354410377, "../topics/{Play,_Kids,_House}.html", "{Play,_Kids,_House}"], [-95.0789496714, "../topics/{Blue,_10,_Toys}.html", "{Blue,_10,_Toys}"], [-100.0, "../topics/{Set,_Complete,_of}.html", "{Set,_Complete,_of}"], [-136.983940862, "../topics/{Disney,_Frozen,_Elsa}.html", "{Disney,_Frozen,_Elsa}"], [-162.76263969, "../topics/{Vintage,_Car,_Slot}.html", "{Vintage,_Car,_Slot}"], [-168.431716802, "../topics/{&,_NIB,_NEW}.html", "{&,_NIB,_NEW}"], [-173.635033391, "../topics/{Super,_Minifigures,_Heroes}.html", "{Super,_Minifigures,_Heroes}"], [-187.772657355, "../topics/{The,_Series,_Star}.html", "{The,_Series,_Star}"], [-189.326420772, "../topics/{VINTAGE,_LOT,_6}.html", "{VINTAGE,_LOT,_6}"], [-196.571713328, "../topics/{in,_2,_Lionel}.html", "{in,_2,_Lionel}"], [-196.607369198, "../topics/{with,_by,_mint}.html", "{with,_by,_mint}"], [-196.660627944, "../topics/{LIONEL,_KIT,_SCALE}.html", "{LIONEL,_KIT,_SCALE}"], [-196.723545504, "../topics/{Toys,_Antique,_Cast}.html", "{Toys,_Antique,_Cast}"], [-196.884091773, "../topics/{War,_Avalon,_Battle}.html", "{War,_Avalon,_Battle}"], [-197.086375436, "../topics/{car,_Edition,_slot}.html", "{car,_Edition,_slot}"], [-197.104814834, "../topics/{Shogun,_Great,_Warriors}.html", "{Shogun,_Great,_Warriors}"], [-197.334048717, "../topics/{3,_set,_to}.html", "{3,_set,_to}"], [-210.419497951, "../topics/{Pet,_Littlest,_Shop}.html", "{Pet,_Littlest,_Shop}"], [-215.208031359, "../topics/{Playset,_10mm,_Collectible}.html", "{Playset,_10mm,_Collectible}"], [-222.550917745, "../topics/{and,_Game,_w/}.html", "{and,_Game,_w/}"], [-228.293902937, "../topics/{1,_Large,_figures}.html", "{1,_Large,_figures}"], [-228.450807435, "../topics/{NEW,_Traxxas,_COMPLETE}.html", "{NEW,_Traxxas,_COMPLETE}"], [-228.490714783, "../topics/{THE,_TOY,_GAME}.html", "{THE,_TOY,_GAME}"], [-228.535293905, "../topics/{1:72,_scale,_1/48}.html", "{1:72,_scale,_1/48}"], [-228.828798085, "../topics/{2014,_Meal,_Happy}.html", "{2014,_Meal,_Happy}"], [-228.871908545, "../topics/{for,_For,_Helicopter}.html", "{for,_For,_Helicopter}"], [-228.944812157, "../topics/{the,_BEANIE,_TY}.html", "{the,_BEANIE,_TY}"], [-229.006045297, "../topics/{WITH,_WARS,_FIGURE}.html", "{WITH,_WARS,_FIGURE}"], [-229.123620574, "../topics/{Hot,_Wheels,_Ride}.html", "{Hot,_Wheels,_Ride}"], [-229.285310212, "../topics/{HO,_Scale,_Car}.html", "{HO,_Scale,_Car}"], [-229.397246669, "../topics/{WHEELS,_CAR,_HOT}.html", "{WHEELS,_CAR,_HOT}"], [-229.669038975, "../topics/{Marble,_!,_Vintage}.html", "{Marble,_!,_Vintage}"], [-234.443342373, "../topics/{Deluxe,_NEW!,_Kendama}.html", "{Deluxe,_NEW!,_Kendama}"], [-260.360410462, "../topics/{8,_12,_BLACK}.html", "{8,_12,_BLACK}"], [-260.695465396, "../topics/{Beanie,_Ty,_~}.html", "{Beanie,_Ty,_~}"], [-261.088845918, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"], [-261.62114867, "../topics/{1000,_Puzzle,_Jigsaw}.html", "{1000,_Puzzle,_Jigsaw}"], [-261.740118554, "../topics/{Toy,_Plush,_Stuffed}.html", "{Toy,_Plush,_Stuffed}"], [-266.016319698, "../topics/{Box,_Radio,_Wagon}.html", "{Box,_Radio,_Wagon}"], [-280.239767473, "../topics/{New,_Free,_50}.html", "{New,_Free,_50}"], [-302.089985849, "../topics/{Figure,_Action,_Ninja}.html", "{Figure,_Action,_Ninja}"], [-378.08123653, "../topics/{Of,_Lot,_Marbles}.html", "{Of,_Lot,_Marbles}"], [-443.660063107, "../topics/{Robot,_Toy,_Tin}.html", "{Robot,_Toy,_Tin}"], [-549.93514801, "../topics/{Power,_New,_Brand}.html", "{Power,_New,_Brand}"], [-674.111314704, "../topics/{toy,_#,_2002}.html", "{toy,_#,_2002}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>Fisher</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">Fisher</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/Learning.html'">Learning</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Price.html'">Price</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/LeapFrog.html'">LeapFrog</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Leap.html'">Leap</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Pad.html'">Pad</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/LeapPad.html'">LeapPad</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Tablet.html'">Tablet</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Leapster.html'">Leapster</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Explorer.html'">Explorer</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/System.html'">System</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Leapfrog.html'">Leapfrog</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Green.html'">Green</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/USB.html'">USB</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/People-.html'">People-</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Reading.html'">Reading</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Frog.html'">Frog</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Pink.html'">Pink</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Ultra.html'">Ultra</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Books.html'">Books</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Loving.html'">Loving</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Learn_Through_Music_Sing_Along_Interactive_Learning_System_Fisher_Price_Dora.html'">New Learn Through Music Sing Along Interactive Learning System Fisher Price Dora</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_1979_960_Woodseys__Squirrel_Mama_Papa_Milkweed_FP_Toy_Book_nr.html'">Fisher Price 1979 960 Woodseys' Squirrel Mama Papa Milkweed FP Toy Book nr</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Vintage_1987_Music_Box_Record_Player_#_2205_+_Records.html'">Fisher Price Vintage 1987 Music Box Record Player # 2205 + Records</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Ballapalooza.html'">Fisher Price Ballapalooza</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Vintage_Little_People-_Family_of_6.html'">Fisher Price Vintage Little People- Family of 6</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Imaginext_DC_Super_Friends_Catwoman.html'">Fisher Price Imaginext DC Super Friends Catwoman</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_49_Pieces_of__The_Fisher_Price-Mattel_Little_People_Christmas_Village.html'">Lot of 49 Pieces of  The Fisher Price/Mattel Little People Christmas Village</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Loving_Family_Ballerina_Dance_Barre_and_Mirror_Pretend_Play.html'">Fisher Price Loving Family Ballerina Dance Barre and Mirror Pretend Play</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Loving_Family_African_American_Black_Sister_Figure_XMAS_GIFT_WM125.html'">Fisher Price Loving Family African American Black Sister Figure XMAS GIFT WM125</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Little_People_Lil_Kingdom_Castle_Robin_Hood,_24_pc,_SOUND_&_LIGHTS.html'">Fisher Price Little People Lil Kingdom Castle Robin Hood, 24 pc, SOUND & LIGHTS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_1985_Fisher_Price_Child_Size_2_Chairs_Preschool_Rare.html'">Vintage 1985 Fisher Price Child Size 2 Chairs Preschool Rare</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Calico_Critters_Fisher_Cat_Family.html'">Calico Critters Fisher Cat Family</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Little_People_Play_Family_AIRPORT_Playset_Vintage_#996_+_Extras.html'">Fisher Price Little People Play Family AIRPORT Playset Vintage #996 + Extras</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Vintage_Little_People-_Nursery_Accessories.html'">Fisher Price Vintage Little People- Nursery Accessories</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Stand-Up_Ballcano_Play_Center_w-_Lights_&_Music_|_W9859.html'">Fisher Price Stand-Up Ballcano Play Center w/ Lights & Music | W9859</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ariel_&_Aurora_Fisher_Price_Little_People_Figurine_Disney_Princess.html'">Ariel & Aurora Fisher Price Little People Figurine Disney Princess</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fisher_Price_Little_People_-__Christmas_Set_Santa,_Elve,_Reindeer,_Sleigh_+_LOT.html'">Fisher Price Little People /  Christmas Set Santa, Elve, Reindeer, Sleigh + LOT</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{2,_Fisher,_Learning}.html'">{2, Fisher, Learning}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Toy,_and,_Set}.html'">{Toy, and, Set}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{1971,_King,_Britains}.html'">{1971, King, Britains}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Little,_My,_NEW}.html'">{Little, My, NEW}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{of,_MTG,_Khans}.html'">{of, MTG, Khans}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Play,_Kids,_House}.html'">{Play, Kids, House}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Blue,_10,_Toys}.html'">{Blue, 10, Toys}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Set,_Complete,_of}.html'">{Set, Complete, of}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Disney,_Frozen,_Elsa}.html'">{Disney, Frozen, Elsa}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Vintage,_Car,_Slot}.html'">{Vintage, Car, Slot}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{&,_NIB,_NEW}.html'">{&, NIB, NEW}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Super,_Minifigures,_Heroes}.html'">{Super, Minifigures, Heroes}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{The,_Series,_Star}.html'">{The, Series, Star}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{VINTAGE,_LOT,_6}.html'">{VINTAGE, LOT, 6}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{in,_2,_Lionel}.html'">{in, 2, Lionel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{with,_by,_mint}.html'">{with, by, mint}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{LIONEL,_KIT,_SCALE}.html'">{LIONEL, KIT, SCALE}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Toys,_Antique,_Cast}.html'">{Toys, Antique, Cast}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{War,_Avalon,_Battle}.html'">{War, Avalon, Battle}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{car,_Edition,_slot}.html'">{car, Edition, slot}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

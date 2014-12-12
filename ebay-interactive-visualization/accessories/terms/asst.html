@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-3.9830335676, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-168.140494195, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-244.418471832, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-250.881379818, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-250.952914924, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-253.572737062, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-255.024772087, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-256.142914863, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-257.333850879, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-257.793463902, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-259.56518103, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-260.096233195, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-260.527847132, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-261.040353457, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-261.852896026, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-262.351539143, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-263.353671385, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-265.193985743, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-265.271769851, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-267.827507713, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-268.106556817, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-268.119118436, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-268.120596321, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-270.031388412, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-271.480955669, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-271.957385956, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-273.563232799, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-273.655582249, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-273.874422322, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-274.023299806, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-275.169117126, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-275.19647105, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-275.820321974, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-276.314146164, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-276.446285445, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-276.47592912, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-277.792285807, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-279.415543408, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-279.673597456, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-280.614822383, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-280.89683031, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-280.907201643, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-286.626186044, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-288.046429893, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-290.486354136, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-294.954925515, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-303.731643986, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-306.31679523, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-328.82250827, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"], [-330.725050938, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>asst</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">asst</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/lr.html'">lr</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/readers.html'">readers</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/r.html'">r</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/closeout.html'">closeout</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/optical.html'">optical</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/cat.html'">cat</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/frame.html'">frame</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/cool.html'">cool</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/designer.html'">designer</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/wayfarer.html'">wayfarer</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/wholesale.html'">wholesale</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/clearance.html'">clearance</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lens.html'">lens</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/nerd.html'">nerd</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/grant.html'">grant</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/hipster.html'">hipster</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/eyeglasses.html'">eyeglasses</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/magnavision.html'">magnavision</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/raves.html'">raves</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/favors.html'">favors</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/CLOSEOUT_WHOLESALE_LOT_6_WOMEN_OPTICAL_READING_GLASSES__ASST_LADIES_+2.50_LR3530.html'">CLOSEOUT WHOLESALE LOT 6 WOMEN OPTICAL READING GLASSES  ASST LADIES +2.50 LR3530</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LOT_WHOLESALE_CLOSEOUT_WOMEN_OPTICAL_READING_GLASSES_10_ASST_LADIES_+3.25_LR3519.html'">LOT WHOLESALE CLOSEOUT WOMEN OPTICAL READING GLASSES 10 ASST LADIES +3.25 LR3519</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/CLEARANCE_CLOSEOUT_LOT_3_WOMEN_OPTICAL_READING_GLASSES_ASST_LADIES_+2.50_LR35223.html'">CLEARANCE CLOSEOUT LOT 3 WOMEN OPTICAL READING GLASSES ASST LADIES +2.50 LR35223</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LOT_WHOLESALE_CLOSEOUT_WOMEN_OPTICAL_READING_GLASSES_10_ASST_LADIES_+2.50_LR3522.html'">LOT WHOLESALE CLOSEOUT WOMEN OPTICAL READING GLASSES 10 ASST LADIES +2.50 LR3522</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/CLEARANCE_CLOSEOUT_LOT_3_WOMEN_OPTICAL_READING_GLASSES_ASST_LADIES_+1.75_LR35363.html'">CLEARANCE CLOSEOUT LOT 3 WOMEN OPTICAL READING GLASSES ASST LADIES +1.75 LR35363</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LOT_WHOLESALE_CLOSEOUT_WOMEN_OPTICAL_READING_GLASSES_10_ASST_LADIES_+3.00_LR3519.html'">LOT WHOLESALE CLOSEOUT WOMEN OPTICAL READING GLASSES 10 ASST LADIES +3.00 LR3519</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LOT_WHOLESALE_CLOSEOUT_WOMEN_OPTICAL_READING_GLASSES_10_ASST_LADIES_+1.50_LR3516.html'">LOT WHOLESALE CLOSEOUT WOMEN OPTICAL READING GLASSES 10 ASST LADIES +1.50 LR3516</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LOT_3_WHOLESALE_DG_OPTICAL_READING_CLOSEOUT_GLASSES_ASST_LADIES_+2.75_LR3969-3.html'">LOT 3 WHOLESALE DG OPTICAL READING CLOSEOUT GLASSES ASST LADIES +2.75 LR3969-3</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LOT_3_WHOLESALE_DG_OPTICAL_READING_CLOSEOUT_GLASSES_ASST_LADIES_+3.00_LR3969-3.html'">LOT 3 WHOLESALE DG OPTICAL READING CLOSEOUT GLASSES ASST LADIES +3.00 LR3969-3</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/DG_OPTICAL_READING_CLOSEOUT_LOT_3_WHOLESALE__GLASSES_ASST_LADIES_+1.75_LR3969-3.html'">DG OPTICAL READING CLOSEOUT LOT 3 WHOLESALE  GLASSES ASST LADIES +1.75 LR3969-3</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/OPTICAL_READING_GLASSES_LOT_WHOLESALE_CLOSEOUT_WOMEN_10_ASST_LADIES_+3.50_R35192.html'">OPTICAL READING GLASSES LOT WHOLESALE CLOSEOUT WOMEN 10 ASST LADIES +3.50 R35192</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/CLEARANCE_LOT_2_CLOSEOUT_DG_OPTICAL_READING_GLASSES_ASST_LADIES_+2.00_LR3969-2.html'">CLEARANCE LOT 2 CLOSEOUT DG OPTICAL READING GLASSES ASST LADIES +2.00 LR3969-2</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LOT_WHOLESALE_CLOSEOUT_WOMEN_OPTICAL_READING_GLASSES_10_ASST_LADIES_+1.25_LR3512.html'">LOT WHOLESALE CLOSEOUT WOMEN OPTICAL READING GLASSES 10 ASST LADIES +1.25 LR3512</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WHOLESALE_LOT_6_CLOSEOUT_WOMEN_OPTICAL_READING_GLASSES__ASST_LADIES_+1.75_LR3516.html'">WHOLESALE LOT 6 CLOSEOUT WOMEN OPTICAL READING GLASSES  ASST LADIES +1.75 LR3516</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/CLOSEOUT_WHOLESALE_LOT_WOMEN_OPTICAL_READING_GLASSES_10_ASST_LADIES_+4.00_R35193.html'">CLOSEOUT WHOLESALE LOT WOMEN OPTICAL READING GLASSES 10 ASST LADIES +4.00 R35193</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LOT_WHOLESALE_CLOSEOUT_WOMEN_OPTICAL_READING_GLASSES_10_ASST_LADIES_+2.50_LR3522.html'">LOT WHOLESALE CLOSEOUT WOMEN OPTICAL READING GLASSES 10 ASST LADIES +2.50 LR3522</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WOMEN_OPTICAL_READING_GLASSES_CLEARANCE_CLOSEOUT_LOT_3_ASST_LADIES_+1.50_LR35163.html'">WOMEN OPTICAL READING GLASSES CLEARANCE CLOSEOUT LOT 3 ASST LADIES +1.50 LR35163</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/CLEARANCE_CLOSEOUT_LOT_3_WOMEN_OPTICAL_READING_GLASSES_ASST_LADIES_+3.50_LR3519A.html'">CLEARANCE CLOSEOUT LOT 3 WOMEN OPTICAL READING GLASSES ASST LADIES +3.50 LR3519A</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WHOLESALE_LOT_6_CLOSEOUT_WOMEN_OPTICAL_READING_GLASSES__ASST_LADIES_+1.75_LR3516.html'">WHOLESALE LOT 6 CLOSEOUT WOMEN OPTICAL READING GLASSES  ASST LADIES +1.75 LR3516</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/CLOSEOUT_WHOLESALE_LOT_6_WOMEN_OPTICAL_READING_GLASSES__ASST_LADIES_+4.00_LR3522.html'">CLOSEOUT WHOLESALE LOT 6 WOMEN OPTICAL READING GLASSES  ASST LADIES +4.00 LR3522</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{ladies,_glasses,_lot}.html'">{ladies, glasses, lot}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{women,_round,_compact}.html'">{women, round, compact}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{cute,_beautiful,_sunglasses}.html'">{cute, beautiful, sunglasses}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{glass,_antique,_punk}.html'">{glass, antique, punk}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silk,_soft,_lash}.html'">{silk, soft, lash}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{style,_accessory,_fabric}.html'">{style, accessory, fabric}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{red,_w,_ring}.html'">{red, w, ring}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pocket,_mirror,_double}.html'">{pocket, mirror, double}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{shoulder,_handbag,_tags}.html'">{shoulder, handbag, tags}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pink,_small,_medium}.html'">{pink, small, medium}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{size,_gray,_great}.html'">{size, gray, great}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{x,_top,_print}.html'">{x, top, print}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{blue,_brown,_green}.html'">{blue, brown, green}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{case,_iphone,_hard}.html'">{case, iphone, hard}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{shoe,_hat,_bow}.html'">{shoe, hat, bow}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{free,_button,_shipping}.html'">{free, button, shipping}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vintage,_authentic,_chanel}.html'">{vintage, authentic, chanel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{rhinestone,_christmas,_bling}.html'">{rhinestone, christmas, bling}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{colors,_brand,_nib}.html'">{colors, brand, nib}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

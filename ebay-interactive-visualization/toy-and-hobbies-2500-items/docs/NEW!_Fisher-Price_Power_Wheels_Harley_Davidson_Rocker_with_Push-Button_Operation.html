@@ -1,0 +1,158 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[4.0313304645, "../topics/{Deluxe,_NEW!,_Kendama}.html", "{Deluxe,_NEW!,_Kendama}"], [3.9402384146, "../topics/{Power,_New,_Brand}.html", "{Power,_New,_Brand}"], [1.1224086505, "../topics/{Hot,_Wheels,_Ride}.html", "{Hot,_Wheels,_Ride}"], [1.0313258432, "../topics/{with,_by,_mint}.html", "{with,_by,_mint}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>NEW! Fisher-Price Power Wheels Harley Davidson Rocker with Push-Button Operation</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">NEW! Fisher-Price Power Wheels Harley Davidson Rocker with Push-Button Operation</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Deluxe,_NEW!,_Kendama}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Deluxe,_NEW!,_Kendama}.html'">{Deluxe, NEW!, Kendama}</td></tr>
+<tr class="list"><td id="{Power,_New,_Brand}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Power,_New,_Brand}.html'">{Power, New, Brand}</td></tr>
+<tr class="list"><td id="{Hot,_Wheels,_Ride}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Hot,_Wheels,_Ride}.html'">{Hot, Wheels, Ride}</td></tr>
+<tr class="list"><td id="{with,_by,_mint}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{with,_by,_mint}.html'">{with, by, mint}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Lil__Rider_Blue_Wiggle_Ride-on_Roller_Coaster_Car.html'">Lil' Rider Blue Wiggle Ride-on Roller Coaster Car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Calico_critters_food_accessories,.html'">Calico critters food accessories,</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pocket_Neopets_Grundo_and_Tonu.html'">Pocket Neopets Grundo and Tonu</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/The_Original_Bahama_Kendama_Kendama_-_Camo.html'">The Original Bahama Kendama Kendama - Camo</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Catchy_Kendama_-_Light-Up_LED_Kendama_-_Red_and_Blue.html'">Catchy Kendama - Light-Up LED Kendama - Red and Blue</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Bandai_Godzilla_2000_Figure_-_With_Tag!!!!!.html'">Bandai Godzilla 2000 Figure - With Tag!!!!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Solar_Powered_Swinging_Monkey_On_A_Tree_NEW!.html'">Solar Powered Swinging Monkey On A Tree NEW!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RARE_Folkmanis_Camel_with_Costume_Full_Size_Hand_Puppet.html'">RARE Folkmanis Camel with Costume Full Size Hand Puppet</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/6_Solar_Power_Motion_Toy_-_Dancing_Snowman_Christmas_Gift_Decoration.html'">6 Solar Power Motion Toy - Dancing Snowman Christmas Gift Decoration</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Bronze_Train_Locomotive_Engine_Quartz_Pocket_Watch.html'">Bronze Train Locomotive Engine Quartz Pocket Watch</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Waltrous_Rocking_Horse_Bell_Toy-EXCELLENT-.html'">Waltrous Rocking Horse Bell Toy-EXCELLENT-</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/POWER_WHEELS_19_TOOTH_MOTOR.html'">POWER WHEELS 19 TOOTH MOTOR</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/OWI_535_KIT_Robotic_Arm_Edge_Kit.html'">OWI 535 KIT Robotic Arm Edge Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Premium_White_Ozora_Kendama_(8-10_condition).html'">Premium White Ozora Kendama (8/10 condition)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Black_Kendama_Holder_-_Paracord_-_Handmade.html'">Black Kendama Holder - Paracord - Handmade</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Polly_Pocket_Necklace_Fairy_Doll_Included!.html'">Vintage Polly Pocket Necklace Fairy Doll Included!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Amanda_&_Family_Doll_House_Furniture_Figures_Lot_Sale_NEW!.html'">Amanda & Family Doll House Furniture Figures Lot Sale NEW!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Kids_Toy_Counting_Summit_Zillions_Deluxe_ATM_Game.html'">Kids Toy Counting Summit Zillions Deluxe ATM Game</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2014_Hot_Wheels_FAST_AND_THE_FURIOUS__67_FORD_MUSTANG....CHASE.....html'">2014 Hot Wheels FAST AND THE FURIOUS '67 FORD MUSTANG....CHASE....</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Barbie-Jeep_Wrangler_Power_Wheels_Complete_Drivetrain_Motors-Gearboxes-Switches.html'">Barbie/Jeep Wrangler Power Wheels Complete Drivetrain Motors/Gearboxes/Switches</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TWIN_MILL._LEGENDS_TO_LIFE.html'">TWIN MILL. LEGENDS TO LIFE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/POWER_WHEELS_BARBIE_RADIO.html'">POWER WHEELS BARBIE RADIO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Space_Men_Action_Figures_Brand_New.html'">Vintage Space Men Action Figures Brand New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/12V_RC_BATTERY_POWER_KIDS_RIDE_ON_HUMMER_JEEP_CAR_W-_BIG_WHEELS_&_R-C_REMOTE.html'">12V RC BATTERY POWER KIDS RIDE ON HUMMER JEEP CAR W/ BIG WHEELS & R/C REMOTE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Perfect_Polly.html'">Perfect Polly</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2014_Hot_Wheels_Walmart:_FAST_and_FURIOUS_Complete_Set_of_8_-_Mustang_&_More_LOT.html'">2014 Hot Wheels Walmart: FAST and FURIOUS Complete Set of 8 - Mustang & More LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pacific_War.html'">Pacific War</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

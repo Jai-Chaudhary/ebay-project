@@ -1,0 +1,162 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[3.2685957851, "../topics/{Deluxe,_NEW!,_Kendama}.html", "{Deluxe,_NEW!,_Kendama}"], [3.0313258353, "../topics/{Set,_Complete,_of}.html", "{Set,_Complete,_of}"], [2.9897546297, "../topics/{Hot,_Wheels,_Ride}.html", "{Hot,_Wheels,_Ride}"], [2.835625946, "../topics/{2014,_Meal,_Happy}.html", "{2014,_Meal,_Happy}"], [1.0313270117, "../topics/{VINTAGE,_LOT,_6}.html", "{VINTAGE,_LOT,_6}"], [1.0313258513, "../topics/{and,_Game,_w/}.html", "{and,_Game,_w/}"], [1.0313258432, "../topics/{&,_NIB,_NEW}.html", "{&,_NIB,_NEW}"], [1.0313258432, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>2014 Hot Wheels Walmart: FAST and FURIOUS Complete Set of 8 - Mustang & More LOT</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">2014 Hot Wheels Walmart: FAST and FURIOUS Complete Set of 8 - Mustang & More LOT</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Deluxe,_NEW!,_Kendama}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Deluxe,_NEW!,_Kendama}.html'">{Deluxe, NEW!, Kendama}</td></tr>
+<tr class="list"><td id="{Set,_Complete,_of}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Set,_Complete,_of}.html'">{Set, Complete, of}</td></tr>
+<tr class="list"><td id="{Hot,_Wheels,_Ride}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Hot,_Wheels,_Ride}.html'">{Hot, Wheels, Ride}</td></tr>
+<tr class="list"><td id="{2014,_Meal,_Happy}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{2014,_Meal,_Happy}.html'">{2014, Meal, Happy}</td></tr>
+<tr class="list"><td id="{VINTAGE,_LOT,_6}" onmouseover="highlight(4)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{VINTAGE,_LOT,_6}.html'">{VINTAGE, LOT, 6}</td></tr>
+<tr class="list"><td id="{and,_Game,_w/}" onmouseover="highlight(5)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{and,_Game,_w/}.html'">{and, Game, w/}</td></tr>
+<tr class="list"><td id="{-,_7",_NECA}" onmouseover="highlight(6)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{-,_7",_NECA}.html'">{-, 7", NECA}</td></tr>
+<tr class="list"><td id="{&,_NIB,_NEW}" onmouseover="highlight(7)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{&,_NIB,_NEW}.html'">{&, NIB, NEW}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Solar_Powered_Swinging_Monkey_On_A_Tree_NEW!.html'">Solar Powered Swinging Monkey On A Tree NEW!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Bronze_Train_Locomotive_Engine_Quartz_Pocket_Watch.html'">Bronze Train Locomotive Engine Quartz Pocket Watch</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2013_Mcdonalds_The_Smurfs_2_Complete_Set_Of_16.html'">2013 Mcdonalds The Smurfs 2 Complete Set Of 16</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pocket_Neopets_Grundo_and_Tonu.html'">Pocket Neopets Grundo and Tonu</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Black_Kendama_Holder_-_Paracord_-_Handmade.html'">Black Kendama Holder - Paracord - Handmade</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Calico_critters_food_accessories,.html'">Calico critters food accessories,</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_Atlantis_City_of_Atlantis.html'">Lego Atlantis City of Atlantis</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/The_Original_Bahama_Kendama_Kendama_-_Camo.html'">The Original Bahama Kendama Kendama - Camo</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels,_Mixed_lot_of_30!!.html'">Hot Wheels, Mixed lot of 30!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lil__Rider_Blue_Wiggle_Ride-on_Roller_Coaster_Car.html'">Lil' Rider Blue Wiggle Ride-on Roller Coaster Car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/DC_Signature_Collection_Aquamanl_Mattel_New.html'">DC Signature Collection Aquamanl Mattel New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Catchy_Kendama_-_Light-Up_LED_Kendama_-_Red_and_Blue.html'">Catchy Kendama - Light-Up LED Kendama - Red and Blue</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/POWER_WHEELS_BARBIE_RADIO.html'">POWER WHEELS BARBIE RADIO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1988_TO_1994_CHEVY_PICKUP.html'">1988 TO 1994 CHEVY PICKUP</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Educational_Insights_Hot_Dots_Pen_New.html'">Educational Insights Hot Dots Pen New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Classic_Magic_8-Ball_Toy_by_Mattel_-_New_in_Box!.html'">Classic Magic 8-Ball Toy by Mattel - New in Box!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels.html'">Hot Wheels</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_White_MIP_Robot.html'">WooWee White MIP Robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wood_Rubber_Band_Toy_Gun_New_In_The_Package.html'">Wood Rubber Band Toy Gun New In The Package</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Moat_MTG,_Lightly_Played.html'">Moat MTG, Lightly Played</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Perfect_Polly.html'">Perfect Polly</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SCARLET_NINJINI_*_Skylanders_Giants_*rare*.html'">SCARLET NINJINI * Skylanders Giants *rare*</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels_KarKeepers_box_of_10_plus_car.html'">Hot Wheels KarKeepers box of 10 plus car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Crystal_Radio_Set_-_Assembled.html'">Crystal Radio Set - Assembled</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Interactive_dog_Bentley.html'">Interactive dog Bentley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mechanical_Donkey_-_Horse.html'">Mechanical Donkey / Horse</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

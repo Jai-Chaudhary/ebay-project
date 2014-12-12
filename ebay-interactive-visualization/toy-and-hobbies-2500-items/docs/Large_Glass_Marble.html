@@ -1,0 +1,155 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[3.0313258432, "../topics/{1,_Large,_figures}.html", "{1,_Large,_figures}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Large Glass Marble</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Large Glass Marble</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{1,_Large,_figures}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{1,_Large,_figures}.html'">{1, Large, figures}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Matchbox_STINKY_THE_GARBAGE_TRUCK_Interactive_Talking_Electronic_-_Large.html'">Matchbox STINKY THE GARBAGE TRUCK Interactive Talking Electronic - Large</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Super_Helmet_Seven.html'">Super Helmet Seven</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Large_Two_Stroke_Gasoline_R-C_Model_Aircraft_Engine.html'">Large Two Stroke Gasoline R/C Model Aircraft Engine</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Minecraft_Large_Plush_Spider.html'">Minecraft Large Plush Spider</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Large_Collection_of_MTG_cards.html'">Large Collection of MTG cards</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Light_Alliance_1:72_#72008_Dwarves_Set_2.html'">Light Alliance 1:72 #72008 Dwarves Set 2</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Medium_Grumpy_Cat_Plush_by_Gund_-_4040133.html'">Medium Grumpy Cat Plush by Gund - 4040133</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Skylanders_HOOT_LOOP_figure_only_Swap_Force.html'">Skylanders HOOT LOOP figure only Swap Force</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/50_Assorted_Plastic_Stamps_New.html'">50 Assorted Plastic Stamps New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/McFarlane_Toys_Assassin_s_Creed_IV_Black_Bart_Figure.html'">McFarlane Toys Assassin's Creed IV Black Bart Figure</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Action_figures_200_Pieces_Army_Men_Toy_Soldiers_(World_War_2)_New.html'">Action figures 200 Pieces Army Men Toy Soldiers (World War 2) New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Leap_Pad_Explorer_1.html'">Leap Pad Explorer 1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ninco_-_Protruck_Ford_Mobil_1.html'">Ninco - Protruck Ford Mobil 1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1-72_Academy_SUPER-ETENDARD_JET_FIGHTER_NIB.html'">1/72 Academy SUPER-ETENDARD JET FIGHTER NIB</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_handmade_marbles.html'">vintage handmade marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Academy_1:72_#2130_Spitfire_MK._XIVc.html'">Academy 1:72 #2130 Spitfire MK. XIVc</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Black_Kendama_Holder_-_Paracord_-_Handmade.html'">Black Kendama Holder - Paracord - Handmade</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KIDS_COLORED_MARBLES_AND_SIZES,DESIGNS.html'">KIDS COLORED MARBLES AND SIZES,DESIGNS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Magic_Morningtide_NM_Mutavault_X_1.html'">MTG Magic Morningtide NM Mutavault X 1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pro_Scale_Models_1:72_T-33_Trio_No._1.html'">Pro Scale Models 1:72 T-33 Trio No. 1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Timpo_German_officers_swoppet_plastic_vintage_toy_soldiers.html'">Timpo German officers swoppet plastic vintage toy soldiers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_33_Antique_Glass_and_Wood_Marbles,_Swirled,_Solid.html'">Lot of 33 Antique Glass and Wood Marbles, Swirled, Solid</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RARE_Folkmanis_Camel_with_Costume_Full_Size_Hand_Puppet.html'">RARE Folkmanis Camel with Costume Full Size Hand Puppet</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/F-4C_Vietnam_War(12294)_1:48_Academy_Plastic_Model_Kit.html'">F-4C Vietnam War(12294) 1:48 Academy Plastic Model Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/traxxas_xo_1__custom_body.html'">traxxas xo 1  custom body</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/traxxas_xo_1__custom_body.html'">traxxas xo 1  custom body</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Christmas_Colors_by_Springbok__-__1000_pcs.html'">Christmas Colors by Springbok  -  1000 pcs</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vitro_Cherry_Custard_Marble.html'">Vitro Cherry Custard Marble</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

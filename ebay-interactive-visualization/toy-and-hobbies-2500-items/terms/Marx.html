@@ -1,0 +1,164 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-4.1213024364, "../topics/{Playset,_10mm,_Collectible}.html", "{Playset,_10mm,_Collectible}"], [-4.4183986697, "../topics/{Shogun,_Great,_Warriors}.html", "{Shogun,_Great,_Warriors}"], [-4.8858178308, "../topics/{Robot,_Toy,_Tin}.html", "{Robot,_Toy,_Tin}"], [-4.951285015, "../topics/{3,_set,_to}.html", "{3,_set,_to}"], [-5.0854041168, "../topics/{with,_by,_mint}.html", "{with,_by,_mint}"], [-17.4199747159, "../topics/{Power,_New,_Brand}.html", "{Power,_New,_Brand}"], [-18.444066555, "../topics/{HO,_Scale,_Car}.html", "{HO,_Scale,_Car}"], [-55.8128882123, "../topics/{Play,_Kids,_House}.html", "{Play,_Kids,_House}"], [-70.4010837379, "../topics/{8,_12,_BLACK}.html", "{8,_12,_BLACK}"], [-76.9555290664, "../topics/{in,_2,_Lionel}.html", "{in,_2,_Lionel}"], [-84.4381251133, "../topics/{Box,_Radio,_Wagon}.html", "{Box,_Radio,_Wagon}"], [-86.1573967602, "../topics/{the,_BEANIE,_TY}.html", "{the,_BEANIE,_TY}"], [-91.4515596624, "../topics/{Vintage,_Car,_Slot}.html", "{Vintage,_Car,_Slot}"], [-100.0, "../topics/{NEW,_Traxxas,_COMPLETE}.html", "{NEW,_Traxxas,_COMPLETE}"], [-100.0, "../topics/{1971,_King,_Britains}.html", "{1971,_King,_Britains}"], [-108.215184177, "../topics/{Of,_Lot,_Marbles}.html", "{Of,_Lot,_Marbles}"], [-111.336152114, "../topics/{Disney,_Frozen,_Elsa}.html", "{Disney,_Frozen,_Elsa}"], [-112.722115377, "../topics/{and,_Game,_w/}.html", "{and,_Game,_w/}"], [-119.747257788, "../topics/{1,_Large,_figures}.html", "{1,_Large,_figures}"], [-121.333238037, "../topics/{2014,_Meal,_Happy}.html", "{2014,_Meal,_Happy}"], [-122.751926473, "../topics/{Toy,_and,_Set}.html", "{Toy,_and,_Set}"], [-131.786444944, "../topics/{LIONEL,_KIT,_SCALE}.html", "{LIONEL,_KIT,_SCALE}"], [-131.865981559, "../topics/{War,_Avalon,_Battle}.html", "{War,_Avalon,_Battle}"], [-131.918646971, "../topics/{Deluxe,_NEW!,_Kendama}.html", "{Deluxe,_NEW!,_Kendama}"], [-131.928031421, "../topics/{car,_Edition,_slot}.html", "{car,_Edition,_slot}"], [-132.001966462, "../topics/{New,_Free,_50}.html", "{New,_Free,_50}"], [-132.040675183, "../topics/{THE,_TOY,_GAME}.html", "{THE,_TOY,_GAME}"], [-132.049356384, "../topics/{1:72,_scale,_1/48}.html", "{1:72,_scale,_1/48}"], [-132.055857585, "../topics/{VINTAGE,_LOT,_6}.html", "{VINTAGE,_LOT,_6}"], [-132.104601943, "../topics/{2,_Fisher,_Learning}.html", "{2,_Fisher,_Learning}"], [-155.478897238, "../topics/{Toys,_Antique,_Cast}.html", "{Toys,_Antique,_Cast}"], [-158.501476768, "../topics/{for,_For,_Helicopter}.html", "{for,_For,_Helicopter}"], [-163.635620009, "../topics/{WITH,_WARS,_FIGURE}.html", "{WITH,_WARS,_FIGURE}"], [-163.692426884, "../topics/{Hot,_Wheels,_Ride}.html", "{Hot,_Wheels,_Ride}"], [-163.783978087, "../topics/{The,_Series,_Star}.html", "{The,_Series,_Star}"], [-163.794027906, "../topics/{Little,_My,_NEW}.html", "{Little,_My,_NEW}"], [-163.825560757, "../topics/{WHEELS,_CAR,_HOT}.html", "{WHEELS,_CAR,_HOT}"], [-163.897174082, "../topics/{Figure,_Action,_Ninja}.html", "{Figure,_Action,_Ninja}"], [-163.955872371, "../topics/{toy,_#,_2002}.html", "{toy,_#,_2002}"], [-164.276567756, "../topics/{Pet,_Littlest,_Shop}.html", "{Pet,_Littlest,_Shop}"], [-195.11225051, "../topics/{Beanie,_Ty,_~}.html", "{Beanie,_Ty,_~}"], [-195.355055069, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"], [-195.66789622, "../topics/{1000,_Puzzle,_Jigsaw}.html", "{1000,_Puzzle,_Jigsaw}"], [-226.774919922, "../topics/{Set,_Complete,_of}.html", "{Set,_Complete,_of}"], [-231.98208382, "../topics/{Blue,_10,_Toys}.html", "{Blue,_10,_Toys}"], [-438.148276232, "../topics/{Super,_Minifigures,_Heroes}.html", "{Super,_Minifigures,_Heroes}"], [-645.426889758, "../topics/{of,_MTG,_Khans}.html", "{of,_MTG,_Khans}"], [-659.943442924, "../topics/{Toy,_Plush,_Stuffed}.html", "{Toy,_Plush,_Stuffed}"], [-708.739952476, "../topics/{&,_NIB,_NEW}.html", "{&,_NIB,_NEW}"], [-733.941240197, "../topics/{Marble,_!,_Vintage}.html", "{Marble,_!,_Vintage}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>Marx</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">Marx</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/puzzles.html'">puzzles</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Friction.html'">Friction</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/box.html'">box</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/late.html'">late</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Trek.html'">Trek</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/medieval.html'">medieval</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Assembled.html'">Assembled</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Fully.html'">Fully</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/painted.html'">painted</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Collectible.html'">Collectible</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Rocket.html'">Rocket</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/10mm.html'">10mm</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Back.html'">Back</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/DOUBLE.html'">DOUBLE</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/S.H..html'">S.H.</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/gun.html'">gun</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/GOLD.html'">GOLD</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Lot:.html'">Lot:</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/OPERATED.html'">OPERATED</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/Bullmark.html'">Bullmark</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marx_miniature.html'">Marx miniature</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1950s_Marx_Walt_Disney_Zorro_Playset_and_Characters.html'">1950s Marx Walt Disney Zorro Playset and Characters</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marx_Fort_Apache-Western_Ranch-Roy_Rogers_accessories.html'">Marx Fort Apache/Western Ranch/Roy Rogers accessories</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marx_Fort_Apache_#4202_blue_pioneers.html'">Marx Fort Apache #4202 blue pioneers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Plastic_Toy_Soldiers_Marx_Medieval_Castle_Playset_54mm_Blue_Knights_21_Figures.html'">Plastic Toy Soldiers Marx Medieval Castle Playset 54mm Blue Knights 21 Figures</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Black_Knight_Sword_(plastic)_w-Decorative_Tin_Sheath_by_Marx_Toys_(rare).html'">Vintage Black Knight Sword (plastic) w/Decorative Tin Sheath by Marx Toys (rare)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1950_s-1960_s_Vintage_Marx_Mystery_Space_Ship_Toy_Parts_Lot.html'">1950's-1960's Vintage Marx Mystery Space Ship Toy Parts Lot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marx_Jane_Apollo._recast_figure_with_accessories._aprox_8_inches_tall._posable.html'">Marx Jane Apollo. recast figure with accessories. aprox 8 inches tall. posable</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Marx_Toy_Tin_Litho_Wind_Up_Train.html'">Vintage Marx Toy Tin Litho Wind Up Train</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Reissue_Marx_Superman_playset_figure_in_maroon_color.html'">Reissue Marx Superman playset figure in maroon color</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Two_original_vintage_gray_Marx_riding_cowboys__w-horses_playset_figures.html'">Two original vintage gray Marx riding cowboys  w/horses playset figures</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_1950-_60_s_Marx_Toy_Wooly_Mammoth_Dinosaur_from_the_Prehistoric_Playset.html'">Vintage 1950- 60's Marx Toy Wooly Mammoth Dinosaur from the Prehistoric Playset</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Marx_Toys_Wind_Up_New_York_Central_Train_In_Box.html'">Vintage Marx Toys Wind Up New York Central Train In Box</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marx_Vintage_Playset_Armed_Forces_Training_Center_Near_Complete_with_Box.html'">Marx Vintage Playset Armed Forces Training Center Near Complete with Box</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1966_Marx_International_Secret_Agent_PO_8_Luger_Toy_Cap_Gun_Vintage-Excellent!.html'">1966 Marx International Secret Agent PO 8 Luger Toy Cap Gun Vintage-Excellent!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_60_s_Marx_Fort_Apache-7th_Cavalry_blue_pioneers.html'">Vintage 60's Marx Fort Apache/7th Cavalry blue pioneers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1961_Marx_Bengali_Battery_Operated_Tiger_in_Original_Box_Vintage.html'">1961 Marx Bengali Battery Operated Tiger in Original Box Vintage</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Original_Lot_of_Marx_Captain_Gallant_accessory_parts.html'">Original Lot of Marx Captain Gallant accessory parts</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Amazing_Vintage_Marx_Marx-O-Matic_Basket_Ball_Game_in_box.html'">Amazing Vintage Marx Marx-O-Matic Basket Ball Game in box</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Playset,_10mm,_Collectible}.html'">{Playset, 10mm, Collectible}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Shogun,_Great,_Warriors}.html'">{Shogun, Great, Warriors}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Robot,_Toy,_Tin}.html'">{Robot, Toy, Tin}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{3,_set,_to}.html'">{3, set, to}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{with,_by,_mint}.html'">{with, by, mint}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Power,_New,_Brand}.html'">{Power, New, Brand}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{HO,_Scale,_Car}.html'">{HO, Scale, Car}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Play,_Kids,_House}.html'">{Play, Kids, House}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{8,_12,_BLACK}.html'">{8, 12, BLACK}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{in,_2,_Lionel}.html'">{in, 2, Lionel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Box,_Radio,_Wagon}.html'">{Box, Radio, Wagon}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{the,_BEANIE,_TY}.html'">{the, BEANIE, TY}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Vintage,_Car,_Slot}.html'">{Vintage, Car, Slot}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{1971,_King,_Britains}.html'">{1971, King, Britains}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{NEW,_Traxxas,_COMPLETE}.html'">{NEW, Traxxas, COMPLETE}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Of,_Lot,_Marbles}.html'">{Of, Lot, Marbles}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{Disney,_Frozen,_Elsa}.html'">{Disney, Frozen, Elsa}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{and,_Game,_w/}.html'">{and, Game, w/}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{1,_Large,_figures}.html'">{1, Large, figures}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{2014,_Meal,_Happy}.html'">{2014, Meal, Happy}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[10.0308967363, "../topics/{car,_Edition,_slot}.html", "{car,_Edition,_slot}"], [1.03175495, "../topics/{Vintage,_Car,_Slot}.html", "{Vintage,_Car,_Slot}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Tamiya Asssociated Losi Xray 1:10 MB AMG Touring Car Body w/wing</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Tamiya Asssociated Losi Xray 1:10 MB AMG Touring Car Body w/wing</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{car,_Edition,_slot}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{car,_Edition,_slot}.html'">{car, Edition, slot}</td></tr>
+<tr class="list"><td id="{Vintage,_Car,_Slot}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Vintage,_Car,_Slot}.html'">{Vintage, Car, Slot}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/tyco_pro_Camaro_vintage__for_tyco-aurora-_afx_ho_slot_car_tracks.html'">tyco pro Camaro vintage  for tyco/aurora/ afx ho slot car tracks</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Britains_Set_#5193_Limited_Ed._With_Serial_#_Royal_Regiment_of_Fusiliers.html'">Britains Set #5193 Limited Ed. With Serial # Royal Regiment of Fusiliers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Chevy_Camaro_Z28_Silver-Blue_Rare_TYCO_HP7_Lighted_Chassis__HO_scale_slot_car.html'">Chevy Camaro Z28 Silver/Blue Rare TYCO HP7 Lighted Chassis  HO scale slot car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1:18_SHELBY_COBRA_-_ERTL_AM_MUSCLE_-DIE_CAST_METAL.html'">1:18 SHELBY COBRA - ERTL AM MUSCLE -DIE CAST METAL</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Greenlight_Collectables_1-18_Scale_Die_Cast_1989_Pontiac_GTA_Trans_AM.html'">Greenlight Collectables 1/18 Scale Die Cast 1989 Pontiac GTA Trans AM</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/F03393_HC-SR04_Ultrasonic_sensor_ranging_distance_measuring_module_HC_SR04_Trans.html'">F03393 HC-SR04 Ultrasonic sensor ranging distance measuring module HC SR04 Trans</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1-43_MR_LAMBORGHINI_MIURA_SV_JOTA_BLUE-GOLD_OPEN-CLOSE_LIMITED_10_PIECES_BBR.html'">1/43 MR LAMBORGHINI MIURA SV JOTA BLUE/GOLD OPEN/CLOSE LIMITED 10 PIECES BBR</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AFX_-_AURORA_#_1942_CUSTOM_VAN_(FORD)_w-_Auto_World_4_Gear_Chassis.html'">AFX / AURORA # 1942 CUSTOM VAN (FORD) w/ Auto World 4 Gear Chassis</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Losi_RED_Mini_8IGHT_1-14_4WD_Brushless_Buggy_RTR_w-_extra_body.html'">Losi RED Mini 8IGHT 1/14 4WD Brushless Buggy RTR w/ extra body</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tomy_Tomica_Limited_No.TL-0041_Subaru_360_(Japan_GP).html'">Tomy Tomica Limited No.TL-0041 Subaru 360 (Japan GP)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Circuitron_Tortoise_Slow_Motion_Switch_Machines_12Pk_NEW_800-6012.html'">Circuitron Tortoise Slow Motion Switch Machines 12Pk NEW 800-6012</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1:18_Ertl_1969_Baldwin_Motion_Camaro_454_1_Of_2500.html'">1:18 Ertl 1969 Baldwin Motion Camaro 454 1 Of 2500</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_AFX_White-Blue_Pontiac_Firebird,_running_Magna-Traction_slot_car_chassis.html'">Aurora AFX White/Blue Pontiac Firebird, running Magna-Traction slot car chassis</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/COBRAJet_Kit_Car,_with_Cobramite_Body_and_TJet_Chassis_MIB.html'">COBRAJet Kit Car, with Cobramite Body and TJet Chassis MIB</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Britains_Toy_Soldiers_47033_British_35th_Regiment_of_Foot_NCO_1754_-_1763.html'">Britains Toy Soldiers 47033 British 35th Regiment of Foot NCO 1754 - 1763</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tomy_Tomica_Limited_Nissan_Skyline_1-64_Scale_R31_-_R34_12_Collector_Car_Set.html'">Tomy Tomica Limited Nissan Skyline 1/64 Scale R31 - R34 12 Collector Car Set</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Britains_Set_#_5292__Limited_Ed._With_Serial_#_The_King_s_Own_Border_Regiment.html'">Britains Set # 5292  Limited Ed. With Serial # The King's Own Border Regiment</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Victorias_Secret_Limited_Edition_Employee_Leather_Dog.html'">Victorias Secret Limited Edition Employee Leather Dog</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1-72_Fairey_FD.1__Olimp_-_Pro_Resin__R72044.html'">1/72 Fairey FD.1  Olimp - Pro Resin  R72044</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Limited_Edition-_Ars_Victor_The_One-Hour_War_Game-Trip_West_Games.html'">Limited Edition- Ars Victor The One-Hour War Game-Trip West Games</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/F86-D_Dog_Sabre_Monogram_Pro_Modeler_1-48_Sealed_Box!.html'">F86-D Dog Sabre Monogram Pro Modeler 1/48 Sealed Box!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cardfight_Vanguard_Neo_Nectar_Musketeer_Deck.html'">Cardfight Vanguard Neo Nectar Musketeer Deck</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1969_MERCURY_COUGAR_HARDTOP_BUILT_KIT_1-25TH_SCALE.html'">1969 MERCURY COUGAR HARDTOP BUILT KIT 1/25TH SCALE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/PICK_A_COLOR_-_NEW_2013_Ultra_Pro_MTG_GALAXY__Mana_Symbol_Magnetic_Flip_Deck_Box.html'">PICK A COLOR - NEW 2013 Ultra Pro MTG GALAXY  Mana Symbol Magnetic Flip Deck Box</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tamiya_1:72_#FA103_Raiden_(Jack)_Mitsubishi_M2M3.html'">Tamiya 1:72 #FA103 Raiden (Jack) Mitsubishi M2M3</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LOT_OF_MR__POTATO_HEAD_PARTS_PIECES_AND_ACCESSORIES_TOY-75_L@@K.html'">LOT OF MR  POTATO HEAD PARTS PIECES AND ACCESSORIES TOY-75 L@@K</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/CHOOSE_A_COLOR_-_100_ct_Dragon_Shield_Deck_Sleeves__Protectors_Standard_Size_MTG.html'">CHOOSE A COLOR - 100 ct Dragon Shield Deck Sleeves  Protectors Standard Size MTG</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MtG_Mana_Confluence_x1_(4_available).html'">MtG Mana Confluence x1 (4 available)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rare_NFL_Team_Set_AFC_West__With_Box.html'">Rare NFL Team Set AFC West  With Box</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2013_Hot_Wheels_Chevy_Camaro_Special_Edition___________________b.html'">2013 Hot Wheels Chevy Camaro Special Edition                   b</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

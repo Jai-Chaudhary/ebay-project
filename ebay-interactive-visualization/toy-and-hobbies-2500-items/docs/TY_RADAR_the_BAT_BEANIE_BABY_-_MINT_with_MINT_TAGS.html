@@ -1,0 +1,157 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[9.0313258432, "../topics/{the,_BEANIE,_TY}.html", "{the,_BEANIE,_TY}"], [1.0313258432, "../topics/{with,_by,_mint}.html", "{with,_by,_mint}"], [1.0313258432, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>TY RADAR the BAT BEANIE BABY - MINT with MINT TAGS</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">TY RADAR the BAT BEANIE BABY - MINT with MINT TAGS</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{the,_BEANIE,_TY}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{the,_BEANIE,_TY}.html'">{the, BEANIE, TY}</td></tr>
+<tr class="list"><td id="{with,_by,_mint}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{with,_by,_mint}.html'">{with, by, mint}</td></tr>
+<tr class="list"><td id="{-,_7",_NECA}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{-,_7",_NECA}.html'">{-, 7", NECA}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/(4)_articulated_figures_from_the_polar_express_passenger_set..#_31960...sealed.html'">(4) articulated figures from the polar express passenger set..# 31960...sealed</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1962_Remco_Showboat_Theater_NOS_Complete_Never_Been_Played_With.html'">1962 Remco Showboat Theater NOS Complete Never Been Played With</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/8_TY_BEANIE_BABIES,_BEANIE_BUDDIES_AND_TEENIE_BEANIES.html'">8 TY BEANIE BABIES, BEANIE BUDDIES AND TEENIE BEANIES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TY_BEANIE_BABY,_"HOOFFER"_The_Clydesdale,_RETIRED_MINT.html'">TY BEANIE BABY, "HOOFFER" The Clydesdale, RETIRED MINT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW,_KITTY_SURPRISE,_SUNSHINE_&_HER_KITTENS.html'">NEW, KITTY SURPRISE, SUNSHINE & HER KITTENS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TY_BEANIE_BABY_HALLOWEEN_DECORATION_LOT_NOS_TAGS_GHOSTS_PUMPKINS_BLACK_CATS.html'">TY BEANIE BABY HALLOWEEN DECORATION LOT NOS TAGS GHOSTS PUMPKINS BLACK CATS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW,_SET_OF_2_MY_LITTLE_PONY_FASHEMS_(MASHEMS)_BLIND_CAPSULES.html'">NEW, SET OF 2 MY LITTLE PONY FASHEMS (MASHEMS) BLIND CAPSULES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Princess_Diana_Authentic_Beanie_Baby,_Rare,_Mint_Condition,_1st_Edition_W-Crown!.html'">Princess Diana Authentic Beanie Baby, Rare, Mint Condition, 1st Edition W/Crown!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TY_BEANIE_BABIES_MOOCH_THE_MONKEY_1999_P.E._PELLETS.html'">TY BEANIE BABIES MOOCH THE MONKEY 1999 P.E. PELLETS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_8_Ball.html'">Magic 8 Ball</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MOTU_Classics_MOTUC_POP_He-Man_LOT_MISB_New_ELDOR.html'">MOTU Classics MOTUC POP He-Man LOT MISB New ELDOR</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rare,_authentic_LEGO_Mr._Gold.html'">Rare, authentic LEGO Mr. Gold</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Whoopie_Cushion_8".html'">Whoopie Cushion 8"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Stretchkins_Unicorn_-_Pink.html'">Stretchkins Unicorn - Pink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mechanical_Donkey_-_Horse.html'">Mechanical Donkey / Horse</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EUC_Wild_Planet_Radio_DJ.html'">EUC Wild Planet Radio DJ</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Jada_Chevrolet_Silverado_2014_Blue_1-24.html'">Jada Chevrolet Silverado 2014 Blue 1/24</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AURORA_G_PLUS_LOT.html'">AURORA G PLUS LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Chassis_Mint_New.html'">Aurora Thunderjet Chassis Mint New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO_Misc_Train_Cars.html'">HO Misc Train Cars</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

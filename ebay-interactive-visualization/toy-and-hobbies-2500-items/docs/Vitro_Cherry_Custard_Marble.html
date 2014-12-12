@@ -1,0 +1,155 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[4.0313258432, "../topics/{Marble,_!,_Vintage}.html", "{Marble,_!,_Vintage}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Vitro Cherry Custard Marble</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Vitro Cherry Custard Marble</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Marble,_!,_Vintage}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Marble,_!,_Vintage}.html'">{Marble, !, Vintage}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Coca_Cola_Marble.html'">Coca Cola Marble</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Akro_Agate_+_Marble_Lot_of_24.html'">Vintage Akro Agate + Marble Lot of 24</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO__Gerber_Baby_Food__Old_Fashion_Box_Car.html'">HO  Gerber Baby Food  Old Fashion Box Car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/USAAF_B-29A_Old_Battler(12517)_1:72_Academy_Plastic_Model_Kit.html'">USAAF B-29A Old Battler(12517) 1:72 Academy Plastic Model Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Musical_Clown_15".html'">Vintage Musical Clown 15"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Classic_Genuine_Mini_Koosh_Ball_2.5"_Orange_Latex_Safe_Toy.html'">Classic Genuine Mini Koosh Ball 2.5" Orange Latex Safe Toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Black_Kendama_Holder_-_Paracord_-_Handmade.html'">Black Kendama Holder - Paracord - Handmade</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Classic_Red_10_inch_Tricycle.html'">Classic Red 10 inch Tricycle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tunisia.html'">Tunisia</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cuddle_Pet.html'">Cuddle Pet</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Perfect_Polly.html'">Perfect Polly</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pacific_War.html'">Pacific War</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_8_Ball.html'">Magic 8 Ball</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Interactive_dog_Bentley.html'">Interactive dog Bentley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Akro_Agate_Dark_Purple_and_Yellow_Popeye_Marble,.html'">Akro Agate Dark Purple and Yellow Popeye Marble,</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ybike_pewi.html'">ybike pewi</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MaKey_MaKey.html'">MaKey MaKey</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lionel_Sub.html'">Lionel Sub</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Scaletric_917.html'">Scaletric 917</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Beyblades_Lot.html'">Beyblades Lot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels.html'">Hot Wheels</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2000_Purr.html'">2000 Purr</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Sinkhole.html'">MTG Sinkhole</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

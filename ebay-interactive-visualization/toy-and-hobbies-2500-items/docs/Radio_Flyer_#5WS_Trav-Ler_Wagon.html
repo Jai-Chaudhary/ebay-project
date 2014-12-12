@@ -1,0 +1,178 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[5.0313258432, "../topics/{Box,_Radio,_Wagon}.html", "{Box,_Radio,_Wagon}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Radio Flyer #5WS Trav-Ler Wagon</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Radio Flyer #5WS Trav-Ler Wagon</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Box,_Radio,_Wagon}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Box,_Radio,_Wagon}.html'">{Box, Radio, Wagon}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    
+<p><b>Radio Flyer</b> is an <a href="http://www.wikipedia.org/wiki/United_States" title="United States">American</a> <a href="http://www.wikipedia.org/wiki/Toy" title="Toy">toy</a> company best known for their popular red <a href="http://www.wikipedia.org/wiki/Toy_wagon" title="Toy wagon">toy wagon</a>. Radio Flyer also produces scooters, tricycles, <a href="http://www.wikipedia.org/wiki/Bicycle" title="Bicycle">bicycles</a>,<sup id="cite_ref-1" class="reference"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#cite_note-1"><span>[</span>1<span>]</span></a></sup> horses, and ride-ons. The company was founded in 1917 and is based in <a href="http://www.wikipedia.org/wiki/Chicago,_Illinois" title="Chicago, Illinois" class="mw-redirect">Chicago, Illinois</a>.</p>
+<p></p>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#The_wagon"><span class="tocnumber">2</span> <span class="toctext">The wagon</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#Other_products"><span class="tocnumber">3</span> <span class="toctext">Other products</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#In_popular_culture"><span class="tocnumber">4</span> <span class="toctext">In popular culture</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#Sculpture"><span class="tocnumber">4.1</span> <span class="toctext">Sculpture</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#Notes"><span class="tocnumber">5</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#External_links"><span class="tocnumber">6</span> <span class="toctext">External links</span></a></li>
+</ul>
+<p></p>
+<h3><span class="mw-headline" id="History">History</span></h3>
+<p><a href="http://www.wikipedia.org/wiki/Antonio_Pasin" title="Antonio Pasin">Antonio Pasin</a> started building wooden toy wagons in <a href="http://www.wikipedia.org/wiki/Chicago" title="Chicago">Chicago</a> in 1917, selling them to area shops. His business grew until the <i>Liberty Coaster Company</i>, named in honour of the <a href="http://www.wikipedia.org/wiki/Statue_of_Liberty" title="Statue of Liberty">Statue of Liberty</a> was formed in 1923. The demands for these original wooden wagons, dubbed the "Liberty Coaster," quickly outpaced production. Incorporating the mass manufacturing techniques of the auto industry, Pasin began making metal wagons out of stamped steel in 1927. <sup id="cite_ref-2" class="reference"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#cite_note-2"><span>[</span>2<span>]</span></a></sup> In 1930, the company was renamed <i>Radio Steel &amp; Manufacturing</i>. The renamed company produced steel-bodied wagons and used assembly line manufacturing techniques. The new <i>Radio Flyer</i> wagons were named as a tribute to two famous men of the day: <a href="http://www.wikipedia.org/wiki/Marconi" title="Marconi" class="mw-redirect">Marconi</a> and <a href="http://www.wikipedia.org/wiki/Charles_August_Lindbergh" title="Charles August Lindbergh">Lindbergh</a>.<sup id="cite_ref-3" class="reference"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#cite_note-3"><span>[</span>3<span>]</span></a></sup> Italian inventor and engineer <a href="http://www.wikipedia.org/wiki/Guglielmo_Marconi" title="Guglielmo Marconi">Guglielmo Marconi</a> developed, demonstrated, and marketed the first successful long-distance wireless telegraph and in 1901 broadcast the first transatlantic radio signal.<sup id="cite_ref-4" class="reference"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#cite_note-4"><span>[</span>4<span>]</span></a></sup> <a href="http://www.wikipedia.org/wiki/Charles_Lindbergh" title="Charles Lindbergh">Charles Lindbergh</a> completed the first solo, non-stop flight across the Atlantic in 1927. Combining those two marvels, Pasin christened his new metal wagons "Radio Flyer".<sup id="cite_ref-5" class="reference"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#cite_note-5"><span>[</span>5<span>]</span></a></sup> <sup id="cite_ref-6" class="reference"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<p>In 1933, Chicago was the host of the World's Fair, <a href="http://www.wikipedia.org/wiki/Century_of_Progress" title="Century of Progress">Century of Progress</a>, and Radio Steel was asked to be a part of the celebration. Antonio Pasin took on major debt to fund the construction of a 45 foot tall wood and plaster Coaster Boy statue depicting a boy riding a Liberty Coaster wagon. Below the Coaster Boy exhibit Pasin sold miniatures for 25 cents.<sup id="cite_ref-RP-interview_7-0" class="reference"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#cite_note-RP-interview-7"><span>[</span>7<span>]</span></a></sup> During <a href="http://www.wikipedia.org/wiki/World_War_II" title="World War II">World War II</a>, steel was essential war material; from 1942–1945, the company shifted production to portable five gallon <i><a href="http://www.wikipedia.org/wiki/Jerrycan" title="Jerrycan">Blitz cans</a></i> for the <a href="http://www.wikipedia.org/wiki/United_States_Army" title="United States Army">US Army</a>.<sup id="cite_ref-encyc-entrep_8-0" class="reference"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#cite_note-encyc-entrep-8"><span>[</span>8<span>]</span></a></sup></p>
+<p>In 1987, Radio Steel changed its name to Radio Flyer after its popular flagship little red wagon.<sup id="cite_ref-encyc-entrep_8-1" class="reference"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#cite_note-encyc-entrep-8"><span>[</span>8<span>]</span></a></sup> Today, the company produces a wide range of children's products, including <a href="http://www.wikipedia.org/wiki/Kick_scooter" title="Kick scooter">scooters</a>, <a href="http://www.wikipedia.org/wiki/Bicycle" title="Bicycle">bicycles</a>, <a href="http://www.wikipedia.org/wiki/Tricycle" title="Tricycle">tricycles</a>, ride-ons, horses, and <a href="http://www.wikipedia.org/wiki/Toy_wagon" title="Toy wagon">wagons</a>. Robert Pasin, Antonio's grandson, has been <a href="http://www.wikipedia.org/wiki/Chief_executive_officer" title="Chief executive officer">CEO</a> since 1997.<sup id="cite_ref-RP-interview_7-1" class="reference"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#cite_note-RP-interview-7"><span>[</span>7<span>]</span></a></sup><sup id="cite_ref-9" class="reference"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#cite_note-9"><span>[</span>9<span>]</span></a></sup> In 1998 the company partnered with <a href="/w/index.php?title=Kaleidoscope_(design_agency)&amp;action=edit&amp;redlink=1" class="new" title="Kaleidoscope (design agency) (page does not exist)">Kaleidoscope</a> to create a new product line that included tricycles, scooters, children's bicycles, a foot-powered red roadster and a pedal-powered race car.<sup id="cite_ref-10" class="reference"><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon#cite_note-10"><span>[</span>10<span>]</span></a></sup></p>
+<p><a href="http://en.wikipedia.org/wiki/Radio_Flyer_#5WS_Trav-Ler_Wagon">Full article&nbsp;&#x25B8;</a></p>
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Iron_Legion_Fantasy_Nurgle_Plague_Toad.html'">Iron Legion Fantasy Nurgle Plague Toad</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Radio_Flyer_#5_Little_Red_Wagon.html'">Radio Flyer #5 Little Red Wagon</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_4_x_Glittering_Wish_-_HOT_CARD!!!!.html'">MTG 4 x Glittering Wish - HOT CARD!!!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_Wood_Wagon_Cart_with_Spoked_Wood_Wheels_~Germany.html'">Toy Wood Wagon Cart with Spoked Wood Wheels ~Germany</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Radio_flyer_miniature_trike.html'">Radio flyer miniature trike</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Radio_Flyer_Pathfinder_Wagon.html'">Radio Flyer Pathfinder Wagon</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Howes_Crystal_Radio_Set_Roller-Inductor.html'">Howes Crystal Radio Set Roller-Inductor</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Radio_Flyer_Little_Red_Wagon_New.html'">Radio Flyer Little Red Wagon New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/39_SEALED_NEW_CLOUT_BOOSTER_PACKS_2005.html'">39 SEALED NEW CLOUT BOOSTER PACKS 2005</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Radio_Flyer_Ultimate_EZ_Fold_Wagon.html'">Radio Flyer Ultimate EZ Fold Wagon</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SPI_Wargame_Operation_Typhoon_Box_Fair+.html'">SPI Wargame Operation Typhoon Box Fair+</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Radio_Flyer_Glide_&_Go_Balance_Bike.html'">Radio Flyer Glide & Go Balance Bike</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cra_Z_Art_Original_Magna_Doodle_New.html'">Cra Z Art Original Magna Doodle New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/The_Bridge_Direct_Frankenweenie_After_Life_Sparky_Plush.html'">The Bridge Direct Frankenweenie After Life Sparky Plush</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ravensburger_Bizarre_Bookshop_2_Jigsaw_Puzzle_(1000-Piece)_New.html'">Ravensburger Bizarre Bookshop 2 Jigsaw Puzzle (1000-Piece) New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lock__n_Load_Wargame_Heroes_of_the_Blitzkrieg_Box_NM.html'">Lock 'n Load Wargame Heroes of the Blitzkrieg Box NM</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Lil_Wagon_Red_Kids_Toy_Wagon.html'">New Lil Wagon Red Kids Toy Wagon</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Tin_Toy_Waddling_Duck._Japan_1950_s.__In_Working_Condition..html'">Vintage Tin Toy Waddling Duck. Japan 1950's.  In Working Condition.</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mini_Radio_Flyer_wagon.html'">Mini Radio Flyer wagon</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Thunderbird_convertible,_nice!.html'">Aurora Thunderjet Thunderbird convertible, nice!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Doodle__Bear_2005_17"_Stuffed_Plush_Bear._Excellent_Condition..html'">Doodle  Bear 2005 17" Stuffed Plush Bear. Excellent Condition.</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Magic_NM_Cavern_of_Souls_x_4.html'">MTG Magic NM Cavern of Souls x 4</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Crystal_Radio_Set_-_Assembled.html'">Crystal Radio Set - Assembled</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SPI_Wargame_Drive_on_Washington_Box_Fair+.html'">SPI Wargame Drive on Washington Box Fair+</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tattoo_Devil_Duckie_2005_Accoutrements_Rubber_Duck_toy.html'">Tattoo Devil Duckie 2005 Accoutrements Rubber Duck toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Rod_devil_Duckie_2000_Accoutrements_Rubber_Duck_toy.html'">Hot Rod devil Duckie 2000 Accoutrements Rubber Duck toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/beanie_babies_Dogs.html'">beanie babies Dogs</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EUC_Wild_Planet_Radio_DJ.html'">EUC Wild Planet Radio DJ</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

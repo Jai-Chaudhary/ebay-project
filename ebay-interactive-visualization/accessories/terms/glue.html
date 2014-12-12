@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-4.2187243771, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-4.300338668, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-6.017407217, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-60.7399127217, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-63.3003642339, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-92.6990404959, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-98.3716560603, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-108.905146397, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-112.728893449, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-119.073238782, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-120.155891365, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-124.118921064, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-128.158196119, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-131.872545454, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-131.931616644, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-132.213895604, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-137.805639381, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-139.506006959, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-141.728085375, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-141.879310955, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-142.137605529, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-142.921094524, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-143.674585892, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-144.443050912, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-144.776458127, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-145.892841608, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-146.698048169, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-146.73550858, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-148.508185629, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-149.253838166, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-151.400873704, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-152.327906793, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-154.64018693, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-155.847879875, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-157.210883221, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-161.14031126, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-163.116481559, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-163.162019725, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-163.713698134, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-164.914294614, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-165.935624033, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-166.77304381, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-168.645569417, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-169.02511916, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-169.39867601, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-171.924288999, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-178.807076124, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-192.316737777, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-200.822029862, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"], [-217.691420714, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>glue</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">glue</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/birthday.html'">birthday</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/teachers.html'">teachers</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/wild.html'">wild</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/nurses.html'">nurses</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/western.html'">western</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/elephant.html'">elephant</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/go.html'">go</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/santa.html'">santa</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/buckle.html'">buckle</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/transfer.html'">transfer</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/strong.html'">strong</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/find.html'">find</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/portable.html'">portable</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/crystals.html'">crystals</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lauren.html'">lauren</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ralph.html'">ralph</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/forever.html'">forever</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lilly.html'">lilly</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/holders.html'">holders</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/cowgirl.html'">cowgirl</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mini_Cooling_Mister_Spray_Mist_Cure_Eyelash_Extension_Glue_Soothes_Irritation.html'">Mini Cooling Mister Spray Mist Cure Eyelash Extension Glue Soothes Irritation</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Choose_2_Eyelash_Extension_Sample_Size_3ml_Glue:_Find_Your_Perfect_Match_Here!!.html'">Choose 2 Eyelash Extension Sample Size 3ml Glue: Find Your Perfect Match Here!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Eyelash_Extension:_Speed_Up_Slow_Drying_Glue_-_Mini_Fan.html'">Eyelash Extension: Speed Up Slow Drying Glue - Mini Fan</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Choose_2_Eyelash_Extension_Sample_Size_3ml_Glue:_Find_Your_Perfect_Match_Here!!.html'">Choose 2 Eyelash Extension Sample Size 3ml Glue: Find Your Perfect Match Here!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Choose_2_Eyelash_Extension_Sample_Size_3ml_Glue:_Find_Your_Perfect_Match_Here!!.html'">Choose 2 Eyelash Extension Sample Size 3ml Glue: Find Your Perfect Match Here!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SUPERIOR_GOLD_Glue_Advanced_Tech_-_Strong_Bond,_Min_Fumes_Eyelash_Extension.html'">SUPERIOR GOLD Glue Advanced Tech - Strong Bond, Min Fumes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Eyelash_Extension:_Speed_Up_Slow_Drying_Glue_-_Mini_Fan.html'">Eyelash Extension: Speed Up Slow Drying Glue - Mini Fan</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/FDA_MAXI-POWER_Glue_-_Medical_Grade_Super_Fast-Strong_Eyelash_Extension.html'">FDA MAXI-POWER Glue - Medical Grade Super Fast/Strong Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MAXI_SENSITIVE_Glue_-_FDA_Reg_Medical_Grade_No_Fume-Irritation_Eyelash_Extension.html'">MAXI SENSITIVE Glue - FDA Reg Medical Grade No Fume/Irritation Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mini_Cooling_Mister_Spray_Mist_Cure_Eyelash_Extension_Glue_Soothes_Irritation.html'">Mini Cooling Mister Spray Mist Cure Eyelash Extension Glue Soothes Irritation</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MAXI_SENSITIVE_Glue_-_FDA_Reg_Medical_Grade_No_Fume-Irritation_Eyelash_Extension.html'">MAXI SENSITIVE Glue - FDA Reg Medical Grade No Fume/Irritation Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EPIC_L-3_Glue_Advanced_5ml_or_10mm_Excellent_Bond-Super_Quik_Eyelash_Extension.html'">EPIC L-3 Glue Advanced 5ml or 10mm Excellent Bond/Super Quik Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Xcel_Super_Bond_Glue_Xcellent_Bond_Fast_Setting_Eyelash_Extension.html'">Xcel Super Bond Glue Xcellent Bond Fast Setting Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10_Swarovski_Hot_Fix_(Glue_on)_crystals_SS34_(7mm).html'">10 Swarovski Hot Fix (Glue on) crystals SS34 (7mm)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10_Swarovski_Hot_Fix_(Glue_on)_crystals_SS34_(7mm).html'">10 Swarovski Hot Fix (Glue on) crystals SS34 (7mm)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/FDA_MAXI-POWER_Glue_-_Medical_Grade_Super_Fast-Strong_Eyelash_Extension.html'">FDA MAXI-POWER Glue - Medical Grade Super Fast/Strong Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10_Swarovski_Hot_Fix_(Glue_on)_crystals_SS34_(7mm).html'">10 Swarovski Hot Fix (Glue on) crystals SS34 (7mm)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ULTRA_SUPREME_Advanced_Tech_-_Black_Glue_Strong,_Min_Fumes_Eyelash_Extension.html'">ULTRA SUPREME Advanced Tech - Black Glue Strong, Min Fumes Eyelash Extension</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/10_Swarovski_Hot_Fix_(Glue_on)_crystals_SS34_(7mm).html'">10 Swarovski Hot Fix (Glue on) crystals SS34 (7mm)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/60_Swarovski_Hot_Fix_(Glue_on)_crystals_SS10_(3mm).html'">60 Swarovski Hot Fix (Glue on) crystals SS10 (3mm)</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{rhinestone,_christmas,_bling}.html'">{rhinestone, christmas, bling}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{colors,_brand,_nib}.html'">{colors, brand, nib}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{free,_button,_shipping}.html'">{free, button, shipping}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{mm,_eyelash,_extension}.html'">{mm, eyelash, extension}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{red,_w,_ring}.html'">{red, w, ring}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{m,_k,_exo}.html'">{m, k, exo}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{handmade,_clip,_hair}.html'">{handmade, clip, hair}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{large,_purple,_fan}.html'">{large, purple, fan}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silk,_soft,_lash}.html'">{silk, soft, lash}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{size,_gray,_great}.html'">{size, gray, great}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{blue,_brown,_green}.html'">{blue, brown, green}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{x,_top,_print}.html'">{x, top, print}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pink,_small,_medium}.html'">{pink, small, medium}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{cute,_beautiful,_sunglasses}.html'">{cute, beautiful, sunglasses}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{case,_iphone,_hard}.html'">{case, iphone, hard}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{glass,_antique,_punk}.html'">{glass, antique, punk}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{bra,_sexy,_lingerie}.html'">{bra, sexy, lingerie}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{womens,_auth,_bf}.html'">{womens, auth, bf}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{nwt,_color,_coach}.html'">{nwt, color, coach}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

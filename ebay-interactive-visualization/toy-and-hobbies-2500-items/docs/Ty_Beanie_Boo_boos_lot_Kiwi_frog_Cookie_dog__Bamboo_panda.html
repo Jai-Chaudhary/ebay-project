@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[9.0313258487, "../topics/{Beanie,_Ty,_~}.html", "{Beanie,_Ty,_~}"], [2.0313258376, "../topics/{toy,_#,_2002}.html", "{toy,_#,_2002}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Ty Beanie Boo boos lot Kiwi frog Cookie dog  Bamboo panda</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Ty Beanie Boo boos lot Kiwi frog Cookie dog  Bamboo panda</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Beanie,_Ty,_~}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Beanie,_Ty,_~}.html'">{Beanie, Ty, ~}</td></tr>
+<tr class="list"><td id="{toy,_#,_2002}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{toy,_#,_2002}.html'">{toy, #, 2002}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/TY_Attic_Treasures_Beanie_PETER_the_Holloween_Bear_with_Tags.html'">TY Attic Treasures Beanie PETER the Holloween Bear with Tags</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AJANI_GOLDMANE_03_FUNKO_POP_EXCLUSIVE_GENCON_EXCLUSIVE_MAGIC_THE_GATHERING_MTG.html'">AJANI GOLDMANE 03 FUNKO POP EXCLUSIVE GENCON EXCLUSIVE MAGIC THE GATHERING MTG</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Scat_The_Cat_TY_Beanie_Baby_Retired_Mint_Hang_Tag_In_Protector..html'">Scat The Cat TY Beanie Baby Retired Mint Hang Tag In Protector.</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rare__and_in_Mint_conditon_Ty_Valentino_Beanie_Baby_-_with_Tag_Errors.html'">Rare  and in Mint conditon Ty Valentino Beanie Baby - with Tag Errors</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Boos_Boo_s_PHANTOM_White_Ghost_6"_Plush_Baby__Halloween.html'">Ty Beanie Boos Boo's PHANTOM White Ghost 6" Plush Baby  Halloween</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TY_Alphabet_Beanie_Baby_-_Letter_L_(5.5_inch)_-_MWMT_s_Stuffed_Animal.html'">TY Alphabet Beanie Baby - Letter L (5.5 inch) - MWMT's Stuffed Animal</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/PRINCESS_DIANA_BEAR_(s)_1997_PE_Pellets_INDONESIA_No_Space_TY_BEANIE_BABY_MWMT_S.html'">PRINCESS DIANA BEAR (s) 1997 PE Pellets INDONESIA No Space TY BEANIE BABY MWMT'S</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1960_s_MULTIPLE_PRODUCTS_CORP_PLASTIC_CANNON_~_VERY_NICE_CONDITION.html'">1960's MULTIPLE PRODUCTS CORP PLASTIC CANNON ~ VERY NICE CONDITION</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RETIRED!!__Ty__Beanie_Baby_SMITTEN_BEAR_babies__bears.html'">RETIRED!!  Ty  Beanie Baby SMITTEN BEAR babies  bears</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TY_Original_Beanie_TRICKY_the_Halloween_Bear_with_Tags.html'">TY Original Beanie TRICKY the Halloween Bear with Tags</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Original_Ty_Scoop_the_Pelican_Beanie_Babies_1996_Clean_Mint_Condition.html'">Original Ty Scoop the Pelican Beanie Babies 1996 Clean Mint Condition</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Babies_1995_Spooky_Cute_Halloween_Ghost_Collectible_MWMT.html'">Ty Beanie Babies 1995 Spooky Cute Halloween Ghost Collectible MWMT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1995_"Peanut"_The_Elephant_Original_TY_Plush_Beanie_Baby_With_Tag_Retired.html'">1995 "Peanut" The Elephant Original TY Plush Beanie Baby With Tag Retired</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Boo_"Blueberry"_6"_Bottom_Tag_2010,_Undamaged_Tag,Retired.html'">Ty Beanie Boo "Blueberry" 6" Bottom Tag 2010, Undamaged Tag,Retired</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EYE_CLOP_~_NIGHT_VISION_GOGGLES_~_JAKKS_PACIFIC_2009.html'">EYE CLOP ~ NIGHT VISION GOGGLES ~ JAKKS PACIFIC 2009</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RARE!!__RETIRED!!__Ty_Beanie_Baby_Mooch_the_monkey_babies_babie.html'">RARE!!  RETIRED!!  Ty Beanie Baby Mooch the monkey babies babie</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TY_Attic_Treasures_Beanie_ALFALFA_the_Holloween_Scarecrow_Bear_with_Tags.html'">TY Attic Treasures Beanie ALFALFA the Holloween Scarecrow Bear with Tags</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/20_TY_Halloween_Beanie_Babies_Retired_MWT_(mint_with_tag)_1999-2004..html'">20 TY Halloween Beanie Babies Retired MWT (mint with tag) 1999-2004.</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1997_"Pounce"_The_Kitten_Original_TY_Plush_Beanie_Baby_With_Tag_Retired.html'">1997 "Pounce" The Kitten Original TY Plush Beanie Baby With Tag Retired</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/GIGANTIC_Beanie_Baby_LOT_35+_1990_s_TY_Beanies_NEW_w-_Tags_*_Includes_Rare.html'">GIGANTIC Beanie Baby LOT 35+ 1990's TY Beanies NEW w/ Tags * Includes Rare</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Baby_HELLO_KITTY_RED_DEVIL_Halloween_MINT_with_TAGS_Retired.html'">Ty Beanie Baby HELLO KITTY RED DEVIL Halloween MINT with TAGS Retired</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/OEJ_~_Memoir_44_~_D-Day_Landings.html'">OEJ ~ Memoir 44 ~ D-Day Landings</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Babies_Peanut_The_Royal_Blue_Elephant_(MWMT).html'">Ty Beanie Babies Peanut The Royal Blue Elephant (MWMT)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/_Valentino__Bear_Ty_Beanie_Baby_-_MINT_-_RETIRED.html'">'Valentino' Bear Ty Beanie Baby - MINT - RETIRED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Swoops_Jinxy_&_Scarem_Halloween_Beanie_Boos_Stuffed_Animal_Plush_Toy_Set_of_3.html'">Ty Swoops Jinxy & Scarem Halloween Beanie Boos Stuffed Animal Plush Toy Set of 3</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2_TY_BEANIE_BOO_CLEO_the_BUSH_BABY_Size:_6"_&_10"_-_UK_EXCLUSIVE_-_NWT_-_Rare_-.html'">2 TY BEANIE BOO CLEO the BUSH BABY Size: 6" & 10" - UK EXCLUSIVE - NWT - Rare -</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RARE_TY_Beanie_Baby_Floppity_Purple_Bunny_Retired_Misspelled_Swing_Tag.html'">RARE TY Beanie Baby Floppity Purple Bunny Retired Misspelled Swing Tag</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Babies_Coral_the_Tye-Dye_Fish_Card_#d_-2352_(1999).html'">Ty Beanie Babies Coral the Tye-Dye Fish Card #d /2352 (1999)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ty_Beanie_Boos_Ghosty_the_Halloween_Ghost_6"_MWMT_Sparkle_Eyes.html'">Ty Beanie Boos Ghosty the Halloween Ghost 6" MWMT Sparkle Eyes</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rare_Princess_Diana_Ty_Beanie_Baby_1997_PE_pellets_Mint_in_Case.html'">Rare Princess Diana Ty Beanie Baby 1997 PE pellets Mint in Case</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

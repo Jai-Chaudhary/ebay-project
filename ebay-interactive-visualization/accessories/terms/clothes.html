@@ -1,0 +1,155 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-4.8934534287, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-26.9726440798, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-39.8328607204, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-47.5309639584, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-50.3578976105, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-51.0870950514, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-54.3885932622, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-54.4424337119, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-56.4859286489, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-60.2882952756, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-63.7955831988, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-70.342256178, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-71.9012380975, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-80.0823957345, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-80.7687080669, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-83.6877464888, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-83.8647112201, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-84.9041041227, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-87.0233152087, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-88.511788431, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-89.6129677357, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-90.1561972051, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-90.1816634572, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-92.7587955333, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-94.168054023, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-94.8773121479, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-107.167592736, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-107.185102176, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-107.21709971, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-108.977360052, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-120.714190244, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-123.337016582, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-123.810600582, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-129.171468769, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-131.14026116, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-135.551069506, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-136.3083599, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-141.472115266, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-141.561470845, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-142.221056305, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-143.676450949, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-147.309625568, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-147.389797694, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-149.574338155, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-149.778399632, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-150.247870311, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-153.736164282, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-174.346274564, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-198.381703487, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"], [-200.04065245, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>clothes</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">clothes</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/olive.html'">olive</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/heels.html'">heels</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/cozy.html'">cozy</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/fairy.html'">fairy</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/mug.html'">mug</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/snake.html'">snake</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/adult.html'">adult</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/house.html'">house</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/makes.html'">makes</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/bare.html'">bare</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/bcbg.html'">bcbg</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/wet.html'">wet</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ultimate.html'">ultimate</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/za.html'">za</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/caddy.html'">caddy</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/retail.html'">retail</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/spf.html'">spf</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/june.html'">june</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/foundation.html'">foundation</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/escentuals.html'">escentuals</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/4_Alexander_Wang_X_For_H&M_Black_Clothes_Hangers.html'">4 Alexander Wang X For H&M Black Clothes Hangers</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vera_Bradley_Ditty_Bag_~_Twirly_Birds_Pink_~_Carries_Wet_Clothes_~_New_with_Tags.html'">Vera Bradley Ditty Bag ~ Twirly Birds Pink ~ Carries Wet Clothes ~ New with Tags</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Package_1_pair_of_Garment_Shields_for_clothes,_protects_from_underarm_stains.html'">New Package 1 pair of Garment Shields for clothes, protects from underarm stains</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Decorative_Clothes_Hangers_and_Sachets.html'">Decorative Clothes Hangers and Sachets</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Womens_Clothes_Closet_Hanger_Rack_Size_Dividers_4-22-.html'">Womens Clothes Closet Hanger Rack Size Dividers 4-22-</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/JUICY_COUTURE_Travel_Dress_Clothes_Organizer_Love_Garment_Bag_53_x_24_Brown.html'">JUICY COUTURE Travel Dress Clothes Organizer Love Garment Bag 53 x 24 Brown</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fashion_Multi_Color_Cotton_False_Fake_Neck_Collar_Ladies_Women_Clothes_Accessory.html'">Fashion Multi Color Cotton False Fake Neck Collar Ladies Women Clothes Accessory</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Retired_Navy_Vera_Bradley_DITTY__Wet__BAG_Clothes_Lunch.html'">Retired Navy Vera Bradley DITTY 'Wet' BAG Clothes Lunch</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vera_Bradley_Mod_Floral_Pink_Cloth_Hangers_Set_Lot_of_3_Clothes_Padded.html'">Vera Bradley Mod Floral Pink Cloth Hangers Set Lot of 3 Clothes Padded</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Womens_Clothes-Closet_Hanger_Rack_Size_Dividers_Sz_4-22.html'">Womens Clothes-Closet Hanger Rack Size Dividers Sz 4-22</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{size,_gray,_great}.html'">{size, gray, great}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{glass,_antique,_punk}.html'">{glass, antique, punk}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pink,_small,_medium}.html'">{pink, small, medium}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{blue,_brown,_green}.html'">{blue, brown, green}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pouch,_travel,_cosmetic}.html'">{pouch, travel, cosmetic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{x,_top,_print}.html'">{x, top, print}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{bag,_makeup,_belt}.html'">{bag, makeup, belt}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{collar,_choker,_detachable}.html'">{collar, choker, detachable}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{womens,_auth,_bf}.html'">{womens, auth, bf}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vintage,_authentic,_chanel}.html'">{vintage, authentic, chanel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vera,_bradley,_pattern}.html'">{vera, bradley, pattern}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{women,_round,_compact}.html'">{women, round, compact}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{style,_accessory,_fabric}.html'">{style, accessory, fabric}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{fashion,_crystal,_lady}.html'">{fashion, crystal, lady}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{case,_iphone,_hard}.html'">{case, iphone, hard}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{ladies,_glasses,_lot}.html'">{ladies, glasses, lot}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{new,_design,_classic}.html'">{new, design, classic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{rhinestone,_christmas,_bling}.html'">{rhinestone, christmas, bling}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{large,_purple,_fan}.html'">{large, purple, fan}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{leather,_purse,_handbag}.html'">{leather, purse, handbag}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

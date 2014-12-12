@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[6.0313258432, "../topics/{Toys,_Antique,_Cast}.html", "{Toys,_Antique,_Cast}"], [1.0313258432, "../topics/{Toy,_and,_Set}.html", "{Toy,_and,_Set}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Antique Arcade Cast Iron Toy Wheel Barrow</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Antique Arcade Cast Iron Toy Wheel Barrow</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Toys,_Antique,_Cast}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Toys,_Antique,_Cast}.html'">{Toys, Antique, Cast}</td></tr>
+<tr class="list"><td id="{Toy,_and,_Set}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Toy,_and,_Set}.html'">{Toy, and, Set}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Solar_Powered_Dancing_Fall_Halloween_Pumpkin_NEW!.html'">Solar Powered Dancing Fall Halloween Pumpkin NEW!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Antique_Tin_Toy_R7_Wind_Up_Robot!_No_Reserve!.html'">Antique Tin Toy R7 Wind Up Robot! No Reserve!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Halloween_McNugget_Buddies~Dracula_McNugget~McDonald_s_1992.html'">Halloween McNugget Buddies~Dracula McNugget~McDonald's 1992</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/My_Pet_Monster_1986_Amtoy_26_inch_Plush_Vintage_Animal_No_Cuffs.html'">My Pet Monster 1986 Amtoy 26 inch Plush Vintage Animal No Cuffs</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Monster_High_Sweet_Screams_Abbey_Bominable_Doll.html'">Monster High Sweet Screams Abbey Bominable Doll</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Five_complete_Timpo_Toys_"_swoppet"_Plains_Indians_with_horses_playset_figures.html'">Five complete Timpo Toys " swoppet" Plains Indians with horses playset figures</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HUGE_McDonald_s_Happy_Meal_Toy_Lot_19_Toys_Early_1990s_Tonka_Hot_Wheels_Lego.html'">HUGE McDonald's Happy Meal Toy Lot 19 Toys Early 1990s Tonka Hot Wheels Lego</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Solar_Powered_Dancing_Pig.html'">Solar Powered Dancing Pig</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cast_iron_fordson_tractor.html'">Cast iron fordson tractor</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Solar_Dancing_Halloween_Pumpkin.html'">New Solar Dancing Halloween Pumpkin</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/FISHER_PRICE_LITTLE_PEOPLE_LOT_DOLLHOUSE_#2511_1996_MOM_DAD_BABY_FURNITURE_BUS.html'">FISHER PRICE LITTLE PEOPLE LOT DOLLHOUSE #2511 1996 MOM DAD BABY FURNITURE BUS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Urban_Sprawl_by_GMT_2011_mint_in_shrink.html'">Urban Sprawl by GMT 2011 mint in shrink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1996_McDonald_s_Happy_Meal_Toy,_Disney_s_Hercules_Phil_and_Nessus_Action_Toy.html'">1996 McDonald's Happy Meal Toy, Disney's Hercules Phil and Nessus Action Toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Antique_Cast_Iron_Toy_Monkey_Riding_a_Pig_Circus_Carnival.html'">Antique Cast Iron Toy Monkey Riding a Pig Circus Carnival</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Solar_Circus_Toys.html'">Solar Circus Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_1986_Alf_Doll.html'">Vintage 1986 Alf Doll</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Thomas_The_Train-The_Scrap_Monster.html'">Thomas The Train-The Scrap Monster</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rally_Balance_Bike_Training_No_Pedal_Push_Bicycle_Blue.html'">Rally Balance Bike Training No Pedal Push Bicycle Blue</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rally_Balance_Bike_Training_No_Pedal_Push_Bicycle_Green.html'">Rally Balance Bike Training No Pedal Push Bicycle Green</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Avon_Halloween_Dog___Pete_sings_and_dances_We_Got_The_Treats.html'">Avon Halloween Dog   Pete sings and dances We Got The Treats</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Solar_Powered_Dancing_Halloween_Haunted_House_With_Ghosts_NEW!.html'">Solar Powered Dancing Halloween Haunted House With Ghosts NEW!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Skylanders_Giants_Halloween_Pumpkin_Eye_Brawl_RARE_Figure+Card+Code.html'">Skylanders Giants Halloween Pumpkin Eye Brawl RARE Figure+Card+Code</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_Hulk_Keychain.html'">Lego Hulk Keychain</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Solar_Powered_Swinging_Monkey_On_A_Tree_NEW!.html'">Solar Powered Swinging Monkey On A Tree NEW!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/McDonalds_Toys_Full_Set_of_Pokemon_Toys_Set_of_12_New_&_Sealed_With_Cards_2014.html'">McDonalds Toys Full Set of Pokemon Toys Set of 12 New & Sealed With Cards 2014</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tunisia.html'">Tunisia</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/6_Solar_Power_Motion_Toy_-_Dancing_Snowman_Christmas_Gift_Decoration.html'">6 Solar Power Motion Toy - Dancing Snowman Christmas Gift Decoration</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cuddle_Pet.html'">Cuddle Pet</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

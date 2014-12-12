@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-3.5665675007, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-126.546226494, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-129.886008148, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-132.655390648, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-138.068973935, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-145.017994373, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-147.773734652, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-148.56119842, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-150.638411565, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-153.140371155, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-153.177928788, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-158.478550223, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-162.379147572, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-166.927445492, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-169.154345003, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-170.582625009, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-170.706397641, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-171.770685062, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-174.29284259, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-175.921209269, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-176.278090124, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-177.037774213, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-177.347108558, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-177.968771806, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-180.138962351, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-180.173532168, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-183.32577092, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-185.650510488, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-186.170609603, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-190.802294548, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-192.777531193, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-194.05114918, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-197.389780983, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-198.192736675, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-200.721942048, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-203.270294609, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-206.340204514, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-209.482390332, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-211.193004369, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-215.076091569, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-215.147396767, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-216.659302179, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-221.86273322, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-222.251430587, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"], [-222.669568934, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-222.9418242, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-230.669116917, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-236.449106255, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-245.510809996, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-271.740756722, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>zircon</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">zircon</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/dangle.html'">dangle</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/e.html'">e</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/hollow.html'">hollow</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/fe.html'">fe</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/tribal.html'">tribal</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/heart.html'">heart</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/moon.html'">moon</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/exclusive.html'">exclusive</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/delicate.html'">delicate</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ethnic.html'">ethnic</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/starfish.html'">starfish</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/asian.html'">asian</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/price.html'">price</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/kinnauri.html'">kinnauri</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/hooks.html'">hooks</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/sterling.html'">sterling</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/drop.html'">drop</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/coming.html'">coming</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/twist.html'">twist</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/pure.html'">pure</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/925Sterling_Silver_Zircon_Letter__"LOVE"_Women_Accessories_Necklace_18"_N295.html'">925Sterling Silver Zircon Letter  "LOVE" Women Accessories Necklace 18" N295</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Nw_925Sterling_Silver_Zircon_Delicate_Women_Accessories_Necklace_18"_N428.html'">Nw 925Sterling Silver Zircon Delicate Women Accessories Necklace 18" N428</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/925Sterling_Silver_Zircon_Dericate_Butterfly_Accessories_Necklace_18"_FN311.html'">925Sterling Silver Zircon Dericate Butterfly Accessories Necklace 18" FN311</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_925Sterling_Silver_Zircon_Simple_Circle_Accessories_Stick_Earrings_FE398.html'">New 925Sterling Silver Zircon Simple Circle Accessories Stick Earrings FE398</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/925Sterling_Silver_Zircon_Dlicate_Triangle_Accessories_Stick_Earrings_FE395.html'">925Sterling Silver Zircon Dlicate Triangle Accessories Stick Earrings FE395</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_925Silver_Zircon_Combined_Water-drop_Flower_Accessories_Ring_#8_R277.html'">New 925Silver Zircon Combined Water-drop Flower Accessories Ring #8 R277</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/925Sterling_Silver_Zircon_Dericate_Rice_Bead_Accessories_Necklace_18inch_N369.html'">925Sterling Silver Zircon Dericate Rice Bead Accessories Necklace 18inch N369</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/925Sterling_Silver_Zircon_Dericate_Heart_Accessories_Necklace_18inch_FN371.html'">925Sterling Silver Zircon Dericate Heart Accessories Necklace 18inch FN371</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_925Sterling_Silver_Zircon_Delicate_Square_Flower_Women_Stick_Earrings_E365.html'">New 925Sterling Silver Zircon Delicate Square Flower Women Stick Earrings E365</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/925Sterling_Silver_Zircon_Dericate_Starfish_Women_Accessories_Necklace_18"_P030.html'">925Sterling Silver Zircon Dericate Starfish Women Accessories Necklace 18" P030</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/925Sterling_Silver_Purple_Zircon_Flower_Women_Accessories_Stick_Earrings_FE493.html'">925Sterling Silver Purple Zircon Flower Women Accessories Stick Earrings FE493</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_925Sterling_Silver_Zircon_Combiened_Spindle_Women_Dangle_Earrings_FE485.html'">New 925Sterling Silver Zircon Combiened Spindle Women Dangle Earrings FE485</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Best_Gift_925Sterling_Silver_Zircon_Delicate_Heart_Women_Dangle_Earrings_FE441.html'">Best Gift 925Sterling Silver Zircon Delicate Heart Women Dangle Earrings FE441</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New__925Sterling_Silver_Zircon_Willow_leaves_Women_s_Accessories_Ring_#8_R316.html'">New  925Sterling Silver Zircon Willow leaves Women's Accessories Ring #8 R316</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New__925Sterling_Silver_Zircon_Delicate_Heart_Accessories_Dangle_Earrings_E504.html'">New  925Sterling Silver Zircon Delicate Heart Accessories Dangle Earrings E504</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/925Sterling_Silver_Zircon_Sexy_Red_Lip_Womens_Accessores_Stick_Earrings_E508.html'">925Sterling Silver Zircon Sexy Red Lip Womens Accessores Stick Earrings E508</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_925Sterling_Silver_Zircon_Crossed_"X"_Womens_Accesories_Stick_Earrings_E499.html'">New 925Sterling Silver Zircon Crossed "X" Womens Accesories Stick Earrings E499</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Fashion_925Sterling_Silver_Use_Zircon_Open_Up_O_Accessories_Ring_FR028.html'">New Fashion 925Sterling Silver Use Zircon Open Up O Accessories Ring FR028</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fashion_925Sterling_Silver_Zircon_Dolphin_Women_Accessories_Earrings_FE270.html'">Fashion 925Sterling Silver Zircon Dolphin Women Accessories Earrings FE270</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fashion_925Sterling_Silver_Use_Zircon_Word_"LOVE"_Lady_s_Accessories_Necklace.html'">Fashion 925Sterling Silver Use Zircon Word "LOVE" Lady's Accessories Necklace</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silver,_earrings,_accessories}.html'">{silver, earrings, accessories}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{red,_w,_ring}.html'">{red, w, ring}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{glass,_antique,_punk}.html'">{glass, antique, punk}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{women,_round,_compact}.html'">{women, round, compact}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{necklace,_chain,_pendant}.html'">{necklace, chain, pendant}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{flower,_brooch,_pin}.html'">{flower, brooch, pin}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{set,_gift,_box}.html'">{set, gift, box}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{jewelry,_necklace,_hot}.html'">{jewelry, necklace, hot}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{m,_k,_exo}.html'">{m, k, exo}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{new,_design,_classic}.html'">{new, design, classic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{free,_button,_shipping}.html'">{free, button, shipping}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{fashion,_crystal,_lady}.html'">{fashion, crystal, lady}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{x,_top,_print}.html'">{x, top, print}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{style,_accessory,_fabric}.html'">{style, accessory, fabric}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{blue,_brown,_green}.html'">{blue, brown, green}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{bracelet,_watch,_quartz}.html'">{bracelet, watch, quartz}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{size,_gray,_great}.html'">{size, gray, great}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{womens,_auth,_bf}.html'">{womens, auth, bf}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{shoulder,_handbag,_tags}.html'">{shoulder, handbag, tags}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

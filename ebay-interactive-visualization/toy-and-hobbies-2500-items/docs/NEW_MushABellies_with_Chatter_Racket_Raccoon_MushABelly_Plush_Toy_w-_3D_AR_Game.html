@@ -1,0 +1,157 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[10.0302157643, "../topics/{and,_Game,_w/}.html", "{and,_Game,_w/}"], [2.0313229626, "../topics/{Toy,_Plush,_Stuffed}.html", "{Toy,_Plush,_Stuffed}"], [1.0324388027, "../topics/{with,_by,_mint}.html", "{with,_by,_mint}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>NEW MushABellies with Chatter Racket Raccoon MushABelly Plush Toy w/ 3D AR Game</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">NEW MushABellies with Chatter Racket Raccoon MushABelly Plush Toy w/ 3D AR Game</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{and,_Game,_w/}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{and,_Game,_w/}.html'">{and, Game, w/}</td></tr>
+<tr class="list"><td id="{Toy,_Plush,_Stuffed}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Toy,_Plush,_Stuffed}.html'">{Toy, Plush, Stuffed}</td></tr>
+<tr class="list"><td id="{with,_by,_mint}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{with,_by,_mint}.html'">{with, by, mint}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/4_Count_Day_of_the_Dead_Sugar_Skull_Rubber_Ducks-NEW_2_Inches_Tall_Toy.html'">4 Count Day of the Dead Sugar Skull Rubber Ducks-NEW 2 Inches Tall Toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Minecraft_Sword-Pick_Axe-Pickaxe_EVA_FOAM-Iron-Diamond_Gold_Tool-Hand_Held_Game.html'">Minecraft Sword/Pick Axe/Pickaxe EVA FOAM/Iron/Diamond Gold Tool/Hand Held Game</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/5_Walking_dead_elastic_hair_ties_-_walking_dead_headband_zombie_ribbon_bracelet.html'">5 Walking dead elastic hair ties - walking dead headband zombie ribbon bracelet</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Black_Ultra_Pro_Binder_Pro-Binder_9_Pocket_360_Card_Book_Sideloading.html'">Black Ultra Pro Binder Pro-Binder 9 Pocket 360 Card Book Sideloading</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2014_Puppy_Surprise_Sugar_and_Her_Pups_Mint_NIB.html'">2014 Puppy Surprise Sugar and Her Pups Mint NIB</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_McFarlane_Toys_The_Walking_Dead,_Exclusive_Action_Figure,_Daryl_Dixon.html'">NEW McFarlane Toys The Walking Dead, Exclusive Action Figure, Daryl Dixon</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RARE_Plastic_Wind_Up_Toy_Robot_Late_1960s_70s__3_and_3-4_Inches_Tall.html'">RARE Plastic Wind Up Toy Robot Late 1960s 70s  3 and 3/4 Inches Tall</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1971_Topper_KING_DING_and_his_BRAIN_ROBOT-works!_Ding_a_Lings,_and_Box!.html'">1971 Topper KING DING and his BRAIN ROBOT-works! Ding a Lings, and Box!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Monkeys_In_A_Barrel_Classic_Game_-_Tons_of_Fun!.html'">Monkeys In A Barrel Classic Game - Tons of Fun!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Walking_Dead_Building_Set_Michonne_MiniFig_Figure_New_Open_Pack.html'">Walking Dead Building Set Michonne MiniFig Figure New Open Pack</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zombie_corpse_halloween_Doll_16"_Tall.html'">Zombie corpse halloween Doll 16" Tall</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/funko_Walking_Dead_Series_1_Mystery_Minis.html'">funko Walking Dead Series 1 Mystery Minis</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Disney_Doc_McStuffins_Operation_Game.html'">Disney Doc McStuffins Operation Game</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Puppy_Surprise_Popcorn_Plush.html'">Puppy Surprise Popcorn Plush</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Puppy_Surprise_"Popcorn"_White-_Pink_3,4,_Or_5_Puppies.html'">New Puppy Surprise "Popcorn" White/ Pink 3,4, Or 5 Puppies</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Kids_Scoot_Along_Ace_Airplane_Ride_on_Toy_all_Steel_Construction.html'">Kids Scoot Along Ace Airplane Ride on Toy all Steel Construction</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Classic_Magic_8-Ball_Toy_by_Mattel_-_New_in_Box!.html'">Classic Magic 8-Ball Toy by Mattel - New in Box!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Minecraft_Large_Plush_Spider.html'">Minecraft Large Plush Spider</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Whoopie_Cushion_8".html'">Whoopie Cushion 8"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Stretchkins_Unicorn_-_Pink.html'">Stretchkins Unicorn - Pink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mechanical_Donkey_-_Horse.html'">Mechanical Donkey / Horse</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

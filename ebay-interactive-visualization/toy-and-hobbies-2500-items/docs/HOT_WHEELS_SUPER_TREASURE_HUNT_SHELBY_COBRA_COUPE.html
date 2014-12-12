@@ -1,0 +1,155 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[8.0313258432, "../topics/{WHEELS,_CAR,_HOT}.html", "{WHEELS,_CAR,_HOT}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>HOT WHEELS SUPER TREASURE HUNT SHELBY COBRA COUPE</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">HOT WHEELS SUPER TREASURE HUNT SHELBY COBRA COUPE</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{WHEELS,_CAR,_HOT}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{WHEELS,_CAR,_HOT}.html'">{WHEELS, CAR, HOT}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Zoomer_Robot_Dog_battery_power_WALL_CHARGER_for_sale_sell_replace_replacement.html'">Zoomer Robot Dog battery power WALL CHARGER for sale sell replace replacement</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1-64_BY_HOT_WHEELS__72_FORD_RANCHARO.html'">1/64 BY HOT WHEELS '72 FORD RANCHARO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SPEED_WHEELS_SERIES_V_WHITE_FIREBIRD_VAN_UNPUNCHED.html'">SPEED WHEELS SERIES V WHITE FIREBIRD VAN UNPUNCHED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fly_CORVETTE_C5_Convertible_In_Clear_DISPLAY_1-32_slot_car.html'">Fly CORVETTE C5 Convertible In Clear DISPLAY 1/32 slot car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1-32_VINTAGE_SLOT_CAR_BERGMAN_MASERATI_BIRDCAGE_BODY_ON_ROUGH_CARD.html'">1/32 VINTAGE SLOT CAR BERGMAN MASERATI BIRDCAGE BODY ON ROUGH CARD</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/A_CUSTOM_AFX_WHITE_55_CHEVY_GASSER!_W-WELD_WHEELS!.html'">A CUSTOM AFX WHITE 55 CHEVY GASSER! W/WELD WHEELS!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/VINTAGE_AURORA_AFX_55_CHEVY_BEL_AIR_SLOT_CAR,_ORANGE.html'">VINTAGE AURORA AFX 55 CHEVY BEL AIR SLOT CAR, ORANGE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/VINTAGE_AURORA_TJET_CHASSIS_HO_SLOT_CAR_RECONDITIONED.html'">VINTAGE AURORA TJET CHASSIS HO SLOT CAR RECONDITIONED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/A_DASH_TJET_POWERED_BLACK_66_FORD_FAIRLANE!_W-CUSTOM_WHEELS!.html'">A DASH TJET POWERED BLACK 66 FORD FAIRLANE! W/CUSTOM WHEELS!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO_SELL_OFF_LOT_8_TRAIN_CAR_&_ENGINE_PARTS_RAILROAD_TRAIN_SET_SCENES_DISPLAY.html'">HO SELL OFF LOT 8 TRAIN CAR & ENGINE PARTS RAILROAD TRAIN SET SCENES DISPLAY</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_AFX_GIANT_RACETRACK_HO_SLOT_CAR_RACING_SET_WITH_EXTRA_NEW_CAR!!.html'">NEW AFX GIANT RACETRACK HO SLOT CAR RACING SET WITH EXTRA NEW CAR!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AURORA_G_PLUS_LOT.html'">AURORA G PLUS LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/N__SCALE_TRAIN_ENGINES.html'">N  SCALE TRAIN ENGINES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TOY_-_MODEL_BOAT_FLAG_~_ORIGINAL_1950_s_~_60_s_~_MADE_IN_JAPAN.html'">TOY / MODEL BOAT FLAG ~ ORIGINAL 1950's ~ 60's ~ MADE IN JAPAN</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LIONEL_O_SCALE_FLAT_BED_TRUCK_WITH_TRAIN_CAR_NICE_IN_THE_BOX_TMT-18410_LIONEL_!.html'">LIONEL O SCALE FLAT BED TRUCK WITH TRAIN CAR NICE IN THE BOX TMT-18410 LIONEL !</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Matchbox_STINKY_THE_GARBAGE_TRUCK_Interactive_Talking_Electronic_-_Large.html'">Matchbox STINKY THE GARBAGE TRUCK Interactive Talking Electronic - Large</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Interactive_dog_Bentley.html'">Interactive dog Bentley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mechanical_Donkey_-_Horse.html'">Mechanical Donkey / Horse</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Stretchkins_Unicorn_-_Pink.html'">Stretchkins Unicorn - Pink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Crystal_Radio_Set_-_Assembled.html'">Crystal Radio Set - Assembled</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EUC_Wild_Planet_Radio_DJ.html'">EUC Wild Planet Radio DJ</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

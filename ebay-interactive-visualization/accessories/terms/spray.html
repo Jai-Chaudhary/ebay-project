@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-4.1526268832, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-151.255724246, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-155.61427697, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-165.629048527, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-169.826128326, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-182.585057987, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-188.224684453, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-193.351167327, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-194.94472338, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-210.391913814, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-226.697745897, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-229.24231067, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-230.995185161, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-231.252873723, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-236.783294736, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-238.837807674, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-239.665487419, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-240.415169809, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-241.252806317, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-241.932831276, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-242.791953476, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-243.357826568, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-243.848217827, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-245.830212928, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-246.163976686, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-246.643219973, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-247.097016604, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-247.158845258, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-247.317197328, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-248.595139674, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-251.459934283, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-252.128135596, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-254.376466388, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-254.700582558, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-257.826143987, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-259.895867931, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-260.204282815, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-260.429050507, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-261.824477375, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-262.192892692, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-262.251761897, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-265.861966202, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-266.017092979, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-267.613609581, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-270.027563737, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-272.44730934, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-277.278984986, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-280.902228902, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-316.024648618, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"], [-317.696642614, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>spray</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">spray</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/portable.html'">portable</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/bottle.html'">bottle</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/oz.html'">oz</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ml.html'">ml</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/de.html'">de</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/find.html'">find</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/perfume.html'">perfume</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lauren.html'">lauren</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/hollywood.html'">hollywood</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ralph.html'">ralph</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/sealed.html'">sealed</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/forever.html'">forever</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lilly.html'">lilly</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/strips.html'">strips</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/holders.html'">holders</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/west.html'">west</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/secrets.html'">secrets</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/refillable.html'">refillable</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/cap.html'">cap</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/nine.html'">nine</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ed_Hardy_Hearts_&_Daggers__for_Women_1.7oz__Spray,0.25oz_Spray,3oz_Body_Lotion.html'">Ed Hardy Hearts & Daggers  for Women 1.7oz  Spray,0.25oz Spray,3oz Body Lotion</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mackie_Women_s_1.7-ounce_Eau_De_Toilette_Spray_NEW.html'">Mackie Women's 1.7-ounce Eau De Toilette Spray NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mackie_Women_s_1.7-ounce_Eau_De_Toilette_Spray_NEW.html'">Mackie Women's 1.7-ounce Eau De Toilette Spray NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mini_Cooling_Mister_Spray_Mist_Cure_Eyelash_Extension_Glue_Soothes_Irritation.html'">Mini Cooling Mister Spray Mist Cure Eyelash Extension Glue Soothes Irritation</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tommy_Hilfiger__Tommy_Girl__Women_s_3.4-ounce_Cologne_Spray_Brand_New!.html'">Tommy Hilfiger 'Tommy Girl' Women's 3.4-ounce Cologne Spray Brand New!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New!_Sealed_Givenchy_Organza_Women_s_1.7-ounce_Eau_De_Parfum_Spray.html'">New! Sealed Givenchy Organza Women's 1.7-ounce Eau De Parfum Spray</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Spike_Stud_Earings_Double_Pearl_Pair_Pearlized_Chic_Womens_Fashion_Spray_Earring.html'">Spike Stud Earings Double Pearl Pair Pearlized Chic Womens Fashion Spray Earring</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Paris_Hilton_Women_s_Set_1_oz__Spray,_3_oz_Body_Gel_,3oz_Body_Lotion.html'">Paris Hilton Women's Set 1 oz  Spray, 3 oz Body Gel ,3oz Body Lotion</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Britney_Spears_Cirus_Fantasy_EAU_De_Parfum_Spray_1_FL_Oz___BRAND_NEW.html'">Britney Spears Cirus Fantasy EAU De Parfum Spray 1 FL Oz   BRAND NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/5ml_12ml_Portable_Travel_Perfume_Spray_Bottle_Refillable_Empty_Pump_Atomiser.html'">5ml 12ml Portable Travel Perfume Spray Bottle Refillable Empty Pump Atomiser</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mini_Cooling_Mister_Spray_Mist_Cure_Eyelash_Extension_Glue_Soothes_Irritation.html'">Mini Cooling Mister Spray Mist Cure Eyelash Extension Glue Soothes Irritation</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Nine_West_-_Love_Fury_-_Tote_Bag,_Parfum,_Body_Lotion,_Purse_Spray,_Set.html'">Nine West - Love Fury - Tote Bag, Parfum, Body Lotion, Purse Spray, Set</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ROMANCE_BY_RALPH_LAUREN_WOMEN_PERFUME_3.4_OZ_EDP_SPRAY_NIB_SEALED.html'">ROMANCE BY RALPH LAUREN WOMEN PERFUME 3.4 OZ EDP SPRAY NIB SEALED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ROMANCE_BY_RALPH_LAUREN_WOMEN_PERFUME_3.4_OZ_EDP_SPRAY_NIB_SEALED.html'">ROMANCE BY RALPH LAUREN WOMEN PERFUME 3.4 OZ EDP SPRAY NIB SEALED</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/19colors!!__5ML_Empty_Refillable_Perfume_Atomizer_Bottle_for_Spray_Pump_Case.html'">19colors!!  5ML Empty Refillable Perfume Atomizer Bottle for Spray Pump Case</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lancome_Poeme_Women_s_3.4_oz_100_ml_Perfume_EDP_Eau_de_Parfum_Spray_SHIP_PRIORIT.html'">Lancome Poeme Women's 3.4 oz 100 ml Perfume EDP Eau de Parfum Spray SHIP PRIORIT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/19colors!!__5ML_Empty_Refillable_Perfume_Atomizer_Bottle_for_Spray_Pump_Case.html'">19colors!!  5ML Empty Refillable Perfume Atomizer Bottle for Spray Pump Case</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/19colors!!__5ML_Empty_Refillable_Perfume_Atomizer_Bottle_for_Spray_Pump_Case.html'">19colors!!  5ML Empty Refillable Perfume Atomizer Bottle for Spray Pump Case</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/19colors!!__5ML_Empty_Refillable_Perfume_Atomizer_Bottle_for_Spray_Pump_Case.html'">19colors!!  5ML Empty Refillable Perfume Atomizer Bottle for Spray Pump Case</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/19colors!!__5ML_Empty_Refillable_Perfume_Atomizer_Bottle_for_Spray_Pump_Case.html'">19colors!!  5ML Empty Refillable Perfume Atomizer Bottle for Spray Pump Case</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{colors,_brand,_nib}.html'">{colors, brand, nib}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{fashion,_crystal,_lady}.html'">{fashion, crystal, lady}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pocket,_mirror,_double}.html'">{pocket, mirror, double}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{glass,_antique,_punk}.html'">{glass, antique, punk}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{set,_gift,_box}.html'">{set, gift, box}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{women,_round,_compact}.html'">{women, round, compact}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{case,_iphone,_hard}.html'">{case, iphone, hard}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{womens,_auth,_bf}.html'">{womens, auth, bf}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{flower,_brooch,_pin}.html'">{flower, brooch, pin}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{new,_design,_classic}.html'">{new, design, classic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{rhinestone,_christmas,_bling}.html'">{rhinestone, christmas, bling}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{cute,_beautiful,_sunglasses}.html'">{cute, beautiful, sunglasses}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{leather,_purse,_handbag}.html'">{leather, purse, handbag}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{bracelet,_watch,_quartz}.html'">{bracelet, watch, quartz}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{bag,_makeup,_belt}.html'">{bag, makeup, belt}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silk,_soft,_lash}.html'">{silk, soft, lash}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{style,_accessory,_fabric}.html'">{style, accessory, fabric}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{holder,_card,_wallet}.html'">{holder, card, wallet}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{red,_w,_ring}.html'">{red, w, ring}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

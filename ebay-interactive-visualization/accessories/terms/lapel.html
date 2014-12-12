@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-3.6885860725, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-82.0911149695, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-106.770948452, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-120.939520528, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-123.656009921, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-124.345183886, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-137.610774613, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-143.901151442, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-144.077870934, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-144.315449731, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-145.183270972, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-145.971526058, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-149.975703121, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-153.649174318, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-153.667324157, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-156.562931416, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-163.439564169, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-168.880152355, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-177.138205191, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-177.186954008, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-177.695436266, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-178.999608125, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-182.48888169, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-189.258409064, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-189.836314227, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-190.480105312, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-190.735961357, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-191.083291092, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-192.706324774, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-193.886751708, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-194.053427708, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-194.522744041, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-195.503511747, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-195.897721082, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-196.740644664, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-198.377869772, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-199.403699862, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-202.15335687, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-202.422814265, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-203.884258129, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-205.608704257, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-206.205562381, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-207.691921941, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-210.338192576, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-215.334541456, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-217.172276811, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-229.532746223, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-239.065542991, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-264.075477209, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"], [-265.943435931, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>lapel</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">lapel</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/false.html'">false</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/pan.html'">pan</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/removable.html'">removable</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/flowers.html'">flowers</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/peter.html'">peter</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/blouse.html'">blouse</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/tie.html'">tie</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/unisex.html'">unisex</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/fake.html'">fake</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/knot.html'">knot</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/office.html'">office</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/linen.html'">linen</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/homemade.html'">homemade</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ecru.html'">ecru</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/edging.html'">edging</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/vneck.html'">vneck</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ties.html'">ties</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/peterpan.html'">peterpan</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/ripped.html'">ripped</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/bohemia.html'">bohemia</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_Detachable_Faux_Fake_Lapel_Collar_Necklace_Removable_Choker_Lace_Embroider.html'">Women Detachable Faux Fake Lapel Collar Necklace Removable Choker Lace Embroider</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_Detachable_Faux_Fake_Lapel_Collar_Necklace_Removable_Choker_Lace_Embroider.html'">Women Detachable Faux Fake Lapel Collar Necklace Removable Choker Lace Embroider</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Women_s__Detachable_Check_Fake_Lapel_Shirt_Collar_Necklace_Removable_Choker.html'">New Women's  Detachable Check Fake Lapel Shirt Collar Necklace Removable Choker</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LARGE_TWEED_FABRIC_&_BUTTON_STEAMPUNK_FLOWER_LAPEL_CLIP,BROOCH,HAT_ORNAMENT.html'">LARGE TWEED FABRIC & BUTTON STEAMPUNK FLOWER LAPEL CLIP,BROOCH,HAT ORNAMENT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Girl_Women_s_Lady_Warmth_Bow_Fake_Lapel_Cotton_Collar_Necklace_Choker_09.html'">Girl Women's Lady Warmth Bow Fake Lapel Cotton Collar Necklace Choker 09</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_s_Detachable_Faux_Fake_Lapel_Lace_Shirt_Collar_Necklace_Removable_Choker.html'">Women's Detachable Faux Fake Lapel Lace Shirt Collar Necklace Removable Choker</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_s_Girl_s_Detachable_Faux_Fake_Lapel_Shirt_Collar_Necklace_Removable_Choker.html'">Women's Girl's Detachable Faux Fake Lapel Shirt Collar Necklace Removable Choker</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_genuine_platinum_MINK_fur_collar_hat_sleeve_detachable_lapel_scarf_$1200Rare.html'">NEW genuine platinum MINK fur collar hat sleeve detachable lapel scarf $1200Rare</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_s_Girls_Detachable_Faux_Fake_Lapel_Collar_Necklace_Removable_Cotton_Choker.html'">Women's Girls Detachable Faux Fake Lapel Collar Necklace Removable Cotton Choker</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Women_Detachable_Faux_Fake_Lapel_Collar_Necklace_Removable_False_Choker.html'">Vintage Women Detachable Faux Fake Lapel Collar Necklace Removable False Choker</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_s__Detachable_Check_Fake_Lapel_Shirt_Tie_Collar_Necklace_Removable_Choker.html'">Women's  Detachable Check Fake Lapel Shirt Tie Collar Necklace Removable Choker</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cool_Girl_Women_Lady_Vneck_Detachable_Fake_Lapel_Cotton_Collar_Necklace_Choker_8.html'">Cool Girl Women Lady Vneck Detachable Fake Lapel Cotton Collar Necklace Choker 8</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_s_Girls_Detachable_Faux_Fake_Lapel_Collar_Necklace_Removable_Cotton_Choker.html'">Women's Girls Detachable Faux Fake Lapel Collar Necklace Removable Cotton Choker</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_s_Cotton_Detachable_Faux_Fake_Lapel_Shirt_Collar_Necklace_Removable_Choker.html'">Women's Cotton Detachable Faux Fake Lapel Shirt Collar Necklace Removable Choker</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_s_Fur_Detachable_Faux_Fake_Lapel_Shirt_Collar_Necklace_Removable_Choker.html'">Women's Fur Detachable Faux Fake Lapel Shirt Collar Necklace Removable Choker</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Girl_Women_s_Lady_Vneck_Detachable_Fake_Lapel_Cotton_Collar_Necklace_Choker_08.html'">Girl Women's Lady Vneck Detachable Fake Lapel Cotton Collar Necklace Choker 08</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_s_Lace_Detachable_Faux_Fake_Lapel_Shirt_Collar_Necklace_Removable_Choker.html'">Women's Lace Detachable Faux Fake Lapel Shirt Collar Necklace Removable Choker</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_s_Cotton_Detachable_Faux_Fake_Lapel_Shirt_Collar_Necklace_Removable_Choker.html'">Women's Cotton Detachable Faux Fake Lapel Shirt Collar Necklace Removable Choker</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_Flowers_Detachable_Faux_Fake_Lapel_Collar_Necklace_Removable_Choker_01.html'">Women Flowers Detachable Faux Fake Lapel Collar Necklace Removable Choker 01</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_s_Retro_Detachable_Faux_Fake_Lapel_Shirt_Collar_Necklace_Removable_Choker.html'">Women's Retro Detachable Faux Fake Lapel Shirt Collar Necklace Removable Choker</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{collar,_choker,_detachable}.html'">{collar, choker, detachable}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{flower,_brooch,_pin}.html'">{flower, brooch, pin}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{handmade,_clip,_hair}.html'">{handmade, clip, hair}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{women,_round,_compact}.html'">{women, round, compact}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{x,_top,_print}.html'">{x, top, print}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{glass,_antique,_punk}.html'">{glass, antique, punk}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silk,_soft,_lash}.html'">{silk, soft, lash}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{shoe,_hat,_bow}.html'">{shoe, hat, bow}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{style,_accessory,_fabric}.html'">{style, accessory, fabric}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{scarf,_fur,_wrap}.html'">{scarf, fur, wrap}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{new,_design,_classic}.html'">{new, design, classic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pink,_small,_medium}.html'">{pink, small, medium}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{free,_button,_shipping}.html'">{free, button, shipping}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vintage,_authentic,_chanel}.html'">{vintage, authentic, chanel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{large,_purple,_fan}.html'">{large, purple, fan}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{strap,_charm,_phone}.html'">{strap, charm, phone}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{fashion,_crystal,_lady}.html'">{fashion, crystal, lady}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{bracelet,_watch,_quartz}.html'">{bracelet, watch, quartz}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{cute,_beautiful,_sunglasses}.html'">{cute, beautiful, sunglasses}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

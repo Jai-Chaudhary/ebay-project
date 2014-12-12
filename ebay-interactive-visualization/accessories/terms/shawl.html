@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-3.0799786162, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-45.7261443806, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-52.3115049188, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-89.0706090007, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-92.0772582199, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-100.845220267, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-102.652732383, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-104.042699298, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-107.030331729, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-110.399749623, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-111.153279211, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-114.002375433, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-118.718571809, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-120.956371217, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-125.579703737, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-128.153579508, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-130.448968813, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-130.641898922, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-130.665312457, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-133.044679645, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-134.053149524, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-134.543183167, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-138.763340964, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-141.423117566, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-148.758911656, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-150.448244891, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-152.453961782, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-152.489119201, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-152.743986093, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-155.382165426, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-157.097571262, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-160.662822413, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-160.790478109, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-164.215512044, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-167.570145701, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-169.711010965, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-171.786256172, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-174.202612156, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-174.758737505, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-175.571148968, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-177.011558388, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-179.80257752, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-182.507648738, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-184.494547307, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-185.613167292, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-189.185870471, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-203.901135022, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-207.686510464, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-215.995509478, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"], [-239.478805298, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>shawl</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">shawl</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/neck.html'">neck</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/warmer.html'">warmer</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/fox.html'">fox</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/nice.html'">nice</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/infinity.html'">infinity</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/wrap.html'">wrap</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/condition.html'">condition</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/real.html'">real</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/sale.html'">sale</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/excellent.html'">excellent</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/fur.html'">fur</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/trendy.html'">trendy</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/scarves.html'">scarves</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/nr.html'">nr</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/boa.html'">boa</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/chiffon.html'">chiffon</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/coat.html'">coat</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/stole.html'">stole</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/raccoon.html'">raccoon</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/cashmere.html'">cashmere</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/X-Large_Sparkle_Shawl_2_Black.html'">X/Large Sparkle Shawl 2 Black</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Nice_Women_s_Winter_Warm_Infinity_2_Circle_Cable_Knit_Cowl_Neck_Long_Scarf_Shawl.html'">Nice Women's Winter Warm Infinity 2 Circle Cable Knit Cowl Neck Long Scarf Shawl</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Warmer_Blanket_Plaid_Cashmere_Cozy_Loop_Scarf_Shawl_Pashmina_Oversized_14873.html'">New Warmer Blanket Plaid Cashmere Cozy Loop Scarf Shawl Pashmina Oversized 14873</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_Faux_Wool_Tassels_Plaid_Checks_Warm_Winter_Long_Soft_Scarf_Shawl_Wrap_DX.html'">Women Faux Wool Tassels Plaid Checks Warm Winter Long Soft Scarf Shawl Wrap DX</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vtg_Ranch_Genuine_Fox_Double_Body_Wrap_Shawl_Ballero_Fur.html'">Vtg Ranch Genuine Fox Double Body Wrap Shawl Ballero Fur</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HORN_SHAWL_RING_LARGE_SIZE_SCARF_ACCESSORIES_RING_JEWELRY_CLIP_NECKLACE_HANDMADE.html'">HORN SHAWL RING LARGE SIZE SCARF ACCESSORIES RING JEWELRY CLIP NECKLACE HANDMADE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2014__men_women_real_fox_tail_fur_scarf_collar_neck_warmer_shawl_stole_Scarves.html'">2014  men women real fox tail fur scarf collar neck warmer shawl stole Scarves</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vtg_Genuine_Silver_Fox_73__Boa-collar-bollero-shawl_Hollywood_Glam_Dittrick_Furs.html'">Vtg Genuine Silver Fox 73' Boa/collar/bollero/shawl Hollywood Glam Dittrick Furs</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ridged_Glitter_Evening_Lace_Long_Tassels_Sequin_Shiny_Light_Shawl_Sheer_Scarf.html'">Ridged Glitter Evening Lace Long Tassels Sequin Shiny Light Shawl Sheer Scarf</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_Lady_Girl_Chic_Lace_Flower_Fake_removable_Collar_Neck_Shawl_Decoration_New.html'">Women Lady Girl Chic Lace Flower Fake removable Collar Neck Shawl Decoration New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HOT_Popula_Sale_Winter_real_raccoon_fur_scarf_collar_neck_warmer_shawl_Scarves.html'">HOT Popula Sale Winter real raccoon fur scarf collar neck warmer shawl Scarves</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Women_Retro_Totem_Folwer_Bohemian_Scarf_Shawl_Wrap_Pashmina_Oversized_15156d.html'">New Women Retro Totem Folwer Bohemian Scarf Shawl Wrap Pashmina Oversized 15156d</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Nice_Women_s_Winter_Warm_Infinity_2_Circle_Cable_Knit_Cowl_Neck_Long_Scarf_Shawl.html'">Nice Women's Winter Warm Infinity 2 Circle Cable Knit Cowl Neck Long Scarf Shawl</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Women_Winter_Warm_Infinity_2_Circle_Cable_Knit_Cowl_Neck_Long_Scarf_Shawl_T7.html'">Women Winter Warm Infinity 2 Circle Cable Knit Cowl Neck Long Scarf Shawl T7</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/PASHMINA_ABSTRACT_CASHMERE_JAMAWAR_JAMAVAR_INDIAN_WOOL_SHAWL_THROW_WRAP_SCARF.html'">PASHMINA ABSTRACT CASHMERE JAMAWAR JAMAVAR INDIAN WOOL SHAWL THROW WRAP SCARF</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fad_Men_Women_Winter_Warm_Infinity_2Circle_Cable_Knit_Cowl_Neck_Long_Scarf_Shawl.html'">Fad Men Women Winter Warm Infinity 2Circle Cable Knit Cowl Neck Long Scarf Shawl</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Fad_Men_Women_Winter_Warm_Infinity_2Circle_Cable_Knit_Cowl_Neck_Long_Scarf_Shawl.html'">Fad Men Women Winter Warm Infinity 2Circle Cable Knit Cowl Neck Long Scarf Shawl</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Recommend_GENUINE_RABBIT__FOOT_WARMER__fur_coat_jacket_vest_shawl_cape_cs.html'">Recommend GENUINE RABBIT  FOOT WARMER  fur coat jacket vest shawl cape cs</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Popula_Sale_real_raccoon_fur_scarf_collar_neck_warmer_shawl_Scarves_HOT_NEW.html'">Popula Sale real raccoon fur scarf collar neck warmer shawl Scarves HOT NEW</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HORN_SHAWL_RING_LARGE_SIZE_SCARF_ACCESSORIES_RING_JEWELRY_CLIP_NECKLACE_HANDMADE.html'">HORN SHAWL RING LARGE SIZE SCARF ACCESSORIES RING JEWELRY CLIP NECKLACE HANDMADE</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{scarf,_fur,_wrap}.html'">{scarf, fur, wrap}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{long,_cotton,_socks}.html'">{long, cotton, socks}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{handmade,_clip,_hair}.html'">{handmade, clip, hair}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{flower,_brooch,_pin}.html'">{flower, brooch, pin}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{red,_w,_ring}.html'">{red, w, ring}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{collar,_choker,_detachable}.html'">{collar, choker, detachable}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{women,_round,_compact}.html'">{women, round, compact}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silk,_soft,_lash}.html'">{silk, soft, lash}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{warmers,_leg,_hand}.html'">{warmers, leg, hand}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{large,_purple,_fan}.html'">{large, purple, fan}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{x,_top,_print}.html'">{x, top, print}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{size,_gray,_great}.html'">{size, gray, great}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{blue,_brown,_green}.html'">{blue, brown, green}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{vintage,_authentic,_chanel}.html'">{vintage, authentic, chanel}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{cute,_beautiful,_sunglasses}.html'">{cute, beautiful, sunglasses}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{white,_lace,_cuff}.html'">{white, lace, cuff}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pink,_small,_medium}.html'">{pink, small, medium}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{new,_design,_classic}.html'">{new, design, classic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{silver,_earrings,_accessories}.html'">{silver, earrings, accessories}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

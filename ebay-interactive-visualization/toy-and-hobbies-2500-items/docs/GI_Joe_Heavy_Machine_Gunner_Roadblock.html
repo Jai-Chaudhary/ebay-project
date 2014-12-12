@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[4.0313258432, "../topics/{New,_Free,_50}.html", "{New,_Free,_50}"], [2.0313258432, "../topics/{1971,_King,_Britains}.html", "{1971,_King,_Britains}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>GI Joe Heavy Machine Gunner Roadblock</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">GI Joe Heavy Machine Gunner Roadblock</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{New,_Free,_50}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{New,_Free,_50}.html'">{New, Free, 50}</td></tr>
+<tr class="list"><td id="{1971,_King,_Britains}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{1971,_King,_Britains}.html'">{1971, King, Britains}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Skylanders_Giants_Sidekick_Barkley.html'">Skylanders Giants Sidekick Barkley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/My_Pillow_Pets_Giraffe_Hat.html'">My Pillow Pets Giraffe Hat</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_8_Ball,_Free_Shipping,_New.html'">Magic 8 Ball, Free Shipping, New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_8_Ball_by_Mattel,_New,_Free_Shipping.html'">Magic 8 Ball by Mattel, New, Free Shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapFrog_Scribble_and_Write,_Free_Shipping,_New.html'">LeapFrog Scribble and Write, Free Shipping, New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Childrens_PuzzleBug_100pc_Jigsaw_Puzzle_Gift_Toy_Kids_Helicopter.html'">New Childrens PuzzleBug 100pc Jigsaw Puzzle Gift Toy Kids Helicopter</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Caves_of_Koilos_-_M15__MtG_Magic_The_Gathering_Rare_Land_x4.html'">Caves of Koilos - M15  MtG Magic The Gathering Rare Land x4</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/50_Assorted_Plastic_Stamps_New.html'">50 Assorted Plastic Stamps New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Chassis_Mint_New.html'">Aurora Thunderjet Chassis Mint New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/V_Tech_Little_Apps_Tablet_by_VTech.html'">V Tech Little Apps Tablet by VTech</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Puppy_Surprise_"Popcorn"_White-_Pink_3,4,_Or_5_Puppies.html'">New Puppy Surprise "Popcorn" White/ Pink 3,4, Or 5 Puppies</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wood_Rubber_Band_Toy_Gun_New_In_The_Package.html'">Wood Rubber Band Toy Gun New In The Package</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wood_Rubber_Band_Toy_Gun_New_In_The_Package.html'">Wood Rubber Band Toy Gun New In The Package</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Girls_&_Boys_Kids_Children_Drum_Musical_Instruments_Band_Kit_Toy_Gift_Set_Black.html'">Girls & Boys Kids Children Drum Musical Instruments Band Kit Toy Gift Set Black</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Perfect_Polly.html'">Perfect Polly</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cuddle_Pet.html'">Cuddle Pet</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_8_Ball.html'">Magic 8 Ball</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Interactive_dog_Bentley.html'">Interactive dog Bentley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Skylanders_Giants_Halloween_Pumpkin_Eye_Brawl_RARE_Figure+Card+Code.html'">Skylanders Giants Halloween Pumpkin Eye Brawl RARE Figure+Card+Code</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Miniature_Roadmaster_Tricycle.html'">Miniature Roadmaster Tricycle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HOTWHEELS_BLACKWALLS__LOTUS.html'">HOTWHEELS BLACKWALLS  LOTUS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MaKey_MaKey.html'">MaKey MaKey</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lionel_2046.html'">Lionel 2046</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lionel_Sub.html'">Lionel Sub</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2000_Purr.html'">2000 Purr</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

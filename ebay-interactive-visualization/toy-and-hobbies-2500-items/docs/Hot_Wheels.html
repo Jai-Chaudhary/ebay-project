@@ -1,0 +1,221 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[2.0313258432, "../topics/{Hot,_Wheels,_Ride}.html", "{Hot,_Wheels,_Ride}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Hot Wheels</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Hot Wheels</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Hot,_Wheels,_Ride}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Hot,_Wheels,_Ride}.html'">{Hot, Wheels, Ride}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    
+<p><b>Hot Wheels</b> is a brand of <a href="http://www.wikipedia.org/wiki/1:64_scale" title="1:64 scale">1:64 scale</a> <a href="http://www.wikipedia.org/wiki/Die-cast_toy" title="Die-cast toy">die-cast toy</a> <a href="http://www.wikipedia.org/wiki/Car" title="Car">car</a> introduced by <a href="http://www.wikipedia.org/wiki/United_States" title="United States">American</a> toy maker <a href="http://www.wikipedia.org/wiki/Mattel" title="Mattel">Mattel</a> in 1968. It was the primary competitor of <a href="http://www.wikipedia.org/wiki/Matchbox_(brand)" title="Matchbox (brand)">Matchbox</a> until 1997 when Mattel bought <a href="http://www.wikipedia.org/wiki/Tyco_Toys" title="Tyco Toys">Tyco Toys</a>, then-owner of Matchbox. Many <a href="http://www.wikipedia.org/wiki/Automobile_manufacturers" title="Automobile manufacturers" class="mw-redirect">automobile manufacturers</a> have licensed Hot Wheels to make <a href="http://www.wikipedia.org/wiki/Scale_model" title="Scale model">scale models</a> of their cars, allowing the use of original design <a href="http://www.wikipedia.org/wiki/Blueprint" title="Blueprint">blueprints</a> and detailing. Although Hot Wheels were originally intended for children and young adults, they have become popular with adult collectors, for whom limited edition models are now made available.</p>
+<p></p>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#1968"><span class="tocnumber">1.1</span> <span class="toctext">1968</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Cars_released_in_1968"><span class="tocnumber">1.1.1</span> <span class="toctext">Cars released in 1968</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-4"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#1969"><span class="tocnumber">1.2</span> <span class="toctext">1969</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Cars_released_in_1969"><span class="tocnumber">1.2.1</span> <span class="toctext">Cars released in 1969</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#1970s"><span class="tocnumber">1.3</span> <span class="toctext">1970s</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Cars_released_in_1970"><span class="tocnumber">1.3.1</span> <span class="toctext">Cars released in 1970</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Cars_released_in_1971"><span class="tocnumber">1.3.2</span> <span class="toctext">Cars released in 1971</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Cars_released_in_1972"><span class="tocnumber">1.3.3</span> <span class="toctext">Cars released in 1972</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Cars_released_in_1973"><span class="tocnumber">1.3.4</span> <span class="toctext">Cars released in 1973</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Cars_released_in_1974"><span class="tocnumber">1.3.5</span> <span class="toctext">Cars released in 1974</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#The_rest_of_the_Redline_Era"><span class="tocnumber">1.3.6</span> <span class="toctext">The rest of the Redline Era</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-13"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#1978-1988:_The_Blackwalls_Era"><span class="tocnumber">1.4</span> <span class="toctext">1978-1988: The Blackwalls Era</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#1989-1994:_The_Collector_Number_Era"><span class="tocnumber">1.5</span> <span class="toctext">1989-1994: The Collector Number Era</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#1995-1999:_The_T-Hunt_Era"><span class="tocnumber">1.6</span> <span class="toctext">1995-1999: The T-Hunt Era</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#2000"><span class="tocnumber">1.7</span> <span class="toctext">2000</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#2001"><span class="tocnumber">1.8</span> <span class="toctext">2001</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#2002"><span class="tocnumber">1.9</span> <span class="toctext">2002</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#2003"><span class="tocnumber">1.10</span> <span class="toctext">2003</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#2004"><span class="tocnumber">1.11</span> <span class="toctext">2004</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#2005"><span class="tocnumber">1.12</span> <span class="toctext">2005</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#2007_.26_2008"><span class="tocnumber">1.13</span> <span class="toctext">2007 &amp; 2008</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#2009-2010"><span class="tocnumber">1.14</span> <span class="toctext">2009-2010</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#2011"><span class="tocnumber">1.15</span> <span class="toctext">2011</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#2012"><span class="tocnumber">1.16</span> <span class="toctext">2012</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#2013"><span class="tocnumber">1.17</span> <span class="toctext">2013</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-27"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Collectors"><span class="tocnumber">2</span> <span class="toctext">Collectors</span></a>
+<ul>
+<li class="toclevel-2 tocsection-28"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Dates_on_cars"><span class="tocnumber">2.1</span> <span class="toctext">Dates on cars</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-29"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Hot_Wheels_Classics"><span class="tocnumber">3</span> <span class="toctext">Hot Wheels Classics</span></a></li>
+<li class="toclevel-1 tocsection-30"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Special_Model_Lines"><span class="tocnumber">4</span> <span class="toctext">Special Model Lines</span></a></li>
+<li class="toclevel-1 tocsection-31"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Treasure_Hunt_series"><span class="tocnumber">5</span> <span class="toctext">Treasure Hunt series</span></a>
+<ul>
+<li class="toclevel-2 tocsection-32"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#1995"><span class="tocnumber">5.1</span> <span class="toctext">1995</span></a></li>
+<li class="toclevel-2 tocsection-33"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#1996"><span class="tocnumber">5.2</span> <span class="toctext">1996</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-34"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Live_action_film_project"><span class="tocnumber">6</span> <span class="toctext">Live action film project</span></a></li>
+<li class="toclevel-1 tocsection-35"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Sizzlers"><span class="tocnumber">7</span> <span class="toctext">Sizzlers</span></a></li>
+<li class="toclevel-1 tocsection-36"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Full_scale_versions"><span class="tocnumber">8</span> <span class="toctext">Full scale versions</span></a></li>
+<li class="toclevel-1 tocsection-37"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#See_also"><span class="tocnumber">9</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-38"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#References"><span class="tocnumber">10</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-39"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#Further_reading"><span class="tocnumber">11</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-40"><a href="http://en.wikipedia.org/wiki/Hot_Wheels#External_links"><span class="tocnumber">12</span> <span class="toctext">External links</span></a></li>
+</ul>
+<p><a href="http://en.wikipedia.org/wiki/Hot_Wheels">Full article&nbsp;&#x25B8;</a></p>
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cuddle_Pet.html'">Cuddle Pet</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Perfect_Polly.html'">Perfect Polly</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/DC_Signature_Collection_Aquamanl_Mattel_New.html'">DC Signature Collection Aquamanl Mattel New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Interactive_dog_Bentley.html'">Interactive dog Bentley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mechanical_Donkey_-_Horse.html'">Mechanical Donkey / Horse</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Stretchkins_Unicorn_-_Pink.html'">Stretchkins Unicorn - Pink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Crystal_Radio_Set_-_Assembled.html'">Crystal Radio Set - Assembled</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EUC_Wild_Planet_Radio_DJ.html'">EUC Wild Planet Radio DJ</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Jada_Chevrolet_Silverado_2014_Blue_1-24.html'">Jada Chevrolet Silverado 2014 Blue 1/24</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Educational_Insights_Hot_Dots_Pen_New.html'">Educational Insights Hot Dots Pen New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels,_Mixed_lot_of_30!!.html'">Hot Wheels, Mixed lot of 30!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Classic_Magic_8-Ball_Toy_by_Mattel_-_New_in_Box!.html'">Classic Magic 8-Ball Toy by Mattel - New in Box!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AURORA_G_PLUS_LOT.html'">AURORA G PLUS LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Chassis_Mint_New.html'">Aurora Thunderjet Chassis Mint New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO_Misc_Train_Cars.html'">HO Misc Train Cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/The_Wizard_Of_Oz_Jigsaw_Puzzle.html'">The Wizard Of Oz Jigsaw Puzzle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Space_Men_Action_Figures_Brand_New.html'">Vintage Space Men Action Figures Brand New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wood_Rubber_Band_Toy_Gun_New_In_The_Package.html'">Wood Rubber Band Toy Gun New In The Package</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/N__SCALE_TRAIN_ENGINES.html'">N  SCALE TRAIN ENGINES</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

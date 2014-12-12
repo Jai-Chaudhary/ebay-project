@@ -1,0 +1,159 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[3.7692291248, "../topics/{Toys,_Antique,_Cast}.html", "{Toys,_Antique,_Cast}"], [2.8237081346, "../topics/{2014,_Meal,_Happy}.html", "{2014,_Meal,_Happy}"], [2.5010402696, "../topics/{Set,_Complete,_of}.html", "{Set,_Complete,_of}"], [1.0313258437, "../topics/{3,_set,_to}.html", "{3,_set,_to}"], [1.0313258432, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>McDonald's McNugget 1992 Halloween Happy Meal Toys - Lot of 3</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">McDonald's McNugget 1992 Halloween Happy Meal Toys - Lot of 3</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Toys,_Antique,_Cast}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Toys,_Antique,_Cast}.html'">{Toys, Antique, Cast}</td></tr>
+<tr class="list"><td id="{2014,_Meal,_Happy}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{2014,_Meal,_Happy}.html'">{2014, Meal, Happy}</td></tr>
+<tr class="list"><td id="{Set,_Complete,_of}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Set,_Complete,_of}.html'">{Set, Complete, of}</td></tr>
+<tr class="list"><td id="{3,_set,_to}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{3,_set,_to}.html'">{3, set, to}</td></tr>
+<tr class="list"><td id="{-,_7",_NECA}" onmouseover="highlight(4)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{-,_7",_NECA}.html'">{-, 7", NECA}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/1995_McDonald_s_Happy_Meal_Set~_Halloween.html'">1995 McDonald's Happy Meal Set~ Halloween</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Solar_Powered_Dancing_Pig.html'">Solar Powered Dancing Pig</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Solar_Dancing_Halloween_Pumpkin.html'">New Solar Dancing Halloween Pumpkin</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Solar_Circus_Toys.html'">Solar Circus Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_1986_Alf_Doll.html'">Vintage 1986 Alf Doll</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Thomas_The_Train-The_Scrap_Monster.html'">Thomas The Train-The Scrap Monster</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/McDonald_s_Halloween_Happy_Meal_Toys.html'">McDonald's Halloween Happy Meal Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Urban_Sprawl_by_GMT_2011_mint_in_shrink.html'">Urban Sprawl by GMT 2011 mint in shrink</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Halloween_McNugget_Buddies~Dracula_McNugget~McDonald_s_1992.html'">Halloween McNugget Buddies~Dracula McNugget~McDonald's 1992</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/McDonald_s_2011_Happy_Meal_Toys_Chipmunks_Chipwreaked__Complete_set_8.html'">McDonald's 2011 Happy Meal Toys Chipmunks Chipwreaked  Complete set 8</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cast_iron_toy_plow.html'">Cast iron toy plow</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Monster_High_2014_happy_meal_toys.html'">Monster High 2014 happy meal toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2013_Mcdonalds_The_Smurfs_2_Complete_Set_Of_16.html'">2013 Mcdonalds The Smurfs 2 Complete Set Of 16</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Skylanders_Giants_Halloween_Pumpkin_Eye_Brawl_RARE_Figure+Card+Code.html'">Skylanders Giants Halloween Pumpkin Eye Brawl RARE Figure+Card+Code</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wood_Rubber_Band_Toy_Gun_New_In_The_Package.html'">Wood Rubber Band Toy Gun New In The Package</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_MIP_robot.html'">WooWee MIP robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2_Mythos_Standard_Game_Sets.html'">2 Mythos Standard Game Sets</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/50_Assorted_Plastic_Stamps_New.html'">50 Assorted Plastic Stamps New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_Atlantis_City_of_Atlantis.html'">Lego Atlantis City of Atlantis</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WooWee_White_MIP_Robot.html'">WooWee White MIP Robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1988_TO_1994_CHEVY_PICKUP.html'">1988 TO 1994 CHEVY PICKUP</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_Hulk_Keychain.html'">Lego Hulk Keychain</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1996_McDonald_s_Happy_Meal_Toy,_Disney_s_Hercules_Phil_and_Nessus_Action_Toy.html'">1996 McDonald's Happy Meal Toy, Disney's Hercules Phil and Nessus Action Toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Underground_Sea.html'">Underground Sea</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cuddle_Pet.html'">Cuddle Pet</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mechanical_Donkey_-_Horse.html'">Mechanical Donkey / Horse</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Jada_Chevrolet_Silverado_2014_Blue_1-24.html'">Jada Chevrolet Silverado 2014 Blue 1/24</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

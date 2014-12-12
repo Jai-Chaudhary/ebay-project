@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[10.0313253927, "../topics/{Vintage,_Car,_Slot}.html", "{Vintage,_Car,_Slot}"], [1.0313262937, "../topics/{in,_2,_Lionel}.html", "{in,_2,_Lionel}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Vintage Tyco Jeep CJ-7 Renegade HO Slot Car in Orange~Runs Good!</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Vintage Tyco Jeep CJ-7 Renegade HO Slot Car in Orange~Runs Good!</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Vintage,_Car,_Slot}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Vintage,_Car,_Slot}.html'">{Vintage, Car, Slot}</td></tr>
+<tr class="list"><td id="{in,_2,_Lionel}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{in,_2,_Lionel}.html'">{in, 2, Lionel}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/VINTAGE_Tyco_Gremlin_Irish_Lucky_Funny_Car_HO_SLOT_Car_~VHTF.html'">VINTAGE Tyco Gremlin Irish Lucky Funny Car HO SLOT Car ~VHTF</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Tyco_Jeep_CJ-7_HO_Slot_Car~Red_with_Blue_Roof~Runs_Good~Working_Lights!.html'">Vintage Tyco Jeep CJ-7 HO Slot Car~Red with Blue Roof~Runs Good~Working Lights!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/4_Vintage_Aurora_T-Jet_Hot_Rod_Slot_Cars_Yellow,_Cream_&_Tan.html'">4 Vintage Aurora T-Jet Hot Rod Slot Cars Yellow, Cream & Tan</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Lincoln_Continental_Tan_Vintage_HO_Slot_Car_near_mint_to_mint.html'">Aurora Thunderjet Lincoln Continental Tan Vintage HO Slot Car near mint to mint</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Tyco_Peterbilt_Semi_Truck_HO_Slot_Car_in_White_&_Red~Runs_Good!.html'">Vintage Tyco Peterbilt Semi Truck HO Slot Car in White & Red~Runs Good!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/VINTAGE_Tyco_Pro_Trick_Truck_Dragster_Brass_Pan_HO_SLOT_Car_~.html'">VINTAGE Tyco Pro Trick Truck Dragster Brass Pan HO SLOT Car ~</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HUGE_LOT_1-24_and_1:32_Scale_Slot_Car_Lot_Vintage_Body,_Motors,_Tires,_Parts,.html'">HUGE LOT 1/24 and 1:32 Scale Slot Car Lot Vintage Body, Motors, Tires, Parts,</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_AFX_Aurora_Chevy_Blazer_Flamethrower_in_White_HO_Slot_Car~Runs_Good!.html'">Vintage AFX Aurora Chevy Blazer Flamethrower in White HO Slot Car~Runs Good!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Aurora_T-Jet_Brabham_Indy_F1_Racer_Ho_Slot_Car_In_Green.html'">Vintage Aurora T-Jet Brabham Indy F1 Racer Ho Slot Car In Green</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Aurora_T-Jet_Sand_Van_Dune_Buggy_Dark_Pink_Ho_Slot_Car.html'">Vintage Aurora T-Jet Sand Van Dune Buggy Dark Pink Ho Slot Car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_BATMOBILE_ho_Slot_Car.html'">Aurora BATMOBILE ho Slot Car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Classic_Industries_STINGER_1:24_Slot_Car.html'">Classic Industries STINGER 1:24 Slot Car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_T-Jet_Oune_Buggy_Red_with_AFX_WHEELS_NEW_OLD_STOCK.html'">Vintage T-Jet Oune Buggy Red with AFX WHEELS NEW OLD STOCK</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Thunderbird_convertible,_nice!.html'">Aurora Thunderjet Thunderbird convertible, nice!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Stingray_slot_car_complete_nice.html'">Aurora Thunderjet Stingray slot car complete nice</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Falcon_slot_car.html'">Aurora Thunderjet Falcon slot car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/4_Johnny_Lightning_ThunderJet_500_Slot_Cars.html'">4 Johnny Lightning ThunderJet 500 Slot Cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_1-24_slot_car.html'">vintage 1/24 slot car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Afx_slot_cars.html'">Afx slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Johnny_lightning_slot_cars.html'">Johnny lightning slot cars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_handmade_marbles.html'">vintage handmade marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/BEN_10_FIGURE_LOT_OMNIVERSE.html'">BEN 10 FIGURE LOT OMNIVERSE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/KIDS_COLORED_MARBLES_AND_SIZES,DESIGNS.html'">KIDS COLORED MARBLES AND SIZES,DESIGNS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/aurora_t_jet_thunderbird.html'">aurora t jet thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vitro_Cherry_Custard_Marble.html'">Vitro Cherry Custard Marble</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Disneys_Merida_Bow_&_Arrow.html'">Disneys Merida Bow & Arrow</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ALLEY_SWIRL__Marble_-_-_9-16".html'">ALLEY SWIRL  Marble - - 9/16"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/TRANSPARENT_BLUE_MARBLE_-_-**_5-8"_**.html'">TRANSPARENT BLUE MARBLE - -** 5/8" **</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

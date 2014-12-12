@@ -1,0 +1,158 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[-4.6557390232, "../topics/{free,_button,_shipping}.html", "{free,_button,_shipping}"], [-108.153668001, "../topics/{warmers,_leg,_hand}.html", "{warmers,_leg,_hand}"], [-117.371501038, "../topics/{white,_lace,_cuff}.html", "{white,_lace,_cuff}"], [-147.821931896, "../topics/{women,_round,_compact}.html", "{women,_round,_compact}"], [-150.793003484, "../topics/{red,_w,_ring}.html", "{red,_w,_ring}"], [-164.565253737, "../topics/{x,_top,_print}.html", "{x,_top,_print}"], [-172.356813286, "../topics/{fashion,_crystal,_lady}.html", "{fashion,_crystal,_lady}"], [-173.697327018, "../topics/{blue,_brown,_green}.html", "{blue,_brown,_green}"], [-175.050617871, "../topics/{nwt,_color,_coach}.html", "{nwt,_color,_coach}"], [-188.349685579, "../topics/{pouch,_travel,_cosmetic}.html", "{pouch,_travel,_cosmetic}"], [-188.498656498, "../topics/{pink,_small,_medium}.html", "{pink,_small,_medium}"], [-189.021342444, "../topics/{size,_gray,_great}.html", "{size,_gray,_great}"], [-192.69484078, "../topics/{boot,_cuffs,_crochet}.html", "{boot,_cuffs,_crochet}"], [-198.745843776, "../topics/{handmade,_clip,_hair}.html", "{handmade,_clip,_hair}"], [-201.540608267, "../topics/{bag,_makeup,_belt}.html", "{bag,_makeup,_belt}"], [-211.947271285, "../topics/{cute,_beautiful,_sunglasses}.html", "{cute,_beautiful,_sunglasses}"], [-212.168606092, "../topics/{set,_gift,_box}.html", "{set,_gift,_box}"], [-216.119317044, "../topics/{long,_cotton,_socks}.html", "{long,_cotton,_socks}"], [-218.500368581, "../topics/{black,_nylon,_stella}.html", "{black,_nylon,_stella}"], [-218.820508469, "../topics/{glass,_antique,_punk}.html", "{glass,_antique,_punk}"], [-221.44443324, "../topics/{silk,_soft,_lash}.html", "{silk,_soft,_lash}"], [-222.749093592, "../topics/{style,_accessory,_fabric}.html", "{style,_accessory,_fabric}"], [-224.924938177, "../topics/{pocket,_mirror,_double}.html", "{pocket,_mirror,_double}"], [-225.644781334, "../topics/{shoulder,_handbag,_tags}.html", "{shoulder,_handbag,_tags}"], [-229.199417824, "../topics/{case,_iphone,_hard}.html", "{case,_iphone,_hard}"], [-229.975331116, "../topics/{shoe,_hat,_bow}.html", "{shoe,_hat,_bow}"], [-232.775431689, "../topics/{vintage,_authentic,_chanel}.html", "{vintage,_authentic,_chanel}"], [-233.254113894, "../topics/{rhinestone,_christmas,_bling}.html", "{rhinestone,_christmas,_bling}"], [-234.802800033, "../topics/{colors,_brand,_nib}.html", "{colors,_brand,_nib}"], [-235.93697773, "../topics/{large,_purple,_fan}.html", "{large,_purple,_fan}"], [-236.182731134, "../topics/{holder,_card,_wallet}.html", "{holder,_card,_wallet}"], [-236.456850722, "../topics/{m,_k,_exo}.html", "{m,_k,_exo}"], [-237.337218779, "../topics/{leather,_purse,_handbag}.html", "{leather,_purse,_handbag}"], [-239.806288201, "../topics/{womens,_auth,_bf}.html", "{womens,_auth,_bf}"], [-241.680821896, "../topics/{scarf,_fur,_wrap}.html", "{scarf,_fur,_wrap}"], [-241.697644663, "../topics/{silver,_earrings,_accessories}.html", "{silver,_earrings,_accessories}"], [-242.096126935, "../topics/{strap,_charm,_phone}.html", "{strap,_charm,_phone}"], [-243.314118869, "../topics/{flower,_brooch,_pin}.html", "{flower,_brooch,_pin}"], [-244.087868834, "../topics/{collar,_choker,_detachable}.html", "{collar,_choker,_detachable}"], [-245.6426466, "../topics/{new,_design,_classic}.html", "{new,_design,_classic}"], [-247.658456737, "../topics/{ear,_cover,_trade}.html", "{ear,_cover,_trade}"], [-247.743404065, "../topics/{necklace,_chain,_pendant}.html", "{necklace,_chain,_pendant}"], [-248.873373407, "../topics/{bracelet,_watch,_quartz}.html", "{bracelet,_watch,_quartz}"], [-251.75722462, "../topics/{ladies,_glasses,_lot}.html", "{ladies,_glasses,_lot}"], [-255.016481058, "../topics/{jewelry,_necklace,_hot}.html", "{jewelry,_necklace,_hot}"], [-256.558287984, "../topics/{bra,_sexy,_lingerie}.html", "{bra,_sexy,_lingerie}"], [-261.794839098, "../topics/{vera,_bradley,_pattern}.html", "{vera,_bradley,_pattern}"], [-271.103400288, "../topics/{one,_tote,_thirty}.html", "{one,_tote,_thirty}"], [-273.785570654, "../topics/{mm,_eyelash,_extension}.html", "{mm,_eyelash,_extension}"], [-299.548619374, "../topics/{gold,_silver,_coin}.html", "{gold,_silver,_coin}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+    }
+    //-->
+    </script>
+
+<title>goods</title>
+<link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+  <body onload="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+<div id="top"></div>
+<h1 id="header">
+<table><tr>
+<td id="title">goods</td>
+</tr></table></span>
+<hr noshade></h1>
+
+<div id="main">
+<table><tr>
+<td width="20.0%">
+<table class="dark">
+<tr class="title">
+<td>related words</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../terms/boutique.html'">boutique</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/seller.html'">seller</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/skate.html'">skate</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/quacker.html'">quacker</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/fast.html'">fast</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/factory.html'">factory</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/maxi.html'">maxi</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/engraved.html'">engraved</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lever.html'">lever</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/snowman.html'">snowman</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lavender.html'">lavender</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/medical.html'">medical</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/choices.html'">choices</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/train.html'">train</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/anklets.html'">anklets</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/grade.html'">grade</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/back.html'">back</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/magic.html'">magic</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/cats.html'">cats</a></td></tr>
+<tr class="list"><td onclick="window.location.href='../terms/lead.html'">lead</a></td></tr>
+
+</table>
+</td>
+
+<td width="50.0%">
+<table class="light">
+<tr class="title">
+<td>related documents</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blythe_Cosmetic_Pouch_Ichigo_Chan_-_Made_in_JAPAN_Original_Goods..html'">Blythe Cosmetic Pouch Ichigo Chan - Made in JAPAN Original Goods.</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lace_Top_Women_s_Boot_Socks_4_Color_Choices_Boutique_Goods_Free_Shipping.html'">Lace Top Women's Boot Socks 4 Color Choices Boutique Goods Free Shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Two-Button_Lace_Trim_Knitted_Leg_Warmers_-_Boutique_Goods_-_FAST_Free_Shipping.html'">Two-Button Lace Trim Knitted Leg Warmers - Boutique Goods - FAST Free Shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lace_Top_Women_s_Boot_Socks_4_Color_Choices_Boutique_Goods_Free_Shipping.html'">Lace Top Women's Boot Socks 4 Color Choices Boutique Goods Free Shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Boutique_Goods_Ombre_Leg_Warmers_Pink_Charcoal_Blue_Light_Blue_Mint_BEST_SELLER.html'">Boutique Goods Ombre Leg Warmers Pink Charcoal Blue Light Blue Mint BEST SELLER</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lace_Top_Women_s_Boot_Socks_4_Color_Choices_Boutique_Goods_Free_Shipping.html'">Lace Top Women's Boot Socks 4 Color Choices Boutique Goods Free Shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Two-Button_Lace_Trim_Knitted_Leg_Warmers_-_Boutique_Goods_-_FAST_Free_Shipping.html'">Two-Button Lace Trim Knitted Leg Warmers - Boutique Goods - FAST Free Shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Button_Down_Women_s_Leg_Warmers_w-_Cream_Lace_Pair_Boutique_Goods_Free_Shipping.html'">Button Down Women's Leg Warmers w/ Cream Lace Pair Boutique Goods Free Shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Two-Button_Lace_Trim_Knitted_Leg_Warmers_-_Boutique_Goods_-_FAST_Free_Shipping.html'">Two-Button Lace Trim Knitted Leg Warmers - Boutique Goods - FAST Free Shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Button_Down_Women_s_Leg_Warmers_w-_Cream_Lace_Pair_Boutique_Goods_Free_Shipping.html'">Button Down Women's Leg Warmers w/ Cream Lace Pair Boutique Goods Free Shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Scallop_Laced_Ruffle_Knit_Acrylic_Boot_Cuffs_-_Boutique_Goods_FAST_Free_Shipping.html'">Scallop Laced Ruffle Knit Acrylic Boot Cuffs - Boutique Goods FAST Free Shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Button_Down_Women_s_Leg_Warmers_w-_Cream_Lace_Pair_Boutique_Goods_Free_Shipping.html'">Button Down Women's Leg Warmers w/ Cream Lace Pair Boutique Goods Free Shipping</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Button_Down_Women_s_Leg_Warmers_w-_Cream_Lace_Pair_Boutique_Goods_Free_Shipping.html'">Button Down Women's Leg Warmers w/ Cream Lace Pair Boutique Goods Free Shipping</td></tr>
+
+</table>
+</td>
+
+<td width="30.0%">
+<table class="dark">
+<tr class="title">
+<td>related topics</td>
+</tr>
+<tr class="list"><td onclick="window.location.href='../topics/{free,_button,_shipping}.html'">{free, button, shipping}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{warmers,_leg,_hand}.html'">{warmers, leg, hand}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{white,_lace,_cuff}.html'">{white, lace, cuff}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{women,_round,_compact}.html'">{women, round, compact}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{red,_w,_ring}.html'">{red, w, ring}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{x,_top,_print}.html'">{x, top, print}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{fashion,_crystal,_lady}.html'">{fashion, crystal, lady}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{blue,_brown,_green}.html'">{blue, brown, green}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{nwt,_color,_coach}.html'">{nwt, color, coach}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pouch,_travel,_cosmetic}.html'">{pouch, travel, cosmetic}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{pink,_small,_medium}.html'">{pink, small, medium}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{size,_gray,_great}.html'">{size, gray, great}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{boot,_cuffs,_crochet}.html'">{boot, cuffs, crochet}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{handmade,_clip,_hair}.html'">{handmade, clip, hair}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{bag,_makeup,_belt}.html'">{bag, makeup, belt}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{cute,_beautiful,_sunglasses}.html'">{cute, beautiful, sunglasses}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{set,_gift,_box}.html'">{set, gift, box}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{long,_cotton,_socks}.html'">{long, cotton, socks}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{black,_nylon,_stella}.html'">{black, nylon, stella}</td></tr>
+<tr class="list"><td onclick="window.location.href='../topics/{glass,_antique,_punk}.html'">{glass, antique, punk}</td></tr>
+
+</table>
+</td>
+</tr></table>
+</div>
+
+<div id="footer">
+<br>
+<hr noshade>
+</tr>
+</table>
+</div>
+  </body>
+</html>

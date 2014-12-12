@@ -1,0 +1,158 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[5.0313258432, "../topics/{Robot,_Toy,_Tin}.html", "{Robot,_Toy,_Tin}"], [1.0313258432, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"], [1.0313258432, "../topics/{VINTAGE,_LOT,_6}.html", "{VINTAGE,_LOT,_6}"], [1.0313258432, "../topics/{for,_For,_Helicopter}.html", "{for,_For,_Helicopter}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>MTH - BOX for Mr. Atomic Robot (10-1014)</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">MTH - BOX for Mr. Atomic Robot (10-1014)</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Robot,_Toy,_Tin}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Robot,_Toy,_Tin}.html'">{Robot, Toy, Tin}</td></tr>
+<tr class="list"><td id="{-,_7",_NECA}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{-,_7",_NECA}.html'">{-, 7", NECA}</td></tr>
+<tr class="list"><td id="{VINTAGE,_LOT,_6}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{VINTAGE,_LOT,_6}.html'">{VINTAGE, LOT, 6}</td></tr>
+<tr class="list"><td id="{for,_For,_Helicopter}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{for,_For,_Helicopter}.html'">{for, For, Helicopter}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/WowWee_Robosapien_X_Robot_Kit.html'">WowWee Robosapien X Robot Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tin_toy_LOT_China_MF_ME_MS.html'">Tin toy LOT China MF ME MS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTH_Mr._Atomic_Robot_(10-1014).html'">MTH Mr. Atomic Robot (10-1014)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_WowWee_Robosapien_X_Robot_Kit.html'">NEW WowWee Robosapien X Robot Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Tin_Rotate_O_Matic_Super_Astronaut_In_Box.html'">Vintage Tin Rotate O Matic Super Astronaut In Box</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Gaylord_Dog_Battery_Operated_1960_s.html'">Gaylord Dog Battery Operated 1960's</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Marx_Toy_Tin_Litho_Wind_Up_Train.html'">Vintage Marx Toy Tin Litho Wind Up Train</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wild_Planet_Spy_Gear_Motion_Sensor.html'">Wild Planet Spy Gear Motion Sensor</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Metal_House_Tin_Toy_Astronaut_Robot_Windup.html'">Metal House Tin Toy Astronaut Robot Windup</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/OWI_EM4_Educational_Motorized_Robot_Kit.html'">OWI EM4 Educational Motorized Robot Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Japan_Tin_Car,_Occupied_Japan,_3_inches.html'">Japan Tin Car, Occupied Japan, 3 inches</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1950_s-1960_s_Vintage_Marx_Mystery_Space_Ship_Toy_Parts_Lot.html'">1950's-1960's Vintage Marx Mystery Space Ship Toy Parts Lot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Radio_Flyer_Retro_Rocket_Model_#60~Lights_&_Sounds.html'">Vintage Radio Flyer Retro Rocket Model #60~Lights & Sounds</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ATC_Tin_Litho_Champion_27_Motorcycle_Racer.html'">ATC Tin Litho Champion 27 Motorcycle Racer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Solar_System_Planetarium_Science_Educational_Model_Kit_Makes_A_Great_Gift.html'">New Solar System Planetarium Science Educational Model Kit Makes A Great Gift</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rare_Red_Robosapien_V2.html'">Rare Red Robosapien V2</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer_Robot_Dino_Blue_Snaptail_New.html'">Zoomer Robot Dino Blue Snaptail New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Clown_Wind_Up_Tin_Toy.html'">Clown Wind Up Tin Toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Space_Men_Action_Figures_Brand_New.html'">Vintage Space Men Action Figures Brand New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wow_Wee_Mr._Personality_Multi_Personality_Robot.html'">Wow Wee Mr. Personality Multi Personality Robot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Robot_Fighter_friction_china_80_s_MIB_transformable.html'">Vintage Robot Fighter friction china 80's MIB transformable</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wow_wee_Robot_with_remote_work_very_good.html'">Wow wee Robot with remote work very good</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Plush_Over_Tin_Mechanical_Dancing_Monkey...._Very_Tall!!.html'">Vintage Plush Over Tin Mechanical Dancing Monkey.... Very Tall!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1961_Marx_Bengali_Battery_Operated_Tiger_in_Original_Box_Vintage.html'">1961 Marx Bengali Battery Operated Tiger in Original Box Vintage</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cuddle_Pet.html'">Cuddle Pet</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

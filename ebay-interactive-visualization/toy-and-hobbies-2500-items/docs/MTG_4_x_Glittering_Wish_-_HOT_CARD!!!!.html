@@ -1,0 +1,158 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[5.0076180994, "../topics/{Box,_Radio,_Wagon}.html", "{Box,_Radio,_Wagon}"], [1.055033587, "../topics/{of,_MTG,_Khans}.html", "{of,_MTG,_Khans}"], [1.0313258432, "../topics/{WHEELS,_CAR,_HOT}.html", "{WHEELS,_CAR,_HOT}"], [1.0313258432, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>MTG 4 x Glittering Wish - HOT CARD!!!!</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">MTG 4 x Glittering Wish - HOT CARD!!!!</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Box,_Radio,_Wagon}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Box,_Radio,_Wagon}.html'">{Box, Radio, Wagon}</td></tr>
+<tr class="list"><td id="{of,_MTG,_Khans}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{of,_MTG,_Khans}.html'">{of, MTG, Khans}</td></tr>
+<tr class="list"><td id="{WHEELS,_CAR,_HOT}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{WHEELS,_CAR,_HOT}.html'">{WHEELS, CAR, HOT}</td></tr>
+<tr class="list"><td id="{-,_7",_NECA}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{-,_7",_NECA}.html'">{-, 7", NECA}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Radio_Flyer_#5WS_Trav-Ler_Wagon.html'">Radio Flyer #5WS Trav-Ler Wagon</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Iron_Legion_Fantasy_Nurgle_Plague_Toad.html'">Iron Legion Fantasy Nurgle Plague Toad</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_Wood_Wagon_Cart_with_Spoked_Wood_Wheels_~Germany.html'">Toy Wood Wagon Cart with Spoked Wood Wheels ~Germany</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Radio_flyer_miniature_trike.html'">Radio flyer miniature trike</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Howes_Crystal_Radio_Set_Roller-Inductor.html'">Howes Crystal Radio Set Roller-Inductor</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Radio_Flyer_Little_Red_Wagon_New.html'">Radio Flyer Little Red Wagon New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/39_SEALED_NEW_CLOUT_BOOSTER_PACKS_2005.html'">39 SEALED NEW CLOUT BOOSTER PACKS 2005</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ravensburger_Bizarre_Bookshop_2_Jigsaw_Puzzle_(1000-Piece)_New.html'">Ravensburger Bizarre Bookshop 2 Jigsaw Puzzle (1000-Piece) New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SPI_Wargame_Operation_Typhoon_Box_Fair+.html'">SPI Wargame Operation Typhoon Box Fair+</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Radio_Flyer_Glide_&_Go_Balance_Bike.html'">Radio Flyer Glide & Go Balance Bike</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cra_Z_Art_Original_Magna_Doodle_New.html'">Cra Z Art Original Magna Doodle New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/The_Bridge_Direct_Frankenweenie_After_Life_Sparky_Plush.html'">The Bridge Direct Frankenweenie After Life Sparky Plush</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lock__n_Load_Wargame_Heroes_of_the_Blitzkrieg_Box_NM.html'">Lock 'n Load Wargame Heroes of the Blitzkrieg Box NM</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/New_Lil_Wagon_Red_Kids_Toy_Wagon.html'">New Lil Wagon Red Kids Toy Wagon</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Tin_Toy_Waddling_Duck._Japan_1950_s.__In_Working_Condition..html'">Vintage Tin Toy Waddling Duck. Japan 1950's.  In Working Condition.</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Mini_Radio_Flyer_wagon.html'">Mini Radio Flyer wagon</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Aurora_Thunderjet_Thunderbird_convertible,_nice!.html'">Aurora Thunderjet Thunderbird convertible, nice!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Doodle__Bear_2005_17"_Stuffed_Plush_Bear._Excellent_Condition..html'">Doodle  Bear 2005 17" Stuffed Plush Bear. Excellent Condition.</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Magic_NM_Cavern_of_Souls_x_4.html'">MTG Magic NM Cavern of Souls x 4</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Crystal_Radio_Set_-_Assembled.html'">Crystal Radio Set - Assembled</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SPI_Wargame_Drive_on_Washington_Box_Fair+.html'">SPI Wargame Drive on Washington Box Fair+</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/beanie_babies_Dogs.html'">beanie babies Dogs</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tattoo_Devil_Duckie_2005_Accoutrements_Rubber_Duck_toy.html'">Tattoo Devil Duckie 2005 Accoutrements Rubber Duck toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Rod_devil_Duckie_2000_Accoutrements_Rubber_Duck_toy.html'">Hot Rod devil Duckie 2000 Accoutrements Rubber Duck toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EUC_Wild_Planet_Radio_DJ.html'">EUC Wild Planet Radio DJ</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

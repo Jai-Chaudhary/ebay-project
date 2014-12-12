@@ -1,0 +1,177 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[1.0313258432, "../topics/{The,_Series,_Star}.html", "{The,_Series,_Star}"], [1.0313258432, "../topics/{Playset,_10mm,_Collectible}.html", "{Playset,_10mm,_Collectible}"], [1.0313258432, "../topics/{Shogun,_Great,_Warriors}.html", "{Shogun,_Great,_Warriors}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Lego star wars</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Lego star wars</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{The,_Series,_Star}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{The,_Series,_Star}.html'">{The, Series, Star}</td></tr>
+<tr class="list"><td id="{Playset,_10mm,_Collectible}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Playset,_10mm,_Collectible}.html'">{Playset, 10mm, Collectible}</td></tr>
+<tr class="list"><td id="{Shogun,_Great,_Warriors}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Shogun,_Great,_Warriors}.html'">{Shogun, Great, Warriors}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    
+<p><b>Lego <i>Star Wars</i></b> is a <a href="http://www.wikipedia.org/wiki/Lego" title="Lego">Lego</a> <a href="http://www.wikipedia.org/wiki/List_of_Lego_themes" title="List of Lego themes">theme</a> that incorporates the <i><a href="http://www.wikipedia.org/wiki/Star_Wars" title="Star Wars">Star Wars</a></i> saga. The first Lego <i>Star Wars</i>, released in 1999, included model 7140, the first Lego <a href="http://www.wikipedia.org/wiki/X-wing" title="X-wing">X-Wing</a>. Star Wars was the first <a href="http://www.wikipedia.org/wiki/Intellectual_property" title="Intellectual property">intellectual property</a> to be licensed in Lego Group history.<sup id="cite_ref-1" class="reference"><a href="http://en.wikipedia.org/wiki/Lego_star_wars#cite_note-1"><span>[</span>1<span>]</span></a></sup> The first few sets based on the <a href="http://www.wikipedia.org/wiki/Original_trilogy" title="Original trilogy" class="mw-redirect">original trilogy</a> were released in 1999, coinciding with the release of <i><a href="http://www.wikipedia.org/wiki/Star_Wars_Episode_I" title="Star Wars Episode I" class="mw-redirect">The Phantom Menace</a></i>. Sets based on the <a href="http://www.wikipedia.org/wiki/Prequel_trilogy_(Star_Wars)" title="Prequel trilogy (Star Wars)" class="mw-redirect">prequel trilogy</a> (<i>Episodes I</i> to <i>III</i>) of <i>Star Wars</i> would follow, starting with <i><a href="http://www.wikipedia.org/wiki/Star_Wars_Episode_I" title="Star Wars Episode I" class="mw-redirect">Episode I</a></i>. As each new film in the prequel trilogy neared its release date, Lego issued new models of ships and scenes in those films, as well as additional sets from the original trilogy. Lego also produced models based on <i><a href="http://www.wikipedia.org/wiki/Star_Wars:_The_Clone_Wars_(film)" title="Star Wars: The Clone Wars (film)">The Clone Wars</a></i>, which was released early in 2008.<sup id="cite_ref-2" class="reference"><a href="http://en.wikipedia.org/wiki/Lego_star_wars#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<p>Originally it was only licensed from 1999–2008, but the <a href="http://www.wikipedia.org/wiki/Lego_Group" title="Lego Group" class="mw-redirect">Lego Group</a> extended the license with <a href="http://www.wikipedia.org/wiki/Lucasfilm" title="Lucasfilm">Lucasfilm Ltd.</a> multiple times: First to 2011 and then again until 2016. In 2012 another 10 year agreement was signed between the two companies.<sup id="cite_ref-3" class="reference"><a href="http://en.wikipedia.org/wiki/Lego_star_wars#cite_note-3"><span>[</span>3<span>]</span></a></sup> The brand has spawned four <a href="http://www.wikipedia.org/wiki/Video_game" title="Video game">video game</a> releases, developed by <a href="http://www.wikipedia.org/wiki/Traveller%27s_Tales" title="Traveller's Tales">Traveller's Tales</a> — <i><a href="http://www.wikipedia.org/wiki/Lego_Star_Wars:_The_Video_Game" title="Lego Star Wars: The Video Game">Lego Star Wars: The Video Game</a></i> (2005), <i><a href="http://www.wikipedia.org/wiki/Lego_Star_Wars_II:_The_Original_Trilogy" title="Lego Star Wars II: The Original Trilogy">Lego Star Wars II: The Original Trilogy</a></i> (2006), <i><a href="http://www.wikipedia.org/wiki/Lego_Star_Wars:_The_Complete_Saga" title="Lego Star Wars: The Complete Saga">Lego Star Wars: The Complete Saga</a></i> (2007) and <i><a href="http://www.wikipedia.org/wiki/Lego_Star_Wars_III:_The_Clone_Wars" title="Lego Star Wars III: The Clone Wars">Lego Star Wars III: The Clone Wars</a></i> in 2011.</p>
+<p>In August 2009, to celebrate 10 years of <i>Lego Star Wars</i>,<sup id="cite_ref-4" class="reference"><a href="http://en.wikipedia.org/wiki/Lego_star_wars#cite_note-4"><span>[</span>4<span>]</span></a></sup><sup id="cite_ref-5" class="reference"><a href="http://en.wikipedia.org/wiki/Lego_star_wars#cite_note-5"><span>[</span>5<span>]</span></a></sup> Lego released the computer-animated comedy short film <i><a href="http://www.wikipedia.org/wiki/Lego_Star_Wars:_The_Quest_for_R2-D2" title="Lego Star Wars: The Quest for R2-D2">Lego Star Wars: The Quest for R2-D2</a></i>, directed by <a href="http://www.wikipedia.org/wiki/Peder_Pedersen_(director)" title="Peder Pedersen (director)">Peder Pedersen</a>.</p>
+<p></p>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="http://en.wikipedia.org/wiki/Lego_star_wars#Ultimate_Collector_Series"><span class="tocnumber">1</span> <span class="toctext">Ultimate Collector Series</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="http://en.wikipedia.org/wiki/Lego_star_wars#Video_games"><span class="tocnumber">2</span> <span class="toctext">Video games</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="http://en.wikipedia.org/wiki/Lego_star_wars#Films_and_videos"><span class="tocnumber">3</span> <span class="toctext">Films and videos</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="http://en.wikipedia.org/wiki/Lego_star_wars#Online_comic_strip"><span class="tocnumber">4</span> <span class="toctext">Online comic strip</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="http://en.wikipedia.org/wiki/Lego_star_wars#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="http://en.wikipedia.org/wiki/Lego_star_wars#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="http://en.wikipedia.org/wiki/Lego_star_wars#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+<p></p>
+<h3><span class="mw-headline" id="Ultimate_Collector_Series">Ultimate Collector Series</span></h3>
+<p>In addition to the regular minifigure-scale sets, Lego has released a decent sized number for the Ultimate Collector Series. These models are considerably larger and more detailed and are meant for display purposes and cost more than regular Lego sets. Many of them include an information plaque and often a display stand. On October 10, 2007, the Lego Group released a UCS version of the <i><a href="http://www.wikipedia.org/wiki/Millennium_Falcon" title="Millennium Falcon">Millennium Falcon</a></i>, complete with six minifigures. At 5195 pieces, it is the largest Star Wars Lego set ever released; and the second largest set of any collection ever commercially released (only topped by the Lego <a href="http://www.wikipedia.org/wiki/Taj_Mahal" title="Taj Mahal">Taj Mahal</a>). The newest Ultimate Collector Series set is the 75059 Sandcrawler.</p>
+<p><a href="http://en.wikipedia.org/wiki/Lego_star_wars">Full article&nbsp;&#x25B8;</a></p>
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Underground_Sea.html'">Underground Sea</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tunisia.html'">Tunisia</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MAGIC.RETURN.TO.RAVNICA[7]LAND.BLOOD.CRYPT.TEMPLE.GARDEN.OVERGROWN.TOMB.GROVE.html'">MAGIC.RETURN.TO.RAVNICA[7]LAND.BLOOD.CRYPT.TEMPLE.GARDEN.OVERGROWN.TOMB.GROVE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Perfect_Polly.html'">Perfect Polly</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Cuddle_Pet.html'">Cuddle Pet</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pacific_War.html'">Pacific War</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Volcanic_Island.html'">Volcanic Island</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Interactive_dog_Bentley.html'">Interactive dog Bentley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Magic_8_Ball.html'">Magic 8 Ball</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marx_miniature.html'">Marx miniature</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/McDONALDS_McNUGGET_BUDDIES.html'">McDONALDS McNUGGET BUDDIES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/ybike_pewi.html'">ybike pewi</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lionel_2046.html'">Lionel 2046</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MaKey_MaKey.html'">MaKey MaKey</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Scaletric_917.html'">Scaletric 917</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels.html'">Hot Wheels</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Temple_garden.html'">Temple garden</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_Sinkhole.html'">MTG Sinkhole</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Leappad_Ultra+Cover+Game.html'">Leappad Ultra+Cover+Game</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LeapPad_Ultra.html'">LeapPad Ultra</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2000_Purr.html'">2000 Purr</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lionel_Sub.html'">Lionel Sub</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/mobigo_games.html'">mobigo games</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Leapster_Explorer.html'">Leapster Explorer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lionel_Transformer.html'">Lionel Transformer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

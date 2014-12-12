@@ -1,0 +1,158 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[4.031328468, "../topics/{1000,_Puzzle,_Jigsaw}.html", "{1000,_Puzzle,_Jigsaw}"], [1.0313258432, "../topics/{Power,_New,_Brand}.html", "{Power,_New,_Brand}"], [1.0313258432, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"], [1.0313232183, "../topics/{1,_Large,_figures}.html", "{1,_Large,_figures}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Christmas Colors by Springbok  -  1000 pcs</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Christmas Colors by Springbok  -  1000 pcs</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{1000,_Puzzle,_Jigsaw}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{1000,_Puzzle,_Jigsaw}.html'">{1000, Puzzle, Jigsaw}</td></tr>
+<tr class="list"><td id="{-,_7",_NECA}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{-,_7",_NECA}.html'">{-, 7", NECA}</td></tr>
+<tr class="list"><td id="{Power,_New,_Brand}" onmouseover="highlight(2)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Power,_New,_Brand}.html'">{Power, New, Brand}</td></tr>
+<tr class="list"><td id="{1,_Large,_figures}" onmouseover="highlight(3)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{1,_Large,_figures}.html'">{1, Large, figures}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Dowdle_-_Vancouver,_1000_pcs.html'">Dowdle - Vancouver, 1000 pcs</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/John_Deere_3_Jigsaw_Puzzle_Lot.html'">John Deere 3 Jigsaw Puzzle Lot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Charles_Wysocki-Wysocki_s-FORK_IN_THE_ROAD_UNOPENED_SEASONAL_SPLENDOR.html'">Charles Wysocki-Wysocki's-FORK IN THE ROAD UNOPENED SEASONAL SPLENDOR</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2_Eurographics__Puzzles_1000_pieces_used_and_complete.html'">2 Eurographics  Puzzles 1000 pieces used and complete</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1000_piece_puzzle_by_Charles_Wysocki_s.html'">1000 piece puzzle by Charles Wysocki's</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_DISNEY_FROZEN_ELSA_MY_SIZE_38"_DOLL.html'">NEW DISNEY FROZEN ELSA MY SIZE 38" DOLL</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NEW_DISNEY_FROZEN_ANNA_MY_SIZE_38"_DOLL.html'">NEW DISNEY FROZEN ANNA MY SIZE 38" DOLL</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Christmas_Cupcakes_Jigsaw_Puzzle_1000_Piece.html'">Christmas Cupcakes Jigsaw Puzzle 1000 Piece</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/LOT_of__(7)_750__pc__JIGSAW_PUZZLES.html'">LOT of  (7) 750  pc  JIGSAW PUZZLES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/White_Mountain_Way_up_North_Jigsaw_Puzzle.html'">White Mountain Way up North Jigsaw Puzzle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Thomas_Kinkade_Warner_Brothers_Movie_Classics_The_Wizard_of_Oz_Jigsaw_Puzzle_New.html'">Thomas Kinkade Warner Brothers Movie Classics The Wizard of Oz Jigsaw Puzzle New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RARE_SWORD_IN_THE_STONE_DISNEYKINS_PREMIUMS.html'">RARE SWORD IN THE STONE DISNEYKINS PREMIUMS</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Jigsaw_Puzzle_Little_Shoppers_General_Store_Coca_Cola_&_MORE_Advertising_1000_Pc.html'">Jigsaw Puzzle Little Shoppers General Store Coca Cola & MORE Advertising 1000 Pc</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/The_Wizard_Of_Oz_Jigsaw_Puzzle.html'">The Wizard Of Oz Jigsaw Puzzle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_2_of_4,_1000_Piece_Mystery_of_the_Island_The_Others_Jigsaw_Puzzle.html'">Lost 2 of 4, 1000 Piece Mystery of the Island The Others Jigsaw Puzzle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Tunisia.html'">Tunisia</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Zoomer.html'">Zoomer</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Perfect_Polly.html'">Perfect Polly</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Toys.html'">Hot Toys</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pacific_War.html'">Pacific War</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lego_star_wars.html'">Lego star wars</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Interactive_dog_Bentley.html'">Interactive dog Bentley</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lost_in_Space_robot_toy.html'">Lost in Space robot toy</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Super_Helmet_Seven.html'">Super Helmet Seven</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Godzilla_2002_Bandai_TOHO.html'">Godzilla 2002 Bandai TOHO</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Classic_Red_10_inch_Tricycle.html'">Classic Red 10 inch Tricycle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_1956_Ford_Thunderbird.html'">Toy 1956 Ford Thunderbird</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hot_Wheels.html'">Hot Wheels</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MaKey_MaKey.html'">MaKey MaKey</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

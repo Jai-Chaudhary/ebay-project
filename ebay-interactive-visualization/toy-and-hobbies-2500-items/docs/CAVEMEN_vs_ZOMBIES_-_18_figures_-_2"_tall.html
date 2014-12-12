@@ -1,0 +1,156 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[7.0313258432, "../topics/{1,_Large,_figures}.html", "{1,_Large,_figures}"], [2.0313258432, "../topics/{-,_7",_NECA}.html", "{-,_7",_NECA}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>CAVEMEN vs ZOMBIES - 18 figures - 2" tall</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">CAVEMEN vs ZOMBIES - 18 figures - 2" tall</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{1,_Large,_figures}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{1,_Large,_figures}.html'">{1, Large, figures}</td></tr>
+<tr class="list"><td id="{-,_7",_NECA}" onmouseover="highlight(1)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{-,_7",_NECA}.html'">{-, 7", NECA}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Hpi_savage_25_!!!_NO_RESERVE_!!!.html'">Hpi savage 25 !!! NO RESERVE !!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Large_Lot_of_61_Antique_Swirled,_Milk_Glass,_Translucent_Colors.html'">Large Lot of 61 Antique Swirled, Milk Glass, Translucent Colors</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MONOGRAM_MODEL_MODEL_KIT_HEINKEL_HE111_GERMAN_BOMBER_(1:48_SCALE).html'">MONOGRAM MODEL MODEL KIT HEINKEL HE111 GERMAN BOMBER (1:48 SCALE)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/13-16"_GERMAN_WHITE_LATTICINO_BANDED_MARBLE.html'">13/16" GERMAN WHITE LATTICINO BANDED MARBLE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NAP0406_French_6lb_Cannon_by_First_Legion.html'">NAP0406 French 6lb Cannon by First Legion</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MINT_41-64"_PELTIER_GLASS_"INKIE"_RAINBO_MARBLE.html'">MINT 41/64" PELTIER GLASS "INKIE" RAINBO MARBLE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Blue-Green_Twist_With_Millefiore_Signed_Marble_2_1-8".html'">Blue/Green Twist With Millefiore Signed Marble 2 1/8"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/2"_POLISHED_ANTIQUE_GERMAN_END_OF_DAY__ONIONSKIN_MARBLE.html'">2" POLISHED ANTIQUE GERMAN END OF DAY  ONIONSKIN MARBLE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Plastic_Toy_Soldiers_WWII_Playset_1-32_Scale_54mm_German_88_Cannon_in_Gray.html'">Plastic Toy Soldiers WWII Playset 1/32 Scale 54mm German 88 Cannon in Gray</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_54mm_scale_Swoppet_like_WW2_German_Soldiers_and_US_infantry.html'">Vintage 54mm scale Swoppet like WW2 German Soldiers and US infantry</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Hasegawa_1:72_#A007_Focke_Wulf_Fw190A_German_Air_Force_Fighter.html'">Hasegawa 1:72 #A007 Focke Wulf Fw190A German Air Force Fighter</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/SONY_AIBO_RECOGNITION_ERF-210AW06J_!!!_Very_RARE_!!!.html'">SONY AIBO RECOGNITION ERF-210AW06J !!! Very RARE !!!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/CHRISTENSEN_AGATE_4_COLOR_FLAME_VINTAGE_MARBLE_COLLECTIBLE_RARE.html'">CHRISTENSEN AGATE 4 COLOR FLAME VINTAGE MARBLE COLLECTIBLE RARE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Toy_Soldiers_British_Redcoats_Revolutionary_War_1-32_Painted_Plastic_Safari_6.html'">Toy Soldiers British Redcoats Revolutionary War 1/32 Painted Plastic Safari 6</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/1_&_3-8"_German_Handmade_Latticinio_Marble_(U6).html'">1 & 3/8" German Handmade Latticinio Marble (U6)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lot_of_33_Antique_Glass_and_Wood_Marbles,_Swirled,_Solid.html'">Lot of 33 Antique Glass and Wood Marbles, Swirled, Solid</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/WOW!_TONS_OF_PLASTIC_FARM_ANIMALS_-_CLEAN_&_SANITIZED!_GREAT_FOR_DAY_CARE.html'">WOW! TONS OF PLASTIC FARM ANIMALS - CLEAN & SANITIZED! GREAT FOR DAY CARE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Academy_1:72_#2130_Spitfire_MK._XIVc.html'">Academy 1:72 #2130 Spitfire MK. XIVc</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/F-4C_Vietnam_War(12294)_1:48_Academy_Plastic_Model_Kit.html'">F-4C Vietnam War(12294) 1:48 Academy Plastic Model Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Marshmallow_Blaster_Gun_Shoot_Large_Marshmellow_Toy_Shooter_Classic_Kids_Adults.html'">Marshmallow Blaster Gun Shoot Large Marshmellow Toy Shooter Classic Kids Adults</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Plastic_Toy_Soldiers_Marx_Medieval_Castle_Playset_54mm_Blue_Knights_21_Figures.html'">Plastic Toy Soldiers Marx Medieval Castle Playset 54mm Blue Knights 21 Figures</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/3-4"_AKRO_AGATE_POPEYE_POP_EYE__CORKSCREW_HYBRID_MARBLE.html'">3/4" AKRO AGATE POPEYE POP EYE  CORKSCREW HYBRID MARBLE</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/14_WW2_Airfix_Austrailian_Troops_Hand_Painted_Plastic_54mm1-32__Lot.html'">14 WW2 Airfix Austrailian Troops Hand Painted Plastic 54mm1/32  Lot</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Medium_Grumpy_Cat_Plush_by_Gund_-_4040133.html'">Medium Grumpy Cat Plush by Gund - 4040133</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Skylanders_HOOT_LOOP_figure_only_Swap_Force.html'">Skylanders HOOT LOOP figure only Swap Force</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Large_Glass_Marble.html'">Large Glass Marble</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Minecraft_Large_Plush_Spider.html'">Minecraft Large Plush Spider</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/RARE_Folkmanis_Camel_with_Costume_Full_Size_Hand_Puppet.html'">RARE Folkmanis Camel with Costume Full Size Hand Puppet</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ninco_-_Protruck_Ford_Mobil_1.html'">Ninco - Protruck Ford Mobil 1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Authentic_Minecraft_Bat_Plush,_7".html'">Authentic Minecraft Bat Plush, 7"</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>

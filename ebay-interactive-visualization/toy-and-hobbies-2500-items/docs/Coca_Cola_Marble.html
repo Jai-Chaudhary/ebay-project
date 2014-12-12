@@ -1,0 +1,155 @@
+<html>
+<head>
+    <script language="JavaScript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+    <script language="JavaScript" src="../js/pie.js"></script>
+    <script language="JavaScript" src="../js/browser_adjust.js"></script>
+    <script language="JavaScript" src="../js/search.js"></script>
+
+
+    <script type="text/JavaScript">
+    <!--
+
+    var array = [[3.0313258432, "../topics/{Marble,_!,_Vintage}.html", "{Marble,_!,_Vintage}"]];
+    var elements = generate_pie_elements(array);
+    var piec = null;
+    function init() {
+        browser_adjust();
+        
+        // create pie chart
+        piec = new PieChart(elements);
+        piec.initialize();
+
+    }
+
+    function highlight(i) {
+        piec.highlight(i);
+    }
+    
+    function unhighlight() {
+        piec.unhighlight();
+    }
+    //-->
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Coca Cola Marble</title>
+
+    <link href="../styling.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="init()">
+<div id="navigation">
+<hr noshade>
+<table><tr>
+    <td class="navtext">Browse&nbsp;&#x25B8;</td> 
+    <td class="linked"><a>Topics</a>
+      <ul> 
+        <li><a href="../browse/topic-list.html">List of Terms</a></li> 
+        <li><a href="../browse/topic-graph.html">Term Distributions</a></li> 
+        <li><a href="../browse/topic-presence.html">Relative Presence</a></li>
+      </ul> 
+    </td> 
+    <td class="linked"><a>Documents</a>
+      <ul>
+        <li><a href="../browse/doc-graph.html">Topic Distributions</a></li>
+      </ul> 
+    </td>
+    <td class="linked"><a>Terms</a>
+      <ul> 
+        <li><a href="../browse/term-list.html">List by Frequency</a></li> 
+        <li><a href="../browse/term-graph.html">Topic Distributions</a></li> 
+       </ul> 
+    </td>
+    <td class="linked"><a>About</a>
+      <ul>
+        <li><a href="http://www.cs.princeton.edu/~blei/lda-c/">LDA</a></li>
+      </ul> 
+    </td>
+    
+    </td>
+    <td></td>
+    <td class="searchbar"> Search&nbsp;&#x25B8;</td>
+    <td class="searchbar"><input type="text" name="search" size="20" onkeypress="handleKeyPress(event)"><span onclick="doSearch()"></span>
+    </td>
+</tr></table>
+</div>
+
+    <div id="top"></div>
+
+    <h1 id="header">
+        <table><tr>
+            <td id="title">Coca Cola Marble</td>
+        </tr></table>
+
+        <hr noshade>
+    </h1>
+
+    <div id="main">
+        <table><tr>
+            <td width="210px">
+                <table class="dark">
+                <tr><td><canvas id="canvas" width="200" height="200"></canvas></td></tr>
+                <tr class="title">
+                    <td>related topics</td>
+                </tr>
+                <tr class="list"><td id="{Marble,_!,_Vintage}" onmouseover="highlight(0)" onmouseout="unhighlight()" onclick="window.location.href='../topics/{Marble,_!,_Vintage}.html'">{Marble, !, Vintage}</td></tr>
+
+                </table>
+            </td>
+
+            <td>
+                <table class="light">
+                <tr class="doc"><td>
+                    This page Visualizes a Content Based Recommendation for Ebay items .  The pie chart on the left shows the proportion of topic/themes of this particular item. The table on the right shows the items recommended based on the themes on the right.
+                </td></tr>
+                </table>
+            </td>
+
+            <td width="25%">
+                <table class="dark">
+                <tr class="title">
+                    <td>related documents</td>
+                </tr>
+                <tr class="list"><td onclick="window.location.href='../docs/Peltier_8-Finger_Rainbow_(?).html'">Peltier 8-Finger Rainbow (?)</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Musical_Clown_15".html'">Vintage Musical Clown 15"</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/HO__Gerber_Baby_Food__Old_Fashion_Box_Car.html'">HO  Gerber Baby Food  Old Fashion Box Car</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vitro_Cherry_Custard_Marble.html'">Vitro Cherry Custard Marble</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Classic_Red_10_inch_Tricycle.html'">Classic Red 10 inch Tricycle</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Pacific_War.html'">Pacific War</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/antique_marbles.html'">antique marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/EUC_Wild_Planet_Radio_DJ.html'">EUC Wild Planet Radio DJ</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/AURORA_G_PLUS_LOT.html'">AURORA G PLUS LOT</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Black_Kendama_Holder_-_Paracord_-_Handmade.html'">Black Kendama Holder - Paracord - Handmade</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Space_Men_Action_Figures_Brand_New.html'">Vintage Space Men Action Figures Brand New</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wood_Rubber_Band_Toy_Gun_New_In_The_Package.html'">Wood Rubber Band Toy Gun New In The Package</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Wood_Rubber_Band_Toy_Gun_New_In_The_Package.html'">Wood Rubber Band Toy Gun New In The Package</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Custom_Lego_Minifigure_Display_Case.html'">Custom Lego Minifigure Display Case</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Rare,_authentic_LEGO_Mr._Gold.html'">Rare, authentic LEGO Mr. Gold</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/N__SCALE_TRAIN_ENGINES.html'">N  SCALE TRAIN ENGINES</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/POWER_WHEELS_12_VOLT_BATTERY_&_CHARGER.html'">POWER WHEELS 12 VOLT BATTERY & CHARGER</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/vintage_handmade_marbles.html'">vintage handmade marbles</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/rc10_vintage_Shocks.html'">rc10 vintage Shocks</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Kidtrax_Replacement_6V_Charger.html'">Kidtrax Replacement 6V Charger</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/GMT_Battle_for_Normandy_expansion.html'">GMT Battle for Normandy expansion</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Ninco_-_Protruck_Ford_Mobil_1.html'">Ninco - Protruck Ford Mobil 1</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/NIB_World_Of_War_Craft_Board_Game.html'">NIB World Of War Craft Board Game</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Digi_Bird_Single_Pack_-_Metallic_Gold.html'">Digi Bird Single Pack - Metallic Gold</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/USAAF_B-29A_Old_Battler(12517)_1:72_Academy_Plastic_Model_Kit.html'">USAAF B-29A Old Battler(12517) 1:72 Academy Plastic Model Kit</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Solar_Powered_Swinging_Monkey_On_A_Tree_NEW!.html'">Solar Powered Swinging Monkey On A Tree NEW!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/MTG_MAZE_OF_ITH_THE_DARK.html'">MTG MAZE OF ITH THE DARK</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Lionel_Union_Pacific_Switcher_Engine_#8911!_w-Box!.html'">Lionel Union Pacific Switcher Engine #8911! w/Box!</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Vintage_Akro_Agate_+_Marble_Lot_of_24.html'">Vintage Akro Agate + Marble Lot of 24</td></tr>
+<tr class="list"><td onclick="window.location.href='../docs/Action_figures_200_Pieces_Army_Men_Toy_Soldiers_(World_War_2)_New.html'">Action figures 200 Pieces Army Men Toy Soldiers (World War 2) New</td></tr>
+
+                </table>
+            </td>
+        </tr></table>
+    </div>
+
+    <div id="footer">
+        <br>
+        <hr noshade>
+    </div>
+</body>
+</html>
