@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recommendation for Ebay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>    
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="input-group">
+                <div class="input-group-btn btn-input clearfix">
+                  <button type="button" class="btn btn-primary dropdown-toggle form-control" data-toggle="dropdown">
+                    <span id = "category" data-bind="label">Select One </span> <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">CrossCSA</a></li>
+                    <li><a href="#">CrossCollectibles</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Clothing</a></li>
+
+                  </ul>
+                </div>
+            <input id="itemid" type="text" class="form-control" placeholder="Enter an item id">
+            <span class="input-group-btn">
+                <button class="btn btn-primary" type="button" onclick="myFunction()">Get Recommendation</button>
+            </span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+           $( document.body ).on('click', '.dropdown-menu li', function( event ) {
+ 
+               var $target = $( event.currentTarget );
+             
+               $target.closest( '.input-group-btn' )
+                  .find( '[data-bind="label"]' ).text( $target.text() )
+                     .end()
+                  .children( '.dropdown-toggle' ).dropdown( 'toggle' );
+             
+               return false;
+ 
+            });
+    </script>
+    <script>
+
+        function myFunction() {
+            var category=document.getElementById("category").innerText;
+            console.log(category);
+            var itemid=document.getElementById("itemid").value;
+            console.log(itemid);
+            document.getElementById("cornell").src = "http://54.164.121.5/Results/FinalModels/OptimizedLDA/"+category+"/"+itemid+".html";
+            resizeIframe();
+            document.getElementById("ebaylink").href = "http://www.ebay.com/itm/"+itemid;
+        }
+    </script>
+    <script>
+        var buffer = 20; //scroll bar buffer
+
+        function pageY(elem) {
+        return elem.offsetParent ? (elem.offsetTop + pageY(elem.offsetParent)) : elem.offsetTop;
+        }
+
+        function resizeIframe() {
+
+            var height = document.documentElement.clientHeight;
+            height -= pageY(document.getElementById('cornell'))+ buffer ;
+            height = (height < 0) ? 0 : height;
+            document.getElementById('cornell').style.height = height + 'px';
+            
+        }
+
+    </script>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-9" style="height:500%;">
+          <h3>Cornell Recomender</h3>
+         <iframe class="col-md-6" id="cornell" style="width:100%; height:100%;"></iframe>
+
+        </div>
+        <div id="test2" class="col-md-3">
+          <h3>Ebay Recommender</h3>
+          <p><a id="ebaylink" class="btn btn-primary btn-lg" href="http://www.ebay.com/itm/121487918772" target="_blank" role="button">Have a look &raquo;</a></p>
+       </div>
+        
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Cornell Tech eBay Team 2014</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+
+  </body>
+</html>
+
